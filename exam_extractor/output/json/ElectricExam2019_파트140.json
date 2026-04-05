@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 6,
+    "question_text": "",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": null,
+    "explanation": "원형 코일 중심 자계 $H = \\frac{NI}{2r} = \\frac{100 \\times 15}{2 \\times 0.1} = 7,500[AT/m]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트140",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트140/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트140_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "동기 전동기의 자기 기동법에서 계자 권선을 단락하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기동이 쉽다.",
+      "2": "기동 권선으로 이용한다.",
+      "3": "고전압 유도에 의한 절연 파괴 위험을 방지한다.",
+      "4": "전기자 반작용을 방지한다."
+    },
+    "answer": 3,
+    "explanation": "동기 전동기의 자기 기동법에서 계자 권선을 단락시키는 이유는 고전압 유도에 의한 절연 파괴 위험을 방지하기 위함이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트140",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트140/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트140_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "$100[V]$, $100[W]$ 전구와 $100[V]$, $200[W]$ 전구를 직렬로 $100[V]$의 전원에 연결할 경우 어느 전구가 더 밝겠는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "두 전구의 밝기가 같다.",
+      "2": "$100[W]$",
+      "3": "$200[W]$",
+      "4": "두 전구 모두 안 켜진다."
+    },
+    "answer": 2,
+    "explanation": "$100[W]$의 저항 $R_1 = \\frac{V^2}{P_1} = \\frac{100^2}{100} = 100[\\Omega]$\n$200[W]$의 저항 $R_2 = \\frac{V^2}{P_2} = \\frac{100^2}{200} = 50[\\Omega]$\n직렬 접속 시 전류가 일정하므로 저항값이 큰 부하일수록 소비 전력이 더 크게 발생하여 전구가 더 밝아지므로 $100[W]$의 전구가 더 밝다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트140",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트140/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트140_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "자극 가까이에 물체를 두었을 때 자화되지 않는 물체는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "상자성체",
+      "2": "반자성체",
+      "3": "강자성체",
+      "4": "비자성체"
+    },
+    "answer": 4,
+    "explanation": "비자성체 : 자성이 약해서 전혀 자성을 갖지 않는 물질로서 상자성체와 반자성체를 포함하며 자계에 힘을 받지 않는다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트140",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트140/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트140_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "자기 회로에서 자로의 길이가 $31.4[cm]$, 자로의 단면적이 $0.25[m^2]$, 자성체의 비투자율 $\\mu_s = 100$일 때 자성체의 자기 저항은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 2,
+    "explanation": "자기 저항 $R = \\frac{l}{\\mu_0 \\mu_s A} = \\frac{31.4 \\times 10^{-2}}{4\\pi \\times 10^{-7} \\times 100 \\times 0.25} = 10,000 [AT/Wb]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트140",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트140/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트140_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "100회 감은 코일에 전류 $0.5[A]$가 $0.1[sec]$ 동안 $0.3[A]$가 되었을 때 $2 \\times 10^{-4}[V]$의 기전력이 발생하였다면 코일의 자기 인덕턴스 $[\\mu H]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 4,
+    "explanation": "코일에 유도되는 기전력 $e = -L \\frac{\\Delta I}{\\Delta t} [V]$\n$L = 2 \\times 10^{-4} \\times \\frac{0.1}{0.5 - 0.3} = 10^{-4} [H] = 100 [\\mu H]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트140",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트140/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트140_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "가우스의 정리에 의해 구할 수 있는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전계의 세기",
+      "2": "전하 간의 힘",
+      "3": "전위",
+      "4": "전계 에너지"
+    },
+    "answer": 1,
+    "explanation": "가우스의 정리 : 전기력선의 총수를 계산하여 전계의 세기도 계산할 수 있는 법칙이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트140",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트140/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트140_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "자체 인덕턴스가 각각 $L_1, L_2$인 두 원통 코일이 서로 직교하고 있다. 두 코일 사이의 상호 인덕턴스$[H]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$L_1 + L_2$",
+      "2": "$L_1 L_2$",
+      "3": "0",
+      "4": "$\\sqrt{L_1 L_2}$"
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트140",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트140/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트140_p001_q13"
+  }
+]

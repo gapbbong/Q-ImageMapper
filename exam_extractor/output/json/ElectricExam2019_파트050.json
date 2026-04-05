@@ -1,0 +1,149 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "지선의 안전율은 $2.5$ 이상으로 하여야 한다. 이 경우 허용 최저 인장 하중은 몇 $[kN]$ 이상으로 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$4.31$",
+      "2": "$6.8$",
+      "3": "$9.8$",
+      "4": "$0.68$"
+    },
+    "answer": 1,
+    "explanation": "지선 시설 규정\n* 안전율은 $2.5$ 이상일 것\n* 지선의 허용 인장 하중은 $4.31[kN]$ 이상일 것\n* 소선 $3$가닥 이상의 아연 도금 연선일 것",
+    "level": "하",
+    "source": "ElectricExam2019_파트050",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트050/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트050_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "전선관의 종류에서 박강 전선관의 규격$[mm]$이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$15$",
+      "2": "$19$",
+      "3": "$16$",
+      "4": "$25$"
+    },
+    "answer": 3,
+    "explanation": "박강 전선관 : 두께 $1.2[mm]$ 이상의 얇은 전선관\n* 호칭 : 관 바깥 지름의 크기에 가까운 홀수\n* 종류($8$종류) : $15, 19, 25, 31, 39, 51, 63, 75[mm]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트050",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트050/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트050_p001_q02"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "$6.6$",
+      "2": "$7.4$",
+      "3": "$8.7$",
+      "4": "$9.4$"
+    },
+    "explanation": "",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트050_p001_q03",
+    "image_path": "images/ElectricExam2019_파트050/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      764,
+      241,
+      874,
+      508
+    ],
+    "question_no": 3,
+    "question_text": "그림과 같은 회로에서 합성 저항은 몇 $[\\Omega]$ 인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트050",
+    "suggested_bbox": {
+      "h": 222,
+      "w": 382,
+      "x": 346,
+      "y": 1547
+    },
+    "year": 2019
+  },
+  {
+    "answer": 4,
+    "choices": {
+      "1": "반발 유도 전동기",
+      "2": "2중 농형 유도 전동기",
+      "3": "3상 분권 정류자 전동기",
+      "4": "3상 권선형 유도 전동기"
+    },
+    "explanation": "3상 권선형 유도 전동기의 토크 곡선: 2차 입력과 토크는 정비례하므로 2차 입력식을 통해서 토크와 슬립의 관계를 파악할 수 있으며 2차 입력식에서 전동기 정지 상태, $s=1$에서 전동기가 기동하여 속도가 상승할 때 슬립 변화에 따른 토크 곡선을 얻을 수 있다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트050_p001_q04",
+    "image_path": "images/ElectricExam2019_파트050/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      424,
+      611,
+      545,
+      903
+    ],
+    "question_no": 4,
+    "question_text": "교류 전동기를 기동할 때 그림과 같은 기동 특성을 가지는 전동기는? (단, 곡선 ㉠~㉣은 기동 단계에 대한 토크 특성 곡선이다.)",
+    "round": null,
+    "source": "ElectricExam2019_파트050",
+    "suggested_bbox": {
+      "h": 245,
+      "w": 419,
+      "x": 875,
+      "y": 858
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 5,
+    "question_text": "$30\\text{[W]}$ 전열기에 $220\\text{[V]}$, 주파수 $60\\text{[Hz]}$인 전압을 인가한 경우 평균 전압$\\text{[V]}$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "198",
+      "2": "150",
+      "3": "220",
+      "4": "300"
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트050",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트050/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트050_p001_q05"
+  }
+]

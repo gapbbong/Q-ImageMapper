@@ -1,0 +1,224 @@
+[
+  {
+    "question_no": 35,
+    "question_text": "금속 전선관의 종류에서 후강 전선관 규격 $[mm]$이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "16",
+      "2": "22",
+      "3": "30",
+      "4": "42"
+    },
+    "answer": 3,
+    "explanation": "후강 전선관의 종류 : $16, 22, 28, 36, 42, 54, 70, 82, 92, 104[mm]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트046",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트046/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트046_p001_q35"
+  },
+  {
+    "question_no": 36,
+    "question_text": "슬립이 $0$일 때 유도 전동기의 속도는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "동기 속도로 회전한다.",
+      "2": "정지 상태가 된다.",
+      "3": "변화가 없다.",
+      "4": "동기 속도보다 빠르게 회전한다."
+    },
+    "answer": 1,
+    "explanation": "슬립 $s=0$이면 회전 속도 $N=(1-s)N_s = N_s[rpm]$이므로 동기 속도로 회전한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트046",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트046/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트046_p001_q36"
+  },
+  {
+    "question_no": 37,
+    "question_text": "용량을 변화시킬 수 있는 컨덴서는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "바리콘",
+      "2": "마일러 컨덴서",
+      "3": "전해 컨덴서",
+      "4": "세라믹 컨덴서"
+    },
+    "answer": 1,
+    "explanation": "가변 컨덴서에는 바리콘, 트리머 등이 있다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트046",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트046/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트046_p001_q37"
+  },
+  {
+    "question_no": 38,
+    "question_text": "3상 유도 전동기의 원선도를 그리는 데 필요하지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "저항 측정",
+      "2": "무부하 시험",
+      "3": "구속 시험",
+      "4": "슬립 측정"
+    },
+    "answer": 4,
+    "explanation": "• 저항 측정 시험: 1차 동손\n• 무부하 시험: 여자 전류, 철손\n• 구속 시험(단락 시험): 2차 동손",
+    "level": "중",
+    "source": "ElectricExam2019_파트046",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트046/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트046_p001_q38"
+  },
+  {
+    "question_no": 39,
+    "question_text": "동기 발전기에서 단락비가 크면 다음 중 작아지는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "동기 임피던스와 전압 변동률",
+      "2": "단락 전류",
+      "3": "공극",
+      "4": "기계의 크기"
+    },
+    "answer": 1,
+    "explanation": "단락비는 정격 전류에 대한 단락 전류의 비를 보는 것으로서 단락비가 크면 동기 임피던스와 전기자 반작용이 작다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트046",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트046/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트046_p001_q39"
+  },
+  {
+    "question_no": 40,
+    "question_text": "동기 전동기의 자기 기동법에서 계자 권선을 단락하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기동이 쉽다.",
+      "2": "기동 권선으로 이용",
+      "3": "고전압 유도에 의한 절연 파괴 위험 방지",
+      "4": "전자기자 반작용을 방지한다."
+    },
+    "answer": 3,
+    "explanation": "동기 전동기의 자기 기동법에서 계자 권선을 단락하는 이유는 고전압 유도에 의한 절연 파괴 위험 방지에 있다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트046",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트046/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트046_p001_q40"
+  },
+  {
+    "question_no": 41,
+    "question_text": "절연 저항을 측정하는 데 정전이 어려운 경우에는 누설 전류를 몇 $[mA]$ 이하로 유지하여야 하는가?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      580,
+      160,
+      620,
+      200
+    ],
+    "choices": {
+      "1": "1",
+      "2": "2",
+      "3": "5",
+      "4": "10"
+    },
+    "answer": 1,
+    "explanation": "정전이 어려운 경우 등 절연 저항 측정이 곤란한 경우에는 누설 전류를 $1[mA]$ 이하로 유지하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트046",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트046/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트046_p001_q41",
+    "suggested_bbox": {
+      "x": 770,
+      "y": 1173,
+      "w": 31,
+      "h": 80
+    }
+  },
+  {
+    "question_no": 42,
+    "question_text": "환상 솔레노이드에 감겨진 코일의 권회수를 3배로 늘리면 자체 인덕턴스는 몇 배로 되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "3",
+      "2": "9",
+      "3": "$\\frac{1}{3}$",
+      "4": "$\\frac{1}{9}$"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트046",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트046/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트046_p001_q42"
+  }
+]

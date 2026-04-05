@@ -1,0 +1,55 @@
+[
+  {
+    "question_no": 59,
+    "question_text": "수 · 변전 설비의 고압 회로에 걸리는 전압을 표시하기 위해 전압계를 시설할 때 고압 회로와 전압계 사이에 시설하는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "관통형 변압기",
+      "2": "계기용 변류기",
+      "3": "계기용 변압기",
+      "4": "권선형 변류기"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "고전압을 저전압으로 변성하여 측정 계기나 보호 계전기에 전압을 공급하기 위한 계기를 계기용 변압기(PT)라 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트030",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트030/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트030_p001_q59"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "자기 차폐",
+      "2": "정전 유도",
+      "3": "홀 효과",
+      "4": "분극 현상"
+    },
+    "explanation": "정전 유도 현상: 전기적으로 중성 상태인 도체에 음$(-)$으로 대전된 물체 A를 가까이 대면 A에 가까운 부분 B에는 양$(+)$의 전화가 나타나고, 그 반대쪽 C부분에는 음$(-)$의 전화가 나타나는 현상",
+    "has_choice_image": false,
+    "has_explanation_image": false,
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트030_p001_q60",
+    "image_path": "images/ElectricExam2019_파트030/page_001_full.png",
+    "image_regions": [],
+    "page": 1,
+    "question_image_bbox": [
+      163,
+      628,
+      284,
+      873
+    ],
+    "question_no": 60,
+    "question_text": "중성 상태의 도체에 $(-)$로 대전된 물체를 가까이 갖다 대면 그림과 같이 음과 양으로 전화가 분리되는 현상을 무엇이라 하는가?",
+    "source": "ElectricExam2019_파트030",
+    "suggested_bbox": {
+      "h": 244,
+      "source": "plus_logic",
+      "w": 351,
+      "x": 900,
+      "y": 330
+    }
+  }
+]

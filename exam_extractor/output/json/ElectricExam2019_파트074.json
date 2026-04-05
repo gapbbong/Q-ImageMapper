@@ -1,0 +1,197 @@
+[
+  {
+    "question_no": 24,
+    "question_text": "자기 회로에서 자기 저항이 $2,000[AT/Wb]$이고 기자력이 $50,000[AT]$이라면 자속$[Wb]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "50",
+      "2": "20",
+      "3": "25",
+      "4": "10"
+    },
+    "answer": 3,
+    "explanation": "해설 원선도를 그리는 데 필요한 시험\n* 저항 측정 시험 : 1차 동손\n* 무부하 시험 : 여자 전류, 철손\n* 구속 시험(단락 시험) : 2차 동손\n자속 $\\phi = \\frac{F}{R_m} = \\frac{50,000}{2,000} = 25[Wb]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트074",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트074/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트074_p001_q24"
+  },
+  {
+    "question_no": 25,
+    "question_text": "학교, 사무실, 은행 등의 간선 굵기 선정 시 수용률은 몇 $[%]$를 적용하는가?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      598,
+      280,
+      660,
+      480
+    ],
+    "choices": {
+      "1": "50",
+      "2": "60",
+      "3": "70",
+      "4": "80"
+    },
+    "answer": 3,
+    "explanation": "해설 건축물에 따른 간선의 수용률\n건축물의 종류 | 수용률$[%]$\n주택, 기숙사, 여관, 호텔, 병원, 창고 | 50\n학교, 사무실, 은행 | 70",
+    "level": "하",
+    "source": "ElectricExam2019_파트074",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트074/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트074_p001_q25",
+    "suggested_bbox": {
+      "x": 220,
+      "y": 1209,
+      "w": 157,
+      "h": 125
+    }
+  },
+  {
+    "question_no": 26,
+    "question_text": "사람이 상시 통행하는 터널 안의 배선을 단면적 $2.5[mm^2]$ 이상의 연동선을 사용한 애자 사용 공사로 배선하는 경우 노면상 최소 높이는 몇 $[m]$ 이상 높이에 시설하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1.5",
+      "2": "2.0",
+      "3": "2.5",
+      "4": "3.5"
+    },
+    "answer": 3,
+    "explanation": "해설 사람이 상시 통행하는 터널 안의 배선 공사 : 금속관, 제2종 가요 전선관, 케이블, 합성 수지관, 단면적 $2.5[mm^2]$ 이상의 연동선을 사용한 애자 사용 공사에 의하여 노면상 $2.5[m]$ 이상의 높이에 시설할 것",
+    "level": "하",
+    "source": "ElectricExam2019_파트074",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트074/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트074_p001_q26"
+  },
+  {
+    "question_no": 27,
+    "question_text": "일반적으로 가공 전선로의 지지물에 취급자가 오르고 내리는 데 사용하는 발판 볼트 등은 지표상 몇 $[m]$ 미만에 시설하여서는 아니 되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "0.75",
+      "2": "1.2",
+      "3": "1.8",
+      "4": "2.0"
+    },
+    "answer": 3,
+    "explanation": "지표상 $1.8[m]$부터 완금 하부 $0.9[m]$까지 발판 볼트를 설치한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트074",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트074/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트074_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "슬립 $4[\\%]$인 유도 전동기의 등가 부하 저항은 2차 저항의 몇 배인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "25",
+      "2": "16",
+      "3": "24",
+      "4": "20"
+    },
+    "answer": 3,
+    "explanation": "등가 부하 저항 $R = \\frac{1-s}{s} r_2 = \\frac{1-0.04}{0.04} r_2 = 24 r_2 [\\Omega]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트074",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트074/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트074_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "화약류 저장 장소의 배선 공사에서 전용 개폐기에서 화약류 저장소의 입구까지는 어떤 공사를 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "케이블을 사용한 옥측 전선로",
+      "2": "금속관을 사용한 지중 전선로",
+      "3": "금속관을 사용한 옥측 전선로",
+      "4": "케이블을 사용한 지중 전선로"
+    },
+    "answer": 4,
+    "explanation": "화약류 저장소 등의 위험 장소\n* 금속관 공사, 케이블 공사\n* 대지 전압: $300[V]$ 이하\n* 개폐기 및 과전류 차단기에서 화약고의 입구까지의 배선에는 케이블을 사용하고 또한 반드시 지중에 시설할 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트074",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트074/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트074_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "평형 3상 회로에서 1상의 소비 전력이 $P[W]$라면, 3상 회로 전체 소비 전력$[W]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$2P$",
+      "2": "$\\sqrt{2} P$",
+      "3": "$3P$",
+      "4": "$\\sqrt{3} P$"
+    },
+    "answer": 3,
+    "explanation": "3상 소비 전력 $P_3 = 3P[W]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트074",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트074/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트074_p001_q30"
+  }
+]

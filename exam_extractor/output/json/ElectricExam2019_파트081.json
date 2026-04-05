@@ -1,0 +1,110 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "전기 기기의 철심 재료로 규소 강판을 성층해서 사용하는 이유로 가장 적당한 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기계손을 줄이기 위해",
+      "2": "동손을 줄이기 위해",
+      "3": "풍손을 줄이기 위해",
+      "4": "히스테리시스손과 와류손을 줄이기 위하여"
+    },
+    "answer": 4,
+    "explanation": "철심 재료\n• 규소 강판 : 히스테리시스손 감소\n• 성층 철심 : 와류손 감소",
+    "level": "중",
+    "source": "ElectricExam2019_파트081",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트081/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트081_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "일정한 주파수의 전원에서 운전하는 3상 유도 전동기의 전원 전압이 $80\\%$가 되었다면 토크는 약 몇 $[\\%]$가 되는가? (단, 회전수는 변하지 않는 상태로 한다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "55",
+      "2": "64",
+      "3": "76",
+      "4": "80"
+    },
+    "answer": 2,
+    "explanation": "3상 유도 전동기에서 토크는 공급 전압의 제곱에 비례하므로 전압의 $80\\%$로 운전하면 토크는 $0.8^2=0.64$로 감소하므로 $64\\%$가 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트081",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트081/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트081_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "전로에 시설하는 기계 기구의 철대 및 금속제 외함(외함이 없는 변압기 또는 계기용 변성기는 철심)에는 접지 공사를 하여야 한다. 다음 사항 중 접지 공사 생략이 불가 능한 장소는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 4,
+    "explanation": "교류 대지 전압 $150[V]$ 이하, 직류 사용 전압 $300[V]$ 이하인 전기 기계 기구를 건조한 장소에 설치한 경우 접지 공사 생략이 가능하다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트081",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트081/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트081_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "한국전기설비규정에 의한 중성점 접지용 접지 도체는 공칭 단면적 몇 $[mm^2]$ 이상의 연동선을 사용하여야 하는가? (단, $25[kV]$ 이하인 중성선 다중 접지식으로서 전로에 지락 발생 시 2초 이내에 자동적으로 이를 전로로부터 차단하는 장치가 되어 있는 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "16",
+      "2": "6",
+      "3": "2.5",
+      "4": "10"
+    },
+    "answer": 2,
+    "explanation": "중성점 접지용 접지 도체는 공칭 단면적 $16[mm^2]$ 이상의 연동선을 사용 하여야 한다. 단, $25[kV]$ 이하인 중성선 다중 접지식으로서 전로에 지락 발생 시 2초 이내에 자동적으로 이를 전로로부터 차단하는 장치가 되어 있는 경우는 $6[mm^2]$를 사용하여야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트081",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트081/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트081_p001_q04"
+  }
+]

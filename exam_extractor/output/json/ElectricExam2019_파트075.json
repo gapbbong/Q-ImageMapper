@@ -1,0 +1,203 @@
+[
+  {
+    "answer": 2,
+    "choices": {
+      "1": "99",
+      "2": "148",
+      "3": "110",
+      "4": "100"
+    },
+    "explanation": "단상 전파 정류 회로 : 직류분 전압 $E_d = \\frac{2\\sqrt{2}}{\\pi}E\\left(\\frac{1+\\cos\\alpha}{2}\\right) = \\frac{2\\sqrt{2}}{\\pi}\\times 220\\times\\left(\\frac{1+\\cos 60^{\\circ}}{2}\\right) = 148[V]$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트075_p001_q31",
+    "image_path": "images/ElectricExam2019_파트075/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      157,
+      249,
+      262,
+      456
+    ],
+    "question_no": 31,
+    "question_text": "그림의 정류 회로에서 실효값 $220[V]$, 위상 점호각이 $60^{\\circ}$일 때 정류 전압은 약 몇 $[V]$인가? (단, 저항만의 부하이다.)",
+    "round": null,
+    "source": "ElectricExam2019_파트075",
+    "suggested_bbox": {
+      "h": 213,
+      "w": 296,
+      "x": 357,
+      "y": 317
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 32,
+    "question_text": "코일에 흐르는 전류가 $0.5[A]$, 축적되는 에너지가 $0.2[J]$이 되기 위한 자기 인덕턴스는 몇 $[H]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "0.8",
+      "2": "1.6",
+      "3": "10",
+      "4": "16"
+    },
+    "answer": 2,
+    "explanation": "코일에 축적되는 $W = \\frac{1}{2}LI^2[J]$에서 $L = \\frac{2W}{I^2} = \\frac{2\\times 0.2}{0.5^2} = 1.6[H]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트075",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트075/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트075_p001_q32"
+  },
+  {
+    "answer": 3,
+    "choices": {
+      "1": "$2+j5.5$",
+      "2": "$3+j4.5$",
+      "3": "$5+j2.5$",
+      "4": "$4+j3.5$"
+    },
+    "explanation": "합성 임피던스 $\\dot{Z} = \\frac{10(6+j8)}{10+6+j8} = \\frac{10(6+j8)}{16+j8} = \\frac{10(6+j8)(16-j8)}{(16+j8)(16-j8)} = 5+j2.5[\\Omega]$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트075_p001_q33",
+    "image_path": "images/ElectricExam2019_파트075/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      659,
+      168,
+      742,
+      380
+    ],
+    "question_no": 33,
+    "question_text": "그림의 회로에서 합성 임피던스는 몇 $[\\Omega]$인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트075",
+    "suggested_bbox": {
+      "h": 169,
+      "w": 304,
+      "x": 241,
+      "y": 1333
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 34,
+    "question_text": "변압기에서 자속에 대한 설명 중 맞는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전압에 비례하고 주파수에 반비례",
+      "2": "전압에 반비례하고 주파수에 비례",
+      "3": "전압에 비례하고 주파수에 비례",
+      "4": "전압과 주파수에 무관"
+    },
+    "answer": 1,
+    "explanation": "해설 $E_1 = 4.44fN_1\\phi_m = 4.44fN_1B_mA[V]$ 이므로 자속 $\\phi_m = \\frac{E_1}{4.44fN_1}[Wb]$이므로 전압에 비례하고 주파수에 반비례한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트075",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트075/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트075_p001_q34"
+  },
+  {
+    "question_no": 35,
+    "question_text": "자속을 발생시키는 원천을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기전력",
+      "2": "전자력",
+      "3": "기자력",
+      "4": "정전력"
+    },
+    "answer": 3,
+    "explanation": "해설 기자력(magneto motive force) : 자속 $\\phi$를 발생하게 하는 근원을 말하며 자기 회로에서 권수 $N$회인 코일에 전류 $I[A]$를 흘릴 때 발생하는 자속 $\\phi$는 $NI$에 비례하여 발생하므로 다음과 같이 나타낼 수 있다. 기자력 정의식 $F = NI = R_m\\phi[AT]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트075",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트075/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트075_p001_q35"
+  },
+  {
+    "question_no": 36,
+    "question_text": "전시회나 쇼, 공연장 등의 전기 설비 시 배선용 케이블이 구리선인 경우 최소 단면적$[mm^2]$은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "0.75",
+      "2": "1.0",
+      "3": "1.5",
+      "4": "2.5"
+    },
+    "answer": 2,
+    "explanation": "해설 전시회, 쇼 및 공연장의 배선용 케이블 : 배선용 케이블은 구리 단면적 $1.5[mm^2]$ 이상, 정격 전압 $450/750[V]$ 이하 염화 비닐 절연 케이블(제1부 : 일반 요구 사항), 정격 전압 $450/750[V]$ 이하 고무 절연 케이블(제1부 : 일반 요구 사항)에 적합하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트075",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트075/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트075_p001_q36"
+  },
+  {
+    "question_no": 37,
+    "question_text": "주택, 아파트인 경우 표준 부하는 몇 $[VA/m^2]$ 인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "10",
+      "2": "20",
+      "3": "30",
+      "4": "40"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트075",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트075/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트075_p001_q37"
+  }
+]

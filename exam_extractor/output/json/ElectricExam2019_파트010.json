@@ -1,0 +1,22 @@
+[
+  {
+    "question_no": 60,
+    "question_text": "4극, 60[Hz], 200[kW]인 3상 유도 전동기가 있다. 전부하 슬립이 2.5[%]로 회전할 때 회전수는 몇 [rpm]인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "1,700",
+      "2": "1,800",
+      "3": "1,755",
+      "4": "1,875"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "해설 $N = (1-s)N_s$\n$= (1-s)\\frac{120f}{P}$\n$= (1-0.025) \\times \\frac{120 \\times 60}{4} = 1,755[rpm]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트010",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트010/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트010_p001_q60"
+  }
+]

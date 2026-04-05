@@ -1,0 +1,129 @@
+[
+  {
+    "question_no": 46,
+    "question_text": "공기 중에서 $1[Wb]$의 자극으로부터 나오는 자력선의 총수는 몇 개인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$6.33 \\times 10^4$",
+      "2": "$7.96 \\times 10^5$",
+      "3": "$8.855 \\times 10^3$",
+      "4": "$1.256 \\times 10^6$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "자력선의 총수 $N = \\frac{m}{\\mu_0} = \\frac{1}{4\\pi \\times 10^{-7}} = 7.96 \\times 10^5$개",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트038",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트038/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트038_p001_q46"
+  },
+  {
+    "question_no": 47,
+    "question_text": "정격 전압 $100[V]$, 전기자 전류 $10[A]$, 전기자 저항 $1[\\Omega]$인 직류 분권 전동기의 회전수가 $1,500[rpm]$일 때 역기전력$[V]$은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "110",
+      "2": "100",
+      "3": "90",
+      "4": "75"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "직류 분권 전동기의 역기전력 $E = V - I_a R_a = 100 - 10 \\times 1 = 90[V]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트038",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트038/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트038_p001_q47"
+  },
+  {
+    "question_no": 48,
+    "question_text": "그림에서 $a-b$ 간의 합성 저항은 $c-d$ 간의 합성 저항의 몇 배인가?",
+    "has_question_image": true,
+    "choices": {
+      "1": "1배",
+      "2": "2배",
+      "3": "3배",
+      "4": "4배"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "a-b 간의 합성 저항 : 휘트스톤 브리지 평형 조건을 만족하므로 중간에 병렬로 접속되어 있는 $r$을 무시한다. $r_{ab} = \\frac{2r \\times 2r}{2r + 2r} = r[\\Omega]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트038",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트038/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트038_p001_q48",
+    "suggested_bbox": {
+      "x": 399,
+      "y": 607,
+      "w": 300,
+      "h": 63,
+      "source": "plus_logic"
+    }
+  },
+  {
+    "question_no": 49,
+    "question_text": "변압기에 대한 설명 중 틀린 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "전압을 변성한다.",
+      "2": "정격 출력은 1차측 단자를 기준으로 한다.",
+      "3": "전력을 발생하지 않는다.",
+      "4": "변압기의 정격 용량은 피상 전력으로 표시한다."
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "변압기의 정격 출력은 2차측 단자를 기준으로 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트038",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트038/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트038_p001_q49"
+  },
+  {
+    "question_no": 50,
+    "question_text": "케이블 공사에 의한 저압 옥내 배선에서 캡타이어 케이블을 조영재의 아랫면 또는 옆면에 따라 붙이는 경우에는 전선의 지지점 간의 거리는 몇 $[m]$ 이하이어야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "1.5",
+      "2": "1",
+      "3": "2",
+      "4": "0.8"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "캡타이어 케이블을 조영재에 따라 지지하는 경우 지지점 간의 거리는 $1[m]$ 이하로 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트038",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트038/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트038_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "지름 $2.6[mm]$, 길이 $1,000[m]$인 구리선의 전기 저항은 몇 $[\\Omega]$인가? (단, 구리선의 고유 저항은 $1.69 \\times 10^{-8}[\\Omega \\cdot m]$이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "2.1",
+      "2": "3.2",
+      "3": "8",
+      "4": "12"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "전선의 지름 $D=2.6[mm]=2.6 \\times 10^{-3}[m]$\n전선의 전기 저항\n$R = \\rho \\frac{l}{S} = \\rho \\frac{4l}{\\pi D^2}$\n$= 1.69 \\times 10^{-8} \\times \\frac{4 \\times 1,000}{3.14 \\times (2.6 \\times 10^{-3})^2}$\n$= 3.2[\\Omega]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트038",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트038/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트038_p001_q51"
+  }
+]

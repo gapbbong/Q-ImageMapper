@@ -1,0 +1,142 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "10[\\Omega]의 저항 5개를 접속하여 얻을 수 있는 가장 작은 저항값은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "2",
+      "2": "4",
+      "3": "1",
+      "4": "5"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "해설 저항 $n$개 병렬 접속 시 합성 저항 $R_0 = \\frac{R_1}{n} = \\frac{10}{5} = 2[\\Omega]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트031",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트031/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트031_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "3상 $100[kVA]$, $13,200/200[V]$ 부하의 압축 유효분 전류는? (단, 역률은 $0.8$이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "130",
+      "2": "230",
+      "3": "260",
+      "4": "173"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "해설 피상 전력 $P_a = \\sqrt{3} VI[VA]$ 전류 $I = \\frac{P_a}{\\sqrt{3} V} = \\frac{100}{\\sqrt{3} \\times 0.2} \\fallingdotseq 288[A]$ 복소수 전류 $\\dot{I} = I\\cos\\theta + jI\\sin\\theta$ $= 288 \\times 0.8 + j288 \\times 0.6$ $= 230 + j173[A]$ 그러므로 유효분 전류는 $230[A]$이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트031",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트031/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트031_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "유도 전동기의 속도 제어법이 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "2차 저항",
+      "2": "극수 제어",
+      "3": "일그너 제어",
+      "4": "주파수 제어"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "해설 일그너 방식은 직류 전동기의 속도 제어법 종류의 하나인 전압 제어 방식이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트031",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트031/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트031_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "직류 전동기를 기동할 때 전기자 전류를 가감하여 조정하는 가감 저항기를 사용하는 방법을 무엇이라 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "자기 기동기",
+      "2": "기동 저항기",
+      "3": "고주파 기동기",
+      "4": "저주파 기동기"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "기동 전류를 제한하기 위한 장치를 기동 저항기라 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트031",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트031/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트031_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "금속 덕트를 조영재에 붙이는 경우에는 지지점 간의 거리는 최대 몇 $[m]$ 이하로 하여야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "1.5",
+      "2": "2.0",
+      "3": "3.0",
+      "4": "3.5"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "덕트의 지지점 간 거리는 $3[m]$ 이하로 할 것 (단, 취급자 이외에는 출입할 수 없는 곳에서 수직으로 설치하는 경우 $6[m]$ 이하까지도 가능)",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트031",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트031/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트031_p001_q05"
+  },
+  {
+    "question_no": 6,
+    "question_text": "직류 분권 전동기의 부하로 알맞은 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "전차",
+      "2": "크레인",
+      "3": "권상기",
+      "4": "환기용 송풍기"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "직류 분권 전동기는 회전 속도의 변동이 작아서 선박의 펌프나 환기용 송풍기 등에 사용된다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트031",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트031/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트031_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "어드미턴스의 실수부는 무엇인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "임피던스",
+      "2": "리액턴스",
+      "3": "서셉턴스",
+      "4": "컨덕턴스"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트031",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트031/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트031_p001_q07"
+  }
+]

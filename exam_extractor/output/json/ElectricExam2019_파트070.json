@@ -1,0 +1,137 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "절연 저항 측정 시 영향을 주거나 손상을 받을 수 있는 SPD 또는 기타 기기 등은 측정 전에 분리시켜야 하고, 부득이하게 분리가 어려운 경우에는 시험 전압을 몇 $[V]$ 이하로 낮추어 측정하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "200",
+      "3": "250",
+      "4": "300"
+    },
+    "answer": 3,
+    "explanation": "절연 측정 시 영향을 주거나 손상을 받을 수 있는 SPD 또는 기타 기기 등은 측정 전에 분리시켜야 하고, 부득이하게 분리가 어려운 경우에는 시험 전압을 $250[V]$ DC로 낮추어 측정할 수 있다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트070",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트070/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트070_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "다음 직류를 기준으로 저압에 속하는 범위는 최대 몇 $[V]$ 이하인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$600[V]$ 이하",
+      "2": "$750[V]$ 이하",
+      "3": "$1,000[V]$ 이하",
+      "4": "$1,500[V]$ 이하"
+    },
+    "answer": 4,
+    "explanation": "전압의 구분\n• 저압: AC $1,000[V]$ 이하, DC $1,500[V]$ 이하의 전압\n• 고압: AC $1,000[V]$ 초과, DC $1,500[V]$를 초과하고, AC, DC 모두 $7[kV]$ 이하의 전압\n• 특고압: AC, DC 모두 $7[kV]$ 초과의 전압",
+    "level": "중",
+    "source": "ElectricExam2019_파트070",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트070/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트070_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "두 개의 평행한 도체가 진공 중(또는 공기 중)에 $20[cm]$ 떨어져 있고, $100[A]$의 같은 크기의 전류가 흐르고 있을 때 $1[m]$당 발생하는 힘의 크기$[N]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "0.05",
+      "2": "0.01",
+      "3": "50",
+      "4": "100"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트070",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트070/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트070_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "급전선의 전압 강하를 목적으로 사용되는 발전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "분권 발전기",
+      "2": "가동 복권 발전기",
+      "3": "타여자 발전기",
+      "4": "차동 복권 발전기"
+    },
+    "answer": 2,
+    "explanation": "가동 복권 발전기는 복권 발전기의 주권선은 분권 계자이고 기계에 필요한 기자력의 대부분을 공급하며, 직권 권선은 전기자 회로 및 전기자 반작용에 의한 전압 강하를 보상하기 위한 기자력을 공급한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트070",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트070/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트070_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "환상 솔레노이드의 내부 자장과 전류에 세 기에 대한 설명으로 맞는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류의 세기에 반비례한다.",
+      "2": "전류의 세기에 비례한다.",
+      "3": "전류의 세기 제곱에 비례한다.",
+      "4": "전혀 관계가 없다."
+    },
+    "answer": 2,
+    "explanation": "내부 자장의 세기 $H = \\frac{NI}{2\\pi r}$ $[AT/m]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트070",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트070/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트070_p001_q05"
+  }
+]

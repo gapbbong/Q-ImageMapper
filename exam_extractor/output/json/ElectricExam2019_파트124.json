@@ -1,0 +1,197 @@
+[
+  {
+    "question_no": 31,
+    "question_text": "일반적으로 전철이나 화학용과 같이 비교적 용량이 큰 수은 정류기용 변압기의 2차측 결선 방식으로 쓰이는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "6상 2중 성형",
+      "2": "3상 반파",
+      "3": "3상 전파",
+      "4": "3상 크로즈파"
+    },
+    "answer": 1,
+    "explanation": "용량이 큰 용량이 큰 수은 정류기용 변압기 2차측 결선 방법 : 6상 2중 성형, Fork결선",
+    "level": "중",
+    "source": "ElectricExam2019_파트124",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트124/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트124_p001_q31"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "6.6",
+      "2": "7.4",
+      "3": "8.7",
+      "4": "9.4"
+    },
+    "explanation": "합성 저항 $= \\frac{4 \\times 6}{4 + 6} + \\frac{10 \\times 10}{10 + 10} = 7.4 [\\Omega]$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트124_p001_q32",
+    "image_path": "images/ElectricExam2019_파트124/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      379,
+      264,
+      463,
+      496
+    ],
+    "question_no": 32,
+    "question_text": "그림과 같은 회로에서 합성 저항은 몇 $[\\Omega]$인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트124",
+    "suggested_bbox": {
+      "h": 171,
+      "w": 333,
+      "x": 378,
+      "y": 768
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 33,
+    "question_text": "동기기의 손실에서 고정손에 해당되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "계자 권선의 저항손",
+      "2": "전기자 권선의 저항손",
+      "3": "계자 철심의 철손",
+      "4": "브러시의 전기손"
+    },
+    "answer": 3,
+    "explanation": "고정손(무부하손) : 부하에 관계없이 항상 일정한 손실\n• 철손($P_i$) : 히스테리시스손, 와류손\n• 기계손($P_m$) : 마찰손, 풍손\n• 브러시의 전기손",
+    "level": "중",
+    "source": "ElectricExam2019_파트124",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트124/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트124_p001_q33"
+  },
+  {
+    "question_no": 34,
+    "question_text": "$5.5[kW]$, $200[V]$ 유도 전동기의 전전압 기동 시의 기동 전류가 $150[A]$이었다. 여기에 $Y-\\Delta$ 기동 시 기동 전류는 몇 $[A]$가 되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "50",
+      "2": "70",
+      "3": "87",
+      "4": "95"
+    },
+    "answer": 1,
+    "explanation": "$Y-\\Delta$ 기동 시 기동 전류는 $\\frac{1}{3}$로 감소된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트124",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트124/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트124_p001_q34"
+  },
+  {
+    "question_no": 35,
+    "question_text": "변압기의 임피던스 전압을 구하는 시험 방법은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "충격 전압 시험",
+      "2": "부하 시험",
+      "3": "무부하 시험",
+      "4": "단락 시험"
+    },
+    "answer": 4,
+    "explanation": "임피던스 전압은 전부하 시 변압기 동손을 구하기 위한 시험으로 변압기 2차측을 단락시킨 상태에서 시험하는 단락 시험으로부터 구할 수 있다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트124",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트124/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트124_p001_q35"
+  },
+  {
+    "question_no": 36,
+    "question_text": "두 자극의 세기가 $m_1, m_2[Wb]$, 거리가 $r[m]$일 때 작용하는 자기력의 크기$[N]$는 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$k \\frac{m_1 \\cdot m_2}{r}$",
+      "2": "$k \\frac{r}{m_1 \\cdot m_2}$",
+      "3": "$k \\frac{m_1 \\cdot m_2}{r^2}$",
+      "4": "$k \\frac{r^2}{m_1 \\cdot m_2}$"
+    },
+    "answer": 3,
+    "explanation": "쿨롱의 법칙 : 두 자극 사이에 작용하는 자력의 크기는 양 자극의 세기의 곱에 비례하며, 자극 간의 거리의 제곱에 비례한다. 쿨롱의 법칙 $F = k \\frac{m_1 \\cdot m_2}{r^2} = \\frac{m_1 \\cdot m_2}{4\\pi \\mu_0 r^2} [N]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트124",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트124/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트124_p001_q36"
+  },
+  {
+    "question_no": 37,
+    "question_text": "가동 접속한 자기 인덕턴스 값이 $L_1 = 50[mH]$, $L_2 = 70[mH]$, 상호 인덕턴스 $M = 60[mH]$일 때 합성 인덕턴스$[mH]$는? (단, 누설 자속이 없는 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "120",
+      "2": "240",
+      "3": "200",
+      "4": "100"
+    },
+    "answer": 2,
+    "explanation": "가동 접속 합성 인덕턴스 $L_{\\text{가}} = L_1 + L_2 + 2M = 50 + 70 + 2 \\times 60 = 240[mH]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트124",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트124/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트124_p001_q37"
+  }
+]

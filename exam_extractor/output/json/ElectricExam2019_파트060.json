@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "코일에서 유도되는 기전력의 크기는 자속의 시간적인 변화율에 비례하는 유도 기전력의 크기를 정의한 법칙은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "렌츠의 법칙",
+      "2": "플레밍의 법칙",
+      "3": "패러데이의 법칙",
+      "4": "줄의 법칙"
+    },
+    "answer": 3,
+    "explanation": "패러데이의 법칙은 유도 기전력의 크기를 정의한 법칙으로서 코일에서 유도되는 기전력의 크기는 자속의 시간적인 변화율에 비례한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트060",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트060/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트060_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "자기 인덕턴스가 각각 $50[mH]$, $80[mH]$이고 상호 인덕턴스가 $60[mH]$인 경우 두 코일 간에 누설 자속이 없는 경우 가동 접속 합성 인덕턴스값$[mH]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "120",
+      "2": "240",
+      "3": "250",
+      "4": "300"
+    },
+    "answer": 3,
+    "explanation": "가동 접속 합성 인덕턴스(완전 결합 시 $k=1$)\n$L_0=L_1+L_2+2M$\n$=50+80+2\\times 60$\n$=250[mH]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트060",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트060/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트060_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "전동기의 과전류, 결상 보호 등에 사용되며 단락 시간과 기동 시간을 정확히 구분하는 계전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "임피던스 계전기",
+      "2": "전자식 과전류 계전기",
+      "3": "방향 단락 계전기",
+      "4": "부족 전압 계전기"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트060",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트060/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트060_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "납축전지의 전해액으로 사용되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "묽은 황산",
+      "2": "이산화납",
+      "3": "질산",
+      "4": "황산구리"
+    },
+    "answer": 1,
+    "explanation": "음극제: 납\n양극제: 이산화납($\\text{PbO}_2$)\n전해액: 묽은 황산($\\text{H}_2\\text{SO}_4$)",
+    "level": "하",
+    "source": "ElectricExam2019_파트060",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트060/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트060_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "전기자를 고정시키고 자극 N, S를 회전시키는 동기 발전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "회전 전기자형",
+      "2": "직렬 저항형",
+      "3": "회전 계자형",
+      "4": "회전 정류자형"
+    },
+    "answer": 3,
+    "explanation": "회전 계자형 동기 발전기는 전기자를 고정시키고 계자를 회전시키는 회전 계자법을 사용하며, 계자를 여자시키기 위한 직류 여자기가 반드시 필요하다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트060",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트060/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트060_p001_q05"
+  },
+  {
+    "question_no": 6,
+    "question_text": "한국전기설비규정에 의하면 정격 전류가 $30[A]$인 저압 전로의 과전류 차단기를 산업용 배선용 차단기로 사용하는 경우 $39[A]$의 전류가 통과하였을 때 몇 분 이내에 자동적으로 동작하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "60",
+      "2": "120",
+      "3": "2",
+      "4": "4"
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트060",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트060/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트060_p001_q06"
+  }
+]

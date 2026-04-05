@@ -1,0 +1,143 @@
+[
+  {
+    "question_no": 46,
+    "question_text": "전등 1개를 2개소에서 점멸하고자 할 때 필요한 3로 스위치는 최소 몇 개인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1개",
+      "2": "2개",
+      "3": "3개",
+      "4": "4개"
+    },
+    "answer": 2,
+    "explanation": "3로 스위치 : 1개의 등을 2개소에서 점멸하고자 할 경우 3로 스위치는 2개가 필요하다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트126",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트126/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트126_p001_q46"
+  },
+  {
+    "question_no": 47,
+    "question_text": "8극, $60[Hz]$인 유도 전동기의 회전수$[rpm]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1,800",
+      "2": "900",
+      "3": "3,600",
+      "4": "2,400"
+    },
+    "answer": 2,
+    "explanation": "$N_s = \\frac{120f}{P} = \\frac{120 \\times 60}{8} = 900[rpm]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트126",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트126/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트126_p001_q47"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "항상 “A”에서 “B”의 방향",
+      "2": "입력의 반주기마다 “A”에서 “B”의 방향, “B”에서 “A”의 방향",
+      "3": "항상 “B”에서 “A”의 방향",
+      "4": "$S_1$과 $S_4$, $S_2$와 $S_3$의 동작 상태에 따라 “A”에서 “B”의 방향, “B”에서 “A”의 방향"
+    },
+    "explanation": "그림의 전동기 제어 회로는 전파 정류 회로를 이용한 사이리스터 위상 제어 회로로서 $S_1, S_2$에 교류가 순방향 입력으로 들어가면 전류 방향은 항상 “A”에서 “B”를 향한다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트126_p001_q48",
+    "image_path": "images/ElectricExam2019_파트126/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      584,
+      192,
+      673,
+      423
+    ],
+    "question_no": 48,
+    "question_text": "그림과 같은 전동기 제어 회로에서 전동기 M의 전류 방향으로 올바른 것은? (단, 전동기의 역률은 $100[\\%]$이고, 사이리스터의 점호각은 $0^{\\circ}$라고 본다.)",
+    "round": null,
+    "source": "ElectricExam2019_파트126",
+    "suggested_bbox": {
+      "h": 181,
+      "w": 331,
+      "x": 275,
+      "y": 1183
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 49,
+    "question_text": "",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트126",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트126/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트126_p001_q49"
+  },
+  {
+    "question_no": 50,
+    "question_text": "",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트126",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트126/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트126_p001_q50"
+  }
+]

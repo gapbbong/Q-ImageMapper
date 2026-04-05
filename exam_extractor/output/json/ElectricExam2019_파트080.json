@@ -1,0 +1,51 @@
+[
+  {
+    "question_no": 3,
+    "question_text": "19[V]의 전압으로 동작하는 직류 전동기의 전기자 저항은 $0.5[\\Omega]$이고, 역기전력은 $18[V]$이다. 이 전동기의 전기자 전류는 몇 $[A]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 2,
+    "explanation": "풀이: 전기자 전류 $I_a = \\frac{V-E_b}{R_a} = \\frac{19-18}{0.5} = \\frac{1}{0.5} = 2[A]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트080",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트080/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트080_p001_q03"
+  },
+  {
+    "question_no": 2,
+    "question_text": "",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {},
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트080",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트080/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트080_p001_q02"
+  }
+]

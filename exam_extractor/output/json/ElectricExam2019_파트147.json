@@ -1,0 +1,137 @@
+[
+  {
+    "question_no": 56,
+    "question_text": "도체의 전기 저항에 영향을 주는 요소가 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "도체의 성분",
+      "2": "도체의 길이",
+      "3": "도체의 모양",
+      "4": "도체의 단면적"
+    },
+    "answer": 3,
+    "explanation": "전기 저항 $R = \\rho \\frac{l}{S} [\\Omega]$\n여기서, 고유 저항 $\\rho [\\Omega \\cdot m]$\n(도체의 성분에 따라 다르다.)\n도체의 길이 $l [m]$\n도체의 단면적 $S [m^2]$ ",
+    "level": "하",
+    "source": "ElectricExam2019_파트147",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트147/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트147_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "다음 중 반자성체는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "안티몬",
+      "2": "알루미늄",
+      "3": "코발트",
+      "4": "니켈"
+    },
+    "answer": 1,
+    "explanation": "반자성체($\\mu_s < 1$) : 구리, 안티몬, 은, 비스무트",
+    "level": "하",
+    "source": "ElectricExam2019_파트147",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트147/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트147_p001_q57"
+  },
+  {
+    "question_no": 58,
+    "question_text": "동기 발전기의 돌발 단락 전류를 주로 제한하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "누설 리액턴스",
+      "2": "동기 임피던스",
+      "3": "권선 저항",
+      "4": "동기 리액턴스"
+    },
+    "answer": 1,
+    "explanation": "돌발 단락 전류 제한 : 누설 리액턴스",
+    "level": "중",
+    "source": "ElectricExam2019_파트147",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트147/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트147_p001_q58"
+  },
+  {
+    "question_no": 59,
+    "question_text": "묽은 황산($H_{2}SO_{4}$) 용액에 구리($Cu$)와 아연($Zn$)판을 넣으면 전지가 된다. 이때 양극($+$)에 대한 설명으로 옳은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 1,
+    "explanation": "전지의 음극과 양극\n• 음극(아연판) : 아연 이온($Zn^{++}$)은 $SO_{4}^{-}$ 이온과 결합하여 $ZnSO_{4}$ 형태로 존재\n• 양극(구리판) : 수소 이온($2H^{+}$)은 구리판에 부착",
+    "level": "하",
+    "source": "ElectricExam2019_파트147",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트147/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트147_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "저항 $R_{1}, R_{2}$의 병렬 회로에서 전전류가 $I$일 때 $R_{2}$에 흐르는 전류$[A]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "$R_{2}$에 흐르는 전류는 저항에 반비례 분배되므로\n$I_{2} = \\frac{R_{1}}{R_{1} + R_{2}}I [A]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트147",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트147/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트147_p001_q60"
+  }
+]

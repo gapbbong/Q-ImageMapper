@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 50,
+    "question_text": "조명등을 숙박 업소의 입구에 설치할 때 현관등은 최대 몇 분 이내에 소등되는 타임 스위치를 시설하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "4",
+      "2": "3",
+      "3": "1",
+      "4": "2"
+    },
+    "answer": 3,
+    "explanation": "현관등 타임 스위치\n- 일반 주택 및 아파트 : 3분\n- 숙박 업소 각 호실 : 1분",
+    "level": "하",
+    "source": "ElectricExam2019_파트089",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트089/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트089_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "$6[\\Omega]$, $8[\\Omega]$, $9[\\Omega]$의 저항 3개를 직렬로 접속하여 $5[A]$의 전류를 흘려줬다면 이 회로의 전압은 몇 $[V]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "117",
+      "2": "115",
+      "3": "100",
+      "4": "90"
+    },
+    "answer": 2,
+    "explanation": "$V=IR=5\\times (6+8+9)=115[V]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트089",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트089/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트089_p001_q51"
+  },
+  {
+    "question_no": 52,
+    "question_text": "점유 면적이 좁고 운전, 보수에 안전하므로 공장, 빌딩 등의 전기실에 많이 사용되며, 큐비클(cubicle)형이라고 불리는 배전반은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "라이브 프런트식 배전반",
+      "2": "폐쇄식 배전반",
+      "3": "포스트형 배전반",
+      "4": "데드 프런트식 배전반"
+    },
+    "answer": 2,
+    "explanation": "폐쇄식 배전반(큐비클형) : 단위 회로의 변성기, 차단기 등의 주기기류와 이를 감시, 제어, 보호하기 위한 각종 계기 및 조작 개폐기, 계전기 등 전부 또는 일부를 금속제 상자 안에 조립하는 방식",
+    "level": "중",
+    "source": "ElectricExam2019_파트089",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트089/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트089_p001_q52"
+  },
+  {
+    "question_no": 53,
+    "question_text": "후강 전선관의 호칭을 맞게 설명한 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "내경에 가까운 홀수로 표시한다.",
+      "2": "외경에 가까운 짝수로 표시한다.",
+      "3": "외경에 가까운 홀수로 표시한다.",
+      "4": "내경에 가까운 짝수로 표시한다."
+    },
+    "answer": 4,
+    "explanation": "후강 전선관은 $2.3[mm]$의 두꺼운 전선관으로 내경에 가까운 짝수로 호칭을 표기한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트089",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트089/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트089_p001_q53"
+  },
+  {
+    "question_no": 54,
+    "question_text": "한국전기설비규정에 의한 고압 가공 전선로 철탑의 경간은 몇 $[m]$ 이하로 제한하고 있는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "150",
+      "2": "250",
+      "3": "500",
+      "4": "600"
+    },
+    "answer": 4,
+    "explanation": "고압 가공 전선로의 철탑의 표준 경간 : $600[m]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트089",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트089/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트089_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "두 평행 도선의 길이가 $1[m]$, 거리가 $1[m]$인 왕복 도선 사이에 단위 길이당 작용하는 힘의 세기가 $18\\times 10^{-7}[N]$일 경우 전류의 세기$[A]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "4",
+      "2": "3",
+      "3": "1",
+      "4": "2"
+    },
+    "answer": 2,
+    "explanation": "평행 도선 사이에 작용하는 힘의 세기 $F=\\frac{2I_{1}I_{2}}{r}\\times 10^{-7}[N/m]$ $F=\\frac{2I^{2}}{1}\\times 10^{-7}[N/m]=18\\times 10^{-7}[N/m]$ $I^{2}=9$이므로 $I=3[A]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트089",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트089/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트089_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "다음 물질 중 강자성체로만 짝지어진 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "철, 구리, 니켈, 아연",
+      "2": "구리, 비스무트, 코발트, 망간",
+      "3": "니켈, 코발트, 철",
+      "4": "철, 니켈, 아연, 망간"
+    },
+    "answer": 3,
+    "explanation": "강자성체는 비투자율이 아주 큰 물질로서 철, 니켈, 코발트, 망간 등이 있다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트089",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트089/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트089_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "직류 전동기의 속도 제어 방법이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전압 제어",
+      "2": "계자 제어",
+      "3": "저항 제어",
+      "4": "주파수 제어"
+    },
+    "answer": 4,
+    "explanation": "직류 전동기의 속도 제어법\n* 저항 제어법\n* 전압 제어법\n* 계자 제어법",
+    "level": "하",
+    "source": "ElectricExam2019_파트089",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트089/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트089_p001_q57"
+  }
+]

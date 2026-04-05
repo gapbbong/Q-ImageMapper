@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 6,
+    "question_text": "전주를 건주할 때 철근 콘크리트주의 길이가 $7[m]$이면 땅에 묻히는 깊이는 얼마인가? (단, 설계 하중이 $6.81[kN]$ 이하이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1.0",
+      "2": "1.2",
+      "3": "2.0",
+      "4": "2.5"
+    },
+    "answer": 2,
+    "explanation": "매설 깊이 $H = 7 \\times \\frac{1}{6} \\fallingdotseq 1.2[m]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트071",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트071/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트071_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "전기 설비를 보호하는 계전기 중 전류 계전기의 설명으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "부족 전류 계전기는 항상 시설하여야 한다.",
+      "2": "과전류 계전기와 부족 전류 계전기가 있다.",
+      "3": "과전류 계전기는 전류가 일정값 이상이 흐르면 동작한다.",
+      "4": "배선 전소 보호, 후비 보호 능력이 있어야 한다."
+    },
+    "answer": 1,
+    "explanation": "부족 전류 계전기(UCR) : 전류가 정정값 이하가 되었을 때 동작하는 계전기로서 전동기나 변압기의 여자 회로에만 설치하는 계전기로서 항상 시설하는 계전기는 아니다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트071",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트071/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트071_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "전시회나 쇼, 공연장 등의 전기 설비는 이동 전선으로 사용할 수 있는 케이블은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$0.6/1[kV]$ EP 고무 절연 클로로프렌 캡타이어 케이블",
+      "2": "$0.8/1[kV]$ EP 고무 절연 클로로프렌 캡타이어 케이블",
+      "3": "$0.6/1.5[kV]$ EP 고무 절연 클로로프렌 캡타이어 케이블",
+      "4": "$0.8/1.5[kV]$ 비닐 절연 클로로프렌 캡타이어 케이블"
+    },
+    "answer": 1,
+    "explanation": "전시회, 쇼 및 공연장에 가능한 이동 전선\\n* $0.6/1[kV]$ EP 고무 절연 클로로프렌 캡타이어 케이블\\n* $0.6/1[kV]$ 비닐 절연 비닐 캡타이어 케이블",
+    "level": "중",
+    "source": "ElectricExam2019_파트071",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트071/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트071_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "분기 회로를 보호하기 위한 장치로서 보호 장치 및 차단기 역할을 하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "컷 아웃 스위치",
+      "2": "단로기",
+      "3": "배선용 차단기",
+      "4": "누전 차단기"
+    },
+    "answer": 3,
+    "explanation": "분기 회로를 보호하는 장치는 과전류 차단기(퓨즈)와 배선용 차단기를 사용한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트071",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트071/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트071_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "한국전기설비규정에 의하면 옥외 백열 전등의 인하선으로서 지표상의 높이 $2.5[m]$ 미만의 부분은 전선에 공칭 단면적 몇 $[mm^2]$ 이상의 연동선과 동등 이상의 세기 및 굵기의 절연 전선(옥외용 비닐 절연 전선을 제외)을 사용하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "0.75",
+      "2": "2.0",
+      "3": "2.5",
+      "4": "1.5"
+    },
+    "answer": 3,
+    "explanation": "옥외 백열 전등 인하선의 시설 : 옥외 백열 전등의 인하선으로서 지표상의 높이 $2.5[m]$ 미만의 부분은 전선에 공칭 단면적 $2.5[mm^2]$ 이상의 연동선과 동등 이상의 세기 및 굵기의 옥외용 비닐 절연 전선을 제외한 절연 전선을 사용한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트071",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트071/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트071_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "비투자율이 1인 환상 철심 중의 자장의 세기가 $H[AT/m]$이었다. 이때 비투자율이 10인 물질로 바꾸면 철심의 자속 밀도$[Wb/m^2]$는 몇 배가 되겠는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\frac{1}{10}$",
+      "2": "$\\frac{1}{10\\sqrt{2}}$",
+      "3": "$\\frac{1}{10\\sqrt{3}}$",
+      "4": "10"
+    },
+    "answer": 4,
+    "explanation": "$B = \\mu H = \\mu_0 \\mu_s H[Wb/m^2]$\n비투자율이 1인 물질을 10인 물질로 바꾸면 자속 밀도는 10배 커진다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트071",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트071/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트071_p001_q11"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "question_no": 58,
+    "question_text": "전류에 의해 만들어지는 자기장의 방향을 알기 쉽게 정의한 법칙은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "앙페르의 오른 나사 법칙",
+      "2": "플레밍의 왼손 법칙",
+      "3": "렌츠의 자기 유도 법칙",
+      "4": "패러데이의 전자 유도 법칙"
+    },
+    "answer": 1,
+    "explanation": "앙페르의 오른 나사 법칙 : 전류에 의한 자기장(자기력선)의 방향을 알기 쉽게 정의한 법칙",
+    "level": "하",
+    "source": "ElectricExam2019_파트118",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트118/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트118_p001_q58"
+  },
+  {
+    "question_no": 59,
+    "question_text": "$30[\\mu F]$과 $40[\\mu F]$의 콘덴서를 병렬로 접속한 후 $100[V]$의 전압을 가했을 때 전체 전하량은 몇 $[C]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$17 \\times 10^{-4}$",
+      "2": "$34 \\times 10^{-4}$",
+      "3": "$56 \\times 10^{-4}$",
+      "4": "$70 \\times 10^{-4}$"
+    },
+    "answer": 4,
+    "explanation": "합성 정전 용량 $C_0 = 30 + 40 = 70[\\mu F]$\n총 전하량 $Q = CV$\n$= 70 \\times 10^{-6} \\times 100$\n$= 70 \\times 10^{-4}[C]$ ",
+    "level": "중",
+    "source": "ElectricExam2019_파트118",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트118/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트118_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "도체계에서 임의의 도체를 일정 전위(일반적으로 영전위)의 도체로 완전 포위하면 내부와 외부의 전계를 완전히 차단할 수 있는데 이를 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "정전 차폐 : 도체가 정전 유도가 되지 않도록 도체 바깥을 포위하여 접지하는 것을 정전 차폐라 하며 완전 차폐가 가능하다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트118",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트118/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트118_p001_q60"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question_no": 28,
+    "question_text": "공기 중에서 $5\\times 10^{-4}[Wb]$인 곳에서 $10[cm]$ 떨어진 점에 $3\\times 10^{-4}[Wb]$이 놓여 있을 경우 자기력의 세기$[N]$는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$9.5\\times 10^{-1}$",
+      "2": "$9.5\\times 10^{-2}$",
+      "3": "$9.5\\times 10^{-3}$",
+      "4": "$9.5\\times 10^{-4}$"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "두 자극 간에 작용하는 힘의 세기 $F = 6.33\\times 10^4 \\times \\frac{m_1 \\cdot m_2}{r^2} = 6.33\\times 10^4 \\times \\frac{5\\times 10^{-4} \\times 3\\times 10^{-4}}{0.1^2} = 0.95 = 9.5\\times 10^{-1}[N]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트015",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트015/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트015_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "3상 유도 전동기의 회전 방향을 바꾸려면?",
+    "has_question_image": false,
+    "choices": {
+      "1": "전원의 전압과 주파수를 바꾸어준다.",
+      "2": "전동기의 1차 권선에 있는 3개의 단자 중 어느 2개의 단자를 서로 바꾸어준다.",
+      "3": "$\\Delta-Y$ 결선으로 결선법을 바꾸어준다.",
+      "4": "기동 보상기를 사용하여 권선을 바꾸어준다."
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "3상 유도 전동기는 회전 자계에 의해 회전하며 회전 자계의 방향을 반대로 하려면 전원의 3선 가운데 2선을 바꾸어 전원에 다시 연결하면 회전 방향은 반대로 된다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트015",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트015/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트015_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "전선 접속 시 사용되는 슬리브(sleeve)의 종류가 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "E형",
+      "2": "S형",
+      "3": "D형",
+      "4": "P형"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "전선 접속 시 사용되는 슬리브(sleeve)의 종류에는 S형, E형, P형 등이 있다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트015",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트015/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트015_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "전선의 접속에 대한 설명으로 틀린 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "접속 부분의 전기 저항을 $20[\\%]$ 이상 증가되도록 한다.",
+      "2": "접속 부분의 인장 강도를 $80[\\%]$ 이상 유지되도록 한다.",
+      "3": "접속 부분에 전선 접속 기구를 사용한다.",
+      "4": "알루미늄 전선과 구리선의 접속 시 전기적인 부식이 생기지 않도록 한다."
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "전선 접속 시 주의의 사항\n전선 접속 부분의 전기 저항을 증가시키지 말 것\n전선 접속 부분의 인장 강도를 $80[\\%]$ 이상 유지할 것",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트015",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트015/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트015_p001_q31"
+  },
+  {
+    "question_no": 32,
+    "question_text": "피뢰 시스템에 접지 도체가 접속된 경우 접지선의 굵기는 구리선인 경우 최소 몇 $[mm^2]$ 이상이어야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "6",
+      "2": "10",
+      "3": "16",
+      "4": "22"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "접지 도체가 피뢰 시스템에 접속된 경우 : 구리 $16[mm^2]$ 이상, 철제 $50[mm^2]$ 이상",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트015",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트015/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트015_p001_q32"
+  },
+  {
+    "question_no": 33,
+    "question_text": "배전반 및 분전반과 연결된 배관을 변경하거나 이미 설치되어 있는 캐비닛에 구멍을 뚫을 때 필요한 공구는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "오스터",
+      "2": "녹아웃 펀치",
+      "3": "토치 램프",
+      "4": "클리퍼"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "전기 공사용 공구\n오스터 : 금속관에 나사를 낼 때 사용하는 것\n녹아웃 펀치 : 배전반이나 분전반 등의 금속제 캐비닛의 구멍을 확대하거나 철판의 구멍 뚫기에 사용하는 공구\n토치 램프 : 합성 수지관 공사 시 가공부를 가열하기 위한 램프\n클리퍼 : 전선 단면적 $25[mm^2]$ 이상인 굵은 전선 절단용 공구",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트015",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트015/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트015_p001_q33"
+  }
+]

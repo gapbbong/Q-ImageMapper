@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 6,
+    "question_text": "",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": null,
+    "explanation": "해설 단상 전파 사이리스터 정류 회로의 직류 전압\n$E_d = \\frac{2\\sqrt{2}}{\\pi} E \\left( \\frac{1 + \\cos \\alpha}{2} \\right) = 0.9E \\left( \\frac{1 + \\cos \\alpha}{2} \\right) [V]$\n$E_d = 0.9 \\times 100 \\times \\left( \\frac{1 + \\cos 60^\\circ}{2} \\right) = 67.5 [V]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트110",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트110/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트110_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "변압기유가 구비해야 할 조건으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "절연 내력이 높을 것",
+      "2": "응고점이 높을 것",
+      "3": "고온에도 산화되지 않을 것",
+      "4": "냉각 효과가 클 것"
+    },
+    "answer": 2,
+    "explanation": "해설 변압기 절연유의 구비 조건\n• 절연 내력이 클 것\n• 인화점이 높을 것\n• 응고점이 낮을 것\n• 고온에도 산화되지 않을 것",
+    "level": "하",
+    "source": "ElectricExam2019_파트110",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트110/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트110_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "보호를 요하는 회로의 전류가 어떤 일정한 값(정정값) 이상으로 흘렀을 때 동작하는 계전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "과전류 계전기",
+      "2": "과전압 계전기",
+      "3": "차동 계전기",
+      "4": "비율 차동 계전기"
+    },
+    "answer": 1,
+    "explanation": "해설 과전류 계전기(OCR) : 회로의 전류가 어떤 일정한 값(정정값) 이상으로 흘렀을 때 동작하는 계전기",
+    "level": "하",
+    "source": "ElectricExam2019_파트110",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트110/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트110_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "$\\Delta-Y$결선(delta-star connection)한 경우에 대한 설명으로 옳지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1차 선간 전압 및 2차 선간 전압의 위상차는 $60^\\circ$이다.",
+      "2": "제3고조파에 의한 장해가 적다.",
+      "3": "1차 변전소의 승압용으로 사용된다.",
+      "4": "Y결선의 중성점을 접지할 수 있다."
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트110",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트110/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트110_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "직류기의 전기자 철심을 규소 강판으로 성층하여 만드는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "철심을 규소 강판으로 성층하는 이유는 히스테리시스손과 맴돌이 전류손을 감소하기 위함이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트110",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트110/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트110_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "분상 기동형 단상 유도 전동기의 기동 권선은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 2,
+    "explanation": "분상 기동형 단상 유도 전동기의 권선\\n• 운전 권선($L$만의 회로) : 굵은 권선으로 길게 하여 권선을 많이 감아 $L$성분을 크게 한다.\\n• 기동 권선($R$만의 회로) : 운전 권선보다 가늘고 권선을 적게 하여 저항값을 크게 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트110",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트110/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트110_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "변압기의 권수비가 60이고 2차 저항이 0.1 $[\\Omega]$일 때 1차로 환산한 저항값$[\\Omega]$은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "30",
+      "2": "360",
+      "3": "300",
+      "4": "250"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트110",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트110/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트110_p001_q12"
+  }
+]

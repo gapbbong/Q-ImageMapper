@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 33,
+    "question_text": "반도체 재료로 갈륨 인(GaP)을 쓰며 탁상 시계, 탁상용 계산기 등에 사용되는 다이오드는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "제너 다이오드",
+      "2": "광 다이오드",
+      "3": "발광 다이오드",
+      "4": "터널 다이오드"
+    },
+    "answer": 3,
+    "explanation": "발광 다이오드(LED) : 전류를 순방향으로 흘려 주면 빛을 내는 반도체 소자로서 시계나 전광판, 디스플레이 등에 사용하는 다이오드이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트114",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트114/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트114_p001_q33"
+  },
+  {
+    "question_no": 34,
+    "question_text": "전선의 굵기가 $6[mm^2]$ 이하인 가는 단선의 전선 접속은 어떤 접속으로 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "브리타니아 접속",
+      "2": "쥐꼬리 접속",
+      "3": "트위스트 접속",
+      "4": "슬리브 접속"
+    },
+    "answer": 3,
+    "explanation": "단선의 직선 접속\n• 단면적 $6[mm^2]$ 이하 : 트위스트 접속\n• 단면적 $10[mm^2]$ 이상 : 브리타니아 접속",
+    "level": "하",
+    "source": "ElectricExam2019_파트114",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트114/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트114_p001_q34"
+  },
+  {
+    "question_no": 35,
+    "question_text": "나전선 상호를 접속하는 경우 일반적으로 전선의 세기를 몇 $[\\%]$ 이상 감소시키지 않아야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$2[\\%]$",
+      "2": "$3[\\%]$",
+      "3": "$20[\\%]$",
+      "4": "$80[\\%]$"
+    },
+    "answer": 3,
+    "explanation": "전선 접속 시 전선의 세기는 $20[\\%]$ 이상 감소되지 않도록 하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트114",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트114/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트114_p001_q35"
+  },
+  {
+    "question_no": 36,
+    "question_text": "폭발성 분진이 있는 위험 장소에 금속관 배선에 의할 경우 관 상호 및 관과 박스 기타의 부속품이나 풀 박스 또는 전기 기계 기구는 몇 턱 이상의 나사 조임으로 접속하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2턱",
+      "2": "3턱",
+      "3": "4턱",
+      "4": "5턱"
+    },
+    "answer": 4,
+    "explanation": "폭발성 분진이 존재하는 곳의 금속관 공사에 있어서 관 상호 및 관과 박스의 접속은 5턱 이상의 죔나사로 시공하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트114",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트114/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트114_p001_q36"
+  },
+  {
+    "question_no": 37,
+    "question_text": "코일에서 유도되는 기전력의 크기는 자속의 시간적인 변화율에 비례한다는 유도 기전력의 크기를 정의한 법칙은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "렌츠의 법칙",
+      "2": "플레밍의 법칙",
+      "3": "패러데이의 법칙",
+      "4": "줄의 법칙"
+    },
+    "answer": 3,
+    "explanation": "패러데이의 법칙은 유도 기전력의 크기를 정의한 법칙으로서 코일에서 유도 기전력의 크기는 자속의 시간적인 변화율에 비례한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트114",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트114/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트114_p001_q37"
+  },
+  {
+    "question_no": 38,
+    "question_text": "저압 수전 방식 중 단상 3선식은 평형이 되는게 원칙이지만 부득이한 경우 설비 불평형률은 몇 $[\\%]$ 이내로 유지해야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "10",
+      "2": "20",
+      "3": "30",
+      "4": "40"
+    },
+    "answer": 4,
+    "explanation": "단상 3선식에서 중성선과 각 전압측 전선 간의 부하는 평형이 되게 하는 것을 원칙으로 하지만, 부득이한 경우 발생하는 설비 불평형률은 $40[\\%]$까지 할 수 있다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트114",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트114/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트114_p001_q38"
+  },
+  {
+    "question_no": 39,
+    "question_text": "굵은 전선이나 케이블을 절단할 때 사용되는 공구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "펜치",
+      "2": "클리퍼",
+      "3": "나이프",
+      "4": "플라이어"
+    },
+    "answer": 2,
+    "explanation": "클리퍼 : 전선 단면적 $25[mm^{2}]$ 이상의 굵은 전선이나 볼트 절단 시 사용하는 공구",
+    "level": "하",
+    "source": "ElectricExam2019_파트114",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트114/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트114_p001_q39"
+  }
+]

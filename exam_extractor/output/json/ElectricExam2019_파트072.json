@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 12,
+    "question_text": "단면적 $14.4\\;[cm^2]$, 폭 $3.2\\;[cm]$, $1$장의 두께가 $0.35\\;[mm]$인 철심의 점적률이 $90\\;[\\%]$가 되기 위한 철심은 몇 장이 필요한가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "162",
+      "2": "143",
+      "3": "46",
+      "4": "92"
+    },
+    "answer": 2,
+    "explanation": "점적률 : 철심의 실제 단면적에 대한 자속이 통과하는 유효 단면적의 비율\\n철심이 $n$장일 경우 철심 단면적\\n$3.2 \\times 0.35 \\times 10^{-1} \\times n\\;[cm^2]$ \\n점적률 $0.9 = \\frac{3.2 \\times 0.35 \\times 10^{-1} \\times n}{14.4}$ 이므로\\n$n = \\frac{14.4}{3.2 \\times 0.35 \\times 10^{-1} \\times 0.9} = 142.86$이고 절상하면 $143$장이 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트072",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트072/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트072_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "주상 변압기의 냉각 방식은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "건식 자냉식",
+      "2": "유입 자냉식",
+      "3": "유입 예열식",
+      "4": "유입 송유식"
+    },
+    "answer": 2,
+    "explanation": "유입 자냉식 : 절연유를 변압기 외함에 채우고 대류 작용으로 열을 외부로 발산시키는 방식이며, 주상 변압기에 채용한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트072",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트072/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트072_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "케이블 덕트 시스템에 시설하는 배선 방법이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "플로어 덕트 배선",
+      "2": "셀룰러 덕트 배선",
+      "3": "버스 덕트 배선",
+      "4": "금속 덕트 배선"
+    },
+    "answer": 3,
+    "explanation": "케이블 덕트 시스템 배선 방법 : 플로어 덕트 배선, 셀룰러 덕트 배선, 금속 덕트 배선",
+    "level": "하",
+    "source": "ElectricExam2019_파트072",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트072/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트072_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "유도 전동기에서 슬립이 커지면 증가하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2차 출력",
+      "2": "2차 효율",
+      "3": "2차 주파수",
+      "4": "회전 속도"
+    },
+    "answer": 3,
+    "explanation": "해설 슬립 $s$가 커지면 \\ • 2차 주파수 $f_2 = sf_1 \\; [Hz] \\rightarrow$ 증가 \\ • 2차 효율 $\\eta_2 = \\frac{P_o}{P_2} = \\frac{(1-s)P_2}{P_2} = 1-s = \\frac{N}{N_s} \\rightarrow$ 감소 \\ • 2차 출력 $P_2 = \\frac{P_o}{1-s} \\; [W] \\rightarrow$ 감소 \\ • 회전 속도 $N = (1-s)N_s \\; [rpm] \\rightarrow$ 감소",
+    "level": "중",
+    "source": "ElectricExam2019_파트072",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트072/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트072_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "플로어 덕트 공사에 의한 저압 옥내 배선에서 절연 전선으로 연선을 사용하지 않아도 되는 것은 전선의 굵기가 몇 $[mm^2]$ 이하인 경우인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2.5",
+      "2": "4",
+      "3": "6",
+      "4": "10"
+    },
+    "answer": 4,
+    "explanation": "해설 플로어 덕트(저압 옥내 배선에 포함)에 사용하는 전선의 최소 굵기는 $2.5 \\; [mm^2]$ 이상의 연동 연선을 사용한다(단, 단선인 경우 $10 \\; [mm^2]$ 이하까지 가능).",
+    "level": "중",
+    "source": "ElectricExam2019_파트072",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트072/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트072_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "저압 전로의 전선 상호간 및 전로와 대지 사이의 절연 저항의 값에 대한 설명으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "측정 시 SPD 또는 기타 기기 등은 측정 전 위험 사항이 아니므로 분리시키지 않아도 된다.",
+      "2": "사용 전압이 SELV 및 PELV는 DC $250 \\; [V]$ 시험 전압으로 $0.5 \\; [M\\Omega]$ 이상이어야 한다.",
+      "3": "사용 전압이 FELV 및 $500 \\; [V]$ 이하는 DC $500 \\; [V]$ 시험 전압으로 $1.0 \\; [M\\Omega]$ 이상이어야 한다.",
+      "4": "사용 전압이 $500 \\; [V]$ 초과하는 경우 DC $1,000 \\; [V]$ 시험 전압으로 $1.0 \\; [M\\Omega]$ 이상이어야 한다."
+    },
+    "answer": 1,
+    "explanation": "해설 전로의 절연 저항: 사용 전압이 저압인 전로의 전선 상호간 및 전로와 대지 사이의 절연 저항은 개폐기 또는 과전류 차단기로 구분할 수 있는 전로마다 다음 표에서 정한 값 이상이어야 한다.",
+    "level": "상",
+    "source": "ElectricExam2019_파트072",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트072/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트072_p001_q17"
+  }
+]

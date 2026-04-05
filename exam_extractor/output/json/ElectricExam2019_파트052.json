@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 11,
+    "question_text": "1대 용량이 250[kVA]인 변압기를 \\$\\Delta\\$ 결선 운전 중 1대가 고장이 발생하여 2대로 운전할 경우 부하에 공급할 수 있는 최대 용량 [kVA]은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "250",
+      "2": "433",
+      "3": "500",
+      "4": "300"
+    },
+    "answer": 2,
+    "explanation": "V결선 용량 \\$P_V = \\sqrt{3} \\times P_{\\Delta 1} = \\sqrt{3} \\times 250 \\fallingdotseq 433[kVA]\\$",
+    "level": "중",
+    "source": "ElectricExam2019_파트052",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트052/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트052_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "보호를 요하는 회로의 전류가 어떤 일정한 값(정정값) 이상으로 흘렀을 때 동작하는 계전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "과전류 계전기",
+      "2": "과전압 계전기",
+      "3": "부족 전압 계전기",
+      "4": "비율 차동 계전기"
+    },
+    "answer": 1,
+    "explanation": "전류가 정정값 이상이 되면 동작하는 계전기는 과전류 계전기이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트052",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트052/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트052_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "두 금속을 접촉하여 여기에 전류를 흘리면, 줄열 외에 그 접점에서 열의 발생 또는 흡수가 일어나는 현상은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "줄 효과",
+      "2": "홀 효과",
+      "3": "제베크 효과",
+      "4": "펠티에 효과"
+    },
+    "answer": 4,
+    "explanation": "펠티에 효과: 두 금속을 접합하여 접합점에 전류를 흘려주면 열의 흡수 또는 방열이 발생하는 현상",
+    "level": "중",
+    "source": "ElectricExam2019_파트052",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트052/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트052_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "병렬 운전 중인 동기 발전기의 유도 기전력이 \\$2,000[V]\\$, 위상차 \\$60^{\\circ}\\$일 경우 유효 순환 전류[A]는 얼마인가? (단, 동기 임피던스는 \\$5[\\Omega]\\$이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "500",
+      "2": "1,000",
+      "3": "20",
+      "4": "200"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "상",
+    "source": "ElectricExam2019_파트052",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트052/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트052_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "전주 외등을 전주에 부착하는 경우 전주 외등은 하단으로부터 몇 $[m]$ 이상 높이에 시설하여야 하는가? (단, 교통에 지장이 없는 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "3.0",
+      "2": "3.5",
+      "3": "4.0",
+      "4": "4.5"
+    },
+    "answer": 1,
+    "explanation": "해설 전주 외등 : 대지 전압 $300[V]$ 이하 백열전등이나 수은등 등을 배전 선로의 지지물 등에 시설하는 등\n• 기구 부착 높이 : 하단에서 지표상 $4.5[m]$ 이상(단, 교통에 지장이 없을 경우 $3.0[m]$ 이상)\n• 돌출 수평 거리 : $1.0[m]$ 이상",
+    "level": "중",
+    "source": "ElectricExam2019_파트052",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트052/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트052_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "$5[\\Omega]$의 저항 4개, $10[\\Omega]$의 저항 3개, $100[\\Omega]$의 저항 1개가 있다. 이들을 모두 직렬 접속할 때 합성 저항$[\\Omega]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "75",
+      "2": "50",
+      "3": "150",
+      "4": "100"
+    },
+    "answer": 3,
+    "explanation": "해설 $R_0 = 5 \\times 4 + 10 \\times 3 + 100 \\times 1 = 150[\\Omega]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트052",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트052/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트052_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "$450/750[V]$ 일반용 단심 비닐 절연 전선의 약호는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "FI",
+      "2": "RI",
+      "3": "NR",
+      "4": "NF"
+    },
+    "answer": 3,
+    "explanation": "해설\n• NR : $450/750[V]$ 일반용 단심 비닐 절연 전선\n• NF : $450/750[V]$ 일반용 유연성 단심 비닐 절연 전선",
+    "level": "중",
+    "source": "ElectricExam2019_파트052",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트052/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트052_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "불연성 먼지가 많은 장소에 시설할 수 없는 저압 옥내 배선의 방법은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "금속관 공사",
+      "2": "애자 사용 공사",
+      "3": "케이블 공사",
+      "4": "플로어 덕트 공사"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트052",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트052/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트052_p001_q18"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "question_no": 14,
+    "question_text": "3상 동기기에 제동 권선을 설치하는 주된 목적은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "출력을 증가시키기 위해",
+      "2": "난조를 방지하기 위해",
+      "3": "역률을 개선하기 위해",
+      "4": "효율을 증가시키기 위해"
+    },
+    "answer": 2,
+    "explanation": "동기 전동기에서 제동 권선은 기동 토크 발생 및 난조를 방지하기 위해 설치한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트062",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트062/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트062_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "전시회나 쇼, 공연장 등의 전기 설비는 옥내 배선이나 이동 전선인 경우 사용 전압이 몇 $[V]$ 이하이어야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "200",
+      "3": "300",
+      "4": "400"
+    },
+    "answer": 4,
+    "explanation": "전시회, 쇼 및 공연장, 기타 이들과 유사한 장소에 시설하는 저압 전기 설비에 적용하며 무대 · 무대 마루 밑 · 오케스트라 박스 · 영사실, 기타 사람이나 무대 도구가 접촉할 우려가 있는 곳에 시설하는 저압 옥내 배선, 전구선 또는 이동 전선의 사용 전압이 $400[V]$ 이하이어야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트062",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트062/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트062_p001_q15"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "기동 권선이나 운전 권선의 어느 한 권선의 단자 접속을 반대로 한다.",
+      "2": "원심력 스위치를 개로 또는 폐로 한다.",
+      "3": "기동 권선의 단자 접속을 반대로 한다.",
+      "4": "운전 권선의 단자 접속을 반대로 한다."
+    },
+    "explanation": "",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트062_p001_q16",
+    "image_path": "images/ElectricExam2019_파트062/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      642,
+      193,
+      753,
+      486
+    ],
+    "question_no": 16,
+    "question_text": "그림과 같은 분상 기동형 단상 유도 전동기를 역회전시키기 위한 방법이 아닌 것은?",
+    "round": null,
+    "source": "ElectricExam2019_파트062",
+    "suggested_bbox": {
+      "h": 225,
+      "w": 420,
+      "x": 276,
+      "y": 1299
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 17,
+    "question_text": "화약류 저장소의 배선 공사에 있어서 개폐기에서 화약류 저장소의 인입구까지의 공사 방법으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "애자 사용 공사",
+      "2": "대지 전압은 $300[V]$ 이하여야 한다.",
+      "3": "모든 접속은 전폐형으로 할 것",
+      "4": "케이블을 사용하여 지중에 시설할 것"
+    },
+    "answer": 1,
+    "explanation": "화약류 저장소 등의 위험 장소\n• 금속관 공사, 케이블 공사\n• 대지 전압: $300[V]$ 이하\n• 개폐기 및 과전류 차단기에서 화약고의 인입구까지의 배선에는 케이블을 사용하고 또한 반드시 지중에 시설할 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트062",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트062/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트062_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "금속관 배관 공사에서 절연 부싱을 사용하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "관의 입구에서 조영재의 접촉을 방지",
+      "2": "관 단에서 전선의 인입 및 교체 시 발생하는 전선의 손상 방지",
+      "3": "관이 손상되는 것을 방지",
+      "4": "박스 내에서 전선의 접촉을 방지"
+    },
+    "answer": 2,
+    "explanation": "금속관 공사 시 부싱은 관 끝단에 설치하여 전선의 인입 및 교체 시 전선의 손상을 방지하기 위해 설치한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트062",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트062/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트062_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "다음 중 변전소의 역할로 볼 수 없는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전력 생산",
+      "2": "전압의 변성",
+      "3": "전력 계통 보호",
+      "4": "전력의 집중과 배분"
+    },
+    "answer": 1,
+    "explanation": "전력 생산은 발전소에서 만들어진다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트062",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트062/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트062_p001_q19"
+  }
+]

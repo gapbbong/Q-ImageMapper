@@ -1,0 +1,176 @@
+[
+  {
+    "question_no": 40,
+    "question_text": "금속 덕트를 취급자 이외에는 출입할 수 없는 곳에서 수직으로 설치하는 경우 지지점 간의 거리는 최대 몇 $[m]$ 이하로 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1.5",
+      "2": "2.0",
+      "3": "3.0",
+      "4": "6.0"
+    },
+    "answer": 4,
+    "explanation": "덕트의 지지점 간 거리는 $3[m]$ 이하로 할 것(단, 취급자 이외에는 출입할 수 없는 곳에서 수직으로 설치하는 경우 $6[m]$ 이하까지도 가능)",
+    "level": "중",
+    "source": "ElectricExam2019_파트115",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트115/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트115_p001_q40"
+  },
+  {
+    "question_no": 41,
+    "question_text": "다음 중 버스 덕트의 종류가 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "피더 버스 덕트",
+      "2": "플러그인 버스 덕트",
+      "3": "케이블 버스 덕트",
+      "4": "탭붙이 버스 덕트"
+    },
+    "answer": 3,
+    "explanation": "버스 덕트의 종류\\n• 피더 버스 덕트 : 도중 부하 접속 불가능\\n• 플러그인 버스 덕트 : 도중에 부하 접속용으로 꽂음 플러그를 만든 것\\n• 탭붙이 버스 덕트 : 중간에 기기 또는 전선 등과 접속시키기 위한 탭붙이된 덕트\\n• 트랜스포지션 버스 덕트\\n• 익스팬션 버스 덕트",
+    "level": "하",
+    "source": "ElectricExam2019_파트115",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트115/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트115_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "$480[V]$ 가공 인입선이 철도를 횡단할 때 레일면상의 최저 높이는 약 몇 $[m]$인가?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      744,
+      223,
+      873,
+      827
+    ],
+    "choices": {
+      "1": "4.0",
+      "2": "4.5",
+      "3": "5.5",
+      "4": "6.5"
+    },
+    "answer": 4,
+    "explanation": "저압 가공 인입선의 높이\\n| 장소 구분 | 저압$[m]$ |\\n| :--- | :--- |\\n| 도로 횡단 | $5[m]$ 이상(단, 기술상 부득이하고 교통에 지장이 없는 경우 $3[m]$ 이상) |\\n| 철도 횡단 | $6.5[m]$ 이상 |\\n| 횡단보도교 | $3[m]$ 이상 |\\n| 기타 장소 | $4[m]$ 이상(단, 기술상 부득이하고 교통에 지장이 없는 경우 $2.5[m]$ 이상) |",
+    "level": "중",
+    "source": "ElectricExam2019_파트115",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트115/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트115_p001_q42",
+    "suggested_bbox": {
+      "x": 175,
+      "y": 1505,
+      "w": 475,
+      "h": 261
+    }
+  },
+  {
+    "question_no": 43,
+    "question_text": "$2[\\mu F]$, $3[\\mu F]$, $5[\\mu F]$의 콘덴서 3개를 병렬로 접속했을 때의 합성 정전 용량은 몇 $[F]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 4,
+    "explanation": "병렬 합성 정전 용량 $C_0 = 2 + 3 + 5 = 10[\\mu F]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트115",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트115/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트115_p001_q43"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "explanation": "$R-C$ 병렬 회로의 역률\n$\\cos \\theta = \\frac{X_C}{\\sqrt{R^2 + X_C^2}}$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트115_p001_q44",
+    "image_path": "images/ElectricExam2019_파트115/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      293,
+      625,
+      414,
+      827
+    ],
+    "question_no": 44,
+    "question_text": "그림과 같은 $R-C$ 병렬 회로에서 역률은?",
+    "round": null,
+    "source": "ElectricExam2019_파트115",
+    "suggested_bbox": {
+      "h": 244,
+      "w": 290,
+      "x": 896,
+      "y": 594
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 45,
+    "question_text": "수·변전 설비에서 계기용 변류기(CT)의 설치 목적은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 2,
+    "explanation": "계기용 변류기(CT) : 대전류를 소전류($5[A]$)로 변성하여 측정 계기나 전기의 전류원으로 사용하기 위한 전류 변성기",
+    "level": "중",
+    "source": "ElectricExam2019_파트115",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트115/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트115_p001_q45"
+  }
+]

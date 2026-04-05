@@ -1,0 +1,139 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "UPS란 무엇인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "정전 시 무정전 직류 전원 장치",
+      "2": "상시 교류 전원 장치",
+      "3": "무정전 교류 전원 공급 장치",
+      "4": "상시 직류 전원 장치"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "무정전 교류 전원 공급 장치(UPS : Uninterruptible Power Supply) : 선로에서 정전이나 순간 전압 강하 또는 입력 전원의 이상 상태 발생 시 부하에 대한 교류 입력 전원의 연속성을 확보할 수 있는 무정전 교류 전원 공급 장치이다.",
+    "has_explanation_image": false,
+    "level": "하",
+    "source": "ElectricExam2019_파트001",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트001/page_001_full.png",
+    "image_regions": [
+      {
+        "type": "question",
+        "x": 291,
+        "y": 549,
+        "w": 37,
+        "h": 23
+      },
+      {
+        "type": "question",
+        "x": 375,
+        "y": 454,
+        "w": 11,
+        "h": 81
+      },
+      {
+        "type": "question",
+        "x": 240,
+        "y": 446,
+        "w": 29,
+        "h": 116
+      }
+    ],
+    "id": "ElectricExam2019_파트001_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "공심 솔레노이드 내부의 자기장의 세기가 $100[AT/m]$일 때 자속 밀도의 세기$[Wb/m^2]$는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$2\\pi \\times 10^{-5}$",
+      "2": "$4\\pi \\times 10^{-5}$",
+      "3": "$2\\pi \\times 10^{-3}$",
+      "4": "$4\\pi \\times 10^{-1}$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "자속 밀도 $B = \\mu_0 H = 4\\pi \\times 10^{-7} \\times 100 = 4\\pi \\times 10^{-5}[Wb/m^2]$",
+    "has_explanation_image": false,
+    "level": "중",
+    "source": "ElectricExam2019_파트001",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트001/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트001_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "한국전기설비규정에 의하면 옥외 백열전등의 인하선으로서 지표상의 높이 $2.5[m]$ 미만인 부분은 전선에 공칭 단면적 몇 $[mm^2]$ 이상의 연동선과 동등 이상의 세기 및 굵기의 절연 전선(옥외용 비닐 절연 전선을 제외)을 사용하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$0.75$",
+      "2": "$1.5$",
+      "3": "$2.5$",
+      "4": "$2.0$"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "",
+    "has_explanation_image": false,
+    "level": "중",
+    "source": "ElectricExam2019_파트001",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트001/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트001_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "전압계 및 전류계의 측정 범위를 넓히기 위하여 사용하는 배율기와 분류기의 접속 방법은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "배율기는 전압계와 병렬 접속, 분류기는 전류계와 직렬 접속",
+      "2": "배율기는 전압계와 직렬 접속, 분류기는 전류계와 병렬 접속",
+      "3": "배율기 및 분류기 모두 전압계와 전류계에 직렬 접속",
+      "4": "배율기 및 분류기 모두 전압계와 전류계에 병렬 접속"
+    },
+    "has_choice_image": false,
+    "answer": null,
+    "explanation": "배율기는 전압계와 직렬로 접속, 분류기는 전류계와 병렬로 접속한다.",
+    "has_explanation_image": false,
+    "level": "중",
+    "source": "ElectricExam2019_파트001",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트001/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트001_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "$450/750[V]$ 일반용 단심 비닐 절연 전선의 약호는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "NRI",
+      "2": "NF",
+      "3": "NFI",
+      "4": "NR"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "전선의 약호\n• NR : $450/750[V]$ 일반용 단심 비닐 절연 전선\n• NRI : 기기 배선용 단심 비닐 절연 전선\n• NF : 일반용 유연성 단심 비닐 절연 전선\n• NFI : 기기 배선용 유연성 단심 비닐 절연 전선",
+    "has_explanation_image": false,
+    "level": "하",
+    "source": "ElectricExam2019_파트001",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트001/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트001_p001_q05"
+  }
+]

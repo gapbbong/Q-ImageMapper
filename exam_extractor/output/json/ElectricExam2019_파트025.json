@@ -1,0 +1,156 @@
+[
+  {
+    "question_no": 27,
+    "question_text": "유도 전동기가 회전하고 있을 때 생기는 손실 중에서 구리손이란?",
+    "has_question_image": false,
+    "choices": {
+      "1": "브러시의 마찰손",
+      "2": "베어링의 마찰손",
+      "3": "표유 부하손",
+      "4": "1차, 2차 권선의 저항손"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "구리손(동손)은 저항에 의해서 발생하는 손실로 1차, 2차 권선의 저항에 의해 발생한다.\n2차 동손 $P_{c2} = sP_2 = \\frac{s}{1-s}P_o[W]$\n여기서, $P_2$: 2차 입력\n$P_o$: 출력\n$s$: 슬립(slip)",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트025",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트025/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트025_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "3상 변압기의 병렬 운전 시 병렬 운전이 불가능한 결선 조합은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$\\Delta-\\Delta$와 $Y-Y$",
+      "2": "$\\Delta-\\Delta$와 $\\Delta-Y$",
+      "3": "$\\Delta-Y$와 $\\Delta-Y$",
+      "4": "$\\Delta-\\Delta$와 $\\Delta-\\Delta$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "병렬 운전이 가능한 조합\n병렬 운전 가능:\n$\\Delta-\\Delta$와 $\\Delta-\\Delta$\n$Y-Y$와 $Y-Y$\n$Y-\\Delta$와 $Y-\\Delta$\n$\\Delta-Y$와 $\\Delta-Y$\n$\\Delta-\\Delta$와 $Y-Y$\n$V-V$와 $V-V$\n\n병렬 운전 불가능:\n$\\Delta-\\Delta$와 $\\Delta-Y$\n$Y-Y$와 $\\Delta-Y$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트025",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트025/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트025_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "직류기의 주요 구성 요소에서 자속을 만드는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "정류자",
+      "2": "계자",
+      "3": "회전자",
+      "4": "전기자"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "계자는 자속을 만드는 도체이다.\n* 전기자: 계자에서 발생된 자속을 끊어 기전력을 유도시키는 도체\n* 정류자: 교류를 직류로 바꿔 주는 도체",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트025",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트025/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트025_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "변압기 결선에서 Y-Y 결선 특징이 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "제3고조파 포함",
+      "2": "중성점 접지 가능",
+      "3": "V-V 결선 가능",
+      "4": "절연 용이"
+    },
+    "has_choice_image": false,
+    "answer": null,
+    "explanation": "Y-Y 결선은 중성점 접지가 가능하여 절연이 용이하지만 중성점 접지 시 접지선을 통해 제3고조파 전류가 흐를 수 있으므로 인접 통신선에 유도 장해가 발생하는 단점이 있다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트025",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트025/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트025_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "두 금속을 접합하여 이 접합점에 전류를 흘려주면 줄열 외에 그 접점에서 열의 발생 또는 흡수가 발생하는 현상을 무슨 효과라 하는가?",
+    "has_question_image": true,
+    "choices": {
+      "1": "줄효과",
+      "2": "홀효과",
+      "3": "제베크 효과",
+      "4": "펠티에 효과"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "펠티에 효과 : 두 금속을 접합하여 접합점에 전류를 흘려주면 열의 발생 또는 흡수가 발생하는 현상",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트025",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트025/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트025_p001_q31",
+    "suggested_bbox": {
+      "x": 173,
+      "y": 1099,
+      "w": 497,
+      "h": 301,
+      "source": "plus_logic"
+    }
+  },
+  {
+    "question_no": 32,
+    "question_text": "도체계에서 임의의 도체를 일정 전위(일반적으로 영전위)의 도체로 완전 포위하면 내부와 외부의 전계를 완전히 차단할 수 있는데 이를 무엇이라 하는가?",
+    "has_question_image": true,
+    "choices": {
+      "1": "핀치 효과",
+      "2": "톰슨 효과",
+      "3": "정전 차폐",
+      "4": "자기 차폐"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "정전 차폐 : 도체가 정전 유도되지 않도록 도체 바깥을 포위하여 접지하는 것을 정전 차폐라 하며 완전 차폐가 가능하다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트025",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트025/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트025_p001_q32",
+    "suggested_bbox": {
+      "x": 797,
+      "y": 493,
+      "w": 151,
+      "h": 69,
+      "source": "plus_logic"
+    }
+  },
+  {
+    "question_no": 33,
+    "question_text": "$16[mm]$ 합성 수지 전선관을 직각 구부리기 할 경우 곡률 반지름은 몇 $[mm]$인가? (단, $16[mm]$ 합성 수지관의 안지름은 $18[mm]$, 바깥지름은 $22[mm]$이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "119",
+      "2": "132",
+      "3": "187",
+      "4": "220"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트025",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트025/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트025_p001_q33"
+  }
+]

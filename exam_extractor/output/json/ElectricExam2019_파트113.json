@@ -1,0 +1,176 @@
+[
+  {
+    "question_no": 27,
+    "question_text": "KEC(한국전기설비규정)에 의한 저압 가공 전선의 굵기 및 종류에 대한 설명 중 틀린 것은?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      463,
+      224,
+      574,
+      828
+    ],
+    "choices": {
+      "1": "사용 전압이 $400[V]$ 초과인 저압 가공 전선에는 인입용 비닐 절연 전선을 사용한다.",
+      "2": "저압 가공 전선에 사용하는 나전선은 중성선 또는 다중 접지된 접지측 전선으로 사용하는 전선에 한한다.",
+      "3": "사용 전압이 $400[V]$ 이하인 저압 가공 전선은 지름 $2.6[mm]$ 이상의 경동선이어야 한다.",
+      "4": "사용 전압이 $400[V]$ 초과인 저압 가공 전선으로 시가지 외에 시설하는 것은 $4.0[mm]$ 이상의 경동선이어야 한다."
+    },
+    "answer": 1,
+    "explanation": "해설 전압별 가공 전선의 굵기\n- $400[V]$ 이하: 절연 전선 : $2.6[mm]$ 이상 경동선, 나전선 : $3.2[mm]$ 이상 경동선\n- $400[V]$ 초과: 시가지 내 : $5.0[mm]$ 이상 경동선, 시가지 외 : $4.0[mm]$ 이상 경동선\n- 특고압: $25[mm^2]$ 이상 경동 연선",
+    "level": "중",
+    "source": "ElectricExam2019_파트113",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트113/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트113_p001_q27",
+    "suggested_bbox": {
+      "x": 176,
+      "y": 936,
+      "w": 475,
+      "h": 224
+    }
+  },
+  {
+    "question_no": 28,
+    "question_text": "인입용 비닐 절연 전선을 나타내는 약호는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "OW",
+      "2": "NR",
+      "3": "DV",
+      "4": "NV"
+    },
+    "answer": 3,
+    "explanation": "해설 전선의 약호\n• OW : 옥외용 비닐 절연 전선\n• NR : $450/750[V]$ 일반용 단심 비닐 절연 전선\n• NV : 클로로프렌 절연 비닐 외장 케이블",
+    "level": "하",
+    "source": "ElectricExam2019_파트113",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트113/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트113_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "전기 저항이 작고, 부드러운 성질이 있어 구부리기가 용이하므로 주로 옥내 배선에 사용하는 구리선의 명칭은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "경동선",
+      "2": "연동선",
+      "3": "합성 연선",
+      "4": "중공 연선"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트113",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트113/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트113_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "다음 중 동기 전동기의 안정도 증진법으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "해설 안정도 향상 대책\n• 단락비를 크게 한다.\n• 동기 임피던스를 감소시킨다.\n• 속응 여자 방식을 채용한다.\n• 조속기 성능을 개선시킨다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트113",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트113/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트113_p001_q30"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "explanation": "해설 휘트스톤 브리지 회로의 평형 조건\n$P \\cdot R = Q \\cdot X$\n$\\therefore X = \\frac{P}{Q} R$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트113_p001_q31",
+    "image_path": "images/ElectricExam2019_파트113/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      490,
+      741,
+      620,
+      895
+    ],
+    "question_no": 31,
+    "question_text": "그림의 휘트스톤 브리지의 평형 조건은?",
+    "round": null,
+    "source": "ElectricExam2019_파트113",
+    "suggested_bbox": {
+      "h": 263,
+      "w": 220,
+      "x": 1062,
+      "y": 991
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 32,
+    "question_text": "전원과 부하가 다같이 Y결선된 3상 평형 회로가 있다. 상전압이 $200[V]$, 부하 임피던스가 $\\dot{Z} = 8 + j6[\\Omega]$인 경우 상전류는 몇 $[A]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "20",
+      "2": "$\\frac{20}{\\sqrt{3}}$",
+      "3": "$20\\sqrt{3}$",
+      "4": "$10\\sqrt{3}$"
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트113",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트113/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트113_p001_q32"
+  }
+]

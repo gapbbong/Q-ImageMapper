@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 18,
+    "question_text": "단상 전파 사이리스터 정류 회로에서 부하가 저항만 있는 경우 점호각이 $60^{\\circ}$일 때의 정류 전압은 몇 $[V]$인가? (단, 전원측 전압의 실효값은 $100[V]$이고, 직류측 전류는 연속이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "97.7",
+      "2": "86.4",
+      "3": "75.5",
+      "4": "67.5"
+    },
+    "answer": 4,
+    "explanation": "단상 전파 사이리스터 정류 회로의 직류 전압\n$E_d = \\frac{2\\sqrt{2}}{\\pi} E \\left( \\frac{1 + \\cos \\alpha}{2} \\right) = 0.9E \\left( \\frac{1 + \\cos \\alpha}{2} \\right) [V]$\n$E_d = 0.9 \\times 100 \\times \\left( \\frac{1 + \\cos 60^{\\circ}}{2} \\right) = 67.5 [V]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트103",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트103/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트103_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "자기 저항의 단위는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$Wb/AT$",
+      "2": "$AT/m$",
+      "3": "$\\Omega/AT$",
+      "4": "$AT/Wb$"
+    },
+    "answer": 4,
+    "explanation": "자기 저항 $R_m = \\frac{NI}{\\phi} [AT/Wb]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트103",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트103/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트103_p001_q19"
+  },
+  {
+    "question_no": 20,
+    "question_text": "두 금속을 접속하여 여기에 전류를 흘리면, 줄열 외에 그 접점에서 열의 발생 또는 흡수가 일어나는 현상은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "펠티에 효과",
+      "2": "홀 효과",
+      "3": "제베크 효과",
+      "4": "줄 효과"
+    },
+    "answer": 1,
+    "explanation": "펠티에 효과 : 두 금속을 접합하여 접합점에 전류를 흘려주면 열의 발생 또는 흡수가 발생하는 현상",
+    "level": "하",
+    "source": "ElectricExam2019_파트103",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트103/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트103_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "DV 전선의 명칭은 무엇인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "인입용 비닐 절연 전선",
+      "2": "비닐 절연 전선",
+      "3": "단심 비닐 절연 전선",
+      "4": "옥외용 비닐 절연 전선"
+    },
+    "answer": 1,
+    "explanation": "DV : 인입용 비닐 절연 전선",
+    "level": "하",
+    "source": "ElectricExam2019_파트103",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트103/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트103_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "한국전기설비규정에 의한 화약류 저장소에서 백열전등이나 형광등 또는 이들에 전기를 공급하기 위한 전기 설비를 시설하는 경우 전로의 대지 전압은 몇 $[V]$ 이하인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "화약류 저장소 시설 규정\n• 금속관, 케이블 공사\n• 대지 전압 $300[V]$ 이하",
+    "level": "중",
+    "source": "ElectricExam2019_파트103",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트103/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트103_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "변압기유가 구비해야 할 조건으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 2,
+    "explanation": "변압기 절연유의 구비 조건\n• 절연 내력이 클 것\n• 인화점이 높을 것\n• 응고점이 낮을 것\n• 고온에도 산화되지 않을 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트103",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트103/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트103_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "전력용 콘덴서를 회로로부터 개방하였을 때 전하가 잔류함으로써 일어나는 위험의 방지와 재투입할 때 콘덴서에 걸리는 과전압의 방지를 위하여 무엇을 설치하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "잔류 전하를 방전시키기 위해 방전 코일을 설치한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트103",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트103/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트103_p001_q24"
+  },
+  {
+    "question_no": 25,
+    "question_text": "전류를 계속 흐르게 하려면 전압을 연속적으로 만들어주는 어떤 힘이 필요하게 되는데, 이 힘을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트103",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트103/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트103_p001_q25"
+  }
+]

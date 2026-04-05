@@ -1,0 +1,197 @@
+[
+  {
+    "question_no": 53,
+    "question_text": "전류에 의해 만들어지는 자기장의 방향을 알기 쉽게 정의한 법칙은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "앙페르의 오른 나사 법칙",
+      "2": "플레밍의 왼손 법칙",
+      "3": "렌츠의 자기 유도 법칙",
+      "4": "패러데이의 전자 유도 법칙"
+    },
+    "answer": 1,
+    "explanation": "앙페르의 오른 나사 법칙 : 전류에 의한 자기장 (자기력선)의 방향을 알기 쉽게 정의한 법칙",
+    "level": "하",
+    "source": "ElectricExam2019_파트068",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트068/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트068_p001_q53"
+  },
+  {
+    "question_no": 54,
+    "question_text": "농형 유도 전동기의 기동법이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "Y- $\\Delta$ 기동법",
+      "2": "2차 저항 기동법",
+      "3": "기동 보상기법",
+      "4": "전전압 기동법"
+    },
+    "answer": 2,
+    "explanation": "• 농형 유도 전동기의 기동법\n- 전전압 기동법\n- Y- $\\Delta$ 기동법\n- 리액터 기동법\n- 1차 저항 기동법\n- 기동 보상기법\n• 권선형 유도 전동기의 기동법 : 2차 저항 기동법(기동 저항기법)",
+    "level": "중",
+    "source": "ElectricExam2019_파트068",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트068/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트068_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "수전 방식 중 3상 4선식은 부득이한 경우 설비 불평형률은 몇 $[%]$ 이내로 유지해야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "10",
+      "2": "20",
+      "3": "30",
+      "4": "40"
+    },
+    "answer": 3,
+    "explanation": "3상 3선식, 4선식의 각 전압측 전선 간의 부하 평형이 되게 하는 것을 원칙으로 하지만, 부득이한 경우 발생하는 설비 불평형률은 $30 [\\%]$ 까지 할 수 있다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트068",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트068/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트068_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "동기 속도 $1,800 [rpm]$, 주파수 $60 [Hz]$인 동기 발전기의 극수는 몇 극인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2",
+      "2": "4",
+      "3": "8",
+      "4": "10"
+    },
+    "answer": 2,
+    "explanation": "동기 속도 $N_s = \\frac{120f}{P} [rpm]$\n$P = \\frac{120f}{N_s} = \\frac{120 \\times 60}{1800} = \\frac{7200}{1800} = 4$",
+    "level": "중",
+    "source": "ElectricExam2019_파트068",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트068/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트068_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "두 개의 막대기와 눈금계, 저항, 도선을 연결하여 절환 스위치를 이용해 검류계의 지시값을 “0”으로 하여 접지 저항을 측정하는 방법은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "콜라우슈 브리지",
+      "2": "켈빈 더블 브리지법",
+      "3": "접지 저항계",
+      "4": "휘트스톤 브리지"
+    },
+    "answer": 4,
+    "explanation": "휘트스톤 브리지는 검류계의 지시값을 “0”으로 하여 접지 저항을 측정하는 방법으로서, 지중 전선로의 고장점 검출 시 사용한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트068",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트068/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트068_p001_q57"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "㉠ 직선 접속, ㉡ 분기 접속",
+      "2": "㉠ 직선 접속, ㉡ 종단 접속",
+      "3": "㉠ 분기 접속, ㉡ 슬리브에 의한 접속",
+      "4": "㉠ 종단 접속, ㉡ 직선 접속"
+    },
+    "explanation": "단선의 트위스트 직선 접속\n단선의 트위스트 분기 접속",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트068_p001_q58",
+    "image_path": "images/ElectricExam2019_파트068/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      450,
+      574,
+      640,
+      923
+    ],
+    "question_no": 58,
+    "question_text": "다음 그림과 같은 전선의 접속법은?",
+    "round": null,
+    "source": "ElectricExam2019_파트068",
+    "suggested_bbox": {
+      "h": 384,
+      "w": 500,
+      "x": 823,
+      "y": 910
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 59,
+    "question_text": "비정현파를 여러 개의 정현파의 합으로 표시하는 식을 정의한 사람은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "푸리에(Fourier)",
+      "2": "테브난(Thevenin)",
+      "3": "노튼(Norton)",
+      "4": "패러데이(Faraday)"
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트068",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트068/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트068_p001_q59"
+  }
+]

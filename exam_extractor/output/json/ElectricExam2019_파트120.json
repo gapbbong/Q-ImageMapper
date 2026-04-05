@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 4,
+    "question_text": "한국전기설비규정에 의한 중성점 접지용 접지 도체는 공칭 단면적 몇 $[mm^2]$ 이상의 연동선을 사용하여야 하는가? (단, $25[kV]$ 이하인 중성선 다중 접지식으로서 전로에 지락 발생 시 2초 이내에 자동적으로 이를 전로로부터 차단하는 장치가 되어 있는 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "16",
+      "2": "6",
+      "3": "2.5",
+      "4": "10"
+    },
+    "answer": 2,
+    "explanation": "중성점 접지용 접지 도체는 공칭 단면적 $16[mm^2]$ 이상의 연동선을 사용하여야 한다. 단, $25[kV]$ 이하인 중성선 다중 접지식으로서 전로에 지락 발생 시 2초 이내에 자동적으로 이를 전로로부터 차단하는 장치가 되어 있는 경우는 $6[mm^2]$를 사용하여도 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트120",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트120/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트120_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "한국전기설비규정에 의하면 정격 전류가 $30[A]$인 저압 전로에 $39[A]$의 전류가 흐를 때 배선용(산업용) 차단기로 사용하는 경우 몇 분 이내에 자동적으로 동작하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "120",
+      "2": "60",
+      "3": "2",
+      "4": "4"
+    },
+    "answer": 2,
+    "explanation": "과전류 차단기로 저압 전로에 사용하는 $63[A]$ 이하의 산업용 배선용 차단기는 정격 전류의 $1.3$배 전류가 흐를 때 60분 내에 자동으로 동작하여야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트120",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트120/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트120_p001_q05"
+  },
+  {
+    "question_no": 6,
+    "question_text": "전주 외등을 전주에 부착하는 경우 전주 외등은 하단으로부터 몇 $[m]$ 이상 높이에 시설하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "3.0",
+      "2": "3.5",
+      "3": "4.0",
+      "4": "4.5"
+    },
+    "answer": 4,
+    "explanation": "전주 외등 : 대지 전압 $300[V]$ 이하 백열전등이나 수은등을 배전 선로의 지지물 등에 시설하는 등\n• 기구 부착 높이 : 하단에서 지표상 $4.5[m]$ 이상(단, 교통 지장이 없을 경우 $3.0[m]$ 이상)\n• 돌출 수평 거리 : $1.0[m]$ 이상",
+    "level": "하",
+    "source": "ElectricExam2019_파트120",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트120/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트120_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "특고압 수변전 설비 약호가 잘못된 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "LF - 전력 퓨즈",
+      "2": "DS - 단로기",
+      "3": "LA - 피뢰기",
+      "4": "CB - 차단기"
+    },
+    "answer": 1,
+    "explanation": "전력 퓨즈 약호 : PF",
+    "level": "하",
+    "source": "ElectricExam2019_파트120",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트120/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트120_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "실효값 $20[A]$, 주파수 $f = 60[Hz]$, $0^{\\circ}$인 전류의 순시값 $i[A]$를 수식으로 옳게 표현한 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$i = 20 \\sin(60\\pi t)$",
+      "2": "$i = 20\\sqrt{2} \\sin(120\\pi t)$",
+      "3": "$i = 20 \\sin(120\\pi t)$",
+      "4": "$i = 20\\sqrt{2} \\sin(60\\pi t)$"
+    },
+    "answer": 2,
+    "explanation": "순시값 전류 $i(t) = \\text{실효값} \\times \\sqrt{2} \\sin(2\\pi ft + \\theta) = 20\\sqrt{2} \\sin(120\\pi t) [A]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트120",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트120/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트120_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "전압 $200[V]$이고 $C_1 = 10[\\mu F]$와 $C_2 = 5[\\mu F]$인 콘덴서를 병렬로 접속하면 $C_2$에 분배되는 전하량은 몇 $[\\mu C]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "2,000",
+      "3": "500",
+      "4": "1,000"
+    },
+    "answer": 4,
+    "explanation": "$C_2$에 축적되는 전하량 $Q_2 = C_2 V = 5 \\times 200 = 1,000[\\mu C]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트120",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트120/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트120_p001_q09"
+  }
+]

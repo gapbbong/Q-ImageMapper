@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 6,
+    "question_text": "$i = 200\\sqrt{2} \\sin\\left(\\omega t + \\frac{\\pi}{2}\\right)$[A]를 복소수로 표시하면?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "200",
+      "2": "$j200$",
+      "3": "$200 \\times j200$",
+      "4": "$200\\sqrt{2} \\times j200\\sqrt{2}$"
+    },
+    "answer": 2,
+    "explanation": "전류 $i = 200\\angle\\frac{\\pi}{2} = 200\\left(\\cos\\frac{\\pi}{2} + j\\sin\\frac{\\pi}{2}\\right) = 200(0+j) = j200$[A]",
+    "level": "중",
+    "source": "ElectricExam2019_파트002",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트002/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트002_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "전선의 전기 저항 처음 값을 $R_1$이라 하고 이 전선의 반지름을 2배로 하면 전기 저항 $R$은 처음 값의 얼마이겠는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$4R_1$",
+      "2": "$2R_1$",
+      "3": "$\\frac{1}{2}R_1$",
+      "4": "$\\frac{1}{4}R_1$"
+    },
+    "answer": 4,
+    "explanation": "전기 저항 $R = \\rho\\frac{l}{A} = \\rho\\frac{l}{\\pi r^2}$[$\\Omega$]이므로 반지름이 2배 증가하면 단면적은 $r^2 = 4$배 증가하므로 단면적에 반비례하는 전기 저항은 $\\frac{1}{4}$로 감소한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트002",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트002/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트002_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "지선의 안전율은 2.5 이상으로 하여야 한다. 이 경우 허용 최저 인장 하중[kN]은 얼마 이상으로 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "4.31",
+      "2": "6.8",
+      "3": "9.8",
+      "4": "0.68"
+    },
+    "answer": 1,
+    "explanation": "지선의 시설 규정\\n* 안전율은 2.5 이상일 것\\n* 지선의 허용 인장 하중은 4.31[kN] 이상일 것\\n* 소선 3가닥 이상의 아연 도금 연선일 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트002",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트002/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트002_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "코드 상호, 캡타이어 케이블 상호 접속 시 사용해야 하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "와이어 커넥터",
+      "2": "케이블 타이",
+      "3": "코드 접속기",
+      "4": "테이블 탭"
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트002",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트002/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트002_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "100[$\\mu$F]의 콘덴서에 1,000[V]의 전압을 가하여 충전한 뒤 저항을 통하여 방전시키는 에너지[J]는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "25",
+      "2": "50",
+      "3": "100",
+      "4": "10"
+    },
+    "answer": 2,
+    "explanation": "해설 $W=\\frac{1}{2}CV^2 = \\frac{1}{2} \\times 100 \\times 10^{-6} \\times 1,000^2 = 50[J]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트002",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트002/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트002_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "한국전기설비규정에 의하여 애자 사용 공사를 건조한 장소에 시설하고자 한다. 사용 전압이 400[V] 초과인 경우 전선과 조영재 사이의 이격 거리는 최소 몇 [cm] 이상이어야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2.5",
+      "2": "4.5",
+      "3": "6.0",
+      "4": "8.0"
+    },
+    "answer": 1,
+    "explanation": "해설 애자 사용 공사 시 전선과 조영재 간 이격 거리\n\n*   400[V] 이하 : 2.5[cm] 이상\n*   400[V] 초과 : 4.5[cm] 이상(단, 건조한 장소는 2.5[cm] 이상)",
+    "level": "중",
+    "source": "ElectricExam2019_파트002",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트002/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트002_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "자체 인덕턴스 4[H]의 코일에 18[J]의 에너지가 저장되어 있다. 이때, 코일에 흐르는 전류는 몇 [A]인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "6"
+    },
+    "answer": 3,
+    "explanation": "해설 에너지 $W=\\frac{1}{2}LI^2[J]$에서 전류 $I=\\sqrt{\\frac{2W}{L}} = \\sqrt{\\frac{2 \\times 18}{4}} = 3[A]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트002",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트002/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트002_p001_q12"
+  }
+]

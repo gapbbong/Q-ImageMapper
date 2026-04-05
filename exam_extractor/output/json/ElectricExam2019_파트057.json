@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 44,
+    "question_text": "두 자극의 세기가 $m_1$, $m_2$ [Wb], 거리가 $r$ [m]인 작용하는 자기력의 크기[N]는 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$k \\frac{m_1 \\cdot m_2}{r}$",
+      "2": "$k \\frac{r}{m_1 \\cdot m_2}$",
+      "3": "$k \\frac{m_1 \\cdot m_2}{r^2}$",
+      "4": "$k \\frac{r^2}{m_1 \\cdot m_2}$"
+    },
+    "answer": 3,
+    "explanation": "쿨롱의 법칙 : 두 자극 사이에 작용하는 자기력의 크기는 양 자극의 세기의 곱에 비례하며, 자극 간의 거리의 제곱에 반비례한다. 쿨롱의 법칙 $F=k \\frac{m_1 \\cdot m_2}{r^2} = \\frac{m_1 \\cdot m_2}{4\\pi\\mu_0 r^2}$ [N]",
+    "level": "중",
+    "source": "ElectricExam2019_파트057",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트057/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트057_p001_q44"
+  },
+  {
+    "question_no": 45,
+    "question_text": "전류를 계속 흐르게 하려면 전압을 연속적으로 만들어주는 어떤 힘이 필요하게 되는데, 이 힘을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자기력",
+      "2": "기전력",
+      "3": "전자기력",
+      "4": "전기장"
+    },
+    "answer": 2,
+    "explanation": "전기 회로에서 전위차를 일정하게 유지시켜 전류가 연속적으로 흐를 수 있도록 하는 힘을 기전력이라 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트057",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트057/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트057_p001_q45"
+  },
+  {
+    "question_no": 46,
+    "question_text": "권선형 유도 전동기 기동 시 회전자측에 저항을 넣는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기동 전류를 감소시키기 위해",
+      "2": "기동 토크를 감소시키기 위해",
+      "3": "회전수를 감소시키기 위해",
+      "4": "기동 전류를 증가시키기 위해"
+    },
+    "answer": 1,
+    "explanation": "권선형 유도 전동기의 외부 저항을 접속하면 기동 전류는 감소하고 기동 토크는 증가하며 역률은 개선된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트057",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트057/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트057_p001_q46"
+  },
+  {
+    "question_no": 47,
+    "question_text": "부흐홀츠 계전기의 설치 위치로 가장 적당한 곳은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "변압기 주탱크 내부",
+      "2": "변압기 주탱크와 콘서베이터 사이",
+      "3": "변압기 고압측 부싱",
+      "4": "콘서베이터 내부"
+    },
+    "answer": null,
+    "explanation": "변압기 내부 고장으로 인한 온도 상승 시 유증기를 검출하여 동작하는 계전기로서, 변압기와 콘서베이터를 연결하는 파이프 도중에 설치한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트057",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트057/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트057_p001_q47"
+  },
+  {
+    "question_no": 48,
+    "question_text": "3상 전파 정류 회로에서 출력 전압의 평균 전압값은? (단, $V$는 선간 전압의 실효값이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$0.45\\,V$",
+      "2": "$0.9\\,V$",
+      "3": "$1.17\\,V$",
+      "4": "$1.35\\,V$"
+    },
+    "answer": 4,
+    "explanation": "정류기의 직류 전압(평균값)의 크기\n*   단상 반파 정류분 $E_d = 0.45\\,V$\n*   단상 전파 정류분 $E_d = 0.9\\,V$\n*   3상 반파 정류분 $E_d = 1.17\\,V$\n*   3상 전파 정류분 $E_d = 1.35\\,V$",
+    "level": "중",
+    "source": "ElectricExam2019_파트057",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트057/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트057_p001_q48"
+  },
+  {
+    "question_no": 49,
+    "question_text": "다음 [보기] 중 금속관, 케이블, 합성수지관, 애자 사용 공사가 모두 가능한 특수 장소를 옳게 나열한 것은?\n\n㉠ 화약류 등의 위험 장소\n㉡ 부식성 가스가 있는 장소\n㉢ 위험물 등이 존재하는 장소\n㉣ 불연성 먼지가 많은 장소\n㉤ 습기가 많은 장소",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "㉠, ㉡, ㉢, ㉣",
+      "2": "㉠, ㉡, ㉢",
+      "3": "㉡, ㉣, ㉤",
+      "4": "㉡, ㉢, ㉣"
+    },
+    "answer": 3,
+    "explanation": "금속관, 케이블 공사는 어느 장소든 모두 가능하지만 합성 수지관은 ㉠ 공사가 불가능하고, 애자 사용 공사는 ㉠, ㉢ 공사가 불가능하므로 모두 가능한 특수 장소는 ㉡, ㉣, ㉤이 된다.",
+    "level": "상",
+    "source": "ElectricExam2019_파트057",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트057/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트057_p001_q49"
+  }
+]

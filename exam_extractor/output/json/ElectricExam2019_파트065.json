@@ -1,0 +1,83 @@
+[
+  {
+    "question_no": 36,
+    "question_text": "양방향으로 전류를 흘릴 수 있는 양방향 소자는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "GTO",
+      "2": "MOSFET",
+      "3": "TRIAC",
+      "4": "SCR"
+    },
+    "answer": 3,
+    "explanation": "양방향성 사이리스터 : SSS, TRIAC, DIAC",
+    "level": "하",
+    "source": "ElectricExam2019_파트065",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트065/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트065_p001_q36"
+  },
+  {
+    "question_no": 37,
+    "question_text": "3상 권선형 유도 전동기의 전부하 슬립이 $4[\\%]$인 경우 외부 저항은 2차 저항값의 몇 배인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "4",
+      "2": "20",
+      "3": "24",
+      "4": "25"
+    },
+    "answer": 3,
+    "explanation": "외부 저항 $R = \\frac{1-s}{s}r_2 = \\frac{1-0.04}{0.04} \\times r_2 = 24r_2[\\Omega]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트065",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트065/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트065_p001_q37"
+  },
+  {
+    "question_no": 38,
+    "question_text": "$100[kVA]$의 단상 변압기 2대를 사용하여 V-V 결선으로 하고 3상 전원을 얻고자 한다. 이때, 여기에 접속시킬 수 있는 3상 부하의 용량은 약 몇 $[kVA]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$100\\sqrt{3}$",
+      "2": "100",
+      "3": "200",
+      "4": "$200\\sqrt{3}$"
+    },
+    "answer": 1,
+    "explanation": "V결선 용량 $P_V = \\sqrt{3} P_1 = \\sqrt{3} \\times 100 = 100\\sqrt{3} [kVA]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트065",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트065/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트065_p001_q38"
+  }
+]

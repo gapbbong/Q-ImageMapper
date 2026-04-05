@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 41,
+    "question_text": "동기 발전기의 병렬 운전 중 기전력의 위상차가 발생하면 어떤 현상이 나타나는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "무효 횡류",
+      "2": "유효 순환 전류",
+      "3": "무효 순환 전류",
+      "4": "고조파 전류"
+    },
+    "answer": 2,
+    "explanation": "동기 발전기 병렬 운전 조건 중 기전력의 크기가 같고 위상차가 존재할 때는 유효 순환 전류(동기 화 전류)가 흘러 동기 화력에 의해 위상이 일치된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트007",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트007/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트007_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "조명용 전등을 호텔 또는 여관 객실 입구에 설치할 경우 최대 몇 분 이내에 소등되는 타임 스위치를 시설하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4"
+    },
+    "answer": 1,
+    "explanation": "타임 스위치 소등 시간\n* 일반 주택 및 아파트 : 3분 이내 소등\n* 숙박 업소 각 호실 : 1분 이내 소등",
+    "level": "중",
+    "source": "ElectricExam2019_파트007",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트007/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트007_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "가정용 전기 세탁기를 욕실에 설치하는 경우 콘센트의 규격은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "접지극부 3극 $15[A]$",
+      "2": "3극 $15[A]$",
+      "3": "접지극부 2극 $15[A]$",
+      "4": "2극 $15[A]$"
+    },
+    "answer": 3,
+    "explanation": "욕조나 샤워 시설이 있는 욕실 또는 화장실 등 인체가 물에 젖어 있는 상태에서 전기를 사용하는 장소에 콘센트를 시설하는 경우에는 다음에 따라 시설하여야 한다.\n* 인체 감전 보호용 누전 차단기(정격 감도 전류 $15[mA]$ 이하, 동작 시간 $0.03$초 이하의 전류 동작형)를 전로에 접속하거나, 그것이 부착된 콘센트를 시설하여야 한다.\n* 콘센트는 접지극이 있는 2극 $15[A]$ 방수형 콘센트를 사용하여 접지하여야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트007",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트007/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트007_p001_q43"
+  },
+  {
+    "question_no": 44,
+    "question_text": "캡타이어 케이블을 공사하는 경우 지지점을 지지하는 공사 방법으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "캡타이어 케이블을 조영재에 따라 시설하는 경우는 그 지지점 간의 거리는 $1.0[m]$ 이하로 한다.",
+      "2": "서까래와 서까래의 사이에 캡타이어 케이블을 시설하는 경우 지지점 간격은 $1.2[m]$ 이하로 해야 한다.",
+      "3": "은폐 배선에 있어 부득이한 경우는 지지하지 않아도 된다.",
+      "4": "캡타이어 케이블 상호 및 캡타이어 케이블과 박스, 기구와의 접속 개소와 지지점 간의 거리는 $0.15[m]$로 하는 것이 바람직하다."
+    },
+    "answer": null,
+    "explanation": "서까래와 서까래의 사이에 간격이 $1.0[m]$를 초과하는 곳에 캡타이어 케이블을 시설하는 경우 판자를 가로질러 이 판을 고정하거나 캡타이어 케이블을 메신저 와이어에 의해 조가하여야 한다. 메신저 와이어(조가용선)는 가공 케이블을 매달아 지지할 때 사용하는 것이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트007",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트007/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트007_p001_q44"
+  },
+  {
+    "question_no": 45,
+    "question_text": "동기 발전기에서 전기자 전류가 유도 기전력보다 $90^{\\circ}$ 뒤진 전류가 흐르는 경우 나타나는 전기자 반작용은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "증자 작용",
+      "2": "감자 작용",
+      "3": "교차 자화 작용",
+      "4": "직축 반작용"
+    },
+    "answer": 2,
+    "explanation": "발전기의 전기자 반작용\n*   동상 전류 : 교차 자화 작용\n*   뒤진 전류 : 감자 작용\n*   앞선 전류 : 증자 작용",
+    "level": "중",
+    "source": "ElectricExam2019_파트007",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트007/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트007_p001_q45"
+  },
+  {
+    "question_no": 46,
+    "question_text": "고압 가공 인입선이 도로를 횡단하는 경우 노면상 시설하여야 할 높이는 몇 $[m]$ 이상인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "8.5",
+      "2": "5",
+      "3": "6",
+      "4": "6.5"
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트007",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트007/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트007_p001_q46"
+  }
+]

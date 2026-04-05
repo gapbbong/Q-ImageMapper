@@ -1,0 +1,99 @@
+[
+  {
+    "question_no": 41,
+    "question_text": "중성점 접지용 접지 도체는 공칭 단면적 몇 $[mm^2]$ 이상의 연동선 또는 동등 이상의 단면적 및 강도를 가져야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "4",
+      "2": "6",
+      "3": "10",
+      "4": "16"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "중성점 접지용 접지 도체는 공칭 단면적 $16[mm^2]$ 이상의 연동선 또는 동등 이상의 단면적 및 세기를 가져야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트027",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트027/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트027_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "다음 중 과전류 차단기를 설치할 곳은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "간선의 전원측 전선",
+      "2": "접지 공사의 접지선",
+      "3": "접지 공사를 한 저압 가공 전선의 접지측 전선",
+      "4": "다선식 전로의 중성선"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "과전류 차단기의 시설 장소\n• 발전기나 전동기, 변압기 등과 같은 기계 기구를 보호하는 장소\n• 송전 선로나 배전 선로 등에서 보호를 요하는 장소\n• 인입구간 간선의 전원측 및 분기점 등 보호상, 보안상 필요한 장소",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트027",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트027/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트027_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "접착력은 떨어지나 절연성, 내온성, 내유성이 좋아 연피 케이블의 접속에 사용되는 테이프는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "고무 테이프"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트027",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트027/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트027_p001_q43"
+  },
+  {
+    "question_no": 44,
+    "question_text": "다음 중 금속관 공사의 설명으로 잘못된 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "교류 회로는 1회로의 전선 전부를 동일관 내에 넣는 것을 원칙으로 한다.",
+      "2": "교류 회로에서 전선을 병렬로 사용하는 경우에는 관 내에 전자적 불평형이 생기지 않도록 시설한다.",
+      "3": "금속관 내에서는 절대로 전선 접속을 만들지 않아야 한다.",
+      "4": "관의 두께는 콘크리트에 매입하는 경우 $1[mm]$ 이상이어야 한다."
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "콘크리트에 매입 시 금속관의 두께는 $1.2[mm]$ 이상이어야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트027",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트027/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트027_p001_q44"
+  },
+  {
+    "question_no": 45,
+    "question_text": "다음 중 동전선의 종단 접속 방법이 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "동선 압착 단자에 의한 접속",
+      "2": "종단 겹침용 슬리브에 의한 접속",
+      "3": "C형 전선 접속기에 의한 접속",
+      "4": "비틀어 꽂는 형의 전선 접속기에 의한 접속"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "동전선의 종단 접속\n• 가는 단선($4[mm^2]$ 이하)의 종단 접속\n• 동선 압착 단자에 의한 접속\n• 비틀어 꽂는 형의 전선 접속기에 의한 접속\n• 종단 겹침용 슬리브(E형)에 의한 접속\n• 직선 겹침용 슬리브(P형)에 의한 접속\n• 꽃음형 커넥터에 의한 접속",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트027",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트027/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트027_p001_q45"
+  }
+]

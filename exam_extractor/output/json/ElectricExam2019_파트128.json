@@ -1,0 +1,35 @@
+[
+  {
+    "answer": 2,
+    "choices": {
+      "1": "그림 (1)",
+      "2": "그림 (2)",
+      "3": "그림 (3)",
+      "4": "그림 (4)"
+    },
+    "explanation": "각 회로에 소비되는 전력\n① 합성 저항 $R_0 = \\frac{R}{2} \\times 2 = R[\\Omega]$이므로 $P_1 = \\frac{V^2}{R}[W]$\n② 합성 저항 $R_0 = \\frac{R}{4} = 0.25R[\\Omega]$이므로 $P_2 = \\frac{V^2}{0.25R} = \\frac{4V^2}{R}[W]$\n③ 합성 저항 $R_0 = 2R + \\frac{R}{2} = 2.5R[\\Omega]$이므로 $P_3 = \\frac{V^2}{2.5R} = \\frac{0.4V^2}{R}[W]$\n④ 합성 저항이 $4R[\\Omega]$이므로 $P_4 = \\frac{V^2}{4R}[W]$\n※ 소비 전력 $P = \\frac{V^2}{R}[W]$이므로 합성 저항이 가장 작은 회로를 찾으면 된다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트128_p001_q60",
+    "image_path": "images/ElectricExam2019_파트128/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      160,
+      148,
+      390,
+      430
+    ],
+    "question_no": 60,
+    "question_text": "크기가 같은 저항 4개를 그림과 같이 연결하여 a-b 간에 일정 전압을 가했을 때 소비 전력이 가장 큰 것은 어느 것인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트128",
+    "suggested_bbox": {
+      "h": 465,
+      "w": 404,
+      "x": 212,
+      "y": 323
+    },
+    "year": 2019
+  }
+]

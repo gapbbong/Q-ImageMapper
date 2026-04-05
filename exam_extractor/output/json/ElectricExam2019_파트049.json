@@ -1,0 +1,116 @@
+[
+  {
+    "question_no": 57,
+    "question_text": "고압 배전반에는 부하의 합계 용량이 몇 $[kVA]$를 넘는 경우 배전반에는 전류계, 전압계를 부착하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "150",
+      "3": "200",
+      "4": "300"
+    },
+    "answer": 4,
+    "explanation": "고압 및 특고압 배전반에는 부하의 합계 용량이 $300[kVA]$를 넘는 경우 전류계, 전압계를 부착한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트049",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트049/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트049_p001_q57"
+  },
+  {
+    "answer": 4,
+    "choices": {
+      "1": "Ss\n전원\nSs",
+      "2": "Ss\n전원\nSs",
+      "3": "Ss\n전원\nSs",
+      "4": "Ss\n전원\nSs"
+    },
+    "explanation": "3로 스위치 결선도",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트049_p001_q58",
+    "image_path": "images/ElectricExam2019_파트049/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      387,
+      100,
+      779,
+      453
+    ],
+    "question_no": 58,
+    "question_text": "전등 1개를 2개소에서 점멸하고자 할 때 옳은 배선은?",
+    "round": null,
+    "source": "ElectricExam2019_파트049",
+    "suggested_bbox": {
+      "h": 793,
+      "w": 506,
+      "x": 144,
+      "y": 784
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 59,
+    "question_text": "코드 상호, 캡타이어 케이블 상호 접속 시 사용해야 하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "와이어 커넥터",
+      "2": "케이블 타이",
+      "3": "코드 접속기",
+      "4": "테이블 탭"
+    },
+    "answer": 3,
+    "explanation": "코드 및 캡타이어 케이블 상호 접속 시에는 직접 접속이 불가능하고 전용의 접속 기구를 사용해야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트049",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트049/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트049_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "도체계에서 임의의 도체를 일정 전위(일반적으로 영전위)의 도체로 완전 포위하면 내부와 외부의 전계를 완전히 차단할 수 있는데 이를 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "핀치 효과",
+      "2": "톰슨 효과",
+      "3": "정전 차폐",
+      "4": "자기 차폐"
+    },
+    "answer": 3,
+    "explanation": "정전 차폐 : 도체가 정전 유도가 되지 않도록 도체 바깥을 포위하여 접지함으로써 정전 유도를 완전 차폐하는 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트049",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트049/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트049_p001_q60"
+  }
+]

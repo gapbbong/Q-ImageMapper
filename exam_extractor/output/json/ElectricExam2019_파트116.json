@@ -1,0 +1,176 @@
+[
+  {
+    "answer": 1,
+    "choices": {
+      "1": "①",
+      "2": "②",
+      "3": "③",
+      "4": "④"
+    },
+    "explanation": "심벌 명칭\n① 콘센트\n② 점멸기\n③ 전등\n④ 점검구",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트116_p001_q46",
+    "image_path": "images/ElectricExam2019_파트116/page_001_full.png",
+    "image_regions": [],
+    "level": "하",
+    "page": 1,
+    "question_image_bbox": [
+      144,
+      151,
+      212,
+      392
+    ],
+    "question_no": 46,
+    "question_text": "전기 배선용 도면을 작성할 때 사용하는 매입 콘센트 도면 기호는?",
+    "round": null,
+    "source": "ElectricExam2019_파트116",
+    "suggested_bbox": {
+      "h": 137,
+      "w": 346,
+      "x": 216,
+      "y": 291
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 47,
+    "question_text": "실내 전체를 균일하게 조명하는 방식으로 광원을 일정한 간격으로 배치하며 공장, 학교, 사무실 등에서 채용되는 조명 방식은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "국부 조명",
+      "2": "전반 조명",
+      "3": "직접 조명",
+      "4": "간접 조명"
+    },
+    "answer": 2,
+    "explanation": "① 국부 조명 : 필요한 범위를 높은 광속으로 유지 (진열장)\n② 전반 조명 : 실내 전체를 균등한 광속으로 유지 (사무실)\n③ 직접 조명 : 특정 부분만 광속의 $90[\\%]$ 이상을 작업면에 투사시키는 방식\n④ 간접 조명 : 광속의 $90[\\%]$ 이상을 벽이나 천장에 투사시켜 간접적으로 빛을 얻는 방식",
+    "level": "하",
+    "source": "ElectricExam2019_파트116",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트116/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트116_p001_q47"
+  },
+  {
+    "question_no": 48,
+    "question_text": "다음 ( ) 안에 알맞은 낱말은?\n\n뱅크(bank)란 전로에 접속된 변압기 또는 ( )의 결선상 단위를 말한다.",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "차단기",
+      "2": "콘덴서",
+      "3": "단로기",
+      "4": "리액터"
+    },
+    "answer": 2,
+    "explanation": "뱅크(bank)란 전로에 접속된 변압기 또는 콘덴서의 결선상 단위를 말한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트116",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트116/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트116_p001_q48"
+  },
+  {
+    "answer": 3,
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "explanation": "기본파의 주파수 $f = \\frac{1}{T} = \\frac{1}{10 \\times 10^{-3}} = 100[Hz]$\n제3고조파 주파수는 기본파 주파수의 3배이므로 $300[Hz]$이다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트116_p001_q49",
+    "image_path": "images/ElectricExam2019_파트116/page_001_full.png",
+    "image_regions": [],
+    "level": "하",
+    "page": 1,
+    "question_image_bbox": [
+      155,
+      618,
+      235,
+      879
+    ],
+    "question_no": 49,
+    "question_text": "그림과 같은 비사인파의 제3고조파 주파수는? (단, $V=20[V]$, $T=10[ms]$이다.)",
+    "round": null,
+    "source": "ElectricExam2019_파트116",
+    "suggested_bbox": {
+      "h": 161,
+      "w": 374,
+      "x": 885,
+      "y": 313
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 50,
+    "question_text": "주파수가 $1,000[Hz]$일 때 용량성 리액턴스에 $10[A]$의 전류가 흘렀다면 주파수가 $2,000[Hz]$인 경우 전류는 몇 $[A]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "용량성 리액턴스($X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}$)에 의한 전류\n$I = \\frac{V}{X_C} = 2\\pi f CV[A]$는 주파수에 비례하므로 주파수가 2배로 증가하면 전류도 2배가 된다.\n전류 $I' = 2 \\times 10 = 20[A]$ ",
+    "level": "하",
+    "source": "ElectricExam2019_파트116",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트116/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트116_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "기전력 $1.5[V]$, 내부 저항 $0.2[\\Omega]$인 전지 5개를 직렬로 접속하여 단락시켰을 때의 전류$[A]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1.5",
+      "2": "2.5",
+      "3": "6.5",
+      "4": "7.5"
+    },
+    "answer": 4,
+    "explanation": "$I = \\frac{nE}{nr} = \\frac{1.5 \\times 5}{0.2 \\times 5} = 7.5[A]$ ",
+    "level": "하",
+    "source": "ElectricExam2019_파트116",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트116/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트116_p001_q51"
+  }
+]

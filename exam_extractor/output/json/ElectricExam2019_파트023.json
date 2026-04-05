@@ -1,0 +1,122 @@
+[
+  {
+    "question_no": 14,
+    "question_text": "변압기유로 쓰이는 절연유에 요구되는 성질이 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "응고점이 높을 것",
+      "2": "점도가 낮을 것",
+      "3": "절연 내력이 클 것",
+      "4": "냉각 효과가 클 것"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "해설 변압기유의 구비 조건\n• 절연 내력이 클 것\n• 인화점이 높고 응고점이 낮을 것\n• 점도가 낮을 것\n• 냉각 효과가 클 것",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트023",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트023/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트023_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "콘덴서의 정전 용량을 크게 하는 방법으로 옳지 않은 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "극판의 간격을 작게 한다.",
+      "2": "극판 사이에 비유전율이 큰 유전체를 삽입한다.",
+      "3": "극판의 면적을 크게 한다.",
+      "4": "극판의 면적을 작게 한다."
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "해설 콘덴서의 정전 용량 $C=\\frac{\\epsilon A}{d}[F]$이므로 극판의 간격 $d[m]$에 반비례하며 면적 $A[m^2]$에 비례하므로 면적을 크게 해야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트023",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트023/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트023_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "자속을 발생시키는 원천을 무엇이라 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "기전력",
+      "2": "전자력",
+      "3": "기자력",
+      "4": "정전력"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트023",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트023/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트023_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "전압계 및 전류계의 측정 범위를 넓히기 위하여 사용하는 배율기와 분류기의 접속 방법은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "배율기는 전압계와 병렬 접속, 분류기는 전류계와 직렬 접속",
+      "2": "배율기는 전압계와 직렬 접속, 분류기는 전류계와 병렬 접속",
+      "3": "배율기 및 분류기 모두 전압계와 전류계에 직렬 접속",
+      "4": "배율기 및 분류기 모두 전압계와 전류계에 병렬 접속"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "배율기는 전압계와 직렬로 접속, 분류기는 전류계와 병렬로 접속한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트023",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트023/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트023_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "$1[\\mu F]$의 콘덴서에 $30[kV]$의 전압을 가하여 $200[\\Omega]$의 저항을 통해 방전시키면 이때 발생하는 에너지$[J]$는 얼마인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "450",
+      "2": "900",
+      "3": "1,000",
+      "4": "1,200"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "콘덴서에 축적되는 에너지 $W = \\frac{1}{2}CV^2 = \\frac{1}{2} \\times 1 \\times 10^{-6} \\times (30 \\times 10^3)^2 = 450[J]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트023",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트023/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트023_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "다음 중 자석에 무반응인 물체는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "상자성체",
+      "2": "반자성체",
+      "3": "강자성체",
+      "4": "비자성체"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트023",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트023/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트023_p001_q19"
+  }
+]

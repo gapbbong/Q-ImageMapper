@@ -1,0 +1,62 @@
+[
+  {
+    "question_no": 18,
+    "question_text": "직류 발전기 중 중권 발전기의 전기자 권선에 균압환을 설치하는 이유는 무엇인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "브러시 불꽃 방지",
+      "2": "전기자 반작용",
+      "3": "파형 개선",
+      "4": "정류 개선"
+    },
+    "has_choice_image": false,
+    "answer": null,
+    "explanation": "중권 발전기는 브러시 부근에 불꽃을 방지하기 위하여, 4극 이상의 중권 발전기에는 균압환을 설치한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트033",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트033/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트033_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "$i = 200\\sqrt{2} \\sin\\left(\\omega t + \\frac{\\pi}{2}\\right)[A]$를 복소수로 표시하면?",
+    "has_question_image": false,
+    "choices": {
+      "1": "200",
+      "2": "$j200$",
+      "3": "$200 + j200$",
+      "4": "$200\\sqrt{2} + j200\\sqrt{2}$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "전류 $I = 200\\angle\\frac{\\pi}{2} = 200\\left(\\cos\\frac{\\pi}{2} + j\\sin\\frac{\\pi}{2}\\right) = 200(0+j) = j200[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트033",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트033/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트033_p001_q19"
+  },
+  {
+    "question_no": 20,
+    "question_text": "자기 인덕턴스가 각각 $L_1 [H]$, $L_2 [H]$인 두 개의 코일이 직렬로 가동 접속되었을 때 합성 인덕턴스는? (단, 자기력선에 의한 영향을 서로 받는 경우이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "$L_1 + L_2 - M$",
+      "2": "$L_1 + L_2 - 2M$",
+      "3": "$L_1 + L_2 + M$",
+      "4": "$L_1 + L_2 + 2M$"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "가동 접속 합성 인덕턴스 $L_0 = L_1 + L_2 + 2M[H]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트033",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트033/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트033_p001_q20"
+  }
+]

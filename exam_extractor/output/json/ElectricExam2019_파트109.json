@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "일정한 주파수의 전원에서 운전하는 3상 유도 전동기의 전원 전압이 정격 전압의 $80[\\%]$가 되었다면 토크는 약 몇 $[\\%]$가 되는가? (단, 회전수는 변하지 않는 상태로 한다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "141",
+      "2": "120",
+      "3": "80",
+      "4": "64"
+    },
+    "answer": 4,
+    "explanation": "3상 유도 전동기에서 토크는 공급 전압의 제곱에 비례하므로 전압의 $80[\\%]$로 운전하면 토크는 $0.8^2=0.64$로 감소하므로 $64[\\%]$가 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트109",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트109/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트109_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "공기 중에서 자속 밀도 $4[\\text{Wb}/\\text{m}^2]$의 평등 자장 속에 길이 $10[\\text{cm}]$의 직선 도선을 자장의 방향과 $30^\\circ$각으로 놓고 여기에 $3[\\text{A}]$의 전류를 흐르게 하면 이 도선이 받는 힘은 몇 $[\\text{N}]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "0.2",
+      "2": "0.3",
+      "3": "0.6",
+      "4": "1.2"
+    },
+    "answer": 3,
+    "explanation": "전자력의 세기 $F = IBl\\sin\\theta = 3 \\times 4 \\times 0.1 \\times \\sin30^\\circ = 0.6[\\text{N}]$ ",
+    "level": "중",
+    "source": "ElectricExam2019_파트109",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트109/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트109_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "전력 계통에 접속되어 있는 변압기나 장거리 송전 시 정전 용량으로 인한 충전 특성 등을 보상하기 위한 기기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "유도 전동기",
+      "2": "동기 조상기",
+      "3": "유도 발전기",
+      "4": "동기 발전기"
+    },
+    "answer": 2,
+    "explanation": "정전 용량으로 인한 앞선 전류를 감소시키기 위해 여자 전류를 조정하여 뒤진 전류를 흘려 줄 수 있는 동기 조상기를 설치한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트109",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트109/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트109_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "디지털 계전기의 장점이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 2,
+    "explanation": "디지털 계전기 : 보호 기능이 우수하며 처리 속도가 빨라서 광범위한 계산에 용이하지만 서지에 약하고 왜형파로 인해 오동작 하기 쉬워서 신뢰도가 낮다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트109",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트109/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트109_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "동기 발전기의 병렬 운전 조건 중 같지 않아도 되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "동기 발전기 병렬 운전 시 일치할 조건 : 기전력(전압)의 크기, 위상, 주파수, 파형",
+    "level": "하",
+    "source": "ElectricExam2019_파트109",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트109/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트109_p001_q05"
+  },
+  {
+    "question_no": 6,
+    "question_text": "단상 전파 사이리스터 정류 회로에서 부하가 저항만 있는 경우 점호각이 $60^{\\circ}$일 때의 정류 전압은 몇 $[V]$인가? (단, 전원측 전압의 실효값은 $100[V]$이고, 직류측 전류는 연속이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "97.7",
+      "2": "86.4",
+      "3": "75.5",
+      "4": "67.5"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "상",
+    "source": "ElectricExam2019_파트109",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트109/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트109_p001_q06"
+  }
+]

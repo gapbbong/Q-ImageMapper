@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 10,
+    "question_text": "변압기의 권수비가 60이고 2차 저항이 $0.1[\\Omega]$일 때 1차로 환산한 저항값$[\\Omega]$은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "30",
+      "2": "360",
+      "3": "300",
+      "4": "250"
+    },
+    "answer": 2,
+    "explanation": "권수비 $a = \\sqrt{\\frac{R_1}{R_2}}$ 이므로\n1차 저항 $R_1 = a^2 R_2 = 60^2 \\times 0.1 = 360[\\Omega]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트121",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트121/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트121_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "다음 중 자기 저항의 단위에 해당되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "[AT/Wb]",
+      "2": "[Wb/AT]",
+      "3": "[H/m]",
+      "4": "[\\Omega]"
+    },
+    "answer": 1,
+    "explanation": "기자력 $F = NI = R\\phi[AT]$에서\n자기 저항 $R = \\frac{NI}{\\phi} [AT/Wb]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트121",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트121/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트121_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "사람이 상시 통행하는 터널 내 배선의 사용 전압이 저압일 때 배선 방법으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "금속 몰드",
+      "2": "금속관",
+      "3": "두께 $2[mm]$ 이상 합성수지관(콤바인 덕트관 제외)",
+      "4": "제2종 가요 전선관 배선"
+    },
+    "answer": 1,
+    "explanation": "사람이 상시 통행하는 터널 안의 배선 공사 : 금속관, 제2종 가요 전선관, 케이블, 합성수지관, 단면적 $2.5[mm^2]$ 이상의 연동선을 사용한 애자 사용 공사에 의하여 노면상 $2.5[m]$ 이상의 높이에 시설할 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트121",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트121/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트121_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "전류를 계속 흐르게 하려면 전압을 연속적으로 만들어주는 어떤 힘이 필요하게 되는데, 이 힘을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기자력",
+      "2": "전자력",
+      "3": "기전력",
+      "4": "전기력"
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트121",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트121/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트121_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "폭연성 분진이 존재하는 곳의 금속관 공사 시 전동기에 접속하는 부분에서 가요성을 필요로 하는 부분의 배선에는 방폭형의 부속품 중 어떤 것을 사용하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "유연성 부속",
+      "2": "분진 방폭형 유연성 부속",
+      "3": "안정 증가형 유연성 부속",
+      "4": "안전 증가형 부속"
+    },
+    "answer": 2,
+    "explanation": "폭연성 분진이 존재하는 장소 : 전동기에 가요성을 요하는 부분의 부속품은 분진 방폭형 유연성 구조이어야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트121",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트121/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트121_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "동기 발전기의 병렬 운전 중 기전력의 위상차가 발생하면 어떤 현상이 나타나는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "무효 횡류",
+      "2": "유효 순환 전류",
+      "3": "무효 순환 전류",
+      "4": "고조파 전류"
+    },
+    "answer": 2,
+    "explanation": "동기 발전기 병렬 운전 조건 중 기전력의 크기가 같고 위상차가 존재하는 경우 유효 순환 전류(동기화 전류)가 흘러 동기 화력에 의해 위상이 일치된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트121",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트121/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트121_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "병렬 운전 중인 동기 발전기의 유도 기전력이 $2,000[V]$, 위상차 $60^{\\circ}$일 경우 유효 순환 전류는 얼마인가? (단, 동기 임피던스는 $5[\\Omega]$이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "500",
+      "2": "1,000",
+      "3": "20",
+      "4": "200"
+    },
+    "answer": 4,
+    "explanation": "유효 순환 전류\n$I_c = \\frac{E_A}{Z_s} \\sin \\delta = \\frac{2,000}{5} \\sin \\frac{60^{\\circ}}{2} = 200[A]$",
+    "level": "상",
+    "source": "ElectricExam2019_파트121",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트121/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트121_p001_q16"
+  }
+]

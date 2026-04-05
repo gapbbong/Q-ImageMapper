@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "서로 다른 종류의 안티몬과 비스무트의 두 금속을 접속하여 여기에 전류를 통하면 줄 열 외에 그 접점에서 열의 발생 또는 흡수가 일어난다. 이와 같은 현상은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "제3금속의 법칙",
+      "2": "제베크 효과",
+      "3": "페르미 효과",
+      "4": "펠티에 효과"
+    },
+    "answer": 4,
+    "explanation": "펠티에 효과 : 두 금속을 접합하여 접합점에 전류를 흘려주면 열의 발생 또는 흡수가 발생하는 현상",
+    "level": "하",
+    "source": "ElectricExam2019_파트139",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트139/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트139_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "다음 중 접지의 목적으로 알맞지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "감전의 방지",
+      "2": "전로의 대지 전압 상승",
+      "3": "보호 계전기의 동작 확보",
+      "4": "이상 전압의 억제"
+    },
+    "answer": 2,
+    "explanation": "이상 전압 발생의 억제 및 전로의 대지 전압 상승 억제, 보호 계전기의 동작 확보, 감전 및 화재 사고 방지를 위해 접지를 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트139",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트139/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트139_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "패러데이관에서 단위 전위차에 축적되는 에너지$[J]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\frac{1}{2}$",
+      "2": "$1$",
+      "3": "$ED$",
+      "4": "$\\frac{1}{2}ED$"
+    },
+    "answer": 1,
+    "explanation": "단위 전하 $1[C]$에서 나오는 전속관을 패러데이관이라 하며 그 양단에는 항상 $1[C]$의 전하가 있다. 단위 전위차는 $1[V]$이므로 보유 에너지 $W = \\frac{1}{2} QV = \\frac{1}{2} \\times 1 \\times 1 = \\frac{1}{2} [J]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트139",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트139/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트139_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "어드미턴스의 실수부는 무엇인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 1,
+    "explanation": "어드미턴스($Y[\\mho]$): 임피던스($Z[\\Omega]$)의 역수\n- 실수부: 컨덕턴스\n- 허수부: 서셉턴스",
+    "level": "하",
+    "source": "ElectricExam2019_파트139",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트139/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트139_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "전자에 $10[V]$의 전위차를 인가한 경우 전자 에너지$[J]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "전자 에너지(전자 볼트)\n$W = e V = 1.6 \\times 10^{-19} \\times 10 = 1.6 \\times 10^{-18} [J]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트139",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트139/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트139_p001_q05"
+  },
+  {
+    "question_no": 6,
+    "question_text": "반지름 $10[cm]$, 권수 $100$회인 원형 코일에 $15[A]$의 전류가 흐르면 코일 중심의 자장의 세기는 몇 $[AT/m]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트139",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트139/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트139_p001_q06"
+  }
+]

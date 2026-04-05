@@ -1,0 +1,230 @@
+[
+  {
+    "question_no": 46,
+    "question_text": "",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": null,
+    "explanation": "전기장의 세기 : 단위 전하에 작용하는 힘\n힘과의 관계식 $F = QE[N]$식에서\n전기장 $E = \\frac{F}{Q} = \\frac{100}{1} [V/m]$ ",
+    "level": "중",
+    "source": "ElectricExam2019_파트136",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트136/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트136_p001_q46"
+  },
+  {
+    "question_no": 47,
+    "question_text": "다음 중 배선용 차단기의 심벌로 옳은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "B",
+      "2": "E",
+      "3": "BE",
+      "4": "S"
+    },
+    "answer": 1,
+    "explanation": "① : 배선용 차단기\n② : 누전 차단기\n④ : 개폐기",
+    "level": "하",
+    "source": "ElectricExam2019_파트136",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트136/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트136_p001_q47"
+  },
+  {
+    "question_no": 48,
+    "question_text": "어떤 물질이 정상 상태보다 전자의 수가 많거나 적어져서 전기를 띠는 상태의 물질을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전기량",
+      "2": "전하",
+      "3": "대전",
+      "4": "기전력"
+    },
+    "answer": 2,
+    "explanation": "어떤 물질이 정상 상태보다 전자의 수가 많거나 적어져서 양 또는 음전하가 된다. 이를 대전 현상이라 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트136",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트136/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트136_p001_q48"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4"
+    },
+    "explanation": "전류 $I = \\frac{15 - 5}{2 + 3 + 1 + 4} = \\frac{10}{10} = 1[A]$ ",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트136_p001_q49",
+    "image_path": "images/ElectricExam2019_파트136/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      600,
+      269,
+      710,
+      506
+    ],
+    "question_no": 49,
+    "question_text": "그림과 같은 회로에서 전류 $I[A]$를 구하면?",
+    "round": null,
+    "source": "ElectricExam2019_파트136",
+    "suggested_bbox": {
+      "h": 222,
+      "w": 340,
+      "x": 386,
+      "y": 1214
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 50,
+    "question_text": "패러데이 전자 유도 법칙에서 유도 기전력에 관계되는 사항으로 옳은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자속의 시간적인 변화율에 비례한다.",
+      "2": "권수에 반비례한다.",
+      "3": "자속에 비례한다.",
+      "4": "권수에 비례하고 자속에 반비례한다."
+    },
+    "answer": 1,
+    "explanation": "유도 기전력 $e = N \\frac{\\Delta \\Phi}{\\Delta t} [V]$ ",
+    "level": "하",
+    "source": "ElectricExam2019_파트136",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트136/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트136_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "콘덴서만의 회로에 정현파형의 교류 전압을 인가하면 전류는 전압보다 위상이 어떠한가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류가 $90^{\\circ}$ 앞선다.",
+      "2": "전류가 $30^{\\circ}$ 늦다.",
+      "3": "전류가 $30^{\\circ}$ 앞선다.",
+      "4": "전류가 $90^{\\circ}$ 늦다."
+    },
+    "answer": 1,
+    "explanation": "$C$만의 회로에서는 전류가 전압보다 $90^{\\circ}$ 앞서는 진상 전류가 흐른다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트136",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트136/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트136_p001_q51"
+  },
+  {
+    "question_no": 52,
+    "question_text": "저항 $R_1, R_2$의 병렬 회로에서 전전류가 $I$일 때 $R_2$에 흐르는 전류$[A]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\frac{R_1 + R_2}{R_1} I$",
+      "2": "$\\frac{R_1 + R_2}{R_2} I$",
+      "3": "$\\frac{R_1}{R_1 + R_2} I$",
+      "4": "$\\frac{R_2}{R_1 + R_2} I$"
+    },
+    "answer": 3,
+    "explanation": "$R_1, R_2$에 흐르는 전체 전류를 $I$라 하면 저항의 병렬 접속 시 각 저항에 흐르는 전류는 반비례 분배된다. 따라서, $R_2$에 흐르는 전류 $I_2 = \\frac{R_1}{R_1 + R_2} I [A]$ ",
+    "level": "중",
+    "source": "ElectricExam2019_파트136",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트136/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트136_p001_q52"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "㉠",
+      "2": "㉡",
+      "3": "㉢",
+      "4": "㉣"
+    },
+    "explanation": "㉠ : 슬립\n㉡ : 효율\n㉢ : 토크\n㉣ : 속도",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트136_p001_q53",
+    "image_path": "images/ElectricExam2019_파트136/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      712,
+      744,
+      838,
+      939
+    ],
+    "question_no": 53,
+    "question_text": "유도 전동기에 기계적 부하를 걸었을 때 출력에 따라 속도, 토크, 효율, 슬립 등이 변화를 나타낸 출력 특성 곡선에서 슬립을 나타내는 곡선은?",
+    "round": null,
+    "source": "ElectricExam2019_파트136",
+    "suggested_bbox": {
+      "h": 256,
+      "w": 280,
+      "x": 1066,
+      "y": 1442
+    },
+    "year": 2019
+  }
+]

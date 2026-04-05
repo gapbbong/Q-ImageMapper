@@ -1,0 +1,149 @@
+[
+  {
+    "question_no": 39,
+    "question_text": "다음 중 접지 저항을 측정하기 위한 방법은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류계, 전압계",
+      "2": "전력계",
+      "3": "휘트스톤 브리지법",
+      "4": "콜라아우슈 브리지법"
+    },
+    "answer": 4,
+    "explanation": "접지 저항 측정 방법 : 접지 저항계, 콜라아우슈 브리지법, 어스 테스터기",
+    "level": "하",
+    "source": "ElectricExam2019_파트056",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트056/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트056_p001_q39"
+  },
+  {
+    "question_no": 40,
+    "question_text": "정격 전압 $200[V]$, $60[Hz]$인 전동기의 주파수를 $50[Hz]$로 사용하면 회전 속도는 어떻게 되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$0.833$배로 감소한다.",
+      "2": "$1.1$배로 증가한다.",
+      "3": "변화하지 않는다.",
+      "4": "$1.2$배로 증가한다."
+    },
+    "answer": 1,
+    "explanation": "전동기의 회전수 $N = \\frac{120f}{P}$ $[rpm]$로서 주파수 $f$에 비례하므로 주파수가 $60[Hz] \\rightarrow 50[Hz]$로 $\\frac{50}{60} = 0.833$배로 감소하므로 회전 속도도 $0.833$배로 감소한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트056",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트056/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트056_p001_q40"
+  },
+  {
+    "answer": 4,
+    "choices": {
+      "1": "a-o-R-R-R-R-o-b",
+      "2": "a-o-R-R-o-junction, junction-R, junction-R-o-b"
+    },
+    "explanation": "각 회로에 소비되는 전력은 전압은 일정하고 합성 저항이 다르므로 $P = \\frac{V^2}{R}$ [W]식에 적용하며 $R$에 반비례하므로 소비 전력이 가장 크려면 합성 저항이 가장 작은 회로이므로 ④번이 답이 된다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트056_p001_q41",
+    "image_path": "images/ElectricExam2019_파트056/page_001_full.png",
+    "image_regions": [
+      {
+        "type": "choice",
+        "x": 446.66666666666663,
+        "y": 90,
+        "w": 243.33333333333331,
+        "h": 170
+      }
+    ],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      784,
+      156,
+      879,
+      409
+    ],
+    "question_no": 41,
+    "question_text": "같은 저항 $4$개를 그림과 같이 연결하여 $a-b$ 간에 일정 전압을 가했을 때 소비 전력이 가장 큰 것은 어느 것인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트056",
+    "suggested_bbox": {
+      "h": 192,
+      "w": 362,
+      "x": 224,
+      "y": 1587
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 42,
+    "question_text": "다음 물질 중 강자성체로만 짝지어진 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "니켈, 코발트, 철",
+      "2": "구리, 비스무트, 코발트, 망간",
+      "3": "철, 구리, 니켈, 아연",
+      "4": "철, 니켈, 아연, 망간"
+    },
+    "answer": 1,
+    "explanation": "강자성체는 비투자율이 아주 큰 물질로서 철, 니켈, 코발트, 망간 등이 있다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트056",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트056/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트056_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "두 평행 도선 사이의 거리가 $1[m]$인 왕복 도선 사이에 $1[m]$당 작용하는 힘의 세기가 $18\\times 10^{-7}[N/m]$일 경우 전류의 세기$[A]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4"
+    },
+    "answer": 3,
+    "explanation": "평행 도선 사이에 작용하는 힘의 세기 $F = \\frac{2I_1I_2}{r} \\times 10^{-7}[N/m]$ $F = \\frac{2I^2}{1} \\times 10^{-7}[N/m]=18\\times 10^{-7}[N/m]$ $I^2=9$이므로 $I=3[A]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트056",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트056/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트056_p001_q43"
+  }
+]

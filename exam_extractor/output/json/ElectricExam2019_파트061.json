@@ -1,0 +1,197 @@
+[
+  {
+    "question_no": 7,
+    "question_text": "특고압 · 고압 전기 설비용 접지 도체는 단면적 몇 $[mm^2]$ 이상의 연동선 또는 동등 이상의 단면적 및 강도를 가져야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "0.75",
+      "2": "4",
+      "3": "6",
+      "4": "10"
+    },
+    "answer": 3,
+    "explanation": "특고압 · 고압 전기 설비용 접지 도체는 단면적 $6[mm^2]$ 이상의 연동선 또는 동등 이상의 단면적 및 강도를 가져야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트061",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트061/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트061_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "용량을 변화시킬 수 있는 콘덴서는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "세라믹 콘덴서",
+      "2": "마일러 콘덴서",
+      "3": "전해 콘덴서",
+      "4": "바리콘 콘덴서"
+    },
+    "answer": 4,
+    "explanation": "가변 콘덴서 : 바리콘, 트리머",
+    "level": "하",
+    "source": "ElectricExam2019_파트061",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트061/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트061_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "동기 발전기의 돌발 단락 전류를 주로 제한하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "권선 저항",
+      "2": "역상 리액턴스",
+      "3": "동기 리액턴스",
+      "4": "누설 리액턴스"
+    },
+    "answer": 4,
+    "explanation": "전기자 반작용은 단락 전류가 흐른 뒤에 작용하므로 돌발 단락 전류를 제한하는 것은 누설 리액턴스이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트061",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트061/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트061_p001_q09"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "두 개의 다이오드가 역병렬로 직렬 연결된 기호",
+      "2": "두 개의 다이오드가 역병렬로 직렬 연결되고, 공통 접합점에서 게이트 단자가 나온 기호",
+      "3": "두 개의 다이오드가 역병렬로 직렬 연결되고, 한쪽 외부 단자에서 게이트 단자가 나온 기호",
+      "4": "게이트, 드레인, 소스 단자를 가진 트랜지스터와 유사한 기호"
+    },
+    "explanation": "",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트061_p001_q10",
+    "image_path": "images/ElectricExam2019_파트061/page_001_full.png",
+    "image_regions": [],
+    "level": "하",
+    "page": 1,
+    "question_image_bbox": [
+      700,
+      114,
+      900,
+      309
+    ],
+    "question_no": 10,
+    "question_text": "트라이액(TRIAC)의 기호는?",
+    "round": null,
+    "source": "ElectricExam2019_파트061",
+    "suggested_bbox": {
+      "h": 404,
+      "w": 279,
+      "x": 163,
+      "y": 1417
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 11,
+    "question_text": "저압 연접 인입선을 시설하는 경우 다음 중 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "저압 연접 인입선이 횡단보도를 횡단하는 경우 지면으로부터의 높이는 $3.5\\[m]$ 이상 높이에 시설할 것",
+      "2": "인입구에서 분기하여 $100\\[m]$를 초과하지 말 것",
+      "3": "도로 $5\\[m]$를 횡단하지 말 것",
+      "4": "옥내를 관통하지 말 것"
+    },
+    "answer": 1,
+    "explanation": "저압 연접 인입선이 횡단보도를 횡단하는 경우 지면으로부터의 높이는 $3\\[m]$ 이상 높이에 시설할 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트061",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트061/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트061_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "권선형 유도 전동기에서 토크를 일정하게 한 상태로 회전자 권선에 2차 저항을 2배로 하면 슬립은 몇 배가 되겠는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\sqrt{2}$배",
+      "2": "$2$배",
+      "3": "$\\sqrt{3}$배",
+      "4": "$4$배"
+    },
+    "answer": 2,
+    "explanation": "권선형 유도 전동기는 2차 저항을 조정함으로써 최대 토크는 변하지 않는 상태에서 슬립으로 속도 조절이 가능하며 슬립과 2차 저항은 비례 관계가 성립하므로 $2$배가 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트061",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트061/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트061_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "황산구리 용액에 $10\\[A]$의 전류를 $60$분간 흘린 경우 이때 석출되는 구리의 양$[g]$은? (단, 구리의 전기 화학 당량은 $0.3293\\times 10^{-3}\\[g/C]$이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$11.86$",
+      "2": "$7.82$",
+      "3": "$5.93$",
+      "4": "$1.67$"
+    },
+    "answer": 1,
+    "explanation": "전극에서 석출되는 물질의 양 $W = kQ = kIt\\[g]$ $= 0.3293\\times 10^{-3}\\times 10\\times 60\\times 60$ $\\fallingdotseq 11.86\\[g]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트061",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트061/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트061_p001_q13"
+  }
+]

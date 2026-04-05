@@ -1,0 +1,176 @@
+[
+  {
+    "question_no": 20,
+    "question_text": "수용 장소의 인입선에서 분기하여 다른 수용 장소의 인입구에 이르는 전선을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "소주 인입선",
+      "2": "연접 인입선",
+      "3": "가공 인입선",
+      "4": "인입 간선"
+    },
+    "answer": 2,
+    "explanation": "연접 인입선: 수용 장소의 인입선에서 분기하여 다른 수용 장소의 인입구에 이르는 전선",
+    "level": "중",
+    "source": "ElectricExam2019_파트063",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트063/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트063_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "접지 설비에 사용하는 접지선을 사람이 접촉할 우려가 있는 곳에 시설하는 경우에는 동결 깊이를 감안하여 지하 몇 $[cm]$ 이상까지 매설하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "50",
+      "2": "100",
+      "3": "75",
+      "4": "150"
+    },
+    "answer": 3,
+    "explanation": "접지극(전극)의 매설 깊이는 지하 $75[cm]$ 이상 깊이에 매설하되 동결 깊이를 감안할 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트063",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트063/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트063_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "수정을 이용한 마이크로폰은 다음 중 어떤 원리를 이용한 것인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "핀치 효과",
+      "2": "압전기 효과",
+      "3": "펠티에 효과",
+      "4": "톰슨 효과"
+    },
+    "answer": 2,
+    "explanation": "압전기 효과\n* 유전체 표면에 압력이나 인장력을 가하면 전기 분극이 발생하는 효과\n* 응용 기기: 수정 발진기, 마이크로폰, 초음파 발생기, Crystal pick-up",
+    "level": "중",
+    "source": "ElectricExam2019_파트063",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트063/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트063_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "다음 두 코일이 있다. 한 코일에 매초 전류가 $150[A]$의 비율로 변할 때 다른 코일에 $60[V]$의 기전력이 발생하였다면, 두 코일의 상호 인덕턴스는 몇 $[H]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "4.0",
+      "2": "2.5",
+      "3": "0.4",
+      "4": "25"
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트063",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트063/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트063_p001_q23"
+  },
+  {
+    "answer": 3,
+    "choices": {
+      "1": "$\\frac{12}{7}$",
+      "2": "$\\frac{22}{7}$",
+      "3": "$\\frac{20}{7}$",
+      "4": "$\\frac{10}{7}$"
+    },
+    "explanation": "해설 $V_{BD} = V_B - V_D = 100 - 60 = 40[V]$\n$I_{BD} = \\frac{V_{BD}}{R_{BD}} = \\frac{40}{5+3} = 5[A]$\n$I = \\frac{4}{3+4}I_{BD} = \\frac{4}{3+4} \\times 5 = \\frac{20}{7}[A]$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트063_p001_q24",
+    "image_path": "images/ElectricExam2019_파트063/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      285,
+      573,
+      365,
+      911
+    ],
+    "question_no": 24,
+    "question_text": "다음 회로에서 B점의 전위가 $100[V]$, D점의 전위가 $60[V]$라면 전류 $I$는 몇 $[A]$인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트063",
+    "suggested_bbox": {
+      "h": 162,
+      "w": 485,
+      "x": 821,
+      "y": 576
+    },
+    "year": 2019
+  },
+  {
+    "answer": 3,
+    "choices": {
+      "1": "80",
+      "2": "180",
+      "3": "90",
+      "4": "400"
+    },
+    "explanation": "해설 전위 $V = 9 \\times 10^9 \\times \\frac{Q}{r}[V]$\n$V_Q = 9 \\times 10^9 \\times \\frac{4 \\times 10^{-8}}{2} = 180[V]$\n$V_P = 9 \\times 10^9 \\times \\frac{4 \\times 10^{-8}}{4} = 90[V]$\n그러므로 전위차는 $V = 180 - 90 = 90[V]$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트063_p001_q25",
+    "image_path": "images/ElectricExam2019_파트063/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      639,
+      655,
+      734,
+      924
+    ],
+    "question_no": 25,
+    "question_text": "그림과 같이 공기 중에 놓인 $4 \\times 10^{-8}[C]$의 전화에서 $4[m]$ 떨어진 점 P와 $2[m]$ 떨어진 점 Q와의 전위차$[V]$는?",
+    "round": null,
+    "source": "ElectricExam2019_파트063",
+    "suggested_bbox": {
+      "h": 192,
+      "w": 386,
+      "x": 938,
+      "y": 1294
+    },
+    "year": 2019
+  }
+]

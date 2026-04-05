@@ -1,0 +1,209 @@
+[
+  {
+    "question_no": 25,
+    "question_text": "직류 분권 전동기를 운전하던 중 계자 저항을 증가시키면 회전 속도는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "감소한다.",
+      "2": "정지한다.",
+      "3": "변화없다.",
+      "4": "증가한다."
+    },
+    "answer": 4,
+    "explanation": "분권 전동기의 계자 저항을 증가시키면 자속이 감소하므로 회전 속도는 증가한다.\n회전수 $N=K\\frac{V-I_aR_a}{\\Phi}$ [rpm]\n계자 저항 $R_f \\uparrow \\propto$ 자속 $\\Phi \\downarrow \\propto$ 회전수 $N \\uparrow$",
+    "level": "중",
+    "source": "ElectricExam2019_파트054",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트054/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트054_p001_q25"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "6",
+      "2": "4",
+      "3": "8",
+      "4": "10"
+    },
+    "explanation": "터미널 러그 : 코드 또는 캡타이어 케이블을 전기 사용 기계 기구에 접속하는 압착 단자\n• 동전선과 전기 기계 기구 단자의 접속은 접속이 완전하고 헐거워질 우려가 없도록 해야 한다.\n• 기구 단자가 나사형, 클램프형이거나 이와 유사한 구조가 아닌 경우는 단면적 $6[mm^2]$를 초과하는 연선에 터미널 러그를 부착할 것",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트054_p001_q26",
+    "image_path": "images/ElectricExam2019_파트054/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      410,
+      248,
+      470,
+      385
+    ],
+    "question_no": 26,
+    "question_text": "코드나 케이블 등을 기계 기구의 단자 등에 접속할 때 몇 $[mm^2]$가 넘으면 그림과 같은 터미널 러그(압착 단자)를 사용해야 하는가?",
+    "round": null,
+    "source": "ElectricExam2019_파트054",
+    "suggested_bbox": {
+      "h": 121,
+      "w": 196,
+      "x": 356,
+      "y": 829
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 27,
+    "question_text": "COS를 설치하는 경우 완금의 설치 위치는 전력선용 완금으로부터 몇 $[m]$ 위치에 설치해야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "0.75",
+      "2": "0.45",
+      "3": "0.9",
+      "4": "1.0"
+    },
+    "answer": 1,
+    "explanation": "COS용 완철을 설치하는 경우 최하단 전력선용 완철에서 $0.75[m]$ 하부에 설치한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트054",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트054/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트054_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "하나의 콘센트에 두 개 이상의 플러그를 꽂아 사용할 수 있는 기구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "코드 접속기",
+      "2": "멀티 탭",
+      "3": "테이블 탭",
+      "4": "아이언 플러그"
+    },
+    "answer": 2,
+    "explanation": "접속 기구\n*   멀티 탭: 하나의 콘센트에 여러 개의 전기 기구를 끼워 사용하는 것\n*   테이블 탭(table tap): 코드 길이가 짧을 때 연장 사용하는 것",
+    "level": "하",
+    "source": "ElectricExam2019_파트054",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트054/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트054_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "전기 기기의 철심 재료로 규소 강판을 성층하여 사용하는 이유로 가장 적당한 것은?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      308,
+      149,
+      348,
+      184
+    ],
+    "choices": {
+      "1": "동손 감소",
+      "2": "히스테리시스손 감소",
+      "3": "맴돌이 전류손 감소",
+      "4": "풍손 감소"
+    },
+    "answer": 3,
+    "explanation": "규소 강판을 성층하여 사용하는 이유는 맴돌이 전류손을 감소시키기 위한 대책이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트054",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트054/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트054_p001_q29",
+    "suggested_bbox": {
+      "x": 762,
+      "y": 623,
+      "w": 27,
+      "h": 80
+    }
+  },
+  {
+    "question_no": 30,
+    "question_text": "역회전이 불가능한 단상 유도 전동기는 다음 중 어느 것인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "분상 기동형",
+      "2": "세이딩 코일형",
+      "3": "콘덴서 기동형",
+      "4": "반발 기동형"
+    },
+    "answer": 2,
+    "explanation": "단상 유도 전동기의 하나인 세이딩 코일형은 계자 사이에 철심을 넣은 전동기로서 철편 때문에 역회전이 불가능한 전동기이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트054",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트054/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트054_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "실효값 $20\\text{[A]}$, 주파수 $f=60\\text{[Hz]}$, $0^{\\circ}$인 전류의 순시값 $i\\text{[A]}$를 수식으로 옳게 표현한 것은?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      730,
+      149,
+      770,
+      184
+    ],
+    "choices": {
+      "1": "$i = 20\\sin(60\\pi t)$",
+      "2": "$i = 20\\sqrt{2}\\sin(120\\pi t)$",
+      "3": "$i = 20\\sin(120\\pi t)$",
+      "4": "$i = 20\\sqrt{2}\\sin(60\\pi t)$"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트054",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트054/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트054_p001_q31",
+    "suggested_bbox": {
+      "x": 762,
+      "y": 1477,
+      "w": 27,
+      "h": 80
+    }
+  }
+]

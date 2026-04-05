@@ -1,0 +1,197 @@
+[
+  {
+    "question_no": 20,
+    "question_text": "3상 유도 전동기의 원선도를 그리는 데 필요하지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "저항 측정",
+      "2": "무부하 시험",
+      "3": "슬립(slip) 측정",
+      "4": "구속 시험"
+    },
+    "answer": 3,
+    "explanation": "① 저항 측정 시험 : 1차 동손\n② 무부하 시험 : 여자 전류, 철손\n④ 구속 시험(단락 시험) : 2차 동손",
+    "level": "하",
+    "source": "ElectricExam2019_파트112",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트112/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트112_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "성냥, 석유류, 셀룰로이드 등 기타 가연성 위험 물질을 제조 또는 저장하는 장소의 배선으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$2.0[mm]$ 이상 합성수지관 공사(난연성 콤바인 덕트관 제외)",
+      "2": "애자 공사",
+      "3": "케이블 공사",
+      "4": "금속관 공사"
+    },
+    "answer": 2,
+    "explanation": "가연성 분진, 위험물 장소의 배선 공사 : 금속관, 케이블, 합성수지관 공사",
+    "level": "중",
+    "source": "ElectricExam2019_파트112",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트112/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트112_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "래크(rack) 배선을 사용하는 전선로는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "저압 지중 전선로",
+      "2": "고압 가공 전선로",
+      "3": "저압 가공 전선로",
+      "4": "고압 지중 전선로"
+    },
+    "answer": 3,
+    "explanation": "래크(rack) 배선은 저압 가공 전선로에 완금없이 래크(애자)를 전주에 수직으로 설치하여 전선을 수직 배선하는 방식이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트112",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트112/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트112_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "자극의 세기 $5[Wb]$인 점에 자극을 놓았을 때 $50[N]$의 힘이 작용하였다. 이 자계의 세기는 몇 $[AT/m]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "5",
+      "2": "10",
+      "3": "15",
+      "4": "25"
+    },
+    "answer": 2,
+    "explanation": "힘과 자계 관계식 $F=mH[N]$에서\n자계 $H = \\frac{F}{m} = \\frac{50}{5} = 10[AT/m]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트112",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트112/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트112_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "$200[V]$의 교류 전원에 전류가 $450[A]$이고 역률이 $90[\\%]$인 경우 소비 전력$[kW]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 4,
+    "explanation": "단상 교류 소비 전력\n$P = VI \\cos \\theta [W]$\n$= 200 \\times 450 \\times 0.9$\n$= 81,000[W] = 81[kW]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트112",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트112/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트112_p001_q24"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "6",
+      "2": "4",
+      "3": "8",
+      "4": "10"
+    },
+    "explanation": "코드 또는 캡타이어 케이블과 전기 기계 기구와의 접속\n• 동전선과 전기 기계 기구 단자의 접속은 접속이 완전하고 헐거워질 우려가 없도록 해야 한다.\n• 기구 단자가 누름나사형, 크램프형이거나 이와 유사한 구조가 아닌 경우는 단면적 $10[mm^2]$ 초과하는 단선 또는 단면적 $6[mm^2]$를 초과하는 연선에 터미널 러그를 부착할 것\n• 터미널 러그는 납땜으로 전선을 부착하고 접속점에 장력이 걸리지 않도록 할 것",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트112_p001_q25",
+    "image_path": "images/ElectricExam2019_파트112/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      390,
+      687,
+      437,
+      815
+    ],
+    "question_no": 25,
+    "question_text": "코드나 케이블 등을 기계 기구의 단자 등에 접속할 때 몇 $[mm^2]$가 넘으면 그림과 같은 터미널 러그(압착 단자)를 사용하여야 하는가?",
+    "round": null,
+    "source": "ElectricExam2019_파트112",
+    "suggested_bbox": {
+      "h": 96,
+      "w": 184,
+      "x": 985,
+      "y": 790
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 26,
+    "question_text": "자속 밀도 $1[Wb/m^2]$은 몇 $[gauss]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$4\\pi \\times 10^{-7}$",
+      "2": "$10^{-6}$",
+      "3": "$10^4$",
+      "4": "$\\frac{4\\pi}{10}$"
+    },
+    "answer": 3,
+    "explanation": "자속 밀도 환산\n$1[Wb/m^2] = \\frac{10^8 [Max]}{10^4 [cm^2]}$\n$= 10^4 [max/cm^2 = gauss, 가우스]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트112",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트112/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트112_p001_q26"
+  }
+]

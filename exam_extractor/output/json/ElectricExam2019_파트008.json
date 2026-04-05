@@ -1,0 +1,90 @@
+[
+  {
+    "question_no": 50,
+    "question_text": "전주의 길이가 $16[m]$이고, 설계 하중이 $6.8[kN]$ 이하의 철근 콘크리트주를 시설할 때 땅에 묻히는 깊이는 몇 $[m]$ 이상이어야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1.2",
+      "2": "1.4",
+      "3": "2.0",
+      "4": "2.5"
+    },
+    "answer": 4,
+    "explanation": "목주 및 A종 지지물의 건주 공사 시 매설 깊이\n\n*   길이 $15[m]$ 이하 : 길이$\\times \\frac{1}{6}[m]$ 이상 매설할 것\n*   길이 $15[m]$ 초과 : $2.5[m]$ 이상 매설할 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트008",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트008/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트008_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "다음 그림은 전선 피복을 벗기는 공구이다.\n알맞은 것은?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      448,
+      300,
+      530,
+      790
+    ],
+    "choices": {
+      "1": "니퍼",
+      "2": "펜치",
+      "3": "와이어 스트리퍼",
+      "4": "전선 압착 공구"
+    },
+    "answer": 3,
+    "explanation": "와이퍼 스트리퍼 : 전선 피복을 벗기는 공구로서,\n그림은 중간 부분을 벗길 수 있는 스트리퍼로\n자동 와이어 스트리퍼이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트008",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트008/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트008_p001_q51",
+    "suggested_bbox": {
+      "x": 211,
+      "y": 223,
+      "w": 495,
+      "h": 256,
+      "source": "plus_logic"
+    }
+  },
+  {
+    "question_no": 52,
+    "question_text": "전장의 단위로 맞는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$[V]$",
+      "2": "$[J/C]$",
+      "3": "$[N \\cdot m/C]$",
+      "4": "$[V/m]$"
+    },
+    "answer": 4,
+    "explanation": "*   전위의 단위 $V = \\frac{W}{Q}[V=J/C=N \\cdot m/C]$\n*   전장의 단위$[V/m]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트008",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트008/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트008_p001_q52"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "히스테리시스 곡선이 세로축과 만나는 점의 값은 무엇을 나타내는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자속 밀도",
+      "2": "보자력",
+      "3": "잔류 자기",
+      "4": "자기장"
+    },
+    "answer": 3,
+    "explanation": "히스테리시스 곡선이 만나는 값\n• 세로축(종축)과 만나는 점 : 잔류 자기\n• 가로축(횡축)과 만나는 점 : 보자력",
+    "level": "하",
+    "source": "ElectricExam2019_파트100",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트100/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트100_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "일정한 주파수의 전원에서 운전하는 3상 유도 전동기의 전원 전압이 $80\\%[\\%]$가 되었다면 토크는 약 몇 $[\\%]$가 되는가? (단, 회전수는 변하지 않는 상태로 한다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "141",
+      "2": "120",
+      "3": "80",
+      "4": "64"
+    },
+    "answer": 4,
+    "explanation": "3상 유도 전동기에서 토크는 공급 전압의 제곱에 비례하므로 전압의 $80\\%[\\%]$로 운전하면 토크는 $0.8^2=0.64$로 감소하므로 $64\\%[\\%]$가 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트100",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트100/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트100_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "접착제를 사용하여 합성수지관을 삽입해 접속할 경우 관의 삽입 깊이는 합성수지관 외경의 최소 몇 배인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1.2",
+      "2": "0.8",
+      "3": "1.5",
+      "4": "1.8"
+    },
+    "answer": 2,
+    "explanation": "합성수지관을 접속할 경우 삽입하는 관의 깊이는 접착제를 사용하는 경우 관 외경의 $0.8$배이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트100",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트100/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트100_p001_q03"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "회로 (1)",
+      "2": "회로 (2)",
+      "3": "회로 (3)",
+      "4": "회로 (4)"
+    },
+    "explanation": "해설 각 회로에 소비되는 전력\n① 합성 저항 $R_0 = \\frac{R}{4} = 0.25R[\\Omega]$이므로\n$P_1 = \\frac{V^2}{0.25R} = \\frac{4V^2}{R}[W]$\n② 합성 저항 $R_0 = \\frac{R}{2} \\times 2 = R[\\Omega]$이므로\n$P_2 = \\frac{V^2}{R}[W]$\n③ 합성 저항 $R_0 = 2R + \\frac{R}{2} = 2.5R[\\Omega]$이므로\n$P_3 = \\frac{V^2}{2.5R} = \\frac{0.4V^2}{R}[W]$\n④ 합성 저항이 $4R[\\Omega]$이므로 $P_4 = \\frac{V^2}{4R}[W]$\n※ 소비 전력 $P = \\frac{V^2}{R}[W]$이므로 합성 저항이 가장 작은 회로를 찾으면 된다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트100_p001_q04",
+    "image_path": "images/ElectricExam2019_파트100/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      372,
+      572,
+      597,
+      861
+    ],
+    "question_no": 4,
+    "question_text": "크기가 같은 저항 4개를 그림과 같이 연결하여 a-b 간에 일정 전압을 가했을 때 소비 전력이 가장 큰 것은 어느 것인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트100",
+    "suggested_bbox": {
+      "h": 456,
+      "w": 414,
+      "x": 820,
+      "y": 753
+    },
+    "year": 2019
+  }
+]

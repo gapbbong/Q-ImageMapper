@@ -1,0 +1,137 @@
+[
+  {
+    "question_no": 52,
+    "question_text": "단상 반파 정류 회로에서 출력 전압은? (단, $V$는 실효값이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "$0.45\\,V$",
+      "2": "$2\\sqrt{2}\\,V$",
+      "3": "$\\sqrt{2}\\,V$",
+      "4": "$0.9\\,V$"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "단상 반파 정류 회로의 출력 전압은 직류분이므로 $V_d = \\frac{\\sqrt{2}}{\\pi}\\,V = 0.45\\,V[V]$이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트039",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트039/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트039_p001_q52"
+  },
+  {
+    "question_no": 53,
+    "question_text": "선간 전압 $200[V]$인 대칭 3상 $Y$결선 부하의 저항 $R=4[\\Omega]$, 리액턴스 $X_L=3[\\Omega]$인 경우 부하에 흐르는 전류는 몇 $[A]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "5",
+      "2": "20",
+      "3": "23.1",
+      "4": "115.5"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "부하에 걸리는 전압은 상전압이므로 $V_P = \\frac{\\text{선간 전압}}{\\sqrt{3}} = \\frac{200}{\\sqrt{3}}[V]$ 부하에 흐르는 전류 $I = \\frac{V_P}{Z_P} = \\frac{200/\\sqrt{3}}{\\sqrt{4^2 + 3^2}} = \\frac{40}{\\sqrt{3}} = 23.1[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트039",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트039/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트039_p001_q53"
+  },
+  {
+    "question_no": 54,
+    "question_text": "두 개의 평행한 도체가 진공 중(또는 공기 중)에 $20[cm]$ 떨어져 있고, $100[A]$의 같은 크기의 전류가 흐르고 있을 때 $1[m]$당 발생하는 힘의 크기$[N]$는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "0.1",
+      "2": "0.01",
+      "3": "10",
+      "4": "1"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "평행 도체 사이에 작용하는 힘의 세기 $F = \\frac{2I_1I_2}{r} \\times 10^{-7}[N/m]$ $= \\frac{2 \\times 100 \\times 100}{0.2} \\times 10^{-7}$ $= 10^{-2} = 0.01[N/m]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트039",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트039/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트039_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "기전력 $120[V]$, 내부 저항($r$)이 $15[\\Omega]$인 전원이 있다. 여기에 부하 저항($R$)을 연결",
+    "has_question_image": false,
+    "choices": {},
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트039",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트039/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트039_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "단상 전력계 2대를 사용하여 2전력계법으로 3상 전력을 측정하고자 한다. 두 전력계의 지시값이 각각 $P_1$, $P_2$[W]이었다. 3상 전력 $P$[W]를 구하는 식으로 옳은 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$P = P_1 + P_2$",
+      "2": "$P = \\sqrt{3}(P_1 \\times P_2)$",
+      "3": "$P = P_1 \\times P_2$",
+      "4": "$P = P_1 - P_2$"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "2전력계법에 의한 유효 전력 $P = P_1 + P_2$[W]",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트039",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트039/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트039_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "설치 면적과 설치 비용이 많이 들지만 가장 이상적이고 효과적인 진상용 콘덴서 설치 방법은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "수전단 모선에 설치",
+      "2": "수전단 모선과 부하측에 분산하여 설치",
+      "3": "부하측에 분산하여 설치",
+      "4": "가장 큰 부하측에만 설치"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "진상용 콘덴서의 역률을 개선하기 위한 가장 효과적인 방법은 부하측에 분산하여 설치한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트039",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트039/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트039_p001_q57"
+  },
+  {
+    "question_no": 58,
+    "question_text": "권선형 유도 전동기에서 회전자 권선에 2차 저항기를 삽입하면 어떻게 되는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "회전수가 커진다.",
+      "2": "변화가 없다.",
+      "3": "기동 전류가 작아진다.",
+      "4": "기동 토크가 작아진다."
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트039",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트039/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트039_p001_q58"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 39,
+    "question_text": "접지 공사에서 접지극으로 동봉을 사용하는 경우 최소 길이는 몇 $[m]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1",
+      "2": "1.2",
+      "3": "0.9",
+      "4": "0.6"
+    },
+    "answer": 3,
+    "explanation": "해설 접지극의 종류와 규격\n• 동봉 : 지름 $8[mm]$ 이상, 길이 $0.9[m]$ 이상",
+    "level": "하",
+    "source": "ElectricExam2019_파트066",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트066/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트066_p001_q39"
+  },
+  {
+    "question_no": 40,
+    "question_text": "직류 전동기에서 무부하 회전 속도가 $1,200[rpm]$이고 정격 회전 속도가 $1,150[rpm]$인 경우 속도 변동률은 몇 $[%]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "4.25",
+      "2": "4.35",
+      "3": "4.5",
+      "4": "5"
+    },
+    "answer": 2,
+    "explanation": "해설 속도 변동률 $\\varepsilon = \\frac{N_0 - N_n}{N_n} \\times 100[\\%]$\n$= \\frac{1,200 - 1,150}{1,150} \\times 100$\n$\\fallingdotseq 4.35[\\%]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트066",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트066/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트066_p001_q40"
+  },
+  {
+    "question_no": 41,
+    "question_text": "변압기유로 쓰이는 절연유에 요구되는 성질이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "인화점이 높을 것",
+      "2": "절연 내력이 클 것",
+      "3": "점도가 클 것",
+      "4": "응고점이 낮을 것"
+    },
+    "answer": 3,
+    "explanation": "해설 변압기유의 구비 조건\n• 점도(끈적이는 정도)가 작을 것\n• 절연 내력이 클 것\n• 인화점이 높고 응고점이 낮을 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트066",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트066/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트066_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "금속관 공사의 장점이라고 볼 수 없는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전선관 접속이나 관과 박스를 접속 시 견고하고 완전하게 접속할 수 있다.",
+      "2": "전선의 배선 및 배관 변경 시 용이하다.",
+      "3": "기계적 강도가 좋다.",
+      "4": "합성 수지관에 비해 내식성이 좋다."
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트066",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트066/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트066_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "$v = 100\\sqrt{2} \\sin\\left(120\\pi t + \\frac{\\pi}{4}\\right)$, $i=100\\sin\\left(120\\pi t + \\frac{\\pi}{2}\\right)$인 경우 전류는 전압보다 위상이 어떻게 되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류가 전압보다 $\\frac{\\pi}{2}$ [rad]만큼 앞선다.",
+      "2": "전류가 전압보다 $\\frac{\\pi}{2}$ [rad]만큼 뒤진다.",
+      "3": "전류가 전압보다 $\\frac{\\pi}{4}$ [rad]만큼 앞선다.",
+      "4": "전류가 전압보다 $\\frac{\\pi}{4}$ [rad]만큼 뒤진다."
+    },
+    "answer": 3,
+    "explanation": "위상각 $0$을 기준으로 할 때 전압은 $\\frac{\\pi}{4}$ ($45^{\\circ}$) 앞서 있고, 전류는 $\\frac{\\pi}{2}$ ($90^{\\circ}$) 앞서 있으므로 전류가 전압보다 위상차 $\\frac{\\pi}{4}$ ($45^{\\circ}$)만큼 앞선다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트066",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트066/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트066_p001_q43"
+  },
+  {
+    "question_no": 44,
+    "question_text": "어떤 도체에 $10$[V]의 전위를 주었을 때 $1$[C]의 전화가 축적되었다면 이 도체의 정전 용량$[F]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$1$",
+      "2": "$0.1$",
+      "3": "$10$",
+      "4": "$0.01$"
+    },
+    "answer": 2,
+    "explanation": "정전 용량 $C = \\frac{Q}{V} = \\frac{1}{10} = 0.1$[F]",
+    "level": "하",
+    "source": "ElectricExam2019_파트066",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트066/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트066_p001_q44"
+  },
+  {
+    "question_no": 45,
+    "question_text": "자기력선의 성질 중 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자기력선은 서로 교차한다.",
+      "2": "자기력선은 자석의 N극에서 시작하여 S극에서 끝난다.",
+      "3": "자기력선은 서로 반발한다.",
+      "4": "자기력선은 도체에 수직으로 출입한다."
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트066",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트066/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트066_p001_q45"
+  }
+]

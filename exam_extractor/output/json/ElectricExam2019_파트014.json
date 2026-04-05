@@ -1,0 +1,162 @@
+[
+  {
+    "question_no": 20,
+    "question_text": "전지의 기전력이 1.5[V], 5개를 부하 저항 2.5[Ω]인 전구에 접속하였을 때 전구에 흐르는 전류는 몇 [A]인가? (단, 전지의 내부 저항은 0.5[Ω]이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "1.5",
+      "2": "2",
+      "3": "3",
+      "4": "2.5"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "해설 $I = \\frac{nE}{nr+R} = \\frac{5 \\times 1.5}{5 \\times 0.5 + 2.5} = 1.5[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트014",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트014/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트014_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "알칼리 축전기의 대표적인 축전지로 널리 사용되고 있는 2차 전지는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "망간 전지",
+      "2": "산화은 전지",
+      "3": "페이퍼 전지",
+      "4": "니켈-카드뮴 전지"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "해설 니켈-카드뮴 전지: 알칼리 축전기의 대표적인 축전지로 휴대용 이동 전화의 전원으로 사용되는 전지이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트014",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트014/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트014_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "어떤 변압기에서 임피던스 강하가 5[%]인 변압기가 운전 중 단락되었을 때 그 단락 전류는 정격 전류의 몇 배인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "5",
+      "2": "20",
+      "3": "50",
+      "4": "200"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "해설 단락 전류 $I_s = \\frac{100}{\\%Z} I_n$ 에서 $\\frac{I_s}{I_n} = \\frac{100}{\\%Z} = \\frac{100}{5} = 20$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트014",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트014/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트014_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "전기 기계에 있어 와전류손(eddy current loss)을 감소하기 위한 적합한 방법은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "냉각 압연한다.",
+      "2": "보상 권선을 설치한다.",
+      "3": "교류 전원을 사용한다.",
+      "4": "규소 강판에 성층 철심을 사용한다."
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트014",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트014/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트014_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "분권 발전기의 정격 전압이 $100[V]$이고 전기자 저항 $0.2[\\Omega]$, 정격 전류가 $50[A]$인 경우 유도 기전력은 몇 $[V]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "100",
+      "2": "110",
+      "3": "120",
+      "4": "130"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "유도 기전력 $E = V+I_aR_a = 100+50 \\times 0.2 = 110[V]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트014",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트014/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트014_p001_q24"
+  },
+  {
+    "question_no": 25,
+    "question_text": "동기기에서 제동 권선을 설치하는 이유로 옳은 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "역률 개선",
+      "2": "난조 방지",
+      "3": "전압 조정",
+      "4": "출력 증가"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "제동 권선의 설치 목적: 난조 방지와 기동 토크 발생을 위해서이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트014",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트014/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트014_p001_q25"
+  },
+  {
+    "question_no": 26,
+    "question_text": "출력이 $10[kW]$이고 효율 $80[\\%]$일 때 손실은 몇 $[kW]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "7.5",
+      "2": "10",
+      "3": "2.5",
+      "4": "12.5"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "$\\eta = \\frac{\\text{출력}}{\\text{입력}} \\times 100[\\%]$ \\\\ 입력 $P_i = \\frac{10}{80} \\times 100 = 12.5[kW]$이므로 \\\\ 손실은 $12.5-10 = 2.5[kW]$이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트014",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트014/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트014_p001_q26"
+  },
+  {
+    "question_no": 27,
+    "question_text": "동기 발전기의 돌발 단락 전류를 주로 제한하는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "역상 리액턴스",
+      "2": "누설 리액턴스",
+      "3": "동기 리액턴스",
+      "4": "권선 저항"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트014",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트014/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트014_p001_q27"
+  }
+]

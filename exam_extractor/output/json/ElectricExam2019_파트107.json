@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 48,
+    "question_text": "수전 설비의 저압 배전반은 배전반 앞에서 계측기를 판독하기 위하여 앞면과 최소 몇 $[m]$ 이상 유지하는 것을 원칙으로 하고 있는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$2.5[m]$",
+      "2": "$1.8[m]$",
+      "3": "$1.5[m]$",
+      "4": "$1.7[m]$"
+    },
+    "answer": 3,
+    "explanation": "수전 설비의 저압 · 고압 배전반은 계측기를 판독하기 위하여 앞면과 $1.5[m]$ 이격해야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트107",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트107/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트107_p001_q48"
+  },
+  {
+    "question_no": 49,
+    "question_text": "$450/750[V]$ 일반용 단심 비닐 절연 전선의 약호는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "NR",
+      "2": "NI",
+      "3": "FRI",
+      "4": "FR"
+    },
+    "answer": 1,
+    "explanation": "NR : $450/750[V]$ 일반용 단심 비닐 절연 전선",
+    "level": "하",
+    "source": "ElectricExam2019_파트107",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트107/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트107_p001_q49"
+  },
+  {
+    "question_no": 50,
+    "question_text": "직류 전동기의 제어에 널리 응용되는 직류-직류 전압 제어 장치는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "사이클로 컨버터",
+      "2": "인버터",
+      "3": "전파 정류 회로",
+      "4": "초퍼"
+    },
+    "answer": 4,
+    "explanation": "초퍼 회로 : 고정된 크기의 직류를 가변 직류로 변환하는 장치",
+    "level": "중",
+    "source": "ElectricExam2019_파트107",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트107/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트107_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "전류에 의해 만들어지는 자기장의 방향을 알기 쉽게 정의한 법칙은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "플레밍의 왼손 법칙",
+      "2": "앙페르의 오른 나사 법칙",
+      "3": "렌츠의 자기 유도 법칙",
+      "4": "패러데이의 전자 유도 법칙"
+    },
+    "answer": 2,
+    "explanation": "앙페르의 오른 나사 법칙 : 전류에 의한 자기장 (또는 자기력선)의 방향을 알기 쉽게 정의한 법칙",
+    "level": "중",
+    "source": "ElectricExam2019_파트107",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트107/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트107_p001_q51"
+  },
+  {
+    "question_no": 52,
+    "question_text": "전선의 압착 단자 접속 시 사용되는 공구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "와이어 스트리퍼",
+      "2": "프레셔 툴",
+      "3": "클리퍼",
+      "4": "니퍼"
+    },
+    "answer": 2,
+    "explanation": "프레셔 툴: 전선을 압착시켜 접속시키는 공구",
+    "level": "하",
+    "source": "ElectricExam2019_파트107",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트107/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트107_p001_q52"
+  },
+  {
+    "question_no": 53,
+    "question_text": "$3$상 $4$선식 $380/220[V]$ 전로에서 전원의 중성극에 접속된 전선을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "접지선",
+      "2": "중성선",
+      "3": "전원선",
+      "4": "접지측 선"
+    },
+    "answer": 2,
+    "explanation": "중성선: 공통 단자(중성극)에 접속된 전선",
+    "level": "하",
+    "source": "ElectricExam2019_파트107",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트107/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트107_p001_q53"
+  },
+  {
+    "question_no": 54,
+    "question_text": "일반적으로 과전류 차단기를 설치하여야 할 곳으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "접지측 전선",
+      "2": "보호용, 인입선 등 분기선을 보호하는 곳",
+      "3": "송배전선의 보호용, 인입선 등 분기선을 보호하는 곳",
+      "4": "간선의 전원측 전선"
+    },
+    "answer": 1,
+    "explanation": "접지측 전선에는 과전류 차단기를 설치하면 안 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트107",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트107/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트107_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "전기 울타리에 사용하는 경동선의 지름은 최소 몇 $[mm]$ 이상이어야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$1.6$",
+      "2": "$2.0$",
+      "3": "$2.6$",
+      "4": "$3.2$"
+    },
+    "answer": 2,
+    "explanation": "전기 울타리의 시설\n- 사용 전압: $250[V]$ 이하\n- 사용 전선: $2.0[mm]$ 이상 나경동선",
+    "level": "중",
+    "source": "ElectricExam2019_파트107",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트107/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트107_p001_q55"
+  }
+]

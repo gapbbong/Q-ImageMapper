@@ -1,0 +1,169 @@
+[
+  {
+    "question_no": 21,
+    "question_text": "가공 전선로의 지지물에 지선을 사용해서는 안 되는 곳은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "A종 철근 콘크리트주",
+      "2": "목주",
+      "3": "A종 철주",
+      "4": "철탑"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "철탑에는 지선을 사용할 필요가 없다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트044",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트044/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트044_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "200$[V]$, 50$[W]$ 전등 10개를 10시간 사용하였다면 사용 전력량은 몇 $[kWh]$인가?",
+    "has_question_image": true,
+    "choices": {
+      "1": "5",
+      "2": "6",
+      "3": "7",
+      "4": "10"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "전력량 $W = Pt$\n$= 50 \\times 10 \\times 10$\n$= 5,000[Wh]$\n$= 5[kWh]",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트044",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트044/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트044_p001_q22",
+    "suggested_bbox": {
+      "x": 508,
+      "y": 1103,
+      "w": 86,
+      "h": 71,
+      "source": "plus_logic"
+    }
+  },
+  {
+    "question_no": 23,
+    "question_text": "대칭 3상 교류 회로에서 각 상 간의 위상차는 얼마인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$\\frac{\\pi}{3}$",
+      "2": "$\\frac{\\sqrt{3}}{2}\\pi$",
+      "3": "$\\frac{2\\pi}{3}$",
+      "4": "$\\frac{2}{\\sqrt{3}}\\pi$"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "대칭 3상 교류에서의 각 상 간 위상차는 $\\frac{2\\pi}{3}[rad]$이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트044",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트044/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트044_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "콘덴서 중 극성을 가지고 있는 콘덴서로서 교류 회로에 사용할 수 없는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "마일러 콘덴서",
+      "2": "마이카 콘덴서",
+      "3": "세라믹 콘덴서",
+      "4": "전해 콘덴서"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "전해 콘덴서는 양극과 음극의 극성을 가지고 있어 직류 회로에서만 사용 가능하다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트044",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트044/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트044_p001_q24"
+  },
+  {
+    "question_no": 25,
+    "question_text": "동기 발전기의 병렬 운전 조건이 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "유도 기전력의 크기가 같을 것",
+      "2": "동기 발전기의 용량이 같을 것",
+      "3": "유도 기전력의 위상이 같을 것",
+      "4": "유도 기전력의 주파수가 같을 것"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "동기 발전기 병렬 운전 조건\n• 기전력의 크기가 일치할 것\n• 기전력의 위상이 일치할 것\n• 기전력의 주파수가 일치할 것\n• 기전력의 파형이 일치할 것",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트044",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트044/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트044_p001_q25"
+  },
+  {
+    "question_no": 26,
+    "question_text": "배전반 및 분전반의 설치 장소로 적합하지 않은 곳은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "안정된 장소",
+      "2": "밀폐된 장소",
+      "3": "개폐기를 쉽게 개폐할 수 있는 장소",
+      "4": "전기 회로를 쉽게 조작할 수 있는 장소"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "배전반 및 분전반 설치 장소 : 전개된 노출 장소나 개폐기를 쉽게 조작 가능한 점검 장소가 적합하므로 밀폐된 장소는 적합하지 않다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트044",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트044/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트044_p001_q26"
+  },
+  {
+    "question_no": 27,
+    "question_text": "한국전기설비규정에 의한 고압가공 전선로 철탑의 경간은 몇 $[m]$ 이하로 제한하고 있는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "150",
+      "2": "250",
+      "3": "500",
+      "4": "600"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "가공 전선로의 철탑 경간\n구분 | 표준 경간 | 장경간\n---|---|---\n철탑 | 600 | 1,200",
+    "has_explanation_image": true,
+    "source": "ElectricExam2019_파트044",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트044/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트044_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "$100[kVA]$ 단상 변압기 2대를 V결선하여 3상 전력을 공급할 때의 출력은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$173.2[kVA]$",
+      "2": "$86.6[kVA]$",
+      "3": "$17.3[kVA]$",
+      "4": "$346.8[kVA]$"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "$P_V = \\sqrt{3} P_1 = 100\\sqrt{3} \\fallingdotseq 173.2[kVA]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트044",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트044/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트044_p001_q28"
+  }
+]

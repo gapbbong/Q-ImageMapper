@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 28,
+    "question_text": "가우스의 정리에 의해 구할 수 있는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전계의 세기",
+      "2": "전하 간의 힘",
+      "3": "전위",
+      "4": "전계 에너지"
+    },
+    "answer": 1,
+    "explanation": "가우스의 정리: 전기력선의 총수를 계산하여 전계의 세기도 계산할 수 있는 법칙이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트095",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트095/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트095_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "다음 파형 중 비정현파가 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "주기 사인파",
+      "2": "사각파",
+      "3": "삼각파",
+      "4": "펄스파"
+    },
+    "answer": 1,
+    "explanation": "주기적인 사인파는 기본 정현파이므로 비정현파에 해당되지 않는다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트095",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트095/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트095_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "평형 3상 회로에서 1상의 소비 전력이 $P$[W]라면, 3상 회로 전체 소비 전력[W]은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$2P$",
+      "2": "$\\sqrt{2}P$",
+      "3": "$3P$",
+      "4": "$\\sqrt{3}P$"
+    },
+    "answer": 3,
+    "explanation": "평형 3상 회로의 소비 전력은 1상값의 3배이므로 $3P$[W]이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트095",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트095/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트095_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "자기 히스테리시스 곡선의 횡축과 종축은 어느 것을 나타내는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자기장의 크기와 보자력",
+      "2": "투자율과 자속 밀도",
+      "3": "투자율과 잔류 자기",
+      "4": "자기장의 크기와 자속 밀도"
+    },
+    "answer": 4,
+    "explanation": "히스테리시스 곡선에서 횡축(가로축)은 자기장의 세기, 종축(세로축)은 자속 밀도를 나타내며 횡축과 만나는 점을 보자력, 종축과 만나는 점을 잔류 자기라 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트095",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트095/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트095_p001_q31"
+  },
+  {
+    "question_no": 32,
+    "question_text": "다음 중 접지의 목적으로 알맞지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기기의 이상 전압 상승 시 인체 감전 사고 방지",
+      "2": "이상 전압 상승 억제",
+      "3": "전로의 대지 전압 감소 방지",
+      "4": "보호 계전기의 동작 확보"
+    },
+    "answer": 3,
+    "explanation": "접지 공사의 목적\n• 감전 및 화재 사고 방지\n• 이상 전압 상승 억제\n• 전로의 대지 전위 상승 방지\n• 보호 계전기의 동작 확보",
+    "level": "중",
+    "source": "ElectricExam2019_파트095",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트095/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트095_p001_q32"
+  },
+  {
+    "question_no": 33,
+    "question_text": "가공 인입선을 시설하는 경우 다음 내용 중 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$DV$ 전선을 사용하며 $2.6[mm]$ 이상의 전선을 사용하지 말 것",
+      "2": "인입구에서 분기하여 $100[m]$를 초과하지 말 것",
+      "3": "도로 $5[m]$를 횡단하지 말 것",
+      "4": "옥내를 관통하지 말 것"
+    },
+    "answer": 3,
+    "explanation": "가공 인입선의 사용 전선은 $2.6[mm]$ 이상 경동선이나 동등 이상의 세기를 가진 절연 전선($DV$ 전선 포함)을 사용한다(단, 경간 $15[m]$ 이하는 $2.0[mm]$ 이상도 가능).",
+    "level": "중",
+    "source": "ElectricExam2019_파트095",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트095/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트095_p001_q33"
+  },
+  {
+    "question_no": 34,
+    "question_text": "가공 전선로의 지지물에서 다른 지지물을 거치지 아니하고 다른 수용 장소의 인입선 접속점에 이르는 가공 전선을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "가공 전선",
+      "2": "가공 인입선",
+      "3": "지선",
+      "4": "연접 인입선"
+    },
+    "answer": 3,
+    "explanation": "가공 전선로의 지지물에서 다른 지지물을 거치지 아니하고 수용 장소의 인입선 접속점에 이르는 가공 전선을 가공 인입선이라고 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트095",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트095/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트095_p001_q34"
+  }
+]

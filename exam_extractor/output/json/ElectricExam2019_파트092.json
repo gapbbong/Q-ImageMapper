@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 6,
+    "question_text": "슬립이 $10[\\%]$, 극수 2극, 주파수 $60[\\text{Hz}]$인 유도 전동기의 회전 속도$[\\text{rpm}]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "3,800",
+      "2": "3,600",
+      "3": "3,240",
+      "4": "1,800"
+    },
+    "answer": 3,
+    "explanation": "동기 속도 $N_s = \\frac{120f}{P}$\n$= \\frac{120 \\times 60}{2}$\n$= 3,600[\\text{rpm}]$\n회전 속도 $N = (1-s)N_s$\n$= (1-0.1) \\times 3,600$\n$= 3,240[\\text{rpm}]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트092",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트092/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트092_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "2극 $3,600[\\text{rpm}]$인 동기 발전기와 병렬 운전하려는 12극 발전기의 회전수는 몇 $[\\text{rpm}]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "3,600",
+      "2": "1,200",
+      "3": "1,800",
+      "4": "600"
+    },
+    "answer": 4,
+    "explanation": "동기 발전기의 병렬 운전 조건에서 주파수가 같아야 하므로\n$f = \\frac{N_{s1}P_1}{120} = \\frac{3,600 \\times 2}{120} = 60[\\text{Hz}]$\n$N_{s2} = \\frac{120f}{P_2} = \\frac{120 \\times 60}{12} = 600[\\text{rpm}]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트092",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트092/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트092_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "3상 유도 전동기의 회전 방향을 바꾸려면 어떻게 해야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전원의 극수를 바꾼다.",
+      "2": "3상 전원의 3선 중 두 선의 접속을 바꾼다.",
+      "3": "전원의 주파수를 바꾼다.",
+      "4": "기동 보상기를 이용한다."
+    },
+    "answer": 2,
+    "explanation": "3상 유도 전동기는 회전 자계에 의해 회전하며 회전 자계의 방향을 반대로 하려면 전원의 3선 가운데 2선을 바꾸어 전원에 다시 연결하여 운전하면 회전 방향이 반대로 된다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트092",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트092/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트092_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "반도체 사이리스터에 의한 전동기의 속도 제어 중 주파수 제어는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "초퍼 제어",
+      "2": "인버터 제어",
+      "3": "컨버터 제어",
+      "4": "브리지 정류 제어"
+    },
+    "answer": 2,
+    "explanation": "인버터 제어: 전동기 전원의 주파수를 변환하여 속도를 제어하는 방식",
+    "level": "중",
+    "source": "ElectricExam2019_파트092",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트092/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트092_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "1종 금속 몰드 배선 공사를 할 때 동일 몰드 내에 넣는 전선수는 최대 몇 본 이하로 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "3",
+      "2": "5",
+      "3": "10",
+      "4": "12"
+    },
+    "answer": 3,
+    "explanation": "1종 금속 몰드 배선 시 동일 몰드 내의 전선수는 10본 이하이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트092",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트092/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트092_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "패러데이관에서 단위 전위차에 축적되는 에너지$[J]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\frac{1}{2}$",
+      "2": "1",
+      "3": "$ED$",
+      "4": "$\\frac{1}{2}ED$"
+    },
+    "answer": 1,
+    "explanation": "단위 전하 $1[C]$에서 나오는 전속관을 패러데이관이라 하며 그 양단에는 항상 $1[C]$의 전하가 있다. 단위 전위차는 $1[V]$이므로 보유 에너지 $W=\\frac{1}{2}QV=\\frac{1}{2}\\times 1\\times 1=\\frac{1}{2}[J]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트092",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트092/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트092_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "어드미턴스의 실수부는 무엇인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "컨덕턴스",
+      "2": "리액턴스",
+      "3": "서셉턴스",
+      "4": "임피던스"
+    },
+    "answer": 1,
+    "explanation": "어드미턴스 ($Y[\\mho]$): 임피던스 ($Z[\\Omega]$)의 역수\n*   실수부: 컨덕턴스\n*   허수부: 서셉턴스",
+    "level": "하",
+    "source": "ElectricExam2019_파트092",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트092/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트092_p001_q12"
+  }
+]

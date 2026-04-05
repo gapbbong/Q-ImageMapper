@@ -1,0 +1,142 @@
+[
+  {
+    "question_no": 21,
+    "question_text": "고압 가공 인입선이 도로를 횡단하는 경우 노면상 시설하여야 할 높이는 몇 $[m]$ 이상인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "8.5",
+      "2": "6.5",
+      "3": "6",
+      "4": "4.5"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "저·고압 인입선의 높이: 도로 횡단 시 저압은 $5[m]$ 이상, 고압은 $6[m]$ 이상. 철도 횡단 시 저압은 $6.5[m]$ 이상, 고압은 $6.5[m]$ 이상. 횡단 보도교 시 저압은 $3[m]$ 이상, 고압은 $3.5[m]$ 이상. 기타 장소 시 저압은 $4[m]$ 이상, 고압은 $5[m]$ 이상.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트034",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트034/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트034_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "조명 기구를 배광에 따라 분류하는 경우 특정한 장소만을 고조도로 하기 위한 조명 기구는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "광천장 조명 기구",
+      "2": "직접 조명 기구",
+      "3": "전반 확산 조명 기구",
+      "4": "반직접 조명 기구"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "직접 조명 기구는 특정한 장소만을 하향 광속 $90[\\%]$ 이상이 되도록 설계된 조명 기구이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트034",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트034/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트034_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "$3[kW]$ 전열기를 정격 상태에서 $20$분간 사용하였을 때 열량은 몇 $[kcal]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "430",
+      "2": "520",
+      "3": "610",
+      "4": "860"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "전열기 열량 $1[kWh]=860[kcal]$\n전체 열량 $H = 860 \\times 3 \\times \\frac{20}{60} = 860[kcal]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트034",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트034/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트034_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "금속 전선관을 구부릴 때 금속관의 단면이 심하게 변형되지 않도록 구부려야 하며, 일반적으로 그 안쪽의 반지름은 관 내경의 몇 배 이상이 되어야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "2배",
+      "2": "4배",
+      "3": "6배",
+      "4": "8배"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트034",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트034/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트034_p001_q24"
+  },
+  {
+    "question_no": 25,
+    "question_text": "주위 온도가 일정 상승률 이상이 되는 경우에 작동하는 것으로서 일정한 장소의 열에 의하여 작동하는 화재 감지기는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "차동식 스포트형 감지기",
+      "2": "차동식 분포형 감지기",
+      "3": "광전식 연기 감지기",
+      "4": "이온화식 연기 감지기"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "차동식 스포트형 감지기 : 주위 온도가 일정 상승률 이상이 될 경우 일정한 장소의 열에 의하여 작동하는 감지기로서, 화재 발생 시 온도 상승에 의해 열전대가 열기전력을 발생시켜서 릴레이가 동작하면 수신기에 화재 신호를 보내는 원리",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트034",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트034/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트034_p001_q25"
+  },
+  {
+    "question_no": 26,
+    "question_text": "수 · 변전 설비의 고압 회로에 흐르는 전류를 표시하기 위해 전류계를 시설할 때 고압 회로와 전류계 사이에 시설하는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "계기용 변압기",
+      "2": "계기용 변류기",
+      "3": "관통형 변압기",
+      "4": "권선형 변류기"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "계기용 변류기(CT) : 대전류를 소전류($5[A]$)로 변성하여 측정 계기나 전류계의 전류원으로 사용하기 위한 전류 변성기",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트034",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트034/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트034_p001_q26"
+  },
+  {
+    "question_no": 27,
+    "question_text": "다음 중 자기 저항의 단위에 해당되는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$[\\Omega]$",
+      "2": "$[Wb/AT]$",
+      "3": "$[H/m]$",
+      "4": "$[AT/Wb]$"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "기자력 $F=NI=R\\phi[AT]$에서 자기 저항 $R=\\frac{NI}{\\phi}[AT/Wb]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트034",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트034/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트034_p001_q27"
+  }
+]

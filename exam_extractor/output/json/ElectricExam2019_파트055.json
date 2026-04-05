@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 32,
+    "question_text": "다음 중 자기 소호 기능이 가장 좋은 소자는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "SCR",
+      "2": "GTO",
+      "3": "TRIAC",
+      "4": "LASCR"
+    },
+    "answer": 2,
+    "explanation": "GTO(Gate Turn-Off thyristor)는 게이트 신호로 ON-OFF가 자유로우며 개폐 동작이 빨라 주로 직류의 개폐에 사용되며 자기 소호 기능이 가장 좋다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트055",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트055/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트055_p001_q32"
+  },
+  {
+    "question_no": 33,
+    "question_text": "평균값이 $100[V]$일 때 실효값은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "90",
+      "2": "111",
+      "3": "63.7",
+      "4": "70.7"
+    },
+    "answer": 2,
+    "explanation": "평균값 $V_{av} = \\frac{2}{\\pi}V_m[V]$이므로\n최대값 $V_m = V_{av} \\times \\frac{\\pi}{2} = 100 \\times \\frac{\\pi}{2}[V]$\n실효값 $V = \\frac{V_m}{\\sqrt{2}} = \\frac{\\pi}{2\\sqrt{2}} \\times V_{av}$\n$= \\frac{\\pi}{2\\sqrt{2}} \\times 100$\n$= 111[V]$\n* 쉬운 풀이: $V = 1.11 V_{av} = 1.11 \\times 100 = 111[V]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트055",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트055/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트055_p001_q33"
+  },
+  {
+    "question_no": 34,
+    "question_text": "동기 발전기의 병렬 운전 중 기전력의 위상차가 발생하면 어떤 현상이 나타나는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "무효 횡류",
+      "2": "유효 순환 전류",
+      "3": "무효 순환 전류",
+      "4": "고조파 전류"
+    },
+    "answer": 2,
+    "explanation": "동기 발전기 병렬 운전 조건 중 기전력의 위상차가 발생하면 유효 순환 전류(동기화 전류)가 흐르며 동기화력을 발생시켜 위상이 일치된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트055",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트055/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트055_p001_q34"
+  },
+  {
+    "question_no": 35,
+    "question_text": "1차 전압 $6,000[V]$, 2차 전압 $200[V]$, 주파수 $60[Hz]$의 변압기가 있다. 이 변압기의 권수비는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "20",
+      "2": "30",
+      "3": "40",
+      "4": "50"
+    },
+    "answer": 2,
+    "explanation": "변압기 권수비 $a = \\frac{E_1}{E_2} = \\frac{6,000}{200} = 30$",
+    "level": "하",
+    "source": "ElectricExam2019_파트055",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트055/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트055_p001_q35"
+  },
+  {
+    "question_no": 36,
+    "question_text": "전압 $200[V]$이고 $C_1 = 10[\\mu F]$와 $C_2 = 5[\\mu F]$인 콘덴서를 병렬로 접속하면 $C_2$에 분배되는 전하량은 몇 $[\\mu C]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "200",
+      "2": "2,000",
+      "3": "500",
+      "4": "1,000"
+    },
+    "answer": 4,
+    "explanation": "$C_2$에 축적되는 전하량 $Q_2 = C_2 V = 5 \\times 200 = 1,000[\\mu C]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트055",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트055/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트055_p001_q36"
+  },
+  {
+    "question_no": 37,
+    "question_text": "동기 발전기의 병렬 운전 조건이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기전력의 크기가 같을 것",
+      "2": "기전력의 위상이 같을 것",
+      "3": "기전력의 주파수가 같을 것",
+      "4": "기전력의 임피던스가 같을 것"
+    },
+    "answer": 2,
+    "explanation": "동기 발전기의 병렬 운전 조건\n- 기전력의 크기가 일치할 것\n- 기전력의 위상이 일치할 것\n- 기전력의 주파수가 일치할 것\n- 기전력의 파형이 일치할 것",
+    "level": "하",
+    "source": "ElectricExam2019_파트055",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트055/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트055_p001_q37"
+  },
+  {
+    "question_no": 38,
+    "question_text": "전압비가 $13,200/220[V]$인 단상 변압기의 2차 전류가 $120[A]$일 때 변압기의 1차 전류는 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "20",
+      "3": "10",
+      "4": "2"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트055",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트055/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트055_p001_q38"
+  }
+]

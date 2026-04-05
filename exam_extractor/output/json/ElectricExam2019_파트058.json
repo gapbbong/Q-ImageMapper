@@ -1,0 +1,168 @@
+[
+  {
+    "question_no": 50,
+    "question_text": "다음 중 자기 저항의 단위에 해당되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$[\\Omega]$",
+      "2": "$[\\text{Wb/AT}]$",
+      "3": "$[\\text{H/m}]$",
+      "4": "$[\\text{AT/Wb}]$"
+    },
+    "answer": 4,
+    "explanation": "기자력 $F=NI=R\\phi[\\text{AT}]$ \\ 자기 저항 $R$은 자속의 통과를 방해하는 성분으로 \\ $R=\\frac{NI}{\\phi}[\\text{AT/Wb}]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트058",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트058/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트058_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "직류 직권 전동기에서 벨트를 걸고 운전하면 안 되는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "벨트가 마멸 보수가 곤란하므로",
+      "2": "벨트가 벗겨지면 위험 속도에 도달하므로",
+      "3": "직결하지 않으면 속도 제어가 곤란하므로",
+      "4": "손실이 많아지므로"
+    },
+    "answer": 2,
+    "explanation": "직류 직권 전동기는 정격 전압하에서 무부하 특성을 지니므로, 벨트가 벗겨지면 속도는 급격히 상승하여 위험 속도에 도달할 수 있다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트058",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트058/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트058_p001_q51"
+  },
+  {
+    "question_no": 52,
+    "question_text": "가공 전선로의 지지물에서 다른 지지물을 거치지 아니하고 수용 장소의 인입선 접속점에 이르는 가공 전선을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "가공 전선",
+      "2": "가공 인입선",
+      "3": "지선",
+      "4": "연접 인입선"
+    },
+    "answer": 2,
+    "explanation": "가공 전선로의 지지물에서 다른 지지물을 거치지 아니하고 수용 장소의 인입선 접속점에 이르는 가공 전선을 가공 인입선이라고 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트058",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트058/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트058_p001_q52"
+  },
+  {
+    "question_no": 53,
+    "question_text": "전류에 의해 만들어지는 자기장의 방향을 알기 쉽게 정의한 법칙은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "플레밍의 왼손 법칙",
+      "2": "앙페르의 오른 나사 법칙"
+    },
+    "answer": 2,
+    "explanation": "앙페르의 오른 나사 법칙 : 전류에 의한 자기장 (자기력선)의 방향을 알기 쉽게 정의한 법칙",
+    "level": "하",
+    "source": "ElectricExam2019_파트058",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트058/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트058_p001_q53"
+  },
+  {
+    "answer": 4,
+    "choices": {
+      "1": "Circuit diagram (1)",
+      "2": "Circuit diagram (2)",
+      "3": "Circuit diagram (3)",
+      "4": "Circuit diagram (4)"
+    },
+    "explanation": "전구와 콘센트는 110$[V]$를 사용하므로 전선과 중성선 사이에 연결해야 하고 전동기 $\\text{M}$은 220$[V]$를 사용하므로 선간에 연결해야 한다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트058_p001_q54",
+    "image_path": "images/ElectricExam2019_파트058/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      44,
+      312,
+      128,
+      482
+    ],
+    "question_no": 54,
+    "question_text": "110/220$[V]$ 단상 3선식 회로에서 110$[V]$ 전구 $\\text{R}$, 110$[V]$ 콘센트 $\\text{C}$, 220$[V]$ 전동기 $\\text{M}$의 연결이 올바른 것은?",
+    "round": null,
+    "source": "ElectricExam2019_파트058",
+    "suggested_bbox": {
+      "h": 667,
+      "w": 416,
+      "x": 820,
+      "y": 556
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 55,
+    "question_text": "대칭 3상 교류 회로에서 각 상 간의 위상차는 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\frac{\\pi}{3}$",
+      "2": "$\\frac{2\\pi}{3}$",
+      "3": "$\\frac{3}{2}\\pi$",
+      "4": "$\\frac{2}{\\sqrt{3}}\\pi$"
+    },
+    "answer": 2,
+    "explanation": "대칭 3상 교류에서의 각 상 간 위상차는 $\\frac{2\\pi}{3}$ $[rad]$ $=120^{\\circ}$이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트058",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트058/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트058_p001_q55"
+  }
+]

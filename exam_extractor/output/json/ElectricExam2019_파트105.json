@@ -1,0 +1,201 @@
+[
+  {
+    "question_no": 33,
+    "question_text": "분상 기동형 단상 유도 전동기의 기동 권선은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "운전 권선보다 굵고 권선이 많다.",
+      "2": "운전 권선보다 가늘고 권선이 적다.",
+      "3": "운전 권선보다 굵고 권선이 적다.",
+      "4": "운전 권선보다 가늘고 권선이 많다."
+    },
+    "answer": 2,
+    "explanation": "분상 기동형 단상 유도 전동기의 권선\n* 운전 권선($L$만의 회로): 굵은 권선으로 길게 하여 권선을 많이 감아서 $L$성분을 크게 한다.\n* 기동 권선($R$만의 회로): 운전 권선보다 가늘고 권선을 적게 하여 저항값을 크게 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트105",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트105/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트105_p001_q33"
+  },
+  {
+    "question_no": 34,
+    "question_text": "변압기의 권수비가 $60$이고 $2$차 저항이 $0.1[\\Omega]$일 때 $1$차로 환산한 저항값$[\\Omega]$은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "30",
+      "2": "360",
+      "3": "300",
+      "4": "250"
+    },
+    "answer": 2,
+    "explanation": "권수비 $a = \\sqrt{\\frac{R_1}{R_2}}$ 이므로\n$1$차 저항 $R_1 = a^2 R_2 = 60^2 \\times 0.1 = 360[\\Omega]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트105",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트105/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트105_p001_q34"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "6.6",
+      "2": "7.4",
+      "3": "8.7",
+      "4": "9.4"
+    },
+    "explanation": "합성 저항 $= \\frac{4 \\times 6}{4+6} + \\frac{10}{2} = 7.4[\\Omega]$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트105_p001_q35",
+    "image_path": "images/ElectricExam2019_파트105/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      594,
+      172,
+      674,
+      416
+    ],
+    "question_no": 35,
+    "question_text": "그림과 같은 회로에서 합성 저항은 몇 $[\\Omega]$ 인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트105",
+    "suggested_bbox": {
+      "h": 162,
+      "w": 349,
+      "x": 246,
+      "y": 1203
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 36,
+    "question_text": "유도 발전기의 장점이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "동기 발전에 비해 가격이 저렴하다.",
+      "2": "효율과 역률이 높다."
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트105",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트105/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트105_p001_q36"
+  },
+  {
+    "question_no": 37,
+    "question_text": "전기자 저항 $0.2[\\Omega]$, 전기자 전류 $100[A]$, 전압 $120[V]$인 분권 전동기의 출력$[kW]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "20",
+      "2": "15",
+      "3": "12",
+      "4": "10"
+    },
+    "answer": 4,
+    "explanation": "$\\\\cdot$ 유기 기전력 $E = V - I_a R_a = 120 - 100 \\\\times 0.2 = 100[V]$\n$\\\\cdot$ 출력 $P = E I_a = 100 \\\\times 100 = 10,000[W] = 10[kW]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트105",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트105/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트105_p001_q37"
+  },
+  {
+    "question_no": 38,
+    "question_text": "동기기의 전기자 권선법이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2층권",
+      "2": "단절권",
+      "3": "중권",
+      "4": "전층권"
+    },
+    "answer": 4,
+    "explanation": "동기기의 전기자 권선법 : 고상권, 2층권, 중권, 단절권, 분포권",
+    "level": "하",
+    "source": "ElectricExam2019_파트105",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트105/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트105_p001_q38"
+  },
+  {
+    "question_no": 39,
+    "question_text": "3상 변압기를 병렬 운전하는 경우 불가능한 조합은?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      750,
+      200,
+      890,
+      790
+    ],
+    "choices": {
+      "1": "$\\\\Delta - Y$와 $\\\\Delta - \\\\Delta$",
+      "2": "$\\\\Delta - \\\\Delta$와 $Y - Y$",
+      "3": "$\\\\Delta - Y$와 $\\\\Delta - Y$",
+      "4": "$Y - \\\\Delta$와 $Y - \\\\Delta$"
+    },
+    "answer": 1,
+    "explanation": "3상 변압기군의 병렬 운전 조합\n| 병렬 운전 가능 | 병렬 운전 불가능 |\n|---|---|\n| $\\\\Delta - \\\\Delta$와 $\\\\Delta - \\\\Delta$ | $\\\\Delta - \\\\Delta$와 $\\\\Delta - Y$ |\n| $Y - Y$와 $Y - Y$ | $Y - Y$와 $\\\\Delta - Y$ |\n| $Y - \\\\Delta$와 $Y - \\\\Delta$ | |\n| $\\\\Delta - Y$와 $\\\\Delta - Y$ | |\n| $\\\\Delta - \\\\Delta$와 $Y - Y$ | |\n| $V - V$와 $V - V$ | |",
+    "level": "중",
+    "source": "ElectricExam2019_파트105",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트105/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트105_p001_q39",
+    "suggested_bbox": {
+      "x": 802,
+      "y": 1517,
+      "w": 464,
+      "h": 283
+    }
+  }
+]

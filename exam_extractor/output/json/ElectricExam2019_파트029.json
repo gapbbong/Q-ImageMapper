@@ -1,0 +1,122 @@
+[
+  {
+    "question_no": 53,
+    "question_text": "R-L 직렬 회로에 직류 전압 $100[V]$를 가했더니 전류가 $20[A]$ 흘렀다. 교류 전압 $100[V]$, $f=60[Hz]$를 인가한 경우 흐르는 전류가 $10[A]$이었다면 유도성 리액턴스 $X_L[\\Omega]$은 얼마인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "5",
+      "2": "$5\\sqrt{2}$",
+      "3": "$5\\sqrt{3}$",
+      "4": "10"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "직류를 인가한 경우 $L=0$이므로 저항 $R$만 고려하여 $V=IR[V]$식에 적용한다.\\ $R=\\frac{V}{I}=\\frac{100}{20}=5[\\Omega]$\\ 교류를 인가한 경우 $L$이 동작하므로 임피던스 $Z=\\sqrt{R^2+X_L^2}$이고 $V=IZ[V]$식을 적용한다.\\ $Z=\\frac{V}{I}=\\frac{100}{10}=10=\\sqrt{R^2+X_L^2}[\\Omega]$이므로\\ $X_L=\\sqrt{Z^2-R^2}=\\sqrt{10^2-5^2}$\\ $=\\sqrt{75}=\\sqrt{5^2\\times 3}$\\ $=5\\sqrt{3}[\\Omega]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트029",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트029/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트029_p001_q53"
+  },
+  {
+    "question_no": 54,
+    "question_text": "전동기의 정격 전류가 $10[A]$, $20[A]$, $50[A]$인 경우 전동기 전용 분기 회로에 있어서 허용 전류는 몇 $[A]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "80",
+      "2": "88",
+      "3": "100",
+      "4": "120"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "전동기 전용 분기 회로의 허용 전류\\ 전동기 정격 전류 $50[A]$ 초과 : $1.1$배\\ $I_a=1.1\\times (10+20+50)=88[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트029",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트029/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트029_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "다음 중 단로기(DS)의 사용 목적으로 맞는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "전압의 개폐",
+      "2": "부하 전류의 차단",
+      "3": "단일 회선의 개폐",
+      "4": "고장 전류 차단"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "단로기는 부하 전류, 고장 전류를 차단할 수 있는 능력이 없고 설비 계통의 보수, 점검 시 잠시 선로를 분리하는 설비이다. 그러므로 전압의 개폐는 가능하다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트029",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트029/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트029_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "일반적으로 가공 전선로의 지지물에 취급자가 오르내리는 데 사용하는 발판 볼트 등은 일반인의 승주를 방지하기 위하여 지표상 몇 $[m]$ 미만에 시설하여서는 안 되는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "0.75",
+      "2": "1.2",
+      "3": "1.8",
+      "4": "2.0"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "발판 볼트는 취급자가 오르내리기 위한 볼트로서 지지물의 지표상 $1.8[m]$부터 완급 하부 $0.9[m]$까지 발판 볼트를 설치한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트029",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트029/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트029_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "직류 전동기 속도 제어법에서 워드 레오너드 방식에 사용하는 발전기의 종류는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "타여자 발전기",
+      "2": "분권 발전기",
+      "3": "직권 발전기",
+      "4": "복권 발전기"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "워드 레오너드 방식은 타여자 발전기 출력 전압을 조정하는 방식으로 광범위한 속도 조정이 가능하다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트029",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트029/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트029_p001_q57"
+  },
+  {
+    "question_no": 58,
+    "question_text": "$200[V]$, $30[W]$ 전등 10개를 20시간 사용하였다면 사용 전력량은 몇 $[kWh]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "12",
+      "2": "6",
+      "3": "3",
+      "4": "2"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "전력량 $W = Pt$\n$= 30 \\times 10 \\times 20$\n$= 6,000[Wh]$\n$= 6[kWh]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트029",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트029/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트029_p001_q58"
+  }
+]

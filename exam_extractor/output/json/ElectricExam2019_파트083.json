@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 11,
+    "question_text": "전압 $200[V]$이고 $C_1 = 10[\\mu F]$와 $C_2 = 5[\\mu F]$인 콘덴서를 병렬로 접속하면 $C_2$에 분배되는 전하량은 몇 $[\\mu C]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "2,000",
+      "3": "500",
+      "4": "1,000"
+    },
+    "answer": 4,
+    "explanation": "$C_2$에 축적되는 전하량은 $Q_2 = C_2 V = 5 \\times 200 = 1,000[\\mu C]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트083",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트083/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트083_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "변압기의 권수비가 60이고 2차 저항이 $0.1[\\Omega]$일 때 1차로 환산한 저항값$[\\Omega]$은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "30",
+      "2": "360",
+      "3": "300",
+      "4": "250"
+    },
+    "answer": 2,
+    "explanation": "권수비 $a = \\sqrt{\\frac{R_1}{R_2}}$ 이므로 1차 저항 $R_1 = a^2 R_2 = 60^2 \\times 0.1 = 360[\\Omega]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트083",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트083/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트083_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "유도 발전기의 장점이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "동기 발전기에 비해 가격이 저렴하다.",
+      "2": "조작이 쉽다.",
+      "3": "동기 발전기처럼 동기화할 필요가 없다.",
+      "4": "효율과 역률이 높다."
+    },
+    "answer": 4,
+    "explanation": "유도 발전기는 유도 전동기를 동기 속도 이상으로 회전시켜서 전력을 얻어내는 발전기로서 동기기에 비해 조작이 쉽고 가격이 저렴하지만 효율과 역률이 낮다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트083",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트083/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트083_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "직류기의 전기자 철심을 규소 강판을 사용하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "가공하기 쉽다.",
+      "2": "가격이 염가이다.",
+      "3": "동손 감소",
+      "4": "철손 감소"
+    },
+    "answer": 4,
+    "explanation": "철심을 규소 강판으로 성층하는 이유는 철손(히스테리시스손)을 감소하기 위함이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트083",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트083/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트083_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "다음 중 자기 저항의 단위에 해당되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$[\\Omega]$",
+      "2": "$[\\text{Wb/AT}]$",
+      "3": "$[\\text{H/m}]$",
+      "4": "$[\\text{AT/Wb}]$"
+    },
+    "answer": 4,
+    "explanation": "해설 기자력 $F=NI=R\\phi [\\text{AT}]$에서 자기 저항 $R=\\frac{NI}{\\phi} [\\text{AT/Wb}]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트083",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트083/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트083_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "변류기 개방 시 2차측을 단락하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "변류비 유지",
+      "2": "2차측 과전류 보호",
+      "3": "측정 오차 감소",
+      "4": "2차측 절연 보호"
+    },
+    "answer": 4,
+    "explanation": "해설 변류기 2차측을 개방시키면 변류기 1차측의 부하 전류가 모두 여자 전류가 되어 변류기 2차측에 고전압이 유도되어 절연이 파괴될 수도 있으므로 반드시 단락시켜야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트083",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트083/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트083_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "전류를 계속 흐르게 하려면 전압을 연속적으로 만들어주는 어떤 힘이 필요하게 되는데, 이 힘을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자기력",
+      "2": "기전력",
+      "3": "전자력",
+      "4": "전기장"
+    },
+    "answer": 2,
+    "explanation": "해설 기전력 : 전압을 연속적으로 만들어서 전류를 계속 흐르게 하는 원천",
+    "level": "하",
+    "source": "ElectricExam2019_파트083",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트083/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트083_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "동기 발전기의 병렬 운전 조건 중 같지 않아도 되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류",
+      "2": "주파수",
+      "3": "위상",
+      "4": "전압"
+    },
+    "answer": 1,
+    "explanation": "해설 동기 발전기 병렬 운전 시 일치해야 하는 조건 : 기전력(전압)의 크기, 위상, 주파수, 파형",
+    "level": "중",
+    "source": "ElectricExam2019_파트083",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트083/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트083_p001_q18"
+  }
+]

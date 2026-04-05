@@ -1,0 +1,171 @@
+[
+  {
+    "question_no": 27,
+    "question_text": "3상 유도 전동기의 회전 원리와 가장 관계가 깊은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "회전 자계",
+      "2": "옴의 법칙",
+      "3": "플레밍의 오른손 법칙",
+      "4": "키르히호프의 법칙"
+    },
+    "answer": 1,
+    "explanation": "유도 전동기의 회전 원리 : 고정자 3상 권선에 흐르는 평형 3상 전류에 의해 발생한 회전 자계가 동기 속도 $N_s$로 회전할 때 아라고 원판 역할을 하는 회전자 도체가 자속을 끊어 기전력이 발생하여 전류가 흐르면 전동기는 시계 방향으로 회전하는 회전 자계와 같은 방향으로 회전을 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트005",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트005/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트005_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "접지를 하는 목적으로 설명이 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "감전 방지",
+      "2": "대지 전압 상승 방지",
+      "3": "전기 설비 용량 감소",
+      "4": "화재와 폭발 사고 방지"
+    },
+    "answer": 3,
+    "explanation": "접지의 목적 \\n • 전선의 대지 전압의 저하 \\n • 보호 계전기의 동작 확보 \\n • 감전의 방지",
+    "level": "중",
+    "source": "ElectricExam2019_파트005",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트005/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트005_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "$R-L-C$ 직렬 회로에서 임피던스 $Z$의 크기를 나타내는 식은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$R^2+X_L^2$",
+      "2": "$R^2-X_C^2$",
+      "3": "$\\sqrt{R^2+(X_L-X_C)^2}$",
+      "4": "$0$"
+    },
+    "answer": 3,
+    "explanation": "$R-L-C$ 직렬 회로의 임피던스 \\n $\\dot{Z}=R+j(X_L-X_C)=R+j\\left(\\omega L-\\frac{1}{\\omega C}\\right)[\\Omega]$ \\n $Z=\\sqrt{R^2+(X_L-X_C)^2}[\\Omega]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트005",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트005/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트005_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "사람이 상시 통행하는 터널 내 배선의 사용 전압이 저압일 때 공사 방법으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "금속관 공사",
+      "2": "애자 사용 공사",
+      "3": "금속 몰드",
+      "4": "합성수지관(두께 $2[mm]$ 미만 및 난연성이 없는 것은 제외)"
+    },
+    "answer": null,
+    "explanation": "금속관, 두께 $2[mm]$ 이상의 합성수지관, 금속제가요 전선관, 케이블, 애자 사용 배선 등에 준하여 시설한다. 금속 몰드 공사는 사용 전압 $400[V]$ 미만, 건조하고 전개된 장소에 시설하는 공사이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트005",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트005/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트005_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "전자 접촉기 2개를 이용하여 유도 전동기 1대를 정 · 역 운전하고 있는 시설에서 전자 접촉기 2개가 동시에 여자되어 상간 단락되는 것을 방지하기 위하여 구성하는 회로는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자기 유지 회로",
+      "2": "순차 제어 회로",
+      "3": "Y - $\\Delta$ 기동 회로",
+      "4": "인터록 회로"
+    },
+    "answer": 4,
+    "explanation": "인터록 회로 : 선행 입력 우선 동작 회로로서 응답을 하는 동시에 다른 동작을 금지시키는 회로이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트005",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트005/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트005_p001_q31"
+  },
+  {
+    "question_no": 32,
+    "question_text": "쥐꼬리 접속 시 접속하려는 두 전선의 피복을 벗긴 후 심선을 교차시킬 때 펜치로 비트는 교차각은 몇 도가 되어야 하는가?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      828,
+      299,
+      880,
+      649
+    ],
+    "choices": {
+      "1": "$30^{\\circ}$",
+      "2": "$90^{\\circ}$",
+      "3": "$120^{\\circ}$",
+      "4": "$180^{\\circ}$"
+    },
+    "answer": 2,
+    "explanation": "펜치로 교차시킨 심선을 잡아당기면서 $90^{\\circ}$가 되도록 비틀어 2~3회 정도 꼰 후 끝을 잘라낸다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트005",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트005/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트005_p001_q32",
+    "suggested_bbox": {
+      "x": 870,
+      "y": 1655,
+      "w": 340,
+      "h": 133,
+      "source": "plus_logic"
+    }
+  }
+]

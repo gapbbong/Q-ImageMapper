@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 41,
+    "question_text": "진동이 있는 기계 기구의 단자에 전선을 접속할 때 사용하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "압착 단자",
+      "2": "스프링 와셔",
+      "3": "코드 스패너",
+      "4": "십자머리 볼트"
+    },
+    "answer": 2,
+    "explanation": "진동으로 인하여 단자가 풀릴 우려가 있는 곳에는 스프링 와셔나 이중 너트를 사용한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트145",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트145/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트145_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "가공 인입선을 시설할 때 경동선의 최소 굵기는 몇 $[mm]$인가? (단, 경간이 $15[m]$를 초과한 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$2.0$",
+      "2": "$2.6$",
+      "3": "$3.2$",
+      "4": "$1.5$"
+    },
+    "answer": 2,
+    "explanation": "가공 인입선의 사용 전선 : $2.6[mm]$ 이상 경동선 또는 이와 동등 이상일 것(단, 경간 $15[m]$ 이하는 $2.0[mm]$ 이상도 가능)",
+    "level": "중",
+    "source": "ElectricExam2019_파트145",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트145/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트145_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "조명등을 숙박업소의 입구에 설치할 때 현관등은 최대 몇 분 이내에 소등되는 타임스위치를 시설하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$4$",
+      "2": "$3$",
+      "3": "$1$",
+      "4": "$2$"
+    },
+    "answer": 3,
+    "explanation": "현관등 타임스위치\\n• 일반 주택 및 아파트 : 3분\\n• 숙박업소 각 호실 : 1분",
+    "level": "하",
+    "source": "ElectricExam2019_파트145",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트145/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트145_p001_q43"
+  },
+  {
+    "question_no": 44,
+    "question_text": "점유 면적이 좁고 운전, 보수에 안전하므로 공장, 빌딩 등의 전기실에 많이 사용되며, 큐비클(cubicle)형이라고 불리는 배전반은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "라이브 프런트식 배전반",
+      "2": "폐쇄식 배전반",
+      "3": "포스트형 배전반",
+      "4": "데드 프런트식 배전반"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트145",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트145/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트145_p001_q44"
+  },
+  {
+    "question_no": 45,
+    "question_text": "박강 전선관의 호칭을 맞게 설명한 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "박강 전선관의 호칭 : 외경에 가까운 홀수",
+    "level": "하",
+    "source": "ElectricExam2019_파트145",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트145/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트145_p001_q45"
+  },
+  {
+    "question_no": 46,
+    "question_text": "한국전기설비규정에 의한 고압 가공 전선로 철탑의 경간은 몇 $[m]$ 이하로 제한하고 있는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "150",
+      "2": "250",
+      "3": "500",
+      "4": "600"
+    },
+    "answer": 4,
+    "explanation": "고압 가공 전선로의 철탑의 표준 경간 : $600[m]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트145",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트145/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트145_p001_q46"
+  },
+  {
+    "question_no": 47,
+    "question_text": "옥내 배선 공사에서 대지 전압 $150[V]$를 초과하고 $300[V]$ 이하 저압 전로의 인입구에 인체 감전 사고를 방지하기 위하여 반드시 시설해야 하는 지락 차단 장치는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "퓨즈",
+      "2": "커버나이프 스위치",
+      "3": "배선용 차단기",
+      "4": "누전 차단기"
+    },
+    "answer": 4,
+    "explanation": "옥내 전로의 대지 전압이 $150[V]$를 초과하고 $300[V]$ 이하 저압 전로의 인입구에는 반드시 누전 차단기를 시설해야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트145",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트145/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트145_p001_q47"
+  }
+]

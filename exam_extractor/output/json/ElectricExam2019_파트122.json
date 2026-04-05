@@ -1,0 +1,170 @@
+[
+  {
+    "answer": 2,
+    "choices": {
+      "1": "$30^{\\circ}$",
+      "2": "$90^{\\circ}$",
+      "3": "$120^{\\circ}$",
+      "4": "$180^{\\circ}$"
+    },
+    "explanation": "쥐꼬리 접속은 전선 피복을 여유 있게 벗긴 후 심선을 $90^{\\circ}$가 되도록 교차시킨 후 펜치로 잡아당기면서 비틀어 2~3회 정도 꼰 후 끝을 잘라낸다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트122_p001_q17",
+    "image_path": "images/ElectricExam2019_파트122/page_001_full.png",
+    "image_regions": [],
+    "level": "하",
+    "page": 1,
+    "question_image_bbox": [
+      313,
+      167,
+      442,
+      479
+    ],
+    "question_no": 17,
+    "question_text": "동일 굵기의 단선을 쥐꼬리 접속하는 경우 두 전선의 피복을 벗긴 후 심선을 교차시켜서 펜치로 비틀면서 꼬아야 하는데 이때 심선의 교차각은 몇 도가 되도록 해야 하는가?",
+    "round": null,
+    "source": "ElectricExam2019_파트122",
+    "suggested_bbox": {
+      "h": 262,
+      "w": 447,
+      "x": 240,
+      "y": 633
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 18,
+    "question_text": "노출 장소 또는 점검 가능한 장소에서 제2종 가요 전선관을 시설하고 제거하는 것이 자유로운 경우의 곡률 반지름은 안지름의 몇 배 이상으로 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "6",
+      "2": "3",
+      "3": "12",
+      "4": "10"
+    },
+    "answer": 2,
+    "explanation": "제2종 가요관의 굴곡 반경은 가요 전선관을 시설하고 제거하는 것이 자유로운 경우 곡률 반지름은 3배 이상으로 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트122",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트122/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트122_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "교통 신호등 회로의 사용 전압이 몇 $[V]$를 초과하는 경우에는 지락 발생 시 자동적으로 전로를 차단하는 장치를 시설하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "50",
+      "3": "150",
+      "4": "200"
+    },
+    "answer": 3,
+    "explanation": "교통 신호등 회로의 사용 전압이 $150[V]$를 초과한 경우 전로에 지락이 발생했을 때 자동적으로 전로를 차단하는 누전 차단기를 시설하여야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트122",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트122/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트122_p001_q19"
+  },
+  {
+    "question_no": 20,
+    "question_text": "옥내 배선 공사에서 절연 전선의 심선이 손상되지 않도록 피복을 벗길 때 사용하는 공구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "와이어 스트리퍼",
+      "2": "플라이어",
+      "3": "압착 펜치",
+      "4": "프레셔 툴"
+    },
+    "answer": 1,
+    "explanation": "와이어 스트리퍼 : 절연 전선의 피복 절연물을 직각으로 벗기기 위한 자동 공구로 도체의 손상을 방지하기 위하여 정확한 크기의 구멍을 선택하여 피복 절연물을 벗겨야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트122",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트122/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트122_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "코일 주위에 전기적 특성이 큰 에폭시 수지를 고진공으로 침투시키고, 다시 그 주위를 기계적 강도가 큰 에폭시 수지로 몰딩한 변압기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "건식 변압기",
+      "2": "몰드 변압기",
+      "3": "유입 변압기",
+      "4": "타이 변압기"
+    },
+    "answer": 2,
+    "explanation": "몰드 변압기 : 코일 주위에 전기적 특성이 큰 에폭시 수지를 고진공으로 침투시키고, 다시 그 주위를 기계적 강도가 큰 에폭시 수지로 몰딩한 변압기",
+    "level": "중",
+    "source": "ElectricExam2019_파트122",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트122/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트122_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "저압 크레인 또는 호이스트 등의 트롤리선을 애자 사용 공사에 의하여 옥내의 노출 장소에 시설하는 경우 트롤리선의 바닥에서의 최소 높이는 몇 $[m]$ 이상으로 설치하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2",
+      "2": "2.5",
+      "3": "3.5",
+      "4": "4.5"
+    },
+    "answer": 3,
+    "explanation": "저압 크레인 또는 호이스트 등의 트롤리선을 애자 사용 공사에 의하여 옥내의 노출 장소에 시설하는 경우 트롤리선의 바닥에서의 높이는 $3.5[m]$ 이상으로 설치하여야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트122",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트122/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트122_p001_q22"
+  }
+]

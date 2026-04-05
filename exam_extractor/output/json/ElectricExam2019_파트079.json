@@ -1,0 +1,56 @@
+[
+  {
+    "question_no": 59,
+    "question_text": "선택 지락 계전기(selective ground relay)의 용도는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "단일 회선에서 지락 전류의 방향의 선택",
+      "2": "다회선에서 지락 고장 회선의 선택",
+      "3": "단일 회선에서 지락 전류의 대·소의 선택",
+      "4": "다회선에서 지락 사고 지속 시간 선택"
+    },
+    "answer": 2,
+    "explanation": "선택 지락 계전기(SGR) : 다회선 송전 선로에서 지락이 발생된 회선만을 검출하여 선택 · 차단할 수 있도록 동작하는 계전기",
+    "level": "중",
+    "source": "ElectricExam2019_파트079",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트079/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트079_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "전선관 시스템에 시설하는 배선 방법이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "합성 수지관 배선",
+      "2": "금속 몰드 배선",
+      "3": "가요 전선관 배선",
+      "4": "금속관 배선"
+    },
+    "answer": 2,
+    "explanation": "전선관 시스템 배선 방법 : 합성 수지관 배선, 금속관 배선, 가요 전선관 배선",
+    "level": "중",
+    "source": "ElectricExam2019_파트079",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트079/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트079_p001_q60"
+  }
+]

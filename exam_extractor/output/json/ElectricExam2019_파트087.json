@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 37,
+    "question_text": "구리 전선과 전기 기계 기구 단자를 접속하는 경우에 진동 등으로 인하여 헐거워질 염려가 있는 곳에는 어떤 것을 사용하여 접속하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "평와셔 2개를 끼운다.",
+      "2": "스프링 와셔를 끼운다.",
+      "3": "코드 패스너를 끼운다.",
+      "4": "정 슬리브를 끼운다."
+    },
+    "answer": 2,
+    "explanation": "진동 등으로 인하여 풀릴 우려가 있는 경우 스프링 와셔나 이중 너트를 사용한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트087",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트087/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트087_p001_q37"
+  },
+  {
+    "question_no": 38,
+    "question_text": "평균값이 $100[V]$일 때 실효값은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "90",
+      "2": "111",
+      "3": "63.7",
+      "4": "70.7"
+    },
+    "answer": 2,
+    "explanation": "평균값 $V_{av} = \\frac{2}{\\pi}V_m[V]$이므로 \\n최대값 $V_m = V_{av} \\times \\frac{\\pi}{2} = 100 \\times \\frac{\\pi}{2}[V]$ \\n실효값 $V = \\frac{V_m}{\\sqrt{2}} = \\frac{\\pi}{2\\sqrt{2}} \\times V_{av}$ \\n$= \\frac{\\pi}{2\\sqrt{2}} \\times 100 = 111[V]$ \\n*쉬운 풀이: $V = 1.11V_{av} = 1.11 \\times 100 = 111[V]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트087",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트087/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트087_p001_q38"
+  },
+  {
+    "question_no": 39,
+    "question_text": "막대 자석의 자극의 세기가 $m[Wb]$이고 길이가 $l[m]$인 경우 자기 모멘트$[Wb \\cdot m]$는 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$ml$",
+      "2": "$\\frac{m}{l}$",
+      "3": "$\\frac{l}{m}$",
+      "4": "$2ml$"
+    },
+    "answer": 1,
+    "explanation": "막대 자석의 자기 모멘트 $M = ml[Wb \\cdot m]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트087",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트087/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트087_p001_q39"
+  },
+  {
+    "question_no": 40,
+    "question_text": "가공 인입선을 시설할 때 경동선의 최소 굵기는 몇 $[mm]$인가? (단, 경간이 $15[m]$를 초과한 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2.0",
+      "2": "2.6",
+      "3": "3.2",
+      "4": "1.5"
+    },
+    "answer": 2,
+    "explanation": "가공 인입선의 사용 전선 : $2.6[mm]$ 이상 경동선 또는 이와 동등 이상일 것(단, 경간 $15[m]$ 이하인 경우는 $2.0[mm]$ 이상도 가능)",
+    "level": "중",
+    "source": "ElectricExam2019_파트087",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트087/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트087_p001_q40"
+  },
+  {
+    "question_no": 41,
+    "question_text": "공기 중에서 자속 밀도 $2[Wb/m^2]$의 평등 자장 속에 길이 $60[cm]$의 직선 도선을 자장의 방향과 $30^{\\circ}$각으로 놓고 여기에 $5[A]$의 전류를 흐르게 하면 이 도선이 받는 힘은 몇 $[N]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2",
+      "2": "5",
+      "3": "6",
+      "4": "3"
+    },
+    "answer": 4,
+    "explanation": "전자력 $F = BIlsins\\theta$\n$= 5 \\times 2 \\times 0.6 \\times sin30^{\\circ}$\n$= 3[N]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트087",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트087/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트087_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "히스테리시스 곡선이 세로축과 만나는 점의 값은 무엇을 나타내는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자속 밀도",
+      "2": "잔류 자기",
+      "3": "보자력",
+      "4": "자기장"
+    },
+    "answer": 2,
+    "explanation": "히스테리시스 곡선\n• 세로축(종축)과 만나는 점 : 잔류 자기\n• 가로축(횡축)과 만나는 점 : 보자력",
+    "level": "중",
+    "source": "ElectricExam2019_파트087",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트087/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트087_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "두 금속을 접속하여 여기에 전류를 흘리면, 줄열 외에 그 접점에서 열의 발생 또는 흡수가 일어나는 현상은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "줄 효과",
+      "2": "홀 효과",
+      "3": "제백 효과",
+      "4": "펠티에 효과"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트087",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트087/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트087_p001_q43"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "question_no": 55,
+    "question_text": "부흐홀츠 계전기로 보호되는 기기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "변압기",
+      "2": "유도 전동기",
+      "3": "직류 발전기",
+      "4": "교류 발전기"
+    },
+    "answer": 1,
+    "explanation": "부흐홀츠 계전기: 변압기의 절연유 열화 방지",
+    "level": "하",
+    "source": "ElectricExam2019_파트099",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트099/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트099_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "DV 전선의 명칭은 무엇인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "인입용 비닐 절연 전선",
+      "2": "배선용 단심 비닐 절연 전선",
+      "3": "$450/750V$ 일반용 단심 비닐 절연 전선",
+      "4": "옥외용 비닐 절연 전선"
+    },
+    "answer": 1,
+    "explanation": "DV: 인입용 비닐 절연 전선",
+    "level": "하",
+    "source": "ElectricExam2019_파트099",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트099/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트099_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "주파수가 $1[kHz]$일 때 용량성 리액턴스가 $50[\\Omega]$이라면, 주파수가 $50[Hz]$인 경우 용량성 리액턴스는 몇 $[\\Omega]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "500",
+      "2": "50",
+      "3": "1,000",
+      "4": "750"
+    },
+    "answer": 3,
+    "explanation": "용량성 리액턴스는 주파수와 반비례한다. 주파수가 $\\frac{50}{1,000} = \\frac{1}{20}$로 감소하면 용량성 리액턴스는 20배로 증가하므로 $X_C = 50 \\times 20 = 1,000[\\Omega]$이 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트099",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트099/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트099_p001_q57"
+  },
+  {
+    "question_no": 58,
+    "question_text": "화약류 저장소에서 백열전등이나 형광등 또는 이들에 전기를 공급하기 위한 전기 설비를 시설하는 경우 전로의 대지 전압은 몇 $[V]$ 이하인가?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      670,
+      100,
+      715,
+      150
+    ],
+    "choices": {
+      "1": "100",
+      "2": "200",
+      "3": "220",
+      "4": "300"
+    },
+    "answer": 4,
+    "explanation": "화약류 저장소 시설 규정\n* 금속관, 케이블 공사\n* 대지 전압 $300[V]$ 이하\n* 개폐기 및 과전류 차단기에서 화약고의 인입구까지의 배선에는 케이블을 사용하고 또한 반드시 지중에 시설할 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트099",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트099/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트099_p001_q58",
+    "suggested_bbox": {
+      "x": 78,
+      "y": 1355,
+      "w": 39,
+      "h": 91
+    }
+  },
+  {
+    "question_no": 59,
+    "question_text": "저항 $8[\\Omega]$, 유도 리액턴스 $6[\\Omega]$인 $R-L$ 직렬 회로에 교류 전압 $200[V]$를 인가한 경우 전류와 역률은 각각 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$10[A]$, $60[\\%]$",
+      "2": "$10[A]$, $80[\\%]$",
+      "3": "$20[A]$, $60[\\%]$",
+      "4": "$20[A]$, $80[\\%]$"
+    },
+    "answer": 4,
+    "explanation": "해설 임피던스 절댓값 $Z = \\sqrt{R^2+X_L^2} = \\sqrt{8^2+6^2} = 10[\\Omega]$ 전류 $I = \\frac{V}{Z} = \\frac{200}{10} = 20[A]$ 역률 $\\cos\\theta = \\frac{R}{Z} = \\frac{8}{10} \\times 100 = 80[\\%]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트099",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트099/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트099_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "권선형 유도 전동기에서 토크를 일정하게 한 상태로 회전자 권선에 2차 저항을 2배로 하면 슬립은 몇 배가 되겠는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\sqrt{2}$배",
+      "2": "2배",
+      "3": "$\\sqrt{3}$배",
+      "4": "4배"
+    },
+    "answer": 2,
+    "explanation": "해설 권선형 유도 전동기는 2차 저항을 조정함으로써 최대 토크는 변하지 않는 상태에서 슬립으로 속도 조절이 가능하며 슬립과 2차 저항은 비례 관계가 성립하므로 2배가 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트099",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트099/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트099_p001_q60"
+  }
+]

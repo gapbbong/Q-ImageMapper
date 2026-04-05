@@ -1,0 +1,135 @@
+[
+  {
+    "question_no": 40,
+    "question_text": "$R-L$ 직렬 회로에 교류 전압 $v = V_m \\sin\\omega t[V]$를 가했을 때 회로의 위상차 $\\theta$를 나타낸 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$\\theta = \\tan^{-1} \\frac{R}{\\omega L}$",
+      "2": "$\\theta = \\tan^{-1} \\frac{\\omega L}{R}$",
+      "3": "$\\theta = \\tan^{-1} \\frac{1}{R\\omega L}$",
+      "4": "$\\theta = \\tan^{-1} \\frac{R}{\\sqrt{R^2 + (\\omega L)^2}}$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "$R-L$ 직렬 회로 합성 임피던스 $\\dot{Z} = R+j\\omega L[\\Omega]$ $I, V$의 위상차 $\\theta = \\tan^{-1} \\frac{\\omega L}{R}$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트037",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트037/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트037_p001_q40"
+  },
+  {
+    "question_no": 41,
+    "question_text": "부하 변동에 따라 속도 변동이 심해 전차, 권상기, 크레인 등에 이용되는 직류 전동기는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "직권",
+      "2": "분권",
+      "3": "가동 복권",
+      "4": "차동 복권"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "직권 전동기는 기동 토크가 크며, 큰 입력이 필요하지 않으므로 전차, 권상기, 크레인 등과 같이 기동 횟수가 빈번하고 토크의 변동이 심한 연속적인 부하에 적당하다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트037",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트037/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트037_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "피뢰 시스템에 접지 도체가 접속된 경우 접지 저항은 몇 $[\\Omega]$ 이하이어야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "5",
+      "2": "10",
+      "3": "15",
+      "4": "20"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "피뢰 시스템에 접지 도체가 접속된 경우 접지 저항은 $10[\\Omega]$ 이하이어야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트037",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트037/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트037_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "6,600[V], 1,000[kVA] 3상 변압기의 저압측 전류 ($\\odot$)와 역률 70[\\%]일 때 출력 ($\\odot$)은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "67.8[A], 700[kW]",
+      "2": "87.5[A], 700[kW]",
+      "3": "78.5[A], 600[kW]",
+      "4": "76.8[A], 600[kW]"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "3상 피상 전력 $P_a = \\sqrt{3} VI[VA]$이므로 전류 $I = \\frac{P_a}{\\sqrt{3} V} = \\frac{1,000}{\\sqrt{3} \\times 6.6} = 87.5[A]$ 출력 $P = P_a cos \\theta = 1,000 \\times 0.7 = 700[kW]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트037",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트037/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트037_p001_q43"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "1",
+      "2": "0.9",
+      "3": "0.8",
+      "4": "0"
+    },
+    "explanation": "V곡선에서 전기가자 전류가 가장 작게 흐를 때는 V곡선의 최저점이고 역률은 1인 상태이다.",
+    "has_choice_image": false,
+    "has_explanation_image": false,
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트037_p001_q44",
+    "image_path": "images/ElectricExam2019_파트037/page_001_full.png",
+    "image_regions": [],
+    "page": 1,
+    "question_no": 44,
+    "question_text": "그림은 동기기의 위상 특성 곡선을 나타낸 것이다. 전기가자 전류가 가장 작게 흐를 때의 역률은?",
+    "source": "ElectricExam2019_파트037",
+    "suggested_bbox": {
+      "h": 274,
+      "source": "plus_logic",
+      "w": 328,
+      "x": 880,
+      "y": 897
+    },
+    "question_image_bbox": [
+      443,
+      614,
+      578,
+      843
+    ]
+  },
+  {
+    "question_no": 45,
+    "question_text": "직류 전동기의 전압 강하를 보상하기 위한 승압용 발전기는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "가동 복권 발전기",
+      "2": "직권 발전기",
+      "3": "분권 발전기",
+      "4": "차동 복권 발전기"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트037",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트037/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트037_p001_q45"
+  }
+]

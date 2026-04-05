@@ -1,0 +1,191 @@
+[
+  {
+    "answer": 2,
+    "choices": {
+      "1": "500",
+      "2": "1000",
+      "3": "1500",
+      "4": "2000"
+    },
+    "explanation": "소비전력(유효전력) $P = VI\\cos\\theta = 100 \\times 20 \\times \\cos(\\frac{\\pi}{6} - (-\\frac{\\pi}{6})) = 2000 \\times \\cos\\frac{\\pi}{3} = 2000 \\times \\frac{1}{2} = 1000 [W]$입니다.",
+    "has_question_image": false,
+    "id": "ElectricExam2019_파트148_p001_q09",
+    "image_path": "images/ElectricExam2019_파트148/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "question_no": 9,
+    "question_text": "09 어떤 회로에 $e = 100\\sqrt{2}\\sin(100\\pi t + \\pi/6) [V]$의 전압을 가했을 때 $i = 20\\sqrt{2}\\sin(100\\pi t - \\pi/6) [A]$의 전류가 흘렀다. 이 회로의 소비전력 $[W]$은?",
+    "round": null,
+    "source": "ElectricExam2019_파트148",
+    "year": 2019
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "$250, 250\\sqrt{3}$",
+      "2": "$250\\sqrt{3}, 250$",
+      "3": "$500, 500\\sqrt{3}$",
+      "4": "$500\\sqrt{3}, 500$"
+    },
+    "explanation": "유효전력 $P = VI\\cos\\theta = \\frac{100}{\\sqrt{2}} \\times \\frac{10}{\\sqrt{2}} \\times \\cos(30^{\\circ} - (-30^{\\circ})) = 500 \\times \\cos 60^{\\circ} = 250 [W]$이며, 무효전력 $Q = VI\\sin\\theta = 500 \\times \\sin 60^{\\circ} = 500 \\times \\frac{\\sqrt{3}}{2} = 250\\sqrt{3} [Var]$입니다.",
+    "has_question_image": false,
+    "id": "ElectricExam2019_파트148_p001_q10",
+    "image_path": "images/ElectricExam2019_파트148/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "question_no": 10,
+    "question_text": "10 어떤 회로에 $v = 100\\sin(377t + 30^{\\circ}) [V]$의 전압을 가하니 $i = 10\\sin(377t - 30^{\\circ}) [A]$의 전류가 흘렀다. 이 회로의 유효전력 $[W]$과 무효전력 $[Var]$은?",
+    "round": null,
+    "source": "ElectricExam2019_파트148",
+    "year": 2019
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "$\\frac{R}{\\sqrt{R^2 + X_L^2}}$",
+      "2": "$\\frac{X_L}{\\sqrt{R^2 + X_L^2}}$",
+      "3": "$\\frac{R}{R + X_L}$",
+      "4": "$\\frac{X_L}{R + X_L}$"
+    },
+    "explanation": "병렬회로의 역률 $\\cos\\theta = \\frac{G}{Y} = \\frac{1/R}{\\sqrt{(1/R)^2 + (1/X_L)^2}} = \\frac{1/R}{\\frac{\\sqrt{R^2 + X_L^2}}{RX_L}} = \\frac{X_L}{\\sqrt{R^2 + X_L^2}}$입니다.",
+    "has_question_image": false,
+    "id": "ElectricExam2019_파트148_p001_q11",
+    "image_path": "images/ElectricExam2019_파트148/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "question_no": 11,
+    "question_text": "11 저항 $R$과 유도 리액턴스 $X_L$이 병렬로 연결된 회로의 역률은?",
+    "round": null,
+    "source": "ElectricExam2019_파트148",
+    "year": 2019
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "$\\frac{1}{\\sqrt{1 + (\\omega CR)^2}}$",
+      "2": "$\\frac{\\omega CR}{\\sqrt{1 + (\\omega CR)^2}}$",
+      "3": "$\\frac{1}{1 + \\omega CR}$",
+      "4": "$\\frac{\\omega CR}{1 + \\omega CR}$"
+    },
+    "explanation": "병렬회로의 역률 $\\cos\\theta = \\frac{G}{Y} = \\frac{1/R}{\\sqrt{(1/R)^2 + (\\omega C)^2}} = \\frac{1/R}{\\frac{\\sqrt{1 + (\\omega CR)^2}}{R}} = \\frac{1}{\\sqrt{1 + (\\omega CR)^2}}$입니다.",
+    "has_question_image": false,
+    "id": "ElectricExam2019_파트148_p001_q13",
+    "image_path": "images/ElectricExam2019_파트148/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "question_no": 13,
+    "question_text": "13 저항 $R$과 정전 용량 $C$가 병렬로 연결된 회로의 역률은?",
+    "round": null,
+    "source": "ElectricExam2019_파트148",
+    "year": 2019
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "계통의 리액턴스를 크게 한다.",
+      "2": "전압 변동을 작게 한다.",
+      "3": "고속도 재폐로 방식을 채용한다.",
+      "4": "고속도 차단기를 사용한다."
+    },
+    "explanation": "해설: 안정도 향상 대책\n① 계통의 리액턴스를 작게 한다.\n② 전압 변동을 작게 한다.\n③ 고속도 재폐로 방식을 채용한다.\n④ 고속도 차단기를 사용한다.",
+    "has_question_image": false,
+    "id": "ElectricExam2019_파트148_p001_q26",
+    "image_path": "images/ElectricExam2019_파트148/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "question_no": 26,
+    "question_text": "26. 전력 계통의 안정도 향상 대책으로 틀린 것은?",
+    "round": null,
+    "source": "ElectricExam2019_파트148",
+    "year": 2019
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "코로나 방지",
+      "2": "인덕턴스 증가",
+      "3": "정전 용량 감소",
+      "4": "전선 중량 감소"
+    },
+    "explanation": "해설: 복도체 사용 목적\n① 코로나 방지\n② 인덕턴스 감소\n③ 정전 용량 증가",
+    "has_question_image": false,
+    "id": "ElectricExam2019_파트148_p001_q27",
+    "image_path": "images/ElectricExam2019_파트148/page_001_full.png",
+    "image_regions": [],
+    "level": "하",
+    "page": 1,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "question_no": 27,
+    "question_text": "27. 송전 선로에서 복도체를 사용하는 주된 목적은?",
+    "round": null,
+    "source": "ElectricExam2019_파트148",
+    "year": 2019
+  },
+  {
+    "answer": 3,
+    "choices": {
+      "1": "지락 전류가 매우 크다.",
+      "2": "과도 안정도가 나쁘다.",
+      "3": "통신선 유도 장해가 작다.",
+      "4": "계통의 절연 수준을 낮출 수 있다."
+    },
+    "explanation": "해설: 직접 접지 방식\n① 지락 전류가 최대이다.\n② 통신선 유도 장해가 최대이다.\n③ 과도 안정도가 매우 나쁘다.\n④ 단절연이 가능하다.",
+    "has_question_image": false,
+    "id": "ElectricExam2019_파트148_p001_q28",
+    "image_path": "images/ElectricExam2019_파트148/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "question_no": 28,
+    "question_text": "28. 송전 계통의 중성점 접지 방식 중 직접 접지 방식에 대한 설명으로 틀린 것은?",
+    "round": null,
+    "source": "ElectricExam2019_파트148",
+    "year": 2019
+  }
+]

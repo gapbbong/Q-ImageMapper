@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 46,
+    "question_text": "도체의 전기 저항에 대한 것으로 옳은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "길이와 단면적에 비례한다.",
+      "2": "길이와 단면적에 반비례한다.",
+      "3": "길이에 반비례하고 단면적에 비례한다.",
+      "4": "길이에 비례하고 단면적에 반비례한다."
+    },
+    "answer": 4,
+    "explanation": "전기 저항 $R = \\rho \\frac{l}{A}$ 이므로 길이에 비례하고 단면적에 반비례한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트067",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트067/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트067_p001_q46"
+  },
+  {
+    "question_no": 47,
+    "question_text": "측정이나 계산으로 구할 수 없는 손실로 부하 전류가 흐를 때 도체 또는 철심 내부에서 생기는 손실을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "표유 부하손",
+      "2": "히스테리시스손",
+      "3": "구리손",
+      "4": "맴돌이 전류손"
+    },
+    "answer": 1,
+    "explanation": "표유 부하손(부하손) = 표류 부하손 : 누설 전류에 의해 발생하는 손실로 측정은 가능하나 계산에 의하여 구할 수 없는 손실",
+    "level": "중",
+    "source": "ElectricExam2019_파트067",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트067/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트067_p001_q47"
+  },
+  {
+    "question_no": 48,
+    "question_text": "권선 저항과 온도와의 관계는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "온도와는 무관하다.",
+      "2": "온도가 상승하면 권선 저항은 감소한다.",
+      "3": "온도가 상승하면 권선 저항은 증가한다.",
+      "4": "온도가 상승하면 권선의 저항은 증가와 감소를 반복한다."
+    },
+    "answer": 3,
+    "explanation": "권선 저항은 구리(도체)의 경우 정온도 특성을 가지므로 온도가 상승하면 권선 저항도 상승한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트067",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트067/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트067_p001_q48"
+  },
+  {
+    "question_no": 49,
+    "question_text": "주택, 아파트인 경우 표준 부하는 몇 $[VA/m^2]$ 인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "10",
+      "2": "20",
+      "3": "30",
+      "4": "40"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트067",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트067/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트067_p001_q49"
+  },
+  {
+    "question_no": 50,
+    "question_text": "평균값이 $100[V]$인 경우 실효값$[V]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "111",
+      "3": "127",
+      "4": "200"
+    },
+    "answer": 2,
+    "explanation": "해설 실효값 $V = 1.11 V_{av} = 1.11 \\times 100 = 111[V]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트067",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트067/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트067_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "한쪽 방향으로 일정한 전류가 흐르는 경우 동작하는 계전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "비율 차동 계전기",
+      "2": "부흐홀츠 계전기",
+      "3": "과전류 계전기",
+      "4": "과전압 계전기"
+    },
+    "answer": 3,
+    "explanation": "해설 과전류 계전기: 전류가 일정한 값 이상으로 흐르면 동작하는 계전기",
+    "level": "하",
+    "source": "ElectricExam2019_파트067",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트067/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트067_p001_q51"
+  },
+  {
+    "question_no": 52,
+    "question_text": "$\\Delta - Y$ 결선(delta-star connection)한 경우에 대한 설명으로 옳지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$Y$결선의 중성점을 접지할 수 있다.",
+      "2": "제3고조파에 의한 장해가 작다.",
+      "3": "1차 선간 전압 및 2차 선간 전압의 위상차는 $60^{\\circ}$이다.",
+      "4": "1차 변전소의 승압용으로 사용된다."
+    },
+    "answer": 3,
+    "explanation": "해설 $\\Delta - Y$ 결선의 특징\n* 승압용으로 사용\n* $Y$결선의 중성점을 접지할 수 있다.\n* $\\Delta$결선은 제3고조파에 의한 장해가 작다.\n* 1, 2차 전압 위상차: $\\frac{\\pi}{6}[rad]=30^{\\circ}$ 발생",
+    "level": "중",
+    "source": "ElectricExam2019_파트067",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트067/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트067_p001_q52"
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "전선의 공칭 단면적에 대한 설명으로 옳지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "소선수와 소선의 지름으로 나타낸다.",
+      "2": "단위는 $[mm^2]$로 표시한다.",
+      "3": "전선의 실제 단면적과 같다.",
+      "4": "연선의 굵기를 나타내는 것이다."
+    },
+    "answer": 3,
+    "explanation": "전선의 공칭 단면적은 전선의 실제 단면적을 계산하여 더 큰 값을 적용하고 $1.5$, $2.5$, $4$, $6$, $10$, $16$, $25$, $35$, $50$ $\\cdots$ 등으로 값이 정해져 있다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트091",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트091/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트091_p001_q01"
+  },
+  {
+    "answer": 3,
+    "choices": {
+      "1": "4",
+      "2": "2",
+      "3": "3",
+      "4": "1"
+    },
+    "explanation": "전원측에서 분기점 사이에 다른 분기 회로 또는 콘센트의 접속이 없고, 단락의 위험과 화재 및 인체에 대한 위험성이 최소화되도록 시설된 경우, 분기 회로의 보호 장치($P_2$)는 분기 회로의 분기점($O$)으로부터 $3[m]$까지 이동하여 설치할 수 있다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트091_p001_q02",
+    "image_path": "images/ElectricExam2019_파트091/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      690,
+      222,
+      805,
+      431
+    ],
+    "question_no": 2,
+    "question_text": "과부하 보호 장치는 분기점($O$)에 설치해야 하나, 분기점($O$)점과 분기 회로의 과부하 보호 장치의 설치점 사이의 배선 부분에 다른 분기회로 또는 콘센트의 접속이 없고, 단락의 위험과 화재 및 인체에 대한 위험성이 최소화되도록 시설된 경우 분기 회로($S_2$)의 보호 장치($P_2$)는 분기 회로의 분기점($O$)으로부터 몇 $[m]$까지 이동하여 설치할 수 있는가?",
+    "round": null,
+    "source": "ElectricExam2019_파트091",
+    "suggested_bbox": {
+      "h": 232,
+      "w": 299,
+      "x": 318,
+      "y": 1396
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 3,
+    "question_text": "환기형과 비환기형으로 구분되어 있으며 도중에 부하를 접속할 수 없는 덕트는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "트롤리 버스 덕트",
+      "2": "플러그인 버스 덕트",
+      "3": "피더 버스 덕트",
+      "4": "슬래브 버스 덕트"
+    },
+    "answer": 3,
+    "explanation": "피더 버스 덕트는 도중에 부하를 접속할 수 없다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트091",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트091/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트091_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "전선의 명칭 중 FL은 무엇을 뜻하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "네온 전선",
+      "2": "비닐 코드",
+      "3": "형광 방전등",
+      "4": "비닐 절연 전선"
+    },
+    "answer": 3,
+    "explanation": "\"FL\"은 형광 방전등(fluorescent lamp)을 뜻한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트091",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트091/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트091_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "직류 전동기의 규약 효율을 표시하는 식은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\frac{\\text{출력}}{\\text{출력} + \\text{손실}} \\times 100[\\%]$",
+      "2": "$\\frac{\\text{출력}}{\\text{입력}} \\times 100[\\%]$",
+      "3": "$\\frac{\\text{입력} - \\text{손실}}{\\text{입력}} \\times 100[\\%]$",
+      "4": "$\\frac{\\text{입력}}{\\text{출력} + \\text{손실}} \\times 100[\\%]$"
+    },
+    "answer": 3,
+    "explanation": "직류 전동기의 규약 효율 $\\eta = \\frac{\\text{입력} - \\text{손실}}{\\text{입력}} \\times 100[\\%]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트091",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트091/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트091_p001_q05"
+  }
+]

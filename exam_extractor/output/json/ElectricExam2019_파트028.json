@@ -1,0 +1,75 @@
+[
+  {
+    "answer": 2,
+    "choices": {
+      "1": "3상, 2극, Y결선",
+      "2": "3상, 4극, Y결선",
+      "3": "3상, 2극, \\$\\Delta\\$결선",
+      "4": "3상, 4극, \\$\\Delta\\$결선"
+    },
+    "explanation": "그림의 결선도는 3상, 4극, Y결선에 해당한다.",
+    "has_choice_image": false,
+    "has_explanation_image": false,
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트028_p001_q46",
+    "image_path": "images/ElectricExam2019_파트028/page_001_full.png",
+    "image_regions": [],
+    "page": 1,
+    "question_image_bbox": [
+      157,
+      172,
+      231,
+      474
+    ],
+    "question_no": 46,
+    "question_text": "다음은 3상 유도 전동기 고정자 권선의 결선도를 나타낸 것이다. 맞는 것은?",
+    "source": "ElectricExam2019_파트028",
+    "suggested_bbox": {
+      "h": 149,
+      "source": "plus_logic",
+      "w": 433,
+      "x": 247,
+      "y": 317
+    }
+  },
+  {
+    "question_no": 47,
+    "question_text": "동기 와트 $P_2$, 출력 $P_o$, 슬립 $s$, 동기 속도 $N_s$, 회전 속도 $N$, 2차 동손 $P_{c2}$일 때 2차 효율 표기로 틀린 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$1-s$",
+      "2": "$\\frac{P_{c2}}{P}$",
+      "3": "$\\frac{P_o}{P_2}$",
+      "4": "$\\frac{N}{N_s}$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "2차 효율 $\\eta_2 = \\frac{P_o}{P_2} = \\frac{(1-s)P_2}{P_2} = 1-s = \\frac{N}{N_s}$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트028",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트028/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트028_p001_q47"
+  },
+  {
+    "question_no": 48,
+    "question_text": "가공 케이블 시설 시 조가용선에 금속 테이프 등을 사용하여 케이블 외장을 견고하게 붙여 조가하는 경우 나선형으로 금속제 테이프를 감는 간격은 몇 $[cm]$ 이하를 확보하여 감아야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "50",
+      "2": "30",
+      "3": "20",
+      "4": "10"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "조가용선 금속제 테이프를 감는 간격은 나선형으로 $20[cm]$ 이하마다 감아야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트028",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트028/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트028_p001_q48"
+  }
+]

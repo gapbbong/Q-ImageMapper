@@ -1,0 +1,140 @@
+[
+  {
+    "question_no": 20,
+    "question_text": "직류 전동기의 속도 제어법이 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "전압 제어법",
+      "2": "계자 제어법",
+      "3": "저항 제어법",
+      "4": "공극 제어법"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "직류 전동기 속도 제어:\n• 전압 제어\n• 계자 제어\n• 저항 제어",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트024",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트024/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트024_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "다음 중 부하 증가 시 속도 변동이 작은 전동기에 속하는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "유도 전동기",
+      "2": "직권 전동기",
+      "3": "교류 정류자 전동기",
+      "4": "분권 전동기"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "속도 변동이 가장 작은 전동기는 분권 전동기, 타여자 전동기이며 속도 변동이 매우 작아서 정속도 전동기라고도 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트024",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트024/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트024_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "변압기 2대를 V결선했을 때의 이용률은 몇 $[%]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "57.5",
+      "2": "70.7",
+      "3": "86.6",
+      "4": "100"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "V결선의 이용률$= \\frac{\\text{V결선 출력}}{\\text{2대 발생 출력}} \\times 100 = \\frac{\\sqrt{3}}{2} \\times 100 = 86.6[\\%]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트024",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트024/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트024_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "선택 지락 계전기(selective ground relay)의 용도는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "단일 회선에서 지락 전류의 방향의 선택",
+      "2": "단일 회선에서 지락 사고 지속 시간 선택"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트024",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트024/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트024_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "관을 시설하고 제거하는 것이 자유롭고 점검 가능한 은폐 장소에서 가요 전선관을 구부리는 경우 곡률 반경은 2종 가요 전선관 내경의 몇 배 이상으로 하여야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "10",
+      "2": "9",
+      "3": "6",
+      "4": "3"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "관을 시설하고 제거하는 것이 자유롭고 점검 가능한 은폐 장소에서 가요 전선관을 구부리는 경우 곡률 반경은 제2종 가요 전선관 내경의 3배 이상으로 하여야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트024",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트024/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트024_p001_q24"
+  },
+  {
+    "question_no": 25,
+    "question_text": "일반적으로 학교 건물이나 은행 건물 등 간선의 수용률은 얼마인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$50[\\%]$",
+      "2": "$60[\\%]$",
+      "3": "$70[\\%]$",
+      "4": "$80[\\%]$"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "일반적으로 학교 건물이나 은행 건물 등 간선의 수용률은 $70[\\%]$를 적용한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트024",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트024/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트024_p001_q25"
+  },
+  {
+    "question_no": 26,
+    "question_text": "전선의 전기 저항 처음 값을 $R_1$이라 하고 이 전선의 반지름을 2배로 하면 전기 저항 $R$은 처음 값의 얼마이겠는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$4R_1$",
+      "2": "$2R_1$",
+      "3": "$\\frac{1}{2}R_1$",
+      "4": "$\\frac{1}{4}R_1$"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "전기 저항이 $R = \\rho \\frac{l}{A} = \\rho \\frac{l}{\\pi r^2} [\\Omega]$이므로 반지름이 2배 증가하면 단면적은 $r^2 = 4$배 증가하므로 단면적에 반비례하는 전기 저항은 $\\frac{1}{4}$로 감소한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트024",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트024/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트024_p001_q26"
+  }
+]

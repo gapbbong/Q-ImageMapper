@@ -1,0 +1,42 @@
+[
+  {
+    "question_no": 59,
+    "question_text": "저압 개폐기를 생략하여도 무방한 개소는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "부하 전류를 끊거나 흐르게 할 필요가 있는 장소",
+      "2": "인입구, 기타 고장, 점검, 측정, 수리 등에서 개로할 필요가 있는 개소",
+      "3": "퓨즈의 전원측으로 분기 회로용 과전류 차단기 이후의 퓨즈가 플러그 퓨즈와 같이 퓨즈 교환 시에 충전부에 접촉될 우려가 없을 경우",
+      "4": "퓨즈에 근접하여 설치한 개폐기인 경우의 퓨즈 전원측"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "저압 개폐기를 필요로 하는 개소 저압 개폐기는 저압 전로 중 다음의 개소 또는 따로 정하는 개소에 시설하여야 한다.\n* 부하 전류를 끊거나 흐르게 할 필요가 있는 개소\n* 인입구, 기타 고장, 점검, 측정, 수리 등에서 개로할 필요가 있는 개소\n* 퓨즈의 전원측(이 경우 개폐기는 퓨즈에 근접하여 설치할 것). 단, 분기 회로용 과전류 차단기 이후의 퓨즈가 플러그 퓨즈와 같이 퓨즈 교환 시에 충전부에 접촉될 우려가 없을 경우 는 이 개폐기를 생략할 수 있다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트040",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트040/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트040_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "200[V], 2[kW]의 전열선 2개를 같은 전압에서 직렬로 접속한 경우의 전력은 병렬로 접속한 경우의 전력보다 어떻게 되는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$\\frac{1}{2}$배로 줄어든다.",
+      "2": "$\\frac{1}{4}$배로 줄어든다.",
+      "3": "2배로 증가한다.",
+      "4": "4배로 증가한다."
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "전열선(저항) 두 개를 직렬로 접속하면 합성 저항은 $2R[\\Omega]$이고 전압 $V[V]$를 걸어준 경우 소비 전력 $P_1 = \\frac{V^2}{2R}[W]$이 된다.\\n전열선 두 개를 병렬로 접속하면 합성 저항은 $\\frac{R}{2}[\\Omega]$이고 전압 $V[V]$를 걸어준 경우 소비 전력 $P_2 = \\frac{V^2}{\\frac{R}{2}} = 2\\frac{V^2}{R}[W]$이 된다.\\n그러므로 직렬은 병렬의 $\\frac{1}{4}$배이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트040",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트040/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트040_p001_q60"
+  }
+]

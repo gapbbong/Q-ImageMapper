@@ -1,0 +1,115 @@
+[
+  {
+    "answer": 2,
+    "choices": {
+      "1": "80[V]",
+      "2": "90[V]",
+      "3": "100[V]",
+      "4": "110[V]"
+    },
+    "explanation": "전위 $V=9\\times10^9\\times\\frac{Q}{r}[V]$ \\n$V_Q=9\\times10^9\\times\\frac{2\\times10^{-8}}{1}=180[V]$ \\n$V_P=9\\times10^9\\times\\frac{2\\times10^{-8}}{2}=90[V]$ \\n그러므로 전위차 $V=180-90=90[V]$",
+    "has_choice_image": false,
+    "has_explanation_image": false,
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트041_p001_q01",
+    "image_path": "images/ElectricExam2019_파트041/page_001_full.png",
+    "image_regions": [],
+    "page": 1,
+    "question_no": 1,
+    "question_text": "그림과 같이 공기 중에 놓인 $2\\times10^{-8}[C]$의 전하에서 $2[m]$ 떨어진 점 P와 $1[m]$ 떨어진 점 Q와의 전위차는?",
+    "source": "ElectricExam2019_파트041",
+    "suggested_bbox": {
+      "h": 134,
+      "source": "plus_logic",
+      "w": 308,
+      "x": 354,
+      "y": 744
+    },
+    "question_image_bbox": [
+      368,
+      247,
+      434,
+      462
+    ]
+  },
+  {
+    "question_no": 2,
+    "question_text": "심벌 EQ는 무엇을 의미하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "지진 감지기",
+      "2": "전하량기",
+      "3": "변압기",
+      "4": "누전 경보기"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "지진 감지기(EarthQuake detector)는 영문 약자를 따라서 EQ로 표기한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트041",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트041/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트041_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "똑같은 크기의 저항 5개를 가지고 얻을 수 있는 합성 저항 최대값은 최소값의 몇 배 인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "5배",
+      "2": "10배",
+      "3": "25배",
+      "4": "20배"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트041",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트041/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트041_p001_q03"
+  },
+  {
+    "question_no": 4,
+    "question_text": "일반적으로 가공 전선로의 지지물에 취급자가 오르고 내리는 데 사용하는 발판 볼트 등은 지표상 몇 $[m]$ 미만에 시설하여서는 안 되는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "0.75",
+      "2": "1.2",
+      "3": "1.8",
+      "4": "2.0"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "지표상 $1.8[m]$로부터 완금 하부 $0.9[m]$까지 발판 볼트를 설치한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트041",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트041/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트041_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "저압 옥내 배선에서 합성수지관 공사에 대한 설명 중 잘못된 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "합성수지관 안에는 전선에 접속점이 없도록 한다.",
+      "2": "합성수지관을 새들 등으로 지지하는 경우는 그 지지점 간의 거리를 $3[m]$ 이상으로 한다.",
+      "3": "합성수지관 상호 및 관과 박스는 접속 시에 삽입하는 길이를 관 바깥지름의 $1.2$배 이상으로 한다.",
+      "4": "관 상호의 접속은 박스 또는 커플링 (coupling) 등을 사용하고 직접 접속 하지 않는다."
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "합성수지관 공사의 지지점 간의 거리는 $1.5[m]$ 이하이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트041",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트041/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트041_p001_q05"
+  }
+]

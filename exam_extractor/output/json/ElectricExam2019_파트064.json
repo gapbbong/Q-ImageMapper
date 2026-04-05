@@ -1,0 +1,83 @@
+[
+  {
+    "question_no": 26,
+    "question_text": "피시 테이프(fish tape)의 용도로 옳은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전선을 테이핑하기 위하여 사용된다.",
+      "2": "전선관의 끝마무리를 위해서 사용된다.",
+      "3": "배관에 전선을 넣을 때 사용된다.",
+      "4": "합성수지관을 구부릴 때 사용된다."
+    },
+    "answer": 3,
+    "explanation": "피시 테이프 : 배관에 피시 테이프를 먼저 집어넣은 후 전선과 접속하여 끌어 당겨서 관에 전선을 넣을 때 사용하는 공구",
+    "level": "하",
+    "source": "ElectricExam2019_파트064",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트064/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트064_p001_q26"
+  },
+  {
+    "question_no": 27,
+    "question_text": "다음 설명 중 잘못된 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전위차가 높으면 높을수록 전류는 잘 흐른다.",
+      "2": "양전하를 많이 가진 물질은 전위가 낮다.",
+      "3": "$1$초 동안에 $1[C]$의 전기량이 이동하면 전류는 $1[A]$이다.",
+      "4": "전류의 방향은 전자의 이동 방향과는 반대 방향으로 정한다."
+    },
+    "answer": 2,
+    "explanation": "전위란 전기적인 위치 에너지로서, 전위차가 높을수록 전류가 잘 흐르며 양전하가 많을수록 전위가 높다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트064",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트064/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트064_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "키르히호프의 법칙을 이용하여 방정식을 세우는 방법으로 잘못된 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "키르히호프의 제1법칙을 회로망의 임의의 점에 적용한다.",
+      "2": "계산 결과 전류가 $+$로 표시된 것은 처음에 정한 방향과 반대 방향임을 나타낸다.",
+      "3": "각 폐회로에서 키르히호프의 제2법칙을 적용한다.",
+      "4": "각 회로의 전류를 문자로 나타내고 방향을 가정한다."
+    },
+    "answer": 2,
+    "explanation": "처음에 정한 방향과 전류 방향이 같으면 “$+$”로, 처음에 정한 방향과 전류 방향이 반대이면 “$-$”로 표시한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트064",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트064/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트064_p001_q28"
+  }
+]

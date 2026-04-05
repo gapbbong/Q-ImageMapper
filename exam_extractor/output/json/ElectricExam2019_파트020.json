@@ -1,0 +1,42 @@
+[
+  {
+    "question_no": 59,
+    "question_text": "저항 $R=3[\\Omega]$, 자체 인덕턴스 $L=10.6[mH]$이 직렬로 연결된 회로에 주파수 $60[Hz]$, $500[V]$의 교류 전압을 인가한 경우의 전류 $I[A]$는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "10",
+      "2": "15",
+      "3": "50",
+      "4": "100"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "유도성 리액턴스 $X_L=2\\pi fL$ \\\\ $=2\\times 3.14\\times 60\\times 10.6\\times 10^{-3}=4[\\Omega]$ \\\\ $Z=\\sqrt{R^2+X_L^2}=\\sqrt{3^2+4^2}=5[\\Omega]$ \\\\ $I=\\frac{V}{Z}=\\frac{500}{5}=100[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트020",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트020/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트020_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "교류 $380[V]$를 사용하는 공장의 전선과 대지 사이의 절연 저항은 몇 $[M\\Omega]$ 이상이어야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$0.1$",
+      "2": "$1.0$",
+      "3": "$0.5$",
+      "4": "$100$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "FELV, $500[V]$ 이하이면 $1.0[M\\Omega]$ 이상이어야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트020",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트020/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트020_p001_q60"
+  }
+]

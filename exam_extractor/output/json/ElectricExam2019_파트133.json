@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 27,
+    "question_text": "도체의 전기 저항에 영향을 주는 요소가 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "도체의 종류",
+      "2": "도체의 길이",
+      "3": "도체의 모양",
+      "4": "도체의 단면적"
+    },
+    "answer": 3,
+    "explanation": "전기 저항 $R = \\rho \\frac{l}{S} [\\Omega]$\n여기서, 고유 저항 : $\\rho [\\Omega \\cdot m]$\n(도체의 성분에 따라 다르다.)\n도체의 길이 : $l [m]$\n도체의 단면적 : $S [m^2]$ ",
+    "level": "하",
+    "source": "ElectricExam2019_파트133",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트133/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트133_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "건축물 · 구조물의 철골 기타의 금속제는 이를 비접지식 고압 전로에 시설하는 기계 기구의 철대 또는 금속제 외함 또는 저압 전로를 결합하는 변압기의 저압 전로의 접지 공사의 접지극으로 사용할 수 있다. 이 경우 대지와의 전기 저항값이 몇 $[\\Omega]$ 이하이어야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4"
+    },
+    "answer": 2,
+    "explanation": "건축물 · 구조물의 철골 기타의 금속제는 이를 비접지식 고압 전로에 시설하는 기계 기구의 철대 또는 금속제 외함의 접지 공사 또는 비접지식 고압 전로와 저압 전로를 결합하는 변압기의 저압 전로의 접지 공사의 접지극으로 사용할 수 있다. 다만, 대지와의 사이에 전기 저항값이 $2[\\Omega]$ 이하인 값을 유지하는 경우에 한한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트133",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트133/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트133_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "양방향으로 전류를 흘릴 수 있는 양방향 소자는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "GTO",
+      "2": "MOSFET",
+      "3": "TRIAC",
+      "4": "SCR"
+    },
+    "answer": 3,
+    "explanation": "양방향성 사이리스터 : SSS, TRIAC, DIAC",
+    "level": "하",
+    "source": "ElectricExam2019_파트133",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트133/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트133_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "다음 중 자기 소호 기능이 가장 좋은 소자는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "SCR",
+      "2": "GTO",
+      "3": "TRIAC",
+      "4": "LASCR"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트133",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트133/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트133_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "정격 전압이 $100[V]$인 직류 발전기가 있다. 무부하 전압 $104[V]$일 때 이 발전기의 전압 변동률$[\\%]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 2,
+    "explanation": "전압 변동률 $\\varepsilon = \\frac{V_0 - V_n}{V_n} \\times 100 = \\frac{104 - 100}{100} \\times 100 = 4[\\%]$ ",
+    "level": "하",
+    "source": "ElectricExam2019_파트133",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트133/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트133_p001_q31"
+  },
+  {
+    "question_no": 32,
+    "question_text": "폭연성 분진이 존재하는 곳의 저압 옥내 배선 공사 시 공사 방법으로 짝지어진 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "금속관 공사, MI 케이블 공사, 개장된 케이블 공사",
+      "2": "CD 케이블 공사, MI 케이블 공사, 금속관 공사",
+      "3": "CD 케이블 공사, MI 케이블 공사, 제1종 캡타이어 케이블 공사",
+      "4": "개장된 케이블 공사, CD 케이블 공사, 제1종 캡타이어 케이블 공사"
+    },
+    "answer": 1,
+    "explanation": "폭연성 분진, 화약류 분말이 있는 장소의 공사 : 금속관 공사, 케이블 공사(MI 케이블, 개장 케이블)",
+    "level": "중",
+    "source": "ElectricExam2019_파트133",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트133/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트133_p001_q32"
+  },
+  {
+    "question_no": 33,
+    "question_text": "플로어 덕트 공사에 의한 저압 옥내 배선에서 절연 전선으로 연선을 사용하지 않아도 되는 것은 전선의 굵기가 몇 $[mm^2]$ 이하인 경우인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$2.5[mm^2]$",
+      "2": "$4[mm^2]$",
+      "3": "$6[mm^2]$",
+      "4": "$10[mm^2]$"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트133",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트133/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트133_p001_q33"
+  }
+]

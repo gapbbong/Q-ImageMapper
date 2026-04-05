@@ -1,0 +1,116 @@
+[
+  {
+    "question_no": 1,
+    "question_text": "전로에 시설하는 기계 기구의 철대 및 금속제 외함(외함이 없는 변압기 또는 계기용 변성기는 철심)에는 접지 공사를 하여야 한다. 다음 사항 중 접지 공사 생략이 불가능한 장소는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "사용 전압 직류 $300[V]$, 대지 전압 교류 $150[V]$ 초과하는 전기 기계 기구를 건조한 장소에 설치한 경우",
+      "2": "철대 또는 외함을 주위의 적당한 절연대를 이용하여 시설한 경우",
+      "3": "전기용품 안전관리법에 의한 2중 절연 기계 기구",
+      "4": "저압용 기계 기구를 목주나 마루 위 등에 설치한 경우"
+    },
+    "answer": 1,
+    "explanation": "전로에 시설하는 기계 기구의 철대 및 금속제 외함(외함이 없는 변압기 또는 계기용 변성기는 철심)의 접지 공사 생략 가능 항목\n• 사용 전압이 직류 $300[V]$, 대지 전압이 교류 $150[V]$ 이하인 전기 기계 기구를 건조한 장소에 설치한 경우\n• 저압 · 고압, $22.9[kV-Y]$ 계통 전로에 접속한 기계 기구를 목주 위 등에 시설한 경우\n• 저압용 기계 기구를 목주나 마루 위 등에 설치한 경우\n• 전기용품 안전관리법에 의한 2중 절연 기계 기구\n• 외함이 없는 계기용 변성기 등을 고무 절연물 등으로 덮은 경우\n• 철대 또는 외함을 주위의 적당한 절연대를 이용하여 시설한 경우\n• 2차 전압 $300[V]$ 이하, 정격 용량 $3[kVA]$ 이하인 절연 변압기를 사용하고 2차측을 비접지 방식으로 하는 경우",
+    "level": "중",
+    "source": "ElectricExam2019_파트129",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트129/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트129_p001_q01"
+  },
+  {
+    "question_no": 2,
+    "question_text": "전주 외등의 공사 방법으로 알맞지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 4,
+    "explanation": "전주 외등의 배선\n• 전선 : 단면적 $2.5[mm^2]$ 이상의 절연 전선\n• 배선 방법 : 케이블 배선, 합성수지관 배선, 금속관 배선",
+    "level": "하",
+    "source": "ElectricExam2019_파트129",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트129/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트129_p001_q02"
+  },
+  {
+    "question_no": 3,
+    "question_text": "다음 중 투자율의 단위에 해당되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 1,
+    "explanation": "투자율 : $\\mu[H/m]$\n② 유전율\n③ 자계\n④ 전계",
+    "level": "하",
+    "source": "ElectricExam2019_파트129",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트129/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트129_p001_q03"
+  },
+  {
+    "answer": 3,
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "explanation": "",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트129_p001_q04",
+    "image_path": "images/ElectricExam2019_파트129/page_001_full.png",
+    "image_regions": [],
+    "level": "하",
+    "page": 1,
+    "question_image_bbox": [
+      773,
+      766,
+      880,
+      878
+    ],
+    "question_no": 4,
+    "question_text": "다음 그림은 전선 피복을 벗기는 공구이다. 명칭으로 알맞은 것은?",
+    "round": null,
+    "source": "ElectricExam2019_파트129",
+    "suggested_bbox": {
+      "h": 216,
+      "w": 161,
+      "x": 1097,
+      "y": 1564
+    },
+    "year": 2019
+  }
+]

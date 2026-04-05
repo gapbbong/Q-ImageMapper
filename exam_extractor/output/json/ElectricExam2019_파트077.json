@@ -1,0 +1,110 @@
+[
+  {
+    "question_no": 47,
+    "question_text": "옥내 배선 공사에서 절연 전선의 심선이 손상되지 않도록 피복을 벗길 때 사용하는 공구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "와이어 스트리퍼",
+      "2": "플라이어",
+      "3": "압착 펜치",
+      "4": "프레서 툴"
+    },
+    "answer": 1,
+    "explanation": "와이어 스트리퍼: 절연 전선의 피복 절연물을 직각으로 벗기기 위한 자동 공구로 도체의 손상을 방지하기 위하여 정확한 크기의 구멍을 선택하여 피복 절연물을 벗겨야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트077",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트077/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트077_p001_q47"
+  },
+  {
+    "question_no": 48,
+    "question_text": "직류 발전기에서 기전력에 대해 $90^{\\circ}$ 늦은 전류가 흐를 때의 전기자 반작용은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "감자 작용",
+      "2": "증자 작용",
+      "3": "횡축 반작용",
+      "4": "교차 자화 작용"
+    },
+    "answer": 1,
+    "explanation": "발전기 전기자 반작용\n*   $R$ 부하: 교차 자화 작용\n*   $L$ 부하: 감자 작용 ($90^{\\circ}$ 뒤진 전류)\n*   $C$ 부하: 증자 작용 ($90^{\\circ}$ 앞선 전류)",
+    "level": "중",
+    "source": "ElectricExam2019_파트077",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트077/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트077_p001_q48"
+  },
+  {
+    "question_no": 49,
+    "question_text": "복권 발전기의 병렬 운전을 안전하게 하기 위해서 두 발전기의 전기자와 직권 권선의 접속점에 연결해야 하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "집전환",
+      "2": "균압선",
+      "3": "안정 저항",
+      "4": "브러시"
+    },
+    "answer": 2,
+    "explanation": "복권 발전기 운전 중 과복권 발전기로 운전 시 발전기 특성상 수하 특성을 지니지 않으므로 안정하게 운전하기 위해서는 균압선을 연결해야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트077",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트077/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트077_p001_q49"
+  },
+  {
+    "question_no": 50,
+    "question_text": "부식성 가스 등이 있는 장소에서 시설이 허용되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "과전류 차단기",
+      "2": "전등",
+      "3": "콘센트",
+      "4": "개폐기"
+    },
+    "answer": 2,
+    "explanation": "부식성 가스 등이 존재하는 장소에서의 개폐기나 과전류 차단기, 콘센트 등의 시설은 하지 않는 것이 원칙이고 전등은 사용 가능하며, 틀어 끼우는 글로브 등이 구비되어 부식성 가스와 용액의 침입을 방지할 수 있도록 할 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트077",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트077/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트077_p001_q50"
+  }
+]

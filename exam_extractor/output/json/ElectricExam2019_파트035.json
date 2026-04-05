@@ -1,0 +1,122 @@
+[
+  {
+    "question_no": 28,
+    "question_text": "변압기의 부하 전류 및 전압이 일정하고 주파수만 낮아지면?",
+    "has_question_image": false,
+    "choices": {
+      "1": "동손이 감소한다.",
+      "2": "동손이 증가한다.",
+      "3": "철손이 감소한다.",
+      "4": "철손이 증가한다."
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "철손과 주파수는 반비례하므로 주파수가 낮아지면 철손이 증가한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트035",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트035/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트035_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "한국전기설비규정에 의하여 애자 사용 공사를 건조한 장소에 시설하고자 한다. 사용 전압이 $400[V]$ 초과인 경우 전선과 조영재 사이의 이격 거리는 최소 몇 $[cm]$ 이상이어야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "2.5",
+      "2": "4.5",
+      "3": "6.0",
+      "4": "12"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "애자 사용 공사 시 전선과 조영재 간 이격 거리\n*   $400[V]$ 이하 : $2.5[cm]$ 이상\n*   $400[V]$ 초과 : $4.5[cm]$ 이상(단, 건조한 장소는 $2.5[cm]$ 이상)",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트035",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트035/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트035_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "3상 농형 유도 전동기의 Y-$\\Delta$ 기동 시의 기동 토크를 전전압 기동법과 비교했을 때 기동 토크는 전전압보다 몇 배가 되는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "3",
+      "2": "$\\frac{1}{3}$",
+      "3": "$\\frac{1}{\\sqrt{3}}$",
+      "4": "$\\sqrt{3}$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "Y-$\\\\Delta$ 기동법은 기동 전류와 기동 토크가 전전압 기동법보다 $\\\\frac{1}{3}$배로 감소한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트035",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트035/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트035_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "셀룰로이드, 성냥, 석유류 등 가연성 위험 물질을 제조 또는 저장하는 장소의 저압 옥내 배선 공사 방법이 틀린 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트035",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트035/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트035_p001_q31"
+  },
+  {
+    "question_no": 32,
+    "question_text": "다음 설명 중 틀린 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "리액턴스는 주파수의 함수이다.",
+      "2": "콘덴서는 직렬로 연결할수록 용량이 커진다.",
+      "3": "저항은 병렬로 연결할수록 저항치가 작아진다.",
+      "4": "코일은 직렬로 연결할수록 인덕턴스가 커진다."
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "콘덴서의 정전 용량은 병렬일 때 합이므로 커지고, 직렬로 연결하면 합성 정전 용량이 작아진다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트035",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트035/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트035_p001_q32"
+  },
+  {
+    "question_no": 33,
+    "question_text": "유도 전동기의 동기 속도가 $N_s$, 회전 속도가 $N$일 때 슬립은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$s = \\frac{N_s - N}{N}$",
+      "2": "$s = \\frac{N - N_s}{N}$",
+      "3": "$s = \\frac{N_s - N}{N_s}$",
+      "4": "$s = \\frac{N_s + N}{N_s}$"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "유도 전동기의 슬립 $s = \\frac{N_s - N}{N_s}$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트035",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트035/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트035_p001_q33"
+  }
+]

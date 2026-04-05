@@ -1,0 +1,245 @@
+[
+  {
+    "question_no": 13,
+    "question_text": "전자에 $10[V]$의 전위차를 인가한 경우 전 자 에너지$[J]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$1.6 \\times 10^{-16}$",
+      "2": "$1.6 \\times 10^{-17}$",
+      "3": "$1.6 \\times 10^{-18}$",
+      "4": "$1.6 \\times 10^{-19}$"
+    },
+    "answer": 3,
+    "explanation": "전자 에너지(전자 볼트) $W = eV = 1.6 \\times 10^{-19} \\times 10 = 1.6 \\times 10^{-18}[J]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "반지름 $10[cm]$, 권수 $100$회인 원형 코일에 $15[A]$의 전류가 흐르면 코일 중심의 자장의 세기는 몇 $[AT/m]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$22,500$",
+      "2": "$15,000$",
+      "3": "$7,500$",
+      "4": "$1,000$"
+    },
+    "answer": 3,
+    "explanation": "원형 코일 중심 자계 $H = \\frac{NI}{2r} = \\frac{100 \\times 15}{2 \\times 0.1} = 7,500[AT/m]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "다음 중 계전기의 종류가 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "과저항 계전기",
+      "2": "지락 계전기",
+      "3": "과전류 계전기",
+      "4": "과전압 계전기"
+    },
+    "answer": 1,
+    "explanation": "거리에 비례하는 저항 계전기는 있지만 과저항 계전기는 존재하지 않는다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "동기 전동기의 자기 기동법에서 계자 권선을 단락하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기동이 쉽다.",
+      "2": "기동 권선으로 이용한다.",
+      "3": "고전압 유도에 의한 절연 파괴 위험을 방지한다.",
+      "4": "전기자 반작용을 방지한다."
+    },
+    "answer": 3,
+    "explanation": "동기 전동기의 자기 기동법에서 계자 권선을 단락하는 첫 번째 이유는 고전압 유도에 의한 절연 파괴 위험 방지이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "동기 발전기의 병렬 운전 조건 중 같지 않아도 되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류",
+      "2": "주파수",
+      "3": "위상",
+      "4": "전압"
+    },
+    "answer": 1,
+    "explanation": "동기 발전기 병렬 운전 시 일치할 조건 : 기전력(전압)의 크기, 위상, 주파수, 파형",
+    "level": "하",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "반도체 내에서 정공은 어떻게 생성되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자유 전자의 이동",
+      "2": "접합 불량",
+      "3": "결합 전자의 이탈",
+      "4": "확산 용량"
+    },
+    "answer": 3,
+    "explanation": "정공이란 결합 전자의 이탈로 생기는 빈자리를 뜻한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "변압기유의 열화 방지와 관계가 가장 먼 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "부싱",
+      "2": "콘서베이터",
+      "3": "불활성 질소",
+      "4": "브리더"
+    },
+    "answer": 1,
+    "explanation": "변압기유의 열화 방지 대책 : 브리더 설치, 콘서베이터 설치, 불활성 질소 봉입",
+    "level": "하",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q19"
+  },
+  {
+    "question_no": 20,
+    "question_text": "후강 전선관의 종류는 몇 종인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "20종",
+      "2": "10종",
+      "3": "5종",
+      "4": "3종"
+    },
+    "answer": 2,
+    "explanation": "후강 전선관의 종류 : 16, 22, 28, 36, 42, 54, 70, 82, 92, 104$[mm]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "$100[V]$, $100[W]$ 전구와 $100[V]$, $200[W]$ 전구를 직렬로 $100[V]$의 전원에 연결할 경우 어느 전구가 더 밝겠는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "두 전구의 밝기가 같다.",
+      "2": "$100[W]$",
+      "3": "$200[W]$",
+      "4": "두 전구 모두 안 켜진다."
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트093",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트093/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트093_p001_q21"
+  }
+]

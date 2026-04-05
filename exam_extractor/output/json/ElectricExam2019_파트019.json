@@ -1,0 +1,187 @@
+[
+  {
+    "question_no": 52,
+    "question_text": "동일한 저항 4개를 접속하여 얻을 수 있는 최대 저항값은 최소 저항값의 몇 배인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "4",
+      "2": "16",
+      "3": "8",
+      "4": "2"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "최대 저항값: 직렬 $R_{\\text{직}} = 4R[\\Omega]$\n최소 저항값: 병렬 $R_{\\text{병}} = \\frac{R}{4}[\\Omega]$\n$\\therefore \\frac{R_{\\text{직}}}{R_{\\text{병}}} = \\frac{4R}{\\frac{R}{4}} = 4^2 = 16$배",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트019",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트019/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트019_p001_q52"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "4",
+      "2": "94",
+      "3": "106",
+      "4": "96"
+    },
+    "explanation": "$I = I_a - I_f = 100 - 6 = 94[A]$",
+    "has_choice_image": false,
+    "has_explanation_image": false,
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트019_p001_q53",
+    "image_path": "images/ElectricExam2019_파트019/page_001_full.png",
+    "image_regions": [],
+    "page": 1,
+    "question_no": 53,
+    "question_text": "그림과 같은 직류 분권 발전기 등가 회로에서 부하 전류 $I[A]$는?",
+    "source": "ElectricExam2019_파트019",
+    "suggested_bbox": {
+      "x": 338,
+      "y": 769,
+      "w": 333,
+      "h": 194,
+      "source": "plus_logic"
+    },
+    "question_image_bbox": [
+      384,
+      229,
+      483,
+      490
+    ]
+  },
+  {
+    "question_no": 54,
+    "question_text": "다음 ( ) 안에 알맞은 내용은?\n고압 및 특고압용 기계 기구의 시설에 있어 고압용 변압기는 시가지 외에 시설하는 경우 지표상 ( )[m] 높이에 시설하여야 한다.",
+    "has_question_image": false,
+    "choices": {
+      "1": "5",
+      "2": "4.5",
+      "3": "4",
+      "4": "3.5"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "고압용 기계 기구 시설 시 지표상 높이\n시가지 내: $4.5[m]$ 이상\n시가지 외: $4[m]$ 이상",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트019",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트019/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트019_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "교류에서 파형률이란?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$\\frac{\\text{최댓값}}{\\text{실효값}}$",
+      "2": "$\\frac{\\text{평균값}}{\\text{실효값}}$",
+      "3": "$\\frac{\\text{실효값}}{\\text{최댓값}}$",
+      "4": "$\\frac{\\text{실효값}}{\\text{평균값}}$"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트019",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트019/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트019_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "한국전기설비규정에 고압 옥측 전선로를 시설할 경우 수관, 가스관 또는 이와 유사한 것과 접근하거나 교차하는 경우에는 고압 옥측 전선로의 전선과 이들 사이의 이격 거리$[cm]$는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "15",
+      "2": "30",
+      "3": "60",
+      "4": "45"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "고압 옥측 전선로의 전선이 그 고압 옥측 전선로를 시설하는 조영물에 시설하는 특고압 옥측 전선, 저압 옥측 전선, 관등 회로의 배선, 약전류 전선 등이나 수관, 가스관 또는 이와 유사한 것과 접근하거나 교차하는 경우에는 고압 옥측 전선로의 전선과 이들 사이의 이격 거리는 $15[cm]$ 이상이어야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트019",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트019/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트019_p001_q56"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "노출 배선",
+      "2": "천장 은폐 배선",
+      "3": "바닥 은폐 배선",
+      "4": "바닥면 노출 배선"
+    },
+    "explanation": "일반적인 전기 배선은 대부분은 천장 은폐 배선이므로 실선($----$)을 사용한다.",
+    "has_choice_image": false,
+    "has_explanation_image": true,
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트019_p001_q57",
+    "image_path": "images/ElectricExam2019_파트019/page_001_full.png",
+    "image_regions": [],
+    "page": 1,
+    "question_no": 57,
+    "question_text": "다음 그림 기호의 배선 명칭은?",
+    "source": "ElectricExam2019_파트019",
+    "suggested_bbox": {
+      "x": 182,
+      "y": 1139,
+      "w": 494,
+      "h": 201,
+      "source": "plus_logic"
+    },
+    "question_image_bbox": [
+      537,
+      613,
+      577,
+      846
+    ]
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "연접 인입선",
+      "2": "구내 인입선",
+      "3": "가공 인입선",
+      "4": "옥측 배선"
+    },
+    "explanation": "",
+    "has_choice_image": false,
+    "has_explanation_image": false,
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트019_p001_q58",
+    "image_path": "images/ElectricExam2019_파트019/page_001_full.png",
+    "image_regions": [],
+    "page": 1,
+    "question_no": 58,
+    "question_text": "하나의 수용 장소의 인입선 접속점에서 분기하여 지지물을 거치지 아니하고 다른 수용 장소의 인입선 접속점에 이르는 전선은?",
+    "source": "ElectricExam2019_파트019",
+    "suggested_bbox": {
+      "h": 80,
+      "source": "opencv",
+      "w": 324,
+      "x": 878,
+      "y": 1505
+    },
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "explanation_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

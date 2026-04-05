@@ -1,0 +1,197 @@
+[
+  {
+    "question_no": 11,
+    "question_text": "동기 발전기의 병렬 운전 조건 중 같지 않아도 되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "주파수",
+      "2": "위상",
+      "3": "전류",
+      "4": "전압"
+    },
+    "answer": 3,
+    "explanation": "동기 발전기 병렬 운전 시 일치할 조건 : 기전력(전압)의 크기, 위상, 주파수, 파형",
+    "level": "중",
+    "source": "ElectricExam2019_파트102",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트102/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트102_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "다음 물질 중 강자성체로만 짝지어진 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "철, 니켈, 코발트",
+      "2": "니켈, 코발트, 비스무트",
+      "3": "망간, 니켈, 아연",
+      "4": "구리, 니켈, 아연"
+    },
+    "answer": 1,
+    "explanation": "강자성체의 종류 : 니켈, 코발트, 철, 망간",
+    "level": "하",
+    "source": "ElectricExam2019_파트102",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트102/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트102_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "배전반 및 분전반과 연결된 배관을 변경하거나 이미 설치되어 있는 캐비닛에 구멍을 뚫을 때 필요한 공구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "오스터",
+      "2": "클리퍼",
+      "3": "토치 램프",
+      "4": "녹아웃 펀치"
+    },
+    "answer": 4,
+    "explanation": "전기 공사용 공구\n*   오스터 : 금속관에 나사를 낼 때 사용하는 것\n*   클리퍼 : 단면적 $25\\,[mm^2]$ 이상인 굵은 전선 절단용 공구\n*   토치 램프 : 합성수지관 공사 시 가공부를 가열하기 위한 램프\n*   녹아웃 펀치 : 배전반이나 분전반 등의 금속제 캐비닛의 구멍을 확대하거나 철판의 구멍 뚫기에 사용하는 공구",
+    "level": "중",
+    "source": "ElectricExam2019_파트102",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트102/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트102_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "조명 중에서 발산 광속 중 하향 광속이 $90\\% \\sim 100\\%$ 정도로 하여 하향 광속이 작업면에 직사되는 조명 방식을 무엇이라 하는가?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "직접 조명",
+      "2": "반직접 조명",
+      "3": "전반 확산 조명",
+      "4": "반간접 조명"
+    },
+    "answer": 1,
+    "explanation": "해설 기구 배광에 의한 조명 방식의 분류\n구분 | 하향 광속\n---|---\n직접 조명 방식 | $90[\\%]$ 이상\n반직접 조명 방식 | $60\\sim90[\\%]$\n전반 조명 방식 | $40\\sim60[\\%]$\n간접 조명 방식 | $10[\\%]$ 이하",
+    "level": "중",
+    "source": "ElectricExam2019_파트102",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트102/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트102_p001_q14",
+    "suggested_bbox": {
+      "x": 841,
+      "y": 192,
+      "w": 393,
+      "h": 222
+    }
+  },
+  {
+    "question_no": 15,
+    "question_text": "$250[kVA]$의 단상 변압기 2대를 사용하여 V-V 결선으로 하고 3상 전원을 얻고자 할 때 최대로 얻을 수 있는 3상 부하의 용량은 약 몇 $[kVA]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "433",
+      "2": "500",
+      "3": "200",
+      "4": "100"
+    },
+    "answer": 1,
+    "explanation": "해설 V결선 용량 $P_V = \\sqrt{3} P_1 = \\sqrt{3} \\times 250 = 433[kVA]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트102",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트102/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트102_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "막대 자석의 자극의 세기가 $m [Wb]$이고 길이가 $l[m]$인 경우 자기 모멘트$[Wb \\cdot m]$는 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\frac{m}{l}$",
+      "2": "$\\frac{l}{m}$",
+      "3": "$ml$",
+      "4": "$2ml$"
+    },
+    "answer": 3,
+    "explanation": "해설 막대 자석의 모멘트 $M = ml[Wb \\cdot m]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트102",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트102/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트102_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "자극의 세기가 $m_1, m_2 [Wb]$, 거리가 $r[m]$인 두 자극 사이에 작용하는 자기력의 크기$[N]$는 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$k \\frac{r^2}{m_1 \\cdot m_2}$",
+      "2": "$k \\frac{m_1 \\cdot m_2}{r^2}$",
+      "3": "$k \\frac{r}{m_1 \\cdot m_2}$",
+      "4": "$k \\frac{m_1 \\cdot m_2}{r}$"
+    },
+    "answer": 2,
+    "explanation": "해설 쿨롱의 법칙 : 두 자극 사이에 작용하는 자기력의 크기는 양 자극의 세기의 곱에 비례하며, 자극 간의 거리의 제곱에 비례한다. 쿨롱의 법칙 $F = k \\frac{m_1 \\cdot m_2}{r^2} = \\frac{m_1 \\cdot m_2}{4\\pi\\mu_0 r^2}[N]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트102",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트102/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트102_p001_q17"
+  }
+]

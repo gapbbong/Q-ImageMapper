@@ -1,0 +1,170 @@
+[
+  {
+    "question_no": 49,
+    "question_text": "동기 전동기의 용도로 적당하지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "송풍기",
+      "2": "크레인",
+      "3": "압연기",
+      "4": "분쇄기"
+    },
+    "answer": 2,
+    "explanation": "동기 전동기는 동기 속도로 회전하는 전동기이므로 압연기, 제련소, 발전소 등에서 압축기, 운전 펌프 등에 적용되며, 크레인은 수시로 속도가 변동되는 기계이므로 적합하지 않다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트098",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트098/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트098_p001_q49"
+  },
+  {
+    "question_no": 50,
+    "question_text": "다음 중 전선의 접속 방법이 틀린 것은?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      260,
+      341,
+      307,
+      388
+    ],
+    "choices": {
+      "1": "전선의 접속 부분은 기준 온도 이상으로 상승하면 안 된다.",
+      "2": "전선의 세기는 접속 전보다 $20[\\%]$ 이상 감소시키지 않는다.",
+      "3": "전선 접속 부분의 전기 저항을 증가시키지 않아야 한다.",
+      "4": "접속 부분은 염화비닐 접착 테이프를 이용하여 반폭 이상 겹쳐서 1회 이상 감는다."
+    },
+    "answer": 4,
+    "explanation": "전선의 접속부에 사용하는 테이프 및 튜브 등 도체의 절연에 사용되는 절연 피복은 전기용 접착 테이프에 적합한 것을 사용하고 반폭 이상 겹쳐서 2회 이상 감아야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트098",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트098/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트098_p001_q50",
+    "suggested_bbox": {
+      "x": 268,
+      "y": 526,
+      "w": 37,
+      "h": 95
+    }
+  },
+  {
+    "question_no": 51,
+    "question_text": "전동기가 과전류 결상, 구속 보호 등에 사용되며 단락 시간과 기동 시간을 정확히 구분하는 계전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전자식 과전류 계전기",
+      "2": "임피던스 계전기",
+      "3": "선택 고장 계전기",
+      "4": "부족 전압 계전기"
+    },
+    "answer": 1,
+    "explanation": "전자식 과전류 계전기(EOCR) : 설정된 전류값 이상의 전류가 흘렀을 때 EOCR 접점이 동작하여 회로를 차단시켜 보호하는 계전기로서 전동기의 과전류나 결상을 보호하는 계전기이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트098",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트098/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트098_p001_q51"
+  },
+  {
+    "question_no": 52,
+    "question_text": "대칭 3상 $\\Delta$결선에서 선전류와 상전류와의 위상 관계는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "상전류가 $\\frac{\\pi}{3}$ [rad] 앞선다.",
+      "2": "상전류가 $\\frac{\\pi}{3}$ [rad] 뒤진다.",
+      "3": "상전류가 $\\frac{\\pi}{6}$ [rad] 앞선다.",
+      "4": "상전류가 $\\frac{\\pi}{6}$ [rad] 뒤진다."
+    },
+    "answer": 3,
+    "explanation": "$\\Delta$결선의 특징 $I_l = \\sqrt{3}I_p \\angle -\\frac{\\pi}{6}$ [A] 선전류 $I_l$가 상전류 $I_p$보다 $\\frac{\\pi}{6}$ [rad] 뒤지므로 상 전류가 선전류보다 $\\frac{\\pi}{6}$ [rad] 앞선다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트098",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트098/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트098_p001_q52"
+  },
+  {
+    "question_no": 53,
+    "question_text": "낮은 전압을 높은 전압으로 승압할 때 일반적으로 사용되는 변압기의 3상 결선 방식은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "Y-$\\Delta$",
+      "2": "Y-Y",
+      "3": "$\\Delta$-Y",
+      "4": "$\\Delta$-$\\Delta$"
+    },
+    "answer": 3,
+    "explanation": "$\\Delta$-Y는 변전소에서 승압용으로 사용하며 1차와 2차 위상차는 $30^{\\circ}$이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트098",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트098/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트098_p001_q53"
+  },
+  {
+    "question_no": 54,
+    "question_text": "두 평행 도선의 길이가 $1$[m], 거리가 $1$[m]인 왕복 도선 사이에 단위 길이당 작용하는 힘의 세기가 $2 \\times 10^{-7}$[N]일 경우 전류의 세기[A]는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1",
+      "2": "3",
+      "3": "4",
+      "4": "2"
+    },
+    "answer": 1,
+    "explanation": "평행 도선 사이에 작용하는 힘의 세기 $F = \\frac{2I_1I_2}{r} \\times 10^{-7}$ [N/m] $F = \\frac{2I^2}{1} \\times 10^{-7}$ [N/m] $= 2 \\times 10^{-7}$ [N/m] $I^2 = 1$이므로 $I = 1$[A]",
+    "level": "중",
+    "source": "ElectricExam2019_파트098",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트098/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트098_p001_q54"
+  }
+]

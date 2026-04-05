@@ -1,0 +1,142 @@
+[
+  {
+    "question_no": 14,
+    "question_text": "30[W] 전열기에 220[V], 주파수 60[Hz]인 전압을 인가한 경우 평균 전압[V]은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "200",
+      "2": "300",
+      "3": "311",
+      "4": "400"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "전압의 최댓값 $V_m = 220\\sqrt{2}[V]$ \\ 평균값 $V_{av} = \\frac{2}{\\pi}V_m = \\frac{2}{\\pi}\\times 220\\sqrt{2} = 200[V]$ \\ *쉬운 풀기 : $V_{av} = 0.9V = 0.9\\times 220 \\fallingdotseq 200[V]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트043",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트043/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트043_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "발전기나 변압기 내부 고장 보호에 쓰이는 계전기는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "접지 계전기",
+      "2": "차동 계전기",
+      "3": "과전압 계전기",
+      "4": "역상 계전기"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "발전기, 변압기 내부 고장 보호용 계전기는 차동 계전기, 비율 차동 계전기, 부흐홀츠 계전기가 있다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트043",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트043/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트043_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "변압기에서 자속에 대한 설명 중 맞는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "전압에 비례하고 주파수에 반비례",
+      "2": "전압에 반비례하고 주파수에 비례",
+      "3": "전압에 비례하고 주파수에 비례",
+      "4": "전압과 주파수에 무관"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "$E_1 = 4.44fN_1\\phi_m[V]$ \\ $\\phi_m = \\frac{E_1}{4.44fN_1}[Wb]$이므로 전압에 비례하고 주파수에 반비례한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트043",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트043/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트043_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "유전율의 단위는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "[F/m]",
+      "2": "[V/m]",
+      "3": "[C/m^2]",
+      "4": "[H/m]"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "유전율의 단위는 $[F/m]$이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트043",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트043/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트043_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "Y-Y 결선에서 선간 전압이 $380[V]$인 경우 상전압은 몇 $[V]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "100",
+      "2": "220",
+      "3": "200",
+      "4": "380"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "Y결선 선간 전압 $V_l = \\sqrt{3} V_p[V]$이므로 $V_p = \\frac{V_l}{\\sqrt{3}} = \\frac{380}{\\sqrt{3}} \\fallingdotseq 220[V]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트043",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트043/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트043_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "전기 기계의 효율 중 발전기의 규약 효율 $\\eta_G$는 몇 $[%]$인가? (단, $P$는 입력, $Q$는 출력, $L$은 손실이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "$\\eta_G = \\frac{P-L}{P} \\times 100[\\%]$",
+      "2": "$\\eta_G = \\frac{P-L}{P+L} \\times 100[\\%]$",
+      "3": "$\\eta_G = \\frac{Q}{P} \\times 100[\\%]$",
+      "4": "$\\eta_G = \\frac{Q}{Q+L} \\times 100[\\%]$"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "효율 $\\eta = \\frac{\\text{출력}}{\\text{입력}} \\times 100[\\%]$로서 출력으로 표현한다. 발전기의 규약 효율 $\\eta_G = \\frac{\\text{출력}}{\\text{출력} + \\text{손실}} \\times 100[\\%]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트043",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트043/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트043_p001_q19"
+  },
+  {
+    "question_no": 20,
+    "question_text": "측정이나 계산으로 구할 수 없는 손실로 부하 전류가 흐를 때 도체 또는 철심 내부에 서 생기는 손실을 무엇이라 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "표유 부하손",
+      "2": "히스테리시스손",
+      "3": "구리손",
+      "4": "맴돌이 전류손"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "표유 부하손(부하손) = 표유 부하손 : 누설 전류에 의해 발생하는 손실로 측정은 가능하나 계산에 의하여 구할 수 없는 손실",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트043",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트043/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트043_p001_q20"
+  }
+]

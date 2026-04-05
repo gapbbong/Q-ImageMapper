@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 18,
+    "question_text": "접지 공사 시 접지 저항을 감소시키는 저감 대책이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "접지봉의 길이를 증가시킨다.",
+      "2": "접지판의 면적을 감소시킨다.",
+      "3": "접지극의 매설 깊이를 깊게 매설한다.",
+      "4": "접지 저항 저감제를 이용하여 토양의 고유 저항을 화학적으로 저감시킨다."
+    },
+    "answer": 2,
+    "explanation": "접지 저항 저감 대책\n① 접지봉의 연결 개수를 증가시킨다.\n② 접지판의 면적을 증가시킨다.\n③ 접지극을 깊게 매설한다.\n④ 토양의 고유 저항을 화학적으로 저감시킨다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트073",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트073/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트073_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "다음 전기력선의 성질이 잘못된 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전기력선은 서로 교차하지 않는다.",
+      "2": "같은 전기력선은 서로 끌어당긴다.",
+      "3": "전기력선의 밀도는 전기장의 크기를 나타낸다.",
+      "4": "전기력선은 도체의 표면에 수직이다."
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트073",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트073/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트073_p001_q19"
+  },
+  {
+    "question_no": 20,
+    "question_text": "200[V], 60[W] 전등 10개를 20시간 사용하였다면 사용 전력량은 몇 [kWh]인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "24",
+      "2": "12",
+      "3": "10",
+      "4": "11"
+    },
+    "answer": 2,
+    "explanation": "전력량 $W = Pt = 60 \\times 10 \\times 20 = 12,000[Wh] = 12[kWh]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트073",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트073/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트073_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "최대 사용 전압이 70[kV]인 중성점 직접 접지식 전로의 절연 내력 시험 전압은 몇 [V]인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "35,000[V]",
+      "2": "42,000[V]",
+      "3": "44,800[V]",
+      "4": "50,400[V]"
+    },
+    "answer": 4,
+    "explanation": "60[kV] 초과한 경우 전로의 절연 내력 시험 전압은 최대 사용 전압의 0.72배의 전압을 연속으로 10분간 가할 때 견딜 수 있어야 한다. 절연 내력 시험 전압 $= 70,000 \\times 0.72 = 50,400[V]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트073",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트073/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트073_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "동기 전동기의 특징으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전 부하 효율이 양호하다.",
+      "2": "부하의 역률을 조정할 수가 있다.",
+      "3": "공극이 좁으므로 기계적으로 튼튼하다.",
+      "4": "부하가 변하여도 같은 속도로 운전할 수 있다."
+    },
+    "answer": 3,
+    "explanation": "동기 전동기의 특징\n* 속도($N_S$)가 일정하다.\n* 역률을 조정할 수 있다.\n* 효율이 좋다.\n* 공극이 크고 기계적으로 튼튼하다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트073",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트073/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트073_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "3상 유도 전동기의 원선도를 그리는 데 필요하지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "무부하 시험",
+      "2": "구속 시험",
+      "3": "2차 저항 측정",
+      "4": "회전수 측정"
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트073",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트073/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트073_p001_q23"
+  }
+]

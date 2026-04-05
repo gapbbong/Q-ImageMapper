@@ -1,0 +1,137 @@
+[
+  {
+    "question_no": 6,
+    "question_text": "다음 중 과전류 차단기를 설치하는 곳은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "접지 공사를 한 저압 가공 전선의 접지측 전선",
+      "2": "접지 공사의 접지선",
+      "3": "전동기 간선의 전압측 전선",
+      "4": "다선식 전로의 중성선"
+    },
+    "answer": 3,
+    "explanation": "과전류 차단기의 시설 장소\n• 발전기나 전동기, 변압기 등과 같은 기계 기구를 보호하는 장소\n• 송전 선로나 배전 선로 등에서 보호를 요하는 장소\n• 인입구나 간선의 전원측 및 분기점 등 보호 또는 보안상 필요한 장소",
+    "level": "중",
+    "source": "ElectricExam2019_파트051",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트051/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트051_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "동기 발전기에서 전기자 전류가 유도 기전력보다 $\\frac{\\pi}{2}$ $[rad]$ 앞선 전류가 흐르는 경우 나타나는 전기자 반작용은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "교차 자화 작용",
+      "2": "증자 작용",
+      "3": "감자 작용",
+      "4": "직축 반작용"
+    },
+    "answer": 2,
+    "explanation": "발전기의 전기자 반작용\n• 동상 전류: 교차 자화 작용\n• 뒤진 전류: 감자 작용\n• 앞선 전류: 증자 작용",
+    "level": "중",
+    "source": "ElectricExam2019_파트051",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트051/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트051_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "직류 전동기의 규약 효율을 표시하는 식은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\frac{\\text{출력}}{\\text{출력}+\\text{손실}} \\times 100[\\%]$",
+      "2": "$\\frac{\\text{출력}}{\\text{입력}} \\times 100[\\%]$",
+      "3": "$\\frac{\\text{입력}-\\text{손실}}{\\text{입력}} \\times 100[\\%]$",
+      "4": "$\\frac{\\text{입력}}{\\text{출력}+\\text{손실}} \\times 100[\\%]$"
+    },
+    "answer": 3,
+    "explanation": "전압의 최댓값 $V_m = 220 \\sqrt{2} [V]$\n평균값 $V_{av} = \\frac{2}{\\pi} V_m$\n$= \\frac{2}{\\pi} \\times 220 \\sqrt{2}$\n$= 198 [V]$\n* 쉬운 풀이\n$V_{av} = 0.9 V$\n$= 0.9 \\times 220 = 198 [V]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트051",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트051/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트051_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "변압기유의 열화 방지와 관계가 가장 먼 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "불활성 질소",
+      "2": "콘서베이터",
+      "3": "브리더",
+      "4": "부싱"
+    },
+    "answer": 4,
+    "explanation": "변압기유의 열화 방지 대책 : 브리더 설치, 콘서베이터 설치, 불활성 질소 봉입",
+    "level": "중",
+    "source": "ElectricExam2019_파트051",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트051/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트051_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "절연 전선으로 가선된 배전 선로에서 활선 상태인 경우 전선의 피복을 벗기는 것은 매우 곤란한 작업이다. 이런 경우 활선 상태에서 전선의 피복을 벗기는 공구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "데드 엔드 커버",
+      "2": "애자 커버",
+      "3": "와이어 통",
+      "4": "전선 피박기"
+    },
+    "answer": 4,
+    "explanation": "배전 선로 공사용 활선 공구\n• 와이어 통(wire tong) : 가선 공사에서 활선을 움직이거나 작업권 밖으로 밀어내서 안전한 장소로 전선을 옮길 때 사용하는 절연봉\n• 데드 엔드 커버 : 배전 선로 활선 작업 시 작업자가 현수 애자 등에 접촉하여 발생하는 안전 사고 예방을 위해 전선 작업 개소의 애자 등의 충전부를 방호하기 위한 절연 커버\n• 전선 피박기 : 활선 상태에서 전선 피복을 벗기는 공구로 활선 피박기라고도 함",
+    "level": "중",
+    "source": "ElectricExam2019_파트051",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트051/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트051_p001_q10"
+  }
+]

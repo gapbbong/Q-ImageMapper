@@ -1,0 +1,176 @@
+[
+  {
+    "question_no": 38,
+    "question_text": "가요 전선관 공사에서 가요 전선관과 금속관의 상호 접속에 사용하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "유니언 커플링",
+      "2": "2호 커플링",
+      "3": "스플릿 커플링",
+      "4": "콤비네이션 커플링"
+    },
+    "answer": 4,
+    "explanation": "가요 전선관 상호 접속 : 스플릿 커플링\\n가요 전선관과 다른 전선관 상호 접속 : 콤비네이션 커플링",
+    "level": "하",
+    "source": "ElectricExam2019_파트076",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트076/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트076_p001_q38"
+  },
+  {
+    "question_no": 39,
+    "question_text": "코드 상호, 캡타이어 케이블 상호 접속 시 사용하여야 하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "와이어 커넥터",
+      "2": "케이블 타이",
+      "3": "코드 접속기",
+      "4": "테이블 탭"
+    },
+    "answer": 3,
+    "explanation": "코드 및 캡타이어 케이블 상호 접속 시에는 직접 접속이 불가능하고 전용의 접속 기구(코드 접속기)를 사용하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트076",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트076/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트076_p001_q39"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "$\\frac{R_1 R_3}{R_1 + R_2 + R_3} V$",
+      "2": "$\\frac{R_2}{R_1 + R_2 + R_3} V$",
+      "3": "$\\frac{1}{R_1 + R_2 + R_3} V$",
+      "4": "$\\frac{R_3 - R_1}{R_1 + R_2 + R_3} V$"
+    },
+    "explanation": "",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트076_p001_q40",
+    "image_path": "images/ElectricExam2019_파트076/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      732,
+      210,
+      827,
+      435
+    ],
+    "question_no": 40,
+    "question_text": "$R_1[\\Omega]$, $R_2[\\Omega]$, $R_3[\\Omega]$의 저항 3개를 직렬 접속했을 때 $R_2$에 걸리는 전압$[V]$은?",
+    "round": null,
+    "source": "ElectricExam2019_파트076",
+    "suggested_bbox": {
+      "h": 192,
+      "w": 323,
+      "x": 301,
+      "y": 1481
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 41,
+    "question_text": "전자 유도 현상에 의한 기전력의 방향을 정 의한 법칙은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "렌츠의 법칙",
+      "2": "플레밍의 법칙",
+      "3": "패러데이의 법칙",
+      "4": "줄의 법칙"
+    },
+    "answer": 1,
+    "explanation": "렌츠의 법칙은 전자 유도 현상에 의한 유도 기전 력의 방향을 정의한 법칙으로서 “유도 기전력은 자신이 발생 원인이 되는 자속의 변화를 방해하 려는 방향으로 발생한다.”는 법칙이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트076",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트076/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트076_p001_q41"
+  },
+  {
+    "answer": 1,
+    "choices": {
+      "1": "10",
+      "2": "20",
+      "3": "25",
+      "4": "40"
+    },
+    "explanation": "전류 $I = \\frac{V}{Z} = \\frac{100}{\\sqrt{6^2+8^2}} = 10[A]$",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트076_p001_q42",
+    "image_path": "images/ElectricExam2019_파트076/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      543,
+      726,
+      636,
+      907
+    ],
+    "question_no": 42,
+    "question_text": "그림의 회로에서 교류 전압 $v(t)=100\\sqrt{2}\\sin\\omega t[V]$를 인가했을 때 회로에 흐르는 전류는?",
+    "round": null,
+    "source": "ElectricExam2019_파트076",
+    "suggested_bbox": {
+      "h": 188,
+      "w": 259,
+      "x": 1040,
+      "y": 1099
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 43,
+    "question_text": "수전 방식 중 3상 4선식은 부득이한 경우 설비 불평형률은 몇 $[%]$ 이내로 유지해야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "10",
+      "2": "20",
+      "3": "30",
+      "4": "40"
+    },
+    "answer": 3,
+    "explanation": "3상 3선식, 4선식의 각 전압측 전선 간의 부하는 평형이 되게 하는 것을 원칙으로 하지만, 부득이 한 경우 발생하는 설비 불평형률은 $30[\\%]$까지 할 수 있다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트076",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트076/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트076_p001_q43"
+  }
+]

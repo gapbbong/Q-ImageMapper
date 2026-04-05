@@ -1,0 +1,83 @@
+[
+  {
+    "question_no": 58,
+    "question_text": "셀룰로이드, 성냥, 석유류 등 기타 가연성 위험 물질을 제조 또는 저장하는 장소의 배선으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "금속관 배선",
+      "2": "케이블 배선",
+      "3": "플로어 덕트 배선",
+      "4": "합성수지관(CD관 제외) 배선"
+    },
+    "answer": 3,
+    "explanation": "가연성 분진, 위험물 제조 및 저장 장소의 배선 : 금속관, 케이블, 합성수지관 공사",
+    "level": "중",
+    "source": "ElectricExam2019_파트090",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트090/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트090_p001_q58"
+  },
+  {
+    "question_no": 59,
+    "question_text": "금속관 배관 공사에서 절연 부싱을 사용하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "박스 내에서 전선의 접속을 방지",
+      "2": "관이 손상되는 것을 방지",
+      "3": "관 말단에서 전선의 인입 및 교체 시 발생하는 전선의 손상 방지",
+      "4": "관의 입구에서 조영재의 접속을 방지"
+    },
+    "answer": 3,
+    "explanation": "관 공사 시 부싱은 관 끝단에 설치하며, 이는 전선의 피복 방지를 하기 위한 것을 뜻한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트090",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트090/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트090_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "직류 전동기에서 전부하 속도가 $1,200[rpm]$, 속도 변동률이 $2[\\%]$일 때, 무부하 회전 속도는 몇 $[rpm]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1,154",
+      "2": "1,200",
+      "3": "1,224",
+      "4": "1,248"
+    },
+    "answer": 3,
+    "explanation": "속도 변동률 $\\varepsilon = \\frac{N_0 - N_n}{N_n} \\times 100[\\%]$ \\n무부하 속도 $N_0 = N_n(1+\\varepsilon)$ \\n$= 1,200(1+0.02)$ \\n$= 1,224[rpm]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트090",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트090/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트090_p001_q60"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question_no": 49,
+    "question_text": "단상 부하에 220[V]를 인가하니 위상 $45^{\\circ}$가 뒤진 15[A]의 전류가 흘렀다면 유효 전력은 약 몇 [W]인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "133",
+      "2": "2,330",
+      "3": "3,330",
+      "4": "1,330"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "단상 유효 전력 $P = VI\\cos\\theta = 220 \\times 15 \\times \\cos 45^{\\circ} = 2,333[W]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트018",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트018/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트018_p001_q49"
+  },
+  {
+    "question_no": 50,
+    "question_text": "자기 인덕턴스에 대한 설명으로 틀린 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "코일의 권수에 비례한다.",
+      "2": "자기장을 크게 하면 자기 인덕턴스는 증가한다.",
+      "3": "유전율에 비례한다.",
+      "4": "전류를 크게 하면 인덕턴스는 감소한다."
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "자기 인덕턴스 $L = \\frac{N\\phi}{I} = \\frac{\\mu AN^2}{l}[H]$이므로 투자율에 비례하고 유전율과는 무관하다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트018",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트018/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트018_p001_q50"
+  },
+  {
+    "question_no": 51,
+    "question_text": "전극에서 석출되는 물질의 양이 $W[g]$이 있다. $t[sec]$ 동안 $I[A]$를 흘려줬다면 물질의 양은 얼마인가? (단, $k$는 비례 상수이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "$W = \\frac{kI}{t}$",
+      "2": "$W = kIt$",
+      "3": "$W = \\frac{kt}{I}$",
+      "4": "$W = \\frac{1}{kIt}$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "패러데이 법칙 : 전극에서 석출되는 물질의 양은 통과한 전기량에 비례한다. 물질의 양 $W=kQ=kIt[g]$ ($k$ : 전기 화학 당량)",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트018",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트018/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트018_p001_q51"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 19,
+    "question_text": "최대 사용 전압이 70[kV]인 중성점 직접 접지식 전로의 절연 내력 시험 전압은 몇 [V]인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "35,000",
+      "2": "42,000",
+      "3": "50,400",
+      "4": "44,800"
+    },
+    "answer": 3,
+    "explanation": "절연 내력 시험: 최대 사용 전압이 60[kV] 이상인 중성점 직접 접지식 전로의 절연 내력 시험은 최대 사용 전압의 0.72배의 전압을 연속으로 10분간 가할 때 견디는 것으로 하여야 한다. 시험 전압=$70,000 \\times 0.72=50,400[V]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트053",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트053/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트053_p001_q19"
+  },
+  {
+    "question_no": 20,
+    "question_text": "소세력 회로의 전선을 조영재에 붙여 시설하는 경우에 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전선이 손상을 받을 우려가 있는 곳에 시설하는 경우에는 적당한 방호 장치를 할 것",
+      "2": "전선은 코드 · 캡타이어 케이블 또는 케이블일 것",
+      "3": "케이블 이외에는 공칭 단면적 $2.5[mm^2]$ 이상의 연동선 또는 이와 동등 이상의 것을 사용할 것",
+      "4": "전선은 금속제의 수관 · 가스관 또는 이와 유사한 것과 접촉하지 아니하도록 시설할 것"
+    },
+    "answer": 3,
+    "explanation": "전선을 조영재에 붙여 시설하는 소세력 회로의 배선 공사\n• 전선: 코드, 캡타이어 케이블, 케이블 사용\n• 케이블 이외에는 공칭 단면적 $1[mm^2]$ 이상의 연동선 또는 이와 동등 이상의 것일 것",
+    "level": "중",
+    "source": "ElectricExam2019_파트053",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트053/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트053_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "히스테리시스 곡선이 세로축과 만나는 점의 값은 무엇을 나타내는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자속 밀도",
+      "2": "잔류 자기",
+      "3": "보자력",
+      "4": "자기장"
+    },
+    "answer": null,
+    "explanation": "히스테리시스 곡선\n• 세로축(종축)과 만나는 점 : 잔류 자기\n• 가로축(횡축)과 만나는 점 : 보자력",
+    "level": "중",
+    "source": "ElectricExam2019_파트053",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트053/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트053_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "금속관과 금속관을 접속할 때 커플링을 사용하는데 커플링을 접속할 때 사용되는 공구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "히키",
+      "2": "녹아웃 펀치",
+      "3": "파이프 커터",
+      "4": "파이프 렌치"
+    },
+    "answer": null,
+    "explanation": "• 파이프 커터, 파이프 바이스 : 금속관 절단 공구\n• 오스터 : 금속관에 나사내는 공구\n• 녹아웃 펀치 : 콘크리트 벽에 구멍을 뚫는 공구\n• 파이프 렌치 : 금속관 접속 부분을 조이는 공구",
+    "level": "하",
+    "source": "ElectricExam2019_파트053",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트053/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트053_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "정격 전압이 $100[V]$인 직류 발전기가 있다. 무부하 전압 $104[V]$일 때 이 발전기의 전압 변동률$[\\%]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "3",
+      "2": "4",
+      "3": "5",
+      "4": "6"
+    },
+    "answer": 2,
+    "explanation": "전압 변동률 $\\varepsilon = \\frac{V_0 - V_n}{V_n} \\times 100[\\%]$ \n$= \\frac{104 - 100}{100} \\times 100 = 4[\\%]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트053",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트053/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트053_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "지선의 중간에 넣는 애자의 명칭은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "곡핀 애자",
+      "2": "구형 애자",
+      "3": "현수 애자",
+      "4": "핀 애자"
+    },
+    "answer": 2,
+    "explanation": "지선의 중간에 사용하는 애자를 구형 애자, 지선 애자, 옥 애자, 구슬 애자라고 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트053",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트053/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트053_p001_q24"
+  }
+]

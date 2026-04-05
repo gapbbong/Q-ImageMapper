@@ -1,0 +1,62 @@
+[
+  {
+    "question_no": 4,
+    "question_text": "정전 흡인력은 인가한 전압의 몇 제곱에 비례하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "2",
+      "2": "$ \\frac{1}{4} $",
+      "3": "$ \\frac{1}{2} $",
+      "4": "3"
+    },
+    "has_choice_image": false,
+    "answer": null,
+    "explanation": "정전 흡인력 $ F = \\frac{\\epsilon V^2}{2d^2} A[N] $",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트011",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트011/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트011_p001_q04"
+  },
+  {
+    "question_no": 5,
+    "question_text": "전선의 약호 중 “H”가 의미하는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "전열용 절연 전선",
+      "2": "네온 전선",
+      "3": "내열용 절연 전선",
+      "4": "경동선"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "경동선(Hard-drawn copper wire)의 약호는 영문자 “H”를 사용하는데, 경동선이 거친 동선을 사용하므로 Hard의 첫 자를 따서 약호를 사용한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트011",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트011/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트011_p001_q05"
+  },
+  {
+    "question_no": 6,
+    "question_text": "자동 전기 설비 계통 등에서 기구 위치 선정에 사용되는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "세이딩 모터",
+      "2": "동기 전동기",
+      "3": "스테핑 모터",
+      "4": "반동 전동기"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "스테핑 모터는 펄스 신호에 의하여 회전하는 모터로서, 1펄스마다 수 도[$ \\degree $]에서 수십 도[$ \\degree $]의 각도 회전이 가능하고 펄스 모터 또는 스텝 모터라 고도 한다. 위치 제어가 가능하므로 자동 설비 계통에서 위치 선정에 사용된다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트011",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트011/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트011_p001_q06"
+  }
+]

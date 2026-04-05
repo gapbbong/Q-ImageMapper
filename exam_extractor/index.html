@@ -1,0 +1,1623 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚡ 기출문제 추출기</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0d1117;
+      --surface:  #161b22;
+      --surface2: #21262d;
+      --surface3: #30363d;
+      --border:   #30363d;
+      --accent:   #6366f1;
+      --accent2:  #818cf8;
+      --green:    #10b981;
+      --yellow:   #f59e0b;
+      --red:      #ef4444;
+      --blue:     #38bdf8;
+      --text:     #e6edf3;
+      --muted:    #8b949e;
+      --radius:   10px;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── HEADER ── */
+    header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 24px;
+      height: 56px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+      z-index: 100;
+    }
+    header .logo { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.5px; }
+    header .logo span { color: var(--accent2); }
+    header .steps { display: flex; gap: 6px; margin-left: auto; }
+    .step-badge {
+      font-size: .72rem; font-weight: 600; padding: 4px 12px;
+      border-radius: 20px; border: 1px solid var(--border);
+      color: var(--muted); background: var(--surface2);
+      transition: all .3s;
+    }
+    .step-badge.active  { border-color: var(--accent); color: var(--accent2); background: rgba(99,102,241,.12); }
+    .step-badge.done    { border-color: var(--green);  color: var(--green);   background: rgba(16,185,129,.1); }
+    /* v6.2.8 Header Status */
+    .header-status { display: none; align-items: center; gap: 8px; margin-left:14px; font-size: 0.75rem; color: var(--accent2); background: rgba(99,102,241,0.08); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(99,102,241,0.15); }
+    .header-status b { font-weight: 700; color: var(--text); }
+    .header-stop-btn { padding: 2px 8px; font-size: 0.68rem; border: 1px solid var(--red); color: var(--red); background: none; border-radius: 4px; cursor: pointer; display: flex; align-items: center; gap: 3px; font-weight: 600; }
+    .header-stop-btn:hover { background: rgba(239,68,68,0.1); }
+
+    /* v6.2.8 Mini Progress */
+    .mini-progress-banner {
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: var(--surface3); z-index: 1000; display: none;
+    }
+    .mini-progress-fill {
+      height: 100%; width: 0%; background: var(--accent);
+      transition: width 0.3s ease;
+    }
+    .mini-status-text {
+      position: absolute; top: 8px; right: 20px; font-size: 0.7rem;
+      color: var(--accent); font-weight: bold; z-index: 1001; display: none;
+    }
+    .back-btn-proc {
+      position: absolute; top: 6px; left: 20px; z-index: 1001; display: none;
+      font-size: 0.65rem; padding: 2px 8px; background: var(--surface3);
+      border: 1px solid var(--border); border-radius: 4px; color: var(--muted);
+      cursor: pointer;
+    }
+    .back-btn-proc:hover { background: var(--surface2); color: var(--text); }
+
+    /* ── MAIN WRAPPER ── */
+    main { flex: 1; overflow: hidden; display: flex; flex-direction: column; }
+
+    /* ── VIEW: HOME ── */
+    #view-home {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 28px;
+      padding: 32px;
+    }
+    .hero-title { font-size: 2rem; font-weight: 700; text-align: center; }
+    .hero-title span { color: var(--accent2); }
+    .hero-sub { color: var(--muted); font-size: .92rem; text-align: center; }
+
+    .folder-card {
+      background: var(--surface);
+      border: 2px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 28px 40px;
+      text-align: center;
+      width: 100%; max-width: 620px;
+      transition: border-color .3s;
+    }
+    .folder-card:hover { border-color: var(--accent); }
+    .folder-path {
+      font-size: .82rem; color: var(--muted); margin-top: 10px;
+      word-break: break-all;
+    }
+    .folder-path.set { color: var(--blue); }
+
+    .pdf-list-wrap {
+      width: 100%; max-width: 620px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: none;
+    }
+    .pdf-list-head {
+      display: flex; align-items: center; padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      font-size: .82rem; color: var(--muted);
+    }
+    .pdf-list-head .sel-all {
+      margin-left: auto; cursor: pointer; color: var(--accent2);
+      font-weight: 600;
+    }
+    .pdf-list { max-height: 240px; overflow-y: auto; }
+    .pdf-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 16px; border-bottom: 1px solid var(--border);
+      font-size: .85rem; cursor: pointer; transition: background .15s;
+    }
+    .pdf-item:last-child { border-bottom: none; }
+    .pdf-item:hover { background: var(--surface2); }
+    .pdf-item input[type=checkbox] { accent-color: var(--accent); width: 16px; height: 16px; }
+    .pdf-item .fname { flex: 1; font-weight: 500; }
+    .pdf-item .meta { color: var(--muted); font-size: .78rem; }
+    .pdf-item .pages { color: var(--accent2); font-weight: 600; font-size: .78rem; }
+
+    .action-row { display: flex; gap: 12px; width: 100%; max-width: 620px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 11px 22px; border-radius: 8px; border: none;
+      font-family: inherit; font-size: .88rem; font-weight: 600;
+      cursor: pointer; transition: all .2s;
+    }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: #4f52c8; transform: translateY(-1px); }
+    .btn-outline { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-outline:hover { background: var(--surface2); }
+    .btn:disabled { opacity: .4; cursor: not-allowed; transform: none !important; }
+    .btn-full { width: 100%; justify-content: center; }
+
+    /* ── VIEW: PROCESSING ── */
+    #view-processing {
+      flex: 1; display: none; flex-direction: column;
+      align-items: center; justify-content: center; gap: 24px;
+      padding: 32px;
+    }
+    .progress-card {
+      width: 100%; max-width: 660px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+    }
+    .prog-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+    .spinner {
+      width: 22px; height: 22px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .prog-title { font-size: 1rem; font-weight: 600; }
+    .prog-pct { margin-left: auto; font-size: 1.2rem; font-weight: 700; color: var(--accent2); }
+
+    .progress-bar-wrap { background: var(--surface3); border-radius: 6px; height: 10px; overflow: hidden; }
+    .progress-bar {
+      height: 100%; width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      border-radius: 6px;
+      transition: width .5s ease;
+    }
+
+    .prog-info { display: flex; gap: 16px; margin-top: 14px; font-size: .8rem; color: var(--muted); }
+    .prog-info strong { color: var(--text); }
+
+    .log-box {
+      width: 100%; max-width: 660px;
+      background: #000;
+      border: 1px solid var(--border);
+      border-radius: var(--radius) var(--radius) 0 0;
+      height: 180px; overflow-y: auto;
+      padding: 14px 16px;
+      font-size: .78rem; font-family: monospace;
+      color: #9ece6a;
+    }
+    .log-box .log-line { margin-bottom: 3px; line-height: 1.5; }
+    .log-box .log-err { color: var(--red); }
+    .log-box .log-warn { color: var(--yellow); }
+
+    .finished-files-box {
+      width: 100%; max-width: 660px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 var(--radius) var(--radius);
+      height: 100px; overflow-y: auto;
+      padding: 10px 16px;
+    }
+    .finished-file-item {
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: .8rem; padding: 6px 0; border-bottom: 1px solid var(--surface3);
+    }
+    .finished-file-item:last-child { border-bottom: none; }
+    .finished-file-item .name { flex: 1; font-weight: 500; color: var(--blue); }
+    .finished-file-item .btn-review-mini {
+      padding: 3px 10px; font-size: .72rem; border-radius: 4px;
+      background: var(--accent); color: #fff; border: none; cursor: pointer;
+    }
+
+    .done-banner {
+      display: none; align-items: center; gap: 12px;
+      background: rgba(16,185,129,.1);
+      border: 1px solid var(--green);
+      border-radius: var(--radius);
+      padding: 14px 22px;
+      width: 100%; max-width: 660px;
+      font-weight: 600; color: var(--green);
+    }
+
+    /* ── VIEW: REVIEW ── */
+    #view-review {
+      flex: 1; display: none; flex-direction: row; overflow: hidden; height: 100%;
+    }
+    
+    /* Left panel */
+    .panel-left {
+      width: 260px; flex-shrink: 0;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      display: flex; flex-direction: column;
+      overflow: hidden;
+    }
+    .panel-left .ph { padding: 12px 14px; font-size: .78rem; font-weight: 600; color: var(--muted); border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02); }
+    .file-tabs { flex: 1; overflow-y: auto; }
+    .file-tab {
+      padding: 10px 14px; font-size: .85rem; cursor: pointer;
+      border-left: 3px solid transparent; transition: all .15s;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+    .file-tab:hover { background: var(--surface2); }
+    .file-tab.active { border-left-color: var(--accent); background: rgba(99,102,241,.1); color: var(--accent2); font-weight: 600; }
+    .file-tab .cnt { color: var(--muted); font-size: .72rem; margin-left: 4px; }
+
+    /* Right panel - Unified Feed */
+    .panel-right {
+      width: 480px; flex-shrink: 0;
+      background: var(--bg);
+      border-left: 1px solid var(--border);
+      display: flex; flex-direction: column;
+      height: 100%;
+    }
+    .panel-right .ph { 
+      padding: 12px 16px; font-size: .85rem; font-weight: 700; color: var(--text); 
+      border-bottom: 1px solid var(--border); display: flex; align-items: center; 
+      background: var(--surface); flex-shrink: 0;
+    }
+    .save-all-btn { 
+      margin-left: auto; font-size: .75rem; padding: 5px 12px; border-radius: 6px; 
+      border: none; background: var(--green); color: #fff; cursor: pointer; 
+      font-weight: 700; transition: transform .2s;
+    }
+    .save-all-btn:hover { transform: scale(1.05); }
+
+    .q-feed { 
+      flex: 1; overflow-y: scroll !important;
+      padding: 16px; display: flex; flex-direction: column; gap: 24px; 
+      scroll-behavior: smooth;
+    }
+    
+    .q-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      transition: all .2s;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      position: relative;
+    }
+    .q-card:hover { border-color: var(--surface3); transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+    .q-card.active { border-color: var(--accent); border-width: 2px; background: rgba(99,102,241,0.03); }
+    
+    .q-card-header { display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 4px; }
+    .q-card-no { font-size: 1.1rem; font-weight: 800; color: var(--accent2); }
+    .q-card-badges { display: flex; gap: 6px; margin-left: auto; }
+    
+    .q-card-body { display: flex; flex-direction: column; gap: 12px; }
+    
+    .q-save-mini:hover { background: var(--accent); }
+
+    /* Center panel */
+    .panel-center {
+      flex: 1; display: flex; flex-direction: column;
+      overflow: hidden; background: #0a0a10;
+    }
+    .center-toolbar {
+      display: flex; align-items: center; gap: 8px;
+      padding: 8px 14px; border-bottom: 1px solid var(--border);
+      background: var(--surface); flex-shrink: 0;
+    }
+    .center-toolbar .tlabel { font-size: .78rem; color: var(--muted); margin-right: 4px; }
+    .crop-btn {
+      font-size: .75rem; padding: 5px 12px; border-radius: 6px;
+      border: 1px solid var(--border); background: var(--surface2);
+      color: var(--text); cursor: pointer; transition: all .15s;
+      font-family: inherit; font-weight: 500;
+    }
+    .crop-btn:hover { border-color: var(--accent); color: var(--accent2); }
+    .crop-btn.active { border-color: var(--yellow); color: var(--yellow); background: rgba(245,158,11,.1); }
+    .crop-clear {
+      margin-left: auto; font-size: .75rem; padding: 5px 12px;
+      border-radius: 6px; border: 1px solid var(--red);
+      background: rgba(239,68,68,.07); color: var(--red);
+      cursor: pointer; font-family: inherit;
+    }
+
+    .img-scroll { flex: 1; overflow: auto; padding: 40px; background: #000; display: block; text-align: center; }
+    .img-wrap { position: relative; display: inline-block; box-shadow: 0 0 50px rgba(0,0,0,0.5); margin: 0 auto; }
+    #pageImg { display: block; border: 1px solid var(--border); border-radius: 4px; width: 100%; height: auto; transition: width 0.1s ease; }
+    #cropCanvas {
+      position: absolute; top: 0; left: 0;
+      cursor: crosshair; border-radius: 6px;
+    }
+
+    .no-page-msg { flex: 1; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: .9rem; }
+
+    .field-label { font-size: .72rem; color: var(--muted); font-weight: 700; margin-bottom: 4px; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: center; gap: 5px; }
+    .field-label { font-size: .72rem; color: var(--muted); font-weight: 700; margin-bottom: 4px; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: center; gap: 5px; }
+    .field-val { font-size: .85rem; line-height: 1.6; color: var(--text); }
+    
+    textarea.field-val, input.field-val, select.field-val, .choice-row input {
+      width: 100%; background: #1a1a24 !important; border: 1px solid var(--border);
+      border-radius: 6px; padding: 10px; color: #e2e8f0 !important; font-family: inherit;
+      font-size: .82rem; transition: all 0.2s;
+    }
+    textarea.field-val { resize: vertical; min-height: 60px; line-height: 1.5; }
+    textarea.field-val:focus, input.field-val:focus, select.field-val:focus, .choice-row input:focus { 
+      outline: none; border-color: var(--accent); background: #222230 !important;
+      box-shadow: 0 0 0 2px rgba(99,102,241,0.2);
+    }
+    
+    .choices-grid { display: flex; flex-direction: column; gap: 6px; margin-top: 5px; }
+    .choice-row { display: flex; align-items: center; gap: 8px; }
+    .choice-num { font-size: .75rem; font-weight: 800; color: var(--accent2); min-width: 20px; text-align: center; }
+
+    select.field-val { padding: 8px; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236366f1'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; background-size: 16px; }
+
+    /* ── RESIZER ── */
+    .resizer-v {
+      width: 6px; cursor: col-resize; background: #1a1a24;
+      display: flex; align-items: center; justify-content: center;
+      transition: background .2s; z-index: 10;
+    }
+    .resizer-v:hover { background: var(--accent); }
+    .resizer-v::after {
+      content: ""; width: 2px; height: 30px; background: rgba(255,255,255,0.1); border-radius: 1px;
+    }
+
+    /* ── DRAG NAV GUIDE ── */
+    #dragNavGuide {
+      position: absolute; left: 0; right: 0; height: 80px; 
+      background: linear-gradient(to top, rgba(99,102,241,0.3), transparent);
+      display: none; align-items: flex-end; justify-content: center; padding-bottom: 12px;
+      color: var(--accent2); font-weight: 700; font-size: 0.9rem; pointer-events: none;
+      z-index: 100;
+      animation: pulse-blue 1.5s infinite;
+    }
+    @keyframes pulse-blue { 0% { opacity: 0.4; } 50% { opacity: 1; } 100% { opacity: 0.4; } }
+
+    /* ── AUTO CROP GHOST ── */
+    #ghostLayer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 100; /* 최상단으로 올림 */
+    }
+    .ghost-close-btn {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background: #ff4d4f;
+        color: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        cursor: pointer;
+        z-index: 10;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        transition: all 0.2s ease;
+        opacity: 0.8;
+      }
+      .ghost-close-btn:hover {
+        background: #ff7875;
+        transform: scale(1.1);
+        opacity: 1;
+      }
+    .ghost-box {
+      position: absolute;
+      border: 3px dashed #ffff00;
+      pointer-events: auto;
+      background: rgba(255, 255, 0, 0.25); /* 투명도 약간 올림 */
+      z-index: 101;
+      box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+      animation: pulse-ghost 1s infinite;
+      cursor: pointer;
+    }
+    .ghost-box:hover {
+      background: rgba(255, 255, 0, 0.4);
+      border-color: #ffffff;
+      transform: scale(1.02);
+    }
+    @keyframes pulse-ghost-active {
+    0% { transform: scale(1); box-shadow: 0 0 20px #00ff00; border-color: #00ff00; }
+    100% { transform: scale(1.05); box-shadow: 0 0 40px #00ff00; border-color: #ffffff; }
+  }
+
+  /* 성공 플래시 애니메이션 */
+  @keyframes flash-success {
+    0% { background-color: rgba(0, 255, 0, 0.5); box-shadow: 0 0 50px #00ff00; }
+    100% { background-color: transparent; }
+  }
+  .flash-success {
+    animation: flash-success 0.6s ease-out;
+  }
+  
+  .q-card.mapped {
+    border-left: 10px solid #00ff00 !important;
+  }
+  .mapped-badge {
+    background: #00ff00;
+    color: #000;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+    @keyframes pulse-ghost {
+      0% { transform: scale(1); opacity: 0.7; }
+      50% { transform: scale(1.02); opacity: 1; }
+      100% { transform: scale(1); opacity: 0.7; }
+    }
+    .ghost-box:hover { border-color: #fff; background: rgba(255, 255, 0, 0.4); }
+    .ghost-box::after { 
+      content: attr(data-label); 
+      position: absolute; top: -20px; left: 0; 
+      font-size: 0.7rem; color: #ffff00; font-weight: bold; 
+      text-shadow: 1px 1px 2px #000;
+      white-space: nowrap;
+    }
+
+
+    /* ── TOAST ── */
+    #toast {
+      position: fixed; bottom: 24px; right: 24px;
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 12px 18px; font-size: .85rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,.5);
+      transform: translateY(80px); opacity: 0;
+      transition: all .3s; z-index: 9999; pointer-events: none;
+    }
+    #toast.show { transform: translateY(0); opacity: 1; }
+    #toast.ok  { border-color: var(--green); color: var(--green); }
+    #toast.err { border-color: var(--red);   color: var(--red); }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
+    ::-webkit-scrollbar-thumb { background: var(--surface3); border-radius: 4px; border: 2px solid var(--surface); }
+    ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+    /* Zoom Controls */
+    .zoom-ctrl { display: flex; align-items: center; gap: 4px; margin-left: 20px; background: rgba(0,0,0,0.2); padding: 2px 10px; border-radius: 20px; border: 1px solid var(--border); }
+    .zoom-btn { background: none; border: none; color: var(--text); font-size: 1.1rem; cursor: pointer; padding: 0 4px; display: flex; align-items: center; transition: color .1s; }
+    .zoom-btn:hover { color: var(--accent2); }
+    .zoom-slider { width: 80px; accent-color: var(--accent); cursor: pointer; }
+    .zoom-val { font-size: .72rem; color: var(--muted); min-width: 32px; text-align: center; font-variant-numeric: tabular-nums; }
+
+    /* Mini Progress Banner (검토 화면 상단) */
+    .mini-progress-banner { display: none; height: 4px; background: var(--surface3); position: absolute; top: 0; left: 0; right: 0; border-radius: 2px; overflow: hidden; }
+    .mini-progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); transition: width .5s; border-radius: 2px; }
+    .mini-status-bar { display: none; align-items: center; gap: 10px; padding: 6px 14px; background: rgba(59,130,246,0.1); border-bottom: 1px solid rgba(59,130,246,0.25); font-size: .78rem; color: var(--accent2); }
+    .mini-status-bar .stop-inline-btn { margin-left: auto; padding: 2px 10px; font-size: .7rem; border: 1px solid var(--red); color: var(--red); background: none; border-radius: 5px; cursor: pointer; }
+    .mini-status-bar .stop-inline-btn:hover { background: rgba(255,80,80,0.1); }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="logo">⚡ 기출문제 <span>추출기</span> <span style="font-size: 0.7rem; background: var(--surface3); padding: 2px 6px; border-radius: 4px; vertical-align: middle; margin-left: 4px; color: var(--muted);">v6.2.9</span></div>
+  
+  <!-- v6.2.8 Header Status & Stop -->
+  <div class="header-status" id="headerStatus">
+    <span id="headerStatusLabel">⏳ 0%</span>
+    <button class="header-stop-btn" onclick="stopExtraction()">🛑 중지</button>
+  </div>
+
+  <div class="steps">
+    <span class="step-badge active" id="s1" onclick="showView('home')">1 폴더 선택</span>
+    <span class="step-badge"        id="s2" onclick="showView('processing')">2 추출</span>
+    <span class="step-badge"        id="s3" onclick="goReview()">3 크롭 &amp; 검토</span>
+  </div>
+</header>
+<main>
+
+  <!-- ══════════════════════════════════════════════ VIEW: HOME -->
+  <div id="view-home">
+    <div>
+      <div class="hero-title">PDF 기출문제 <span>자동 추출</span> <small style="font-size: 0.9rem; opacity: 0.6;">v6.2.9</small></div>
+      <div class="hero-sub" style="margin-top:6px">폴더 선택 → Gemini OCR → JSON 변환 → 이미지 크롭 (자연 정렬 엔진 3.0)</div>
+    </div>
+
+    <div style="font-size: 0.9rem; color: var(--red); font-weight: 500; margin-bottom: 20px;">
+      <span style="font-size:1.1rem">⚠️</span> <b>윈도우 '폴더 선택' 창에서는 PDF 등 파일이 보이지 않는 것이 정상</b>입니다.
+    </div>
+
+    <div class="folder-card">
+      <button class="btn btn-primary" onclick="browseFolder()">📂 폴더 선택</button>
+      <div class="folder-path" id="folderPath">선택된 폴더 없음</div>
+    </div>
+
+    <div class="pdf-list-wrap" id="pdfListWrap">
+      <div class="pdf-list-head">
+        📄 PDF 파일 목록
+        <span class="sel-all" onclick="toggleAll()">전체 선택</span>
+      </div>
+      <div class="pdf-list" id="pdfList"></div>
+    </div>
+
+    <div class="action-row" id="actionRow" style="display:none; flex-direction:column; gap:16px;">
+      <div style="display:flex; align-items:center; gap:10px; background:var(--surface2); padding:10px 16px; border-radius:8px; border:1px solid var(--border);">
+        <label class="test-mode-label" title="파일당 앞 3페이지만 추출하여 빠르게 테스트합니다.">
+          <input type="checkbox" id="testMode" checked> 🧪 테스트 모드 (파일당 3페이지)
+        </label>
+      </div>
+      <div style="display:flex; gap:12px; width:100%;">
+        <button class="btn btn-outline" onclick="browseFolder()">🔄 다시 선택</button>
+        <button class="btn btn-primary btn-full" id="startBtn" onclick="startExtraction()">🚀 추출 시작</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════ VIEW: PROCESSING -->
+  <div id="view-processing">
+    <div class="progress-card">
+      <div class="prog-header">
+        <div class="spinner" id="spinner"></div>
+        <div class="prog-title" id="progTitle">준비 중…</div>
+        <div class="prog-pct" id="progPct">0%</div>
+      </div>
+      <div class="progress-bar-wrap"><div class="progress-bar" id="progBar"></div></div>
+      <div class="prog-info">
+        <span>파일: <strong id="progFile">-</strong></span>
+        <span>페이지: <strong id="progPages">0 / 0</strong></span>
+        <button class="btn btn-outline" id="stopBtn" style="padding:4px 12px; font-size:.7rem; margin-left:auto; border-color:var(--red); color:var(--red)" onclick="stopExtraction()">🛑 중지</button>
+      </div>
+    </div>
+
+    <div class="log-box" id="logBox"></div>
+    <div class="finished-files-box" id="finishedFilesBox">
+      <div style="font-size:.7rem; color:var(--muted); margin-bottom:4px">완료된 파일 (즉시 확인 가능)</div>
+      <div id="finishedFilesList"></div>
+    </div>
+
+    <div class="done-banner" id="doneBanner">
+      ✅ 추출 완료! 검토 및 크롭 단계로 이동합니다.
+      <button class="btn btn-primary" style="margin-left:auto" onclick="goReview()">검토하기 →</button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════ VIEW: REVIEW -->
+  <div id="view-review" style="position: relative; flex-direction: column;">
+    <div class="mini-progress-banner" id="miniProgBanner"><div class="mini-progress-fill" id="miniProgFill"></div></div>
+    <!-- mini-status-bar는 레이아웃 공간을 차지하므로 헤더로 이동 후 제거 또는 display:none -->
+    <div style="display:flex; flex:1; overflow:hidden;">
+
+    <!-- LEFT -->
+    <div class="panel-left">
+      <div class="ph">📂 파일 <span style="font-size: 0.65rem; background: var(--surface2); padding: 1px 4px; border-radius: 3px; margin-left: 4px;">v6.2.8</span></div>
+      <div class="file-tabs" id="fileTabs"></div>
+    </div>
+
+    <!-- CENTER -->
+    <div class="panel-center">
+      <div class="center-toolbar">
+        <span class="tlabel">크롭 유형:</span>
+        <button class="crop-btn active" data-type="question"     onclick="setCropType(this)">질문그림</button>
+        <button class="crop-btn" data-type="choice"       onclick="setCropType(this)">보기그림</button>
+        <button class="crop-btn" data-type="explanation"  onclick="setCropType(this)">해설그림</button>
+        
+        <div class="zoom-ctrl">
+          <button class="zoom-btn" onclick="changeZoom(-0.1)">−</button>
+          <input type="range" class="zoom-slider" id="zoomSlider" min="0.5" max="3" step="0.1" value="1.0" oninput="updateZoom(this.value)">
+          <button class="zoom-btn" onclick="changeZoom(0.1)">+</button>
+          <span class="zoom-val" id="zoomVal">100%</span>
+        </div>
+
+        <button class="crop-clear" onclick="clearLastCrop()">✕ 마지막 크롭 취소</button>
+      </div>
+      <div class="img-scroll" id="imgScroll">
+        <div id="dragNavGuide">NEXT PAGE ↑</div>
+        <div class="no-page-msg" id="noPageMsg">← 문제를 선택하세요</div>
+        <div class="img-wrap" id="imgWrap" style="display:none">
+          <img id="pageImg" src="" alt="page">
+          <canvas id="cropCanvas"></canvas>
+          <div id="ghostLayer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESIZER -->
+    <div class="resizer-v" id="panelResizer"></div>
+
+    <!-- RIGHT: Unified Feed -->
+
+    <div class="panel-right">
+      <div class="ph">
+        📝 검토 피드 <span id="feedCount" style="margin-left:8px; font-size:.75rem; color:var(--muted)"></span>
+        <button class="save-all-btn" onclick="saveAllCurrentFile()">💾 전체 저장</button>
+      </div>
+      <div class="q-feed" id="qFeed">
+        <div class="no-page-msg" style="margin-top:40px">파일을 선택하면<br>문제가 이곳에 나열됩니다.</div>
+      </div>
+    </div>
+
+    </div><!-- end flex row -->
+  </div>
+</main>
+
+<!-- ── TOAST ── -->
+<div id="toast"></div>
+
+<script>
+const state = {
+  folder:       null,
+  pdfs:         [],
+  polling:      null,
+  results:      {},
+  currentFile:  null,
+  currentQ:     null,
+  cropType:     'question',
+  cropDraw:     { active: false, sx:0, sy:0, ex:0, ey:0 },
+  zoom:         1.0,
+  scrollCooldown: false,
+  lastActionTime: 0,
+  allFiles:     [],     // 전체 파일 목록 (순서 이동용)
+  dragActive:   false,
+  dragStartY:   0,
+  dragThreshold: 80,   // 80px 이상 끌면 이동
+  navInit:      false,
+  focusedGhostId: null, // [v6.3.0] 현재 키보드 제어 중인 가이드 박스 ID
+};
+
+async function api(method, path, body) {
+  const opts = { method, headers: {'Content-Type':'application/json'} };
+  if (body) opts.body = JSON.stringify(body);
+  try {
+    // [v6.2.9] 현재 호스트 기준(5050/5051 자동감지)으로 호출
+    const r = await fetch(path, opts);
+    return r.json();
+  } catch(e) { return { error: '서버 연결 실패' }; }
+}
+
+function showView(name) {
+  ['home','processing','review'].forEach(v => {
+    document.getElementById('view-'+v).style.display = (v === name) ? (v === 'review' ? 'flex' : 'flex') : 'none';
+  });
+  document.getElementById('s1').className = 'step-badge' + (name==='home' ? ' active' : ' done');
+  document.getElementById('s2').className = 'step-badge' + (name==='processing' ? ' active' : name==='review' ? ' done' : '');
+  document.getElementById('s3').className = 'step-badge' + (name==='review' ? ' active' : '');
+}
+
+async function browseFolder() {
+  const data = await api('POST', '/api/browse_folder', {});
+  if (!data.folder) return;
+  state.folder = data.folder;
+  state.pdfs = (data.files || []).map(f => ({...f, selected: true}));
+  document.getElementById('folderPath').textContent = data.folder;
+  document.getElementById('folderPath').className   = 'folder-path set';
+  renderPdfList();
+}
+
+function renderPdfList() {
+  const list = document.getElementById('pdfList');
+  document.getElementById('pdfListWrap').style.display = 'block';
+  document.getElementById('actionRow').style.display = 'flex';
+  list.innerHTML = state.pdfs.map((f,i) => `
+    <div class="pdf-item" onclick="togglePdf(${i})">
+      <input type="checkbox" ${f.selected?'checked':''} onclick="event.stopPropagation();togglePdf(${i})">
+      <span class="fname">${f.name}</span>
+      <span class="pages">${f.pages}p</span>
+    </div>
+  `).join('');
+}
+
+function togglePdf(i) { state.pdfs[i].selected = !state.pdfs[i].selected; renderPdfList(); }
+function toggleAll() { const all = state.pdfs.every(f => f.selected); state.pdfs.forEach(f => f.selected = !all); renderPdfList(); }
+
+async function startExtraction() {
+  const selected = state.pdfs.filter(f => f.selected).map(f => f.path);
+  if (!selected.length) return;
+  showView('review'); // 즉시 검토 뷰로 이동
+  await api('POST', '/api/start_extraction', { pdf_paths: selected, test_mode: document.getElementById('testMode').checked });
+  startPolling();
+}
+
+async function stopExtraction() {
+  document.getElementById('stopBtn').disabled = true;
+  document.getElementById('stopBtn').innerHTML = '<span class="spinner" style="width:12px;height:12px;border-width:2px;display:inline-block;vertical-align:middle;"></span> 중지 중...';
+  await api('POST', '/api/stop_extraction', null);
+}
+
+function startPolling() {
+  if (state.polling) clearInterval(state.polling);
+  state.polling = setInterval(async () => {
+    const p = await api('GET', '/api/progress', null);
+    updateProgress(p);
+    
+    // 파일 탭 실시간 동기화
+    const files = await api('GET', '/api/list_results', null);
+    const newFilesNames = files.map(f => f.name).join(',');
+    const oldFilesNames = (state.lastRenderedFiles || []).map(f => f.name).join(',');
+    if (newFilesNames !== oldFilesNames) {
+      state.lastRenderedFiles = files;
+      renderFileTabs(files);
+    }
+
+    if (p.status === 'done' || p.status === 'error' || p.status === 'stopped') clearInterval(state.polling);
+  }, 1500);
+}
+
+function updateProgress(p) {
+  const pct = p.total_pages > 0 ? Math.min(Math.round((p.current_page / p.total_pages) * 100), 100) : 0;
+  
+  // processing 화면 요소
+  if (document.getElementById('progBar')) document.getElementById('progBar').style.width = pct + '%';
+  if (document.getElementById('progPct')) document.getElementById('progPct').textContent = pct + '%';
+  if (document.getElementById('progFile')) document.getElementById('progFile').textContent = p.current_file || '-';
+  if (document.getElementById('progPages')) document.getElementById('progPages').textContent = `${p.current_page} / ${p.total_pages}`;
+  
+  const isRunning = p.status === 'running';
+  document.getElementById('miniProgBanner').style.display = isRunning ? 'block' : 'none';
+  
+  // v6.2.8 헤더 통합 상태바 업데이트
+  const headerStatus = document.getElementById('headerStatus');
+  if (headerStatus) {
+    headerStatus.style.display = isRunning ? 'flex' : 'none';
+    if (isRunning) {
+        document.getElementById('miniProgFill').style.width = pct + '%';
+        document.getElementById('headerStatusLabel').innerHTML = `⏳ 추출 중: <b>${pct}%</b> <span style="opacity:0.6; font-size:0.65rem">(${p.current_page}/${p.total_pages})</span>`;
+    }
+  }
+}
+
+async function goReview() {
+  showView('review');
+  const files = await api('GET', '/api/list_results', null);
+  state.allFiles = files; // 전체 목록 저장
+  renderFileTabs(files);
+  
+  if (!state.navInit) {
+    initDragEvents(); // 드래그 이벤트 최초 1회 초기화
+    state.navInit = true;
+  }
+}
+
+function renderFileTabs(files) {
+  document.getElementById('fileTabs').innerHTML = files.map(f => `
+    <div class="file-tab ${f.name === state.currentFile ? 'active' : ''}" onclick="loadFile('${f.name}')" id="ftab-${f.name.replace('.json','')}">
+      ${f.name.replace('.json','')}
+    </div>
+  `).join('');
+}
+
+async function loadFile(jsonFile) {
+  state.currentFile = jsonFile;
+  
+  // 왼쪽 탭 활성화 상태 UI 업데이트
+  document.querySelectorAll('.file-tab').forEach(t => t.classList.remove('active'));
+  const activeTab = document.getElementById('ftab-' + jsonFile.replace('.json',''));
+  if (activeTab) activeTab.classList.add('active');
+
+  // URL 업데이트
+  const url = new URL(window.location);
+  url.searchParams.set('stage', '3');
+  url.searchParams.set('file', jsonFile);
+  window.history.pushState({}, '', url);
+
+  console.log(`🚀 [DataLoaded] ${jsonFile} 데이터 수신 완료`);
+  const questions = await api('GET', '/api/results/' + jsonFile, null);
+  if (questions.error) { toast(questions.error); return; }
+  
+  // [v6.2.9 핵심 수정] 데이터를 메인 스토어에 할당
+  state.questions = questions; 
+  state.results[jsonFile] = questions;
+  
+  renderQFeed(questions);
+  
+  // 데이터가 안착되었으므로 즉시 고스트 박스 엔진 가동
+  showGhostCrops();
+
+  if (questions.length > 0) {
+    // 첫 번째 문제 자동 선택
+    focusQuestion(questions[0].id);
+  } else {
+    // 문제가 없어도 1페이지 이미지는 바로 표시
+    const projName = jsonFile.replace('.json','');
+    const imgUrl   = `/output/images/${projName}/page_001_full.png`;
+    const img  = document.getElementById('pageImg');
+    const wrap = document.getElementById('imgWrap');
+    const msg  = document.getElementById('noPageMsg');
+    img.src = imgUrl;
+    wrap.style.display = 'inline-block';
+    msg.style.display  = 'none';
+    img.onload = () => {
+      updateZoom(state.zoom);
+      drawCrops();
+      showGhostCrops(); // 문제 없어도 그림 위치 가이드 표시
+    };
+    img.onerror = () => {
+      wrap.style.display = 'none';
+      msg.style.display  = 'block';
+      msg.textContent    = '추출된 문제가 없습니다. 이미지 경로: ' + imgUrl;
+    };
+  }
+}
+
+function renderQFeed(qs) {
+  const feed = document.getElementById('qFeed');
+  feed.innerHTML = qs.map(q => {
+    const isMapped = q.question_image_bbox && q.question_image_bbox[2] > 0;
+    return `
+    <div class="q-card ${isMapped ? 'mapped' : ''}" id="q-card-${q.id}" onclick="focusQuestion('${q.id}')">
+      <div class="q-card-header">
+        <div class="q-card-no">${q.question_no || '?'}번</div>
+        ${isMapped ? '<span class="mapped-badge">SAVED</span>' : ''}
+        <div class="q-card-badges">
+           ${q.has_question_image ? '🖼️' : ''}
+           <span style="font-size:0.7rem; color:var(--muted); border:1px solid var(--border); padding:2px 6px; border-radius:4px;">${q.id}</span>
+           ${isMapped ? `<button class="btn-clear-q" onclick="event.stopPropagation(); clearQuestionMapping('${q.id}')" title="이 문제의 매핑만 삭제" style="background:var(--red); color:#fff; border:none; padding:2px 6px; border-radius:4px; font-size:0.65rem; cursor:pointer; margin-left:5px;">✕ 삭제</button>` : ''}
+        </div>
+      </div>
+      <div class="q-card-body">
+        <div style="display:flex; gap:10px; margin-bottom:10px;">
+          <div style="width:120px">
+            <div class="field-label">난이도</div>
+            <select class="field-val" data-id="${q.id}" data-field="level" onchange="syncField(this)" style="width:100%; padding:6px; background:var(--surface2); color:var(--text); border:1px solid var(--border); border-radius:6px;">
+              <option value="하" ${q.level==='하'?'selected':''}>하</option>
+              <option value="중" ${q.level==='중'?'selected':''}>중</option>
+              <option value="상" ${q.level==='상'?'selected':''}>상</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-label">질문 (자동 조절)</div>
+        <textarea class="field-val" data-id="${q.id}" data-field="question_text" oninput="syncField(this); autoExpand(this)" style="min-height:60px; overflow:hidden;">${q.question_text || ''}</textarea>
+        
+        <div class="field-label">보기 (선택지)</div>
+        <div class="choices-grid">
+          ${[1, 2, 3, 4].map(num => `
+            <div class="choice-row">
+              <span class="choice-num">${num}</span>
+              <input type="text" data-id="${q.id}" data-field="choices.${num}" value="${(q.choices && q.choices[num]) ? q.choices[num].replace(/"/g, '&quot;') : ''}" oninput="syncField(this)">
+            </div>
+          `).join('')}
+        </div>
+        
+        <div style="display:flex; gap:10px; align-items:flex-end; margin-top:8px;">
+          <div style="width:80px">
+            <div class="field-label">정답</div>
+            <input type="text" class="field-val" data-id="${q.id}" data-field="answer" value="${q.answer || ''}" oninput="syncField(this)" style="width:100%; height:32px; padding:4px 8px; background:var(--surface2); color:var(--text); border:1px solid var(--border); border-radius:6px; font-weight:bold; text-align:center;">
+          </div>
+          <div style="flex:1">
+            <div class="field-label">해설 (자동 조절)</div>
+            <textarea class="field-val" data-id="${q.id}" data-field="explanation" oninput="syncField(this); autoExpand(this)" style="min-height:32px; height:32px; overflow:hidden;">${q.explanation || ''}</textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  `}).join('');
+  
+  // 초기 높이 조절 실행
+  setTimeout(() => {
+    feed.querySelectorAll('textarea.field-val').forEach(autoExpand);
+  }, 100);
+}
+
+// 실시간 동기화 함수 추가
+function syncField(el) {
+  const qId = el.dataset.id;
+  const fieldPath = el.dataset.field;
+  const val = el.value;
+  
+  const q = state.results[state.currentFile].find(x => x.id === qId);
+  if (!q) return;
+  
+  if (fieldPath.startsWith('choices.')) {
+    const num = fieldPath.split('.')[1];
+    if (!q.choices) q.choices = {};
+    q.choices[num] = val;
+  } else {
+    q[fieldPath] = val;
+  }
+}
+
+
+async function saveAllCurrentFile() {
+  if (!state.currentFile || !state.results[state.currentFile]) return;
+  const btn = document.querySelector('.save-all-btn');
+  const oldText = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner" style="width:12px;height:12px;border-width:2px;display:inline-block;"></span> 저장 중...';
+
+  const qs = state.results[state.currentFile];
+  let success = 0;
+  for (const q of qs) {
+    const res = await saveSingleQuestion(q);
+    if (res.status === 'ok') success++;
+  }
+  
+  btn.disabled = false;
+  btn.innerHTML = oldText;
+  toast(`${success}개 문제 저장 완료!`);
+}
+
+async function saveSingleQuestion(q) {
+  if (!state.currentFile) return { error: '파일 정보 없음' };
+  return api('POST', '/api/update_question', { json_file: state.currentFile, question: q });
+}
+
+async function clearQuestionMapping(id) {
+  const q = state.questions.find(x => x.id === id);
+  if (!q) return;
+  
+  if (!confirm(`${q.question_no}번의 매핑된 영역을 삭제하시겠습니까?`)) return;
+  
+  q.question_image_bbox = [0, 0, 0, 0];
+  if (q.options) {
+    q.options.forEach(o => o.option_image_bbox = [0, 0, 0, 0]);
+  }
+  q.explanation_image_bbox = [0, 0, 0, 0];
+  
+  const res = await saveSingleQuestion(q);
+  if (res.status === 'ok') {
+    toast(`${q.question_no}번 매핑 삭제 완료`);
+    renderQFeed(state.questions);
+    drawCrops();
+  }
+}
+
+// ── CROP & ZOOM ───────────────────────────────────────────────────────────
+function setCropType(btn) {
+  state.cropType = btn.dataset.type;
+  document.querySelectorAll('.crop-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+function updateZoom(val) {
+  state.zoom = parseFloat(val);
+  const img = document.getElementById('pageImg');
+  const canvas = document.getElementById('cropCanvas');
+  
+  // transform: scale 대신 실제 width/height 조절 방식으로 변경 (스크롤 문제 해결)
+  // 기본 너비를 800px 정도로 잡고 비율 조절 (사용자 경험 향상)
+  const baseWidth = 800; 
+  img.style.width = (baseWidth * state.zoom) + 'px';
+  img.style.height = 'auto';
+  
+  document.getElementById('zoomVal').textContent = Math.round(state.zoom * 100) + '%';
+  document.getElementById('zoomSlider').value = state.zoom;
+  syncCanvasSize();
+}
+function changeZoom(delta) {
+  let newZoom = Math.max(0.5, Math.min(3, state.zoom + delta));
+  updateZoom(newZoom);
+}
+
+function syncCanvasSize() {
+  const img = document.getElementById('pageImg');
+  const canvas = document.getElementById('cropCanvas');
+  if (!img.complete) return;
+  canvas.width = img.width * state.zoom;
+  canvas.height = img.height * state.zoom;
+}
+
+// Canvas Mouse Events
+const canvas = document.getElementById('cropCanvas');
+const ctx = canvas.getContext('2d');
+
+canvas.onmousedown = (e) => {
+  if (!state.currentQ) return;
+  state.cropDraw.active = true;
+  state.cropDraw.sx = e.offsetX;
+  state.cropDraw.sy = e.offsetY;
+};
+
+canvas.onmousemove = (e) => {
+  if (!state.cropDraw.active) return;
+  state.cropDraw.ex = e.offsetX;
+  state.cropDraw.ey = e.offsetY;
+  drawCropBox();
+};
+
+window.onmouseup = () => {
+  if (!state.cropDraw.active) return;
+  state.cropDraw.active = false;
+  finalizeCrop();
+};
+
+function drawCropBox() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.strokeStyle = '#ef4444';
+  ctx.lineWidth = 2;
+  ctx.setLineDash([5, 3]);
+  const {sx, sy, ex, ey} = state.cropDraw;
+  ctx.strokeRect(sx, sy, ex - sx, ey - sy);
+}
+
+async function finalizeCrop() {
+  const {sx, sy, ex, ey} = state.cropDraw;
+  const w = Math.abs(ex - sx);
+  const h = Math.abs(ey - sy);
+  if (w < 10 || h < 10) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    return;
+  }
+
+  const region = {
+    type: state.cropType,
+    x: Math.min(sx, ex) / state.zoom,
+    y: Math.min(sy, ey) / state.zoom,
+    w: w / state.zoom,
+    h: h / state.zoom
+  };
+
+  const res = await api('POST', '/api/save_region', {
+    json_file: state.currentFile,
+    id: state.currentQ.id,
+    region: region
+  });
+
+  if (res.status === 'ok') {
+    if (!state.currentQ.image_regions) state.currentQ.image_regions = [];
+    state.currentQ.image_regions.push(region);
+    state.lastManualRegion = region; // [v6.3.1] 엔터 확정을 위해 마지막 수동 영역 저장
+    toast('수동 영역 잡힘 (Enter로 메인 질문지로 확정 가능)');
+  }
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+async function clearLastCrop() {
+  if (!state.currentQ || !state.currentQ.image_regions || !state.currentQ.image_regions.length) return;
+  state.currentQ.image_regions.pop();
+  await api('POST', '/api/update_question', { json_file: state.currentFile, question: state.currentQ });
+  toast('마지막 크롭 취소됨');
+}
+
+document.getElementById('pageImg').onload = () => {
+  syncCanvasSize();
+};
+
+function focusQuestion(id) {
+  state.currentQ = state.results[state.currentFile].find(x => x.id === id);
+  document.querySelectorAll('.q-card').forEach(c => c.classList.remove('active'));
+  const card = document.getElementById('q-card-' + id);
+  if (card) {
+    card.classList.add('active');
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  const imgWrap = document.getElementById('imgWrap');
+  const noPageMsg = document.getElementById('noPageMsg');
+  const pageImg = document.getElementById('pageImg');
+
+  if (state.currentQ && state.currentQ.image_path) {
+    noPageMsg.style.display = 'none';
+    imgWrap.style.display = 'inline-block';
+    // 경로에 공백(' ') 등이 있을 수 있으므로 encodeURI 적용
+    const safePath = encodeURI(state.currentQ.image_path);
+    pageImg.src = '/output/' + safePath;
+    
+    // 이미지 스크롤 상단으로 초기화 (윗부분 잘림 방지 및 가독성 향상)
+    const imgScroll = document.getElementById('imgScroll');
+    if (imgScroll) imgScroll.scrollTop = 0;
+  } else {
+    noPageMsg.style.display = 'flex';
+    imgWrap.style.display = 'none';
+  }
+}
+
+function toast(msg, type='ok') {
+  const el = document.getElementById('toast');
+  el.textContent = msg; el.className = 'show ' + type;
+  setTimeout(() => el.className = '', 2500);
+}
+
+function changeFile(delta) {
+  if (!state.currentFile || state.allFiles.length === 0) return;
+  const idx = state.allFiles.findIndex(f => f.name === state.currentFile);
+  const nextIdx = idx + delta;
+  if (nextIdx >= 0 && nextIdx < state.allFiles.length) {
+    const nextFile = state.allFiles[nextIdx].name;
+    console.log(`🚀 [Nav] Moving to ${nextFile} (delta: ${delta})`);
+    loadFile(nextFile);
+    toast(`${delta > 0 ? '다음' : '이전'} 파트로 이동합니다...`, 'info');
+  } else {
+    toast(`${delta > 0 ? '마지막' : '첫'} 파일입니다.`, 'warn');
+  }
+}
+
+function initDragEvents() {
+  const scrollEl = document.getElementById('imgScroll');
+  if (!scrollEl) return;
+
+  // 기존 이벤트 리스너 제거 대신 addEventListener로 안전하게 등록
+  scrollEl.addEventListener('mousedown', (e) => {
+    // #imgScroll 내부의 어떤 요소를 클릭해도 드래그 시작 (closest 사용)
+    if (e.target.closest('#imgScroll')) {
+       state.dragActive = true;
+       state.dragStartY = e.clientY;
+    }
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (!state.dragActive) return;
+    const deltaY = state.dragStartY - e.clientY;
+    const guide = document.getElementById('dragNavGuide');
+
+    if (scrollEl.scrollTop + scrollEl.clientHeight >= scrollEl.scrollHeight - 20 && deltaY > 30) {
+        scrollEl.style.cursor = 'n-resize';
+        guide.style.display = 'flex';
+        guide.style.bottom = '0'; guide.style.top = 'auto';
+        guide.style.background = 'linear-gradient(to top, rgba(99,102,241,0.3), transparent)';
+        guide.textContent = 'NEXT PAGE ↑ (' + Math.round(deltaY) + '/80)';
+    } else if (scrollEl.scrollTop <= 20 && deltaY < -30) {
+        scrollEl.style.cursor = 's-resize';
+        guide.style.display = 'flex';
+        guide.style.top = '0'; guide.style.bottom = 'auto';
+        guide.style.background = 'linear-gradient(to bottom, rgba(99,102,241,0.3), transparent)';
+        guide.textContent = 'PREV PAGE ↓ (' + Math.round(Math.abs(deltaY)) + '/80)';
+    } else {
+        scrollEl.style.cursor = 'auto';
+        guide.style.display = 'none';
+    }
+  });
+
+  window.addEventListener('mouseup', (e) => {
+    if (!state.dragActive) return;
+    state.dragActive = false;
+    scrollEl.style.cursor = 'auto';
+    document.getElementById('dragNavGuide').style.display = 'none';
+
+    const deltaY = state.dragStartY - e.clientY;
+    const threshold = 80;
+    
+    if (scrollEl.scrollTop + scrollEl.clientHeight >= scrollEl.scrollHeight - 50 && deltaY > threshold) {
+      changeFile(1);
+    } else if (scrollEl.scrollTop <= 50 && deltaY < -threshold) {
+      changeFile(-1);
+    }
+  });
+
+  // [v6.2.8] 오른쪽 검토 피드(qFeed) 휠 스크롤 파일 이동 개선
+  const qFeed = document.getElementById('qFeed');
+  if (qFeed) {
+    qFeed.addEventListener('wheel', (e) => {
+      // 위로 스크롤 (이전 페이지)
+      if (e.deltaY < 0 && qFeed.scrollTop <= 0) {
+        if (!state.scrollCooldown) {
+          state.scrollCooldown = true;
+          changeFile(-1);
+          setTimeout(() => state.scrollCooldown = false, 800);
+        }
+      } 
+      // 아래로 스크롤 (다음 페이지)
+      else if (e.deltaY > 0 && Math.abs(qFeed.scrollHeight - qFeed.scrollTop - qFeed.clientHeight) <= 1) {
+        if (!state.scrollCooldown) {
+          state.scrollCooldown = true;
+          changeFile(1);
+          setTimeout(() => state.scrollCooldown = false, 800);
+        }
+      }
+    });
+  }
+}
+
+function focusQuestion(id) {
+  const q = state.questions.find(x => x.id === id);
+  if (!q) return;
+  state.currentQ = q;
+
+  // 카드 활성화 표시
+  document.querySelectorAll('.q-card').forEach(c => c.classList.remove('active'));
+  const card = document.getElementById('q-card-' + id);
+  if (card) {
+      card.classList.add('active');
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  // 이미지 로드 (계층 구조 반영)
+  const projName = state.currentFile.replace('.json','');
+  const pageNum  = String(q.page || 1).padStart(3,'0');
+  const imgUrl   = `/output/images/${projName}/page_${pageNum}_full.png`;
+
+  const img = document.getElementById('pageImg');
+  const wrap = document.getElementById('imgWrap');
+  const msg = document.getElementById('noPageMsg');
+
+  img.src = imgUrl;
+  wrap.style.display = 'inline-block';
+  msg.style.display = 'none';
+
+  img.onload = () => {
+    updateZoom(state.zoom);
+    drawCrops();
+    setTimeout(showGhostCrops, 100); 
+  };
+
+  img.onerror = () => {
+    wrap.style.display = 'none';
+    msg.style.display = 'block';
+    msg.textContent = '이미지를 찾을 수 없습니다: ' + imgUrl;
+  };
+}
+
+/** 캔버스에 지금까지 저장된 모든 빨간색 크롭 영역을 그리는 핵심 함수 */
+function drawCrops() {
+  const canvas = document.getElementById('cropCanvas');
+  const img = document.getElementById('pageImg');
+  if (!canvas || !img || !img.naturalWidth) return;
+
+  canvas.width = img.naturalWidth;
+  canvas.height = img.naturalHeight;
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  if (!state.currentQ) return;
+
+  // 1. 질문 영역 (빨간색)
+  if (state.currentQ.question_image_bbox) {
+    drawBox(ctx, state.currentQ.question_image_bbox, '#ff4b2b', '질문');
+  }
+
+  // 2. 보기 영역 (보라색/파란색)
+  if (state.currentQ.options) {
+    state.currentQ.options.forEach((opt, idx) => {
+      if (opt.option_image_bbox) {
+        drawBox(ctx, opt.option_image_bbox, '#a18cd1', (idx + 1).toString());
+      }
+    });
+  }
+
+  // 3. 해설 영역 (녹색)
+  if (state.currentQ.explanation_image_bbox) {
+    drawBox(ctx, state.currentQ.explanation_image_bbox, '#4facfe', '해설');
+  }
+}
+
+/** 0~1000 정규화 좌표를 실제 이미지 픽셀로 변환하여 사각형을 그림 */
+function drawBox(ctx, bbox, color, label) {
+  const img = document.getElementById('pageImg');
+  // bbox: [ymin, xmin, ymax, xmax]
+  const y1 = (bbox[0] / 1000) * img.naturalHeight;
+  const x1 = (bbox[1] / 1000) * img.naturalWidth;
+  const y2 = (bbox[2] / 1000) * img.naturalHeight;
+  const x2 = (bbox[3] / 1000) * img.naturalWidth;
+
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 4;
+  ctx.strokeRect(x1, y1, x2 - x1, y2 - y1);
+
+  // 라벨 배경
+  ctx.fillStyle = color;
+  ctx.font = 'bold 20px Inter, sans-serif';
+  const tw = ctx.measureText(label).width;
+  ctx.fillRect(x1, y1 - 25, tw + 10, 25);
+
+  // 라벨 텍스트
+  ctx.fillStyle = '#fff';
+  ctx.fillText(label, x1 + 5, y1 - 5);
+}
+
+function showGhostCrops() {
+  console.log("🤖 [DEBUG] showGhostCrops 진입");
+  const layer = document.getElementById('ghostLayer');
+  if (!layer) { console.error("❌ ghostLayer 없음"); return; }
+  layer.innerHTML = '';
+
+  const img = document.getElementById('pageImg');
+  if (!img || !img.naturalWidth || !img.naturalHeight) {
+    console.warn("⚠️ 이미지 로딩 미완료");
+    return;
+  }
+
+  if (!state.currentQ) { console.warn("⚠️ state.currentQ 없음"); return; }
+  if (!state.questions) { console.warn("⚠️ state.questions 데이터 없음"); return; }
+
+  try {
+    const currentPageNum = state.currentQ.page || 1;
+    console.log(`🔍 현재 페이지: ${currentPageNum}, 전체 문제 수: ${state.questions.length}`);
+    
+    let count = 0;
+    state.questions.forEach((q, idx) => {
+      // 페이지 번호 타입 비교 완화 (문자열/숫자 혼용 대비)
+      if (Number(q.page) !== Number(currentPageNum)) return;
+      
+      if (q.suggested_bbox) {
+        const b = q.suggested_bbox;
+        const box = document.createElement('div');
+        box.className = 'ghost-box';
+        
+        const isActive = state.currentQ && q.id === state.currentQ.id;
+        if (isActive || q.id === state.focusedGhostId) {
+          box.style.borderWidth = '5px';
+          box.style.borderColor = '#ffffff';
+          box.style.boxShadow = '0 0 30px #ffff00';
+          box.style.zIndex = '110';
+        }
+        
+        // 포커스 상태면 시각적 피드백 강화
+        if (q.id === state.focusedGhostId) {
+          box.style.animation = 'pulse-ghost-active 0.5s infinite alternate';
+          box.style.borderColor = '#00ff00';
+        }
+
+        const l = (b.x / img.naturalWidth) * 100;
+        const t = (b.y / img.naturalHeight) * 100;
+        const w = (b.w / img.naturalWidth) * 100;
+        const h = (b.h / img.naturalHeight) * 100;
+
+        box.style.left = l + '%';
+        box.style.top = t + '%';
+        box.style.width = w + '%';
+        box.style.height = h + '%';
+        
+        const labelText = `Q${q.question_no}: ` + (b.source === 'opencv' ? '📐 OpenCV' : '🤖 AI');
+        box.innerHTML = `<span style="position:absolute;top:-23px;left:0;font-size:0.75rem;color:#ffff00;font-weight:bold;text-shadow:1px 1px 2px #000;background:rgba(0,0,0,0.8);padding:2px 5px;border-radius:3px;white-space:nowrap;z-index:120;">${labelText}</span>`;
+        
+        box.onclick = (e) => {
+          e.stopPropagation();
+          state.focusedGhostId = q.id; 
+          focusQuestion(q.id);
+          showGhostCrops(); 
+          toast(`⌨️ [${q.question_no}번] 방향키로 조정 가능 (Enter/더블클릭으로 확정)`);
+        };
+
+        box.ondblclick = (e) => {
+            e.stopPropagation();
+            applyGhostBox(q);
+        };
+        
+        layer.appendChild(box);
+        count++;
+      }
+    });
+
+    console.log(`✅ [SUCCESS] 총 ${count}개의 가이드 박스 렌더링 완료`);
+  } catch (err) {
+    console.error("❌ showGhostCrops 실행 중 에러:", err);
+  }
+}
+
+
+function initResizer() {
+  const resizer = document.getElementById('panelResizer');
+  const right = document.querySelector('.panel-right');
+  if (!resizer || !right) return;
+  
+  let isResizing = false;
+
+  resizer.addEventListener('mousedown', e => {
+    isResizing = true;
+    document.body.style.cursor = 'col-resize';
+    resizer.classList.add('active');
+  });
+
+  window.addEventListener('mousemove', e => {
+    if (!isResizing) return;
+    const newWidth = window.innerWidth - e.clientX;
+    if (newWidth > 250 && newWidth < 800) {
+      right.style.width = newWidth + 'px';
+      right.style.flex = 'none'; // flex-grow 방지
+    }
+  });
+
+  window.addEventListener('mouseup', () => {
+    if (!isResizing) return;
+    isResizing = false;
+    document.body.style.cursor = 'default';
+    resizer.classList.remove('active');
+  });
+}
+
+// 6.2.8 우측 피드 목록 휠 네비게이션 (끝에서 굴리면 다음 파트로)
+function initFeedScrollNav() {
+  const feed = document.getElementById('review-feed');
+  if (!feed) return;
+
+  let wheelCooldown = false;
+  feed.addEventListener('wheel', (e) => {
+    if (wheelCooldown) return;
+    
+    // 스크롤이 끝에 도달했는지 확인 (여유값 5px)
+    const isAtBottom = feed.scrollTop + feed.clientHeight >= feed.scrollHeight - 5;
+    const isAtTop = feed.scrollTop <= 5;
+    
+    // 아래로 강하게(100 이상) 굴릴 때 다음 파일
+    if (isAtBottom && e.deltaY > 80) {
+      wheelCooldown = true;
+      toast("다음 파트로 이동중...");
+      changeFile(1);
+      setTimeout(() => { wheelCooldown = false; }, 1000);
+    } 
+    // 위로 강하게 굴릴 때 이전 파일
+    else if (isAtTop && e.deltaY < -80) {
+      wheelCooldown = true;
+      toast("이전 파트로 이동중...");
+      changeFile(-1);
+      setTimeout(() => { wheelCooldown = false; }, 1000);
+    }
+  }, { passive: true });
+}
+
+function autoExpand(el) {
+
+  el.style.height = 'auto';
+  el.style.height = (el.scrollHeight) + 'px';
+}
+
+// 초기 호출 지연 실행 (DOM 렌더링 완료 후)
+setTimeout(() => {
+  initResizer();
+  initFeedScrollNav(); 
+  // 모든 질문지에 대해 초기 자동 높이 조절 실행
+  document.querySelectorAll('textarea.field-val').forEach(autoExpand);
+}, 500);
+
+// [v6.2.8] 파일 이동 함수 (드래그/휠 공통)
+function changeFile(direction) {
+  if (!state.allFiles || state.allFiles.length === 0) return;
+  const idx = state.allFiles.findIndex(f => (f.name || f) === state.currentFile);
+  if (idx === -1) return;
+  const nextIdx = idx + direction;
+  if (nextIdx < 0 || nextIdx >= state.allFiles.length) {
+    toast(direction > 0 ? '마지막 파트입니다.' : '첫 번째 파트입니다.');
+    return;
+  }
+  const nextFile = state.allFiles[nextIdx].name || state.allFiles[nextIdx];
+  toast(`${nextFile.replace('.json','')} 로 이동`);
+  loadFile(nextFile);
+}
+
+// [v6.3.0] 키보드 미세 조정(Nudge) 이벤트 리스너
+window.addEventListener('keydown', (e) => {
+  if (!state.focusedGhostId || !state.questions) return;
+  
+  const q = state.questions.find(item => item.id === state.focusedGhostId);
+  if (!q || !q.suggested_bbox) return;
+
+  const step = e.shiftKey ? 1 : 10;
+  const b = q.suggested_bbox;
+  let changed = false;
+
+  switch(e.key) {
+    case 'ArrowLeft':  
+      if (e.altKey) { b.w -= step; } else { b.x -= step; }
+      changed = true; break;
+    case 'ArrowRight': 
+      if (e.altKey) { b.w += step; } else { b.x += step; }
+      changed = true; break;
+    case 'ArrowUp':    
+      if (e.altKey) { b.h -= step; } else { b.y -= step; }
+      changed = true; break;
+    case 'ArrowDown':  
+      if (e.altKey) { b.h += step; } else { b.y += step; }
+      changed = true; break;
+    case 'Enter':
+      // [v6.3.1] 통합 확정 로직: 수동 영역이 있으면 그것을 우선, 없으면 AI 가이드 사용
+      if (state.lastManualRegion) {
+          applyManualAsMain(q, state.lastManualRegion);
+      } else {
+          applyGhostBox(q);
+      }
+      e.preventDefault();
+      return;
+    case 'Escape':
+      state.focusedGhostId = null;
+      showGhostCrops();
+      return;
+  }
+
+  if (changed) {
+    e.preventDefault();
+    showGhostCrops(); 
+  }
+});
+
+async function applyGhostBox(q) {
+    const b = q.suggested_bbox;
+    const img = document.getElementById('pageImg');
+    const iy = Math.round((b.y / img.naturalHeight) * 1000);
+    const ix = Math.round((b.x / img.naturalWidth) * 1000);
+    const ih = Math.round((b.h / img.naturalHeight) * 1000);
+    const iw = Math.round((b.w / img.naturalWidth) * 1000);
+    
+    q.question_image_bbox = [iy, ix, iy+ih, ix+iw];
+    
+    // 시각적 피드백
+    const card = document.getElementById('q-card-' + q.id);
+    if (card) {
+        card.classList.add('flash-success', 'mapped');
+        setTimeout(() => card.classList.remove('flash-success'), 800);
+    }
+
+    const res = await saveSingleQuestion(q);
+    if (res.status === 'ok') {
+        toast(`✅ Q${q.question_no} 매핑 확정 완료!`);
+        state.focusedGhostId = null;
+        state.lastManualRegion = null; // 초기화
+        renderQFeed(state.questions);
+        showGhostCrops();
+        drawCrops();
+    }
+}
+
+async function applyManualAsMain(q, region) {
+    const img = document.getElementById('pageImg');
+    const iy = Math.round((region.y / img.naturalHeight) * 1000);
+    const ix = Math.round((region.x / img.naturalWidth) * 1000);
+    const ih = Math.round((region.h / img.naturalHeight) * 1000);
+    const iw = Math.round((region.w / img.naturalWidth) * 1000);
+    
+    q.question_image_bbox = [iy, ix, iy+ih, ix+iw];
+    
+    // 시각적 피드백
+    const card = document.getElementById('q-card-' + q.id);
+    if (card) {
+        card.classList.add('flash-success', 'mapped');
+        setTimeout(() => card.classList.remove('flash-success'), 800);
+    }
+
+    const res = await saveSingleQuestion(q);
+    if (res.status === 'ok') {
+        toast(`✅ Q${q.question_no} 수동 영역으로 메인 확정!`);
+        state.lastManualRegion = null;
+        renderQFeed(state.questions);
+        showGhostCrops();
+        drawCrops();
+    }
+}
+
+showView('home');
+console.log("%c🚀 Dukigo v6.2.9 UI 고도화 적용됨", "color: #ff9d00; font-weight: bold; font-size: 1.2rem;");
+initAppState();
+
+
+async function initAppState() {
+    // 1. URL 파라미터 확인 (?stage=3&file=...)
+    // [v6.2.8 Hotfix] 기본적으로 검토 화면(Stage 3)과 파트003이 선택되도록 설정
+    const params = new URLSearchParams(window.location.search);
+    const stageParam = params.get('stage') || '3';
+    const fileParam  = params.get('file')  || 'ElectricExam2019_파트003.json';
+
+    // 2. 서버 진행 상황 확인
+    const p = await api('GET', '/api/progress', null);
+    
+    if (stageParam === '3' || fileParam) {
+        // 강제로 검토 모드 진입
+        await goReview(); // 결과 목록 로드 및 탭 렌더링
+        if (fileParam) {
+            // 파일명이 한글인 경우(예: 파트001) 등 인코딩 대응
+            const decodedFile = decodeURIComponent(fileParam);
+            console.log("🚀 [AutoLoad] Loading file:", decodedFile);
+            await loadFile(decodedFile);
+            
+            // 만약 문제가 있다면 첫 번째 문제 자동 선택
+            setTimeout(() => {
+              const cards = document.querySelectorAll('.q-card');
+              console.log("🚀 [AutoLoad] Found cards:", cards.length);
+              if (cards.length > 0 && !state.currentQ) {
+                cards[0].click();
+              }
+            }, 800);
+        }
+    } else if (p.status === 'running') {
+        showView('processing');
+        startPolling();
+    }
+}
+
+</script>
+</body>
+</html>

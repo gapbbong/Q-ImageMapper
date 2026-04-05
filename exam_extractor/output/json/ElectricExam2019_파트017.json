@@ -1,0 +1,122 @@
+[
+  {
+    "question_no": 40,
+    "question_text": "보호 도체와 계통 도체를 겸용하는 겸용 도체는 중선선과 겸용, 상도체와 겸용, 중간 도체와 겸용을 말하여 단면적은 구리선을 사용하는 경우 최소 몇 $[mm^2]$ 이상이어야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "6",
+      "2": "10",
+      "3": "16",
+      "4": "22"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "겸용 도체의 최소 굵기 : 구리 $10[mm^2]$ 또는 알루미늄 $16[mm^2]$ 이상",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트017",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트017/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트017_p001_q40"
+  },
+  {
+    "question_no": 41,
+    "question_text": "AC $380[V]$ 전동기와 AC $220[V]$ 전등을 배선하는 부하를 접속하는 경우 적합한 결선은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "3상 4선식",
+      "2": "단상 3선식",
+      "3": "3상 3선식",
+      "4": "단상 2선식"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "3상 4선식의 Y결선의 특징\n• 두 가지 전압을 얻을 수 있다.\\\n선간 전압 $V_l = \\sqrt{3} \\times V_p$(상전압)$[V]$\n상전압이 $220[V]$인 경우\\\n선간 전압 $V_l = \\sqrt{3} \\times 220 = 380[V]$\n• 접지가 용이하다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트017",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트017/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트017_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "설치 면적과 설치 비용이 많이 들지만 가장 이상적이고 효과적인 진상용 콘덴서 설치 방법은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "수전단 모선에 설치한다.",
+      "2": "수전단 모선에 분산하여 설치한다.",
+      "3": "가장 큰 부하측에만 설치한다.",
+      "4": "부하측에 분산하여 설치한다."
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "가장 효과적인 콘덴서 설치 방법은 부하측에 분산하여 설치한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트017",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트017/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트017_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "역률이 좋아 가정용 선풍기, 세탁기, 냉장고 등에 주로 사용되는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "분상 기동형",
+      "2": "영구 콘덴서형",
+      "3": "반발 기동형",
+      "4": "세이딩 코일형"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "영구 콘덴서형 단상 유도 전동기의 특징 : 콘덴서 기동형보다 용량이 적어서 기동 토크가 작으므로 선풍기, 세탁기, 냉장고, 오디오 플레이어 등에 널리 사용된다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트017",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트017/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트017_p001_q43"
+  },
+  {
+    "question_no": 44,
+    "question_text": "전기 저항이 작고, 부드러운 성질이 있어 구부리기가 용이하므로 주로 옥내 배선에 사용하는 구리선의 명칭은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "경동선",
+      "2": "연동선",
+      "3": "합성 연선",
+      "4": "중공 전선"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "구리선의 종류\n• 경동선 : 인장 강도가 뛰어나므로 주로 옥외 전선로에서 사용\n• 연동선 : 부드럽고 가요성이 뛰어나므로 주로 옥내 배선에서 사용",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트017",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트017/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트017_p001_q44"
+  },
+  {
+    "question_no": 45,
+    "question_text": "낙뢰, 수목 접촉, 일시적인 섬락 등 순간적인 사고로 계통에서 분리된 구간을 신속히 계통에 재투입시킴으로써 계통의 안정도를 향상시키고 정전 시간을 단축시키기 위해 사용되는 계전기는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "과전류 계전기",
+      "2": "거리 계전기",
+      "3": "재폐로 계전기",
+      "4": "차동 계전기"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "재폐로 계전기 : 계통을 안정시키기 위해서 재폐로 차단기와 조합하여 사용하며, 송전 선로에 고장이 발생하면 고장을 일으킨 구간을 신속히 고속 차단하여 제거한 후 재투입시켜서 정전 구간을 단축시키는 계전기이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트017",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트017/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트017_p001_q45"
+  }
+]

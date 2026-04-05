@@ -1,0 +1,162 @@
+[
+  {
+    "question_no": 6,
+    "question_text": "속도를 광범위하게 조정할 수 있으므로 압연기나 엘리베이터 등에 사용되는 직류 전동기는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "직권 전동기",
+      "2": "분권 전동기",
+      "3": "타여자 전동기",
+      "4": "가동 복권 전동기"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "가동 복권 전동기: 속도를 광범위하게 조정할 수 있으므로 압연기나 엘리베이터 등에 적합하다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트022",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트022/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트022_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "다음 파형 중 비정현파가 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "펄스파",
+      "2": "사각파",
+      "3": "삼각파",
+      "4": "사인 주기파"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "주기적인 사인파는 기본 정현파이므로 비정현파에 해당되지 않는다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트022",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트022/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트022_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "$30[W]$ 전열기에 $220[V]$, 주파수 $60[Hz]$인 전압을 인가한 경우 평균 전압$[V]$은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "150",
+      "2": "198",
+      "3": "220",
+      "4": "300"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "전압의 최댓값 $V_m = 220\\sqrt{2}[V]$\n평균값 $V_{av} = \\frac{2}{\\pi}V_m = \\frac{2}{\\pi} \\times 220\\sqrt{2} = 198[V]$\n* 쉬운 풀이 : $V_{av} = 0.9V = 0.9 \\times 220 = 198[V]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트022",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트022/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트022_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "단위 시간당 $5[Wb]$의 자속이 통과하여 $2[J]$의 일을 하였다면 전류는 얼마인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "0.25",
+      "2": "2.5",
+      "3": "0.4",
+      "4": "4"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "자속이 도체를 통과하여 한 일 $W = \\phi I[J]$\n$I = \\frac{W}{\\phi} = \\frac{2}{5} = 0.4[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트022",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트022/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트022_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "반도체 내에서 정공은 어떻게 생성되는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "결합 전자의 이탈",
+      "2": "접합 불량",
+      "3": "자유 전자의 이동",
+      "4": "확산 용량"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "정공이란 결합 전자의 이탈로 생기는 빈자리를 말한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트022",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트022/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트022_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "$30[Ah]$의 축전지를 $3[A]$로 사용하면 몇 시간 사용 가능한가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "1시간",
+      "2": "3시간",
+      "3": "10시간",
+      "4": "20시간"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "축전지의 용량 $= It[Ah]$이므로 시간$t = \\frac{30}{3} = 10[h]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트022",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트022/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트022_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "$30[\\mu F]$과 $40[\\mu F]$의 콘덴서를 병렬로 접속한 후 $100[V]$의 전압을 가했을 때 전 전하량은 몇 $[C]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$17\\times 10^{-4}$",
+      "2": "$34\\times 10^{-4}$",
+      "3": "$56\\times 10^{-4}$",
+      "4": "$70\\times 10^{-4}$"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "합성 정전 용량 $C_0 = 30 + 40 = 70[\\mu F]$ $Q = CV = 70\\times 10^{-6}\\times 100 = 70\\times 10^{-4}[C]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트022",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트022/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트022_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "정전 용량 $C[\\mu F]$의 콘덴서에 충전된 전하가 $q = \\sqrt{2}Qsin\\omega t[C]$과 같이 변화하도록 하였다면 이때 콘덴서에 흘러들어가는 전류의 값은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "$i = \\sqrt{2}\\omega Qsin\\omega t$",
+      "2": "$i = \\sqrt{2}\\omega Qcos\\omega t$",
+      "3": "$i = \\sqrt{2}\\omega Qsin(\\omega t - 60^{\\circ})$",
+      "4": "$i = \\sqrt{2}\\omega Qcos(\\omega t - 60^{\\circ})$"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트022",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트022/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트022_p001_q13"
+  }
+]

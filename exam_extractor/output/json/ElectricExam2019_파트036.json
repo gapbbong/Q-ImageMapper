@@ -1,0 +1,122 @@
+[
+  {
+    "question_no": 34,
+    "question_text": "절연 전선을 동일 플로어 덕트 내에 넣을 경우 플로어 덕트 크기는 전선의 피복 절연물을 포함한 단면적의 총 합계가 플로어 덕트 단면적의 몇 [%] 이하가 되도록 선정하여야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "12",
+      "2": "22",
+      "3": "32",
+      "4": "42"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "절연 전선을 동일 플로어 덕트 내에 넣을 경우 전선이 차지하는 단면적: $32[\\%]$ 이하",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트036",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트036/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트036_p001_q34"
+  },
+  {
+    "question_no": 35,
+    "question_text": "$R=5[\\Omega]$, $L=30[mH]$인 $R-L$ 직렬 회로에 $V=200[V]$, $f=60[Hz]$인 교류 전압을 가할 때 전류의 크기는 약 몇 $[A]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "8.67",
+      "2": "11.42",
+      "3": "16.17",
+      "4": "21.25"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "유도성 리액턴스\n$X_L = 2\\pi fL = 2\\pi \\times 60 \\times 30 \\times 10^{-3} \\fallingdotseq 11.31[\\Omega]$\n합성 임피던스 $\\dot{Z} = R+jX_L = 5+j11.31[\\Omega]$\n임피던스 절댓값\n$Z = \\sqrt{R^2+X_L^2} = \\sqrt{5^2+11.31^2} \\fallingdotseq 12.37[\\Omega]$\n전류의 크기 $I = \\frac{V}{Z} = \\frac{200}{12.37} \\fallingdotseq 16.17[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트036",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트036/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트036_p001_q35"
+  },
+  {
+    "question_no": 36,
+    "question_text": "전선 접속 시 유의 사항으로 옳은 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "전선의 인장 하중이 $20[\\%]$가 감소하지 않도록 접속한다.",
+      "2": "전선의 인장 하중이 $10[\\%]$가 감소하지 않도록 접속한다.",
+      "3": "전선의 인장 하중이 $40[\\%]$가 감소하지 않도록 접속한다.",
+      "4": "전선의 인장 하중이 $5[\\%]$가 감소하지 않도록 접속한다."
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "전선 접속 부분의 인장 강도(하중)를 $20[\\%]$ 이상 감소시키지 않아야 한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트036",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트036/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트036_p001_q36"
+  },
+  {
+    "question_no": 37,
+    "question_text": "전기 설비를 보호하는 계전기 중 전류 계전기의 설명으로 틀린 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "과전류 계전기와 부족 전류 계전기가 있다.",
+      "2": "부족 전류 계전기는 항상 시설하여야 한다.",
+      "3": "적절한 후비 보호 능력이 있어야 한다.",
+      "4": "차동 계전기는 불평형 전류차가 일정값 이상이 되면 동작하는 계전기이다."
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "부족 전류 계전기(UCR) : 발전기나 변압기 계자 회로에 필요한 계전기로서 항상 시설하는 계전기는 아니다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트036",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트036/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트036_p001_q37"
+  },
+  {
+    "question_no": 38,
+    "question_text": "지지물에 전선 그 밖의 기구를 고정시키기 위해 완목, 완금, 애자 등을 장치하는 것을 무엇이라 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "장주",
+      "2": "건주",
+      "3": "터파기",
+      "4": "가선 공사"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "장주 : 지지물에 전선 및 개폐기 등을 고정시키기 위해 완목, 완금, 애자 등을 시설하는 것",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트036",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트036/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트036_p001_q38"
+  },
+  {
+    "question_no": 39,
+    "question_text": "저압 수전 방식 중 단상 3선식은 평형이 되는 게 원칙이지만 부득이한 경우 설비 불평형률은 몇 $[%]$ 이내로 유지해야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "10",
+      "2": "20",
+      "3": "30",
+      "4": "40"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "단상 3선식에서 중성선과 각 전압측 전선 간의 부하를 평형이 되게 하는 것을 원칙으로 하지만, 부득이한 경우 발생하는 설비 불평형률은 $40[\\%]$까지 할 수 있다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트036",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트036/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트036_p001_q39"
+  }
+]

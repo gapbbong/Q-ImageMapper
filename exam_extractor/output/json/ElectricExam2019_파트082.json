@@ -1,0 +1,170 @@
+[
+  {
+    "question_no": 5,
+    "question_text": "분상 기동형 단상 유도 전동기의 기동 권선은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "운전 권선보다 굵고 권선이 많다.",
+      "2": "운전 권선보다 가늘고 권선이 많다.",
+      "3": "운전 권선보다 굵고 권선이 적다.",
+      "4": "운전 권선보다 가늘고 권선이 적다."
+    },
+    "answer": 4,
+    "explanation": "운전 권선($L$만의 회로): 굵은 권선으로 길게 감아, 권선을 많이 감아서 $L$ 성분을 크게 한다.\\\n기동 권선($R$만의 회로): 운전 권선보다 가늘고, 권선을 적게 하여 저항값을 크게 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트082",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트082/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트082_p001_q05"
+  },
+  {
+    "answer": 2,
+    "choices": {
+      "1": "1",
+      "2": "3",
+      "3": "2",
+      "4": "4"
+    },
+    "explanation": "전원측($P_2$)에서 분기점($O$) 사이에 다른 분기 회로 또는 콘센트의 접속이 없고, 단락의 위험과 화재 및 인체에 대한 위험성이 최소화 되도록 시설된 경우, 분기 회로의 보호 장치($P_2$)는 분기 회로의 분기점($O$)으로부터 $3[m]$까지 이동하여 설치할 수 있다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트082_p001_q06",
+    "image_path": "images/ElectricExam2019_파트082/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      490,
+      262,
+      599,
+      461
+    ],
+    "question_no": 6,
+    "question_text": "분기 회로($S_2$)의 보호 장치($P_2$)는 $P_2$의 전원측에서 분기점($O$) 사이에 다른 분기 회로 또는 콘센트의 접속이 없고, 단락의 위험과 화재 및 인체에 대한 위험성이 최소화 되도록 시설된 경우, 분기 회로의 보호 장치($P_2$)는 분기 회로의 분기점($O$)으로부터 몇 $[m]$까지 이동하여 설치할 수 있는가?",
+    "round": null,
+    "source": "ElectricExam2019_파트082",
+    "suggested_bbox": {
+      "h": 221,
+      "w": 285,
+      "x": 376,
+      "y": 991
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 7,
+    "question_text": "한국전기설비규정에 의하면 정격 전류가 $30[A]$인 저압 전로의 과전류 차단기를 산업용 배선용 차단기로 사용하는 경우 $39[A]$의 전류가 통과하였을 때 몇 분 이내에 자동적으로 동작하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "60",
+      "2": "120",
+      "3": "2",
+      "4": "4"
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트082",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트082/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트082_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "전력 계통에 접속되어 있는 변압기나 장거리 송전 시 정전 용량으로 인한 충전 특성 등을 보상하기 위한 기기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "동기 조상기",
+      "2": "유도 전동기",
+      "3": "동기 전동기",
+      "4": "유도 발전기"
+    },
+    "answer": 1,
+    "explanation": "동기 조상기: 전력 계통의 지상과 진상을 조정하여 역률을 개선해 주는 설비\n• 과여자: 진상 전류 발생($C$로 작용)\n• 부족 여자: 지상 전류 발생($L$로 작용)",
+    "level": "중",
+    "source": "ElectricExam2019_파트082",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트082/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트082_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "특고압 수변전 설비 약호가 잘못된 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "LF - 전력 퓨즈",
+      "2": "DS - 단로기",
+      "3": "LA - 피뢰기",
+      "4": "CB - 차단기"
+    },
+    "answer": 1,
+    "explanation": "전력 퓨즈의 약호는 PF이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트082",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트082/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트082_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "실효값 $20[A]$, 주파수 $f=60[Hz]$, $0^{\\circ}$인 전류의 순시값 $i[A]$를 수식으로 옳게 표현한 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$i = 20\\sin(60\\pi t)$",
+      "2": "$i = 20\\sqrt{2}\\sin(120\\pi t)$",
+      "3": "$i = 20\\sin(120\\pi t)$",
+      "4": "$i = 20\\sqrt{2}\\sin(60\\pi t)$"
+    },
+    "answer": 2,
+    "explanation": "순시값 전류 $i(t) = \\text{실효값} \\times \\sqrt{2} \\sin(2\\pi ft + \\theta)$\n$= \\sqrt{2} I \\sin(\\omega t + \\theta)$\n$= 20\\sqrt{2} \\sin(120\\pi t) [A]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트082",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트082/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트082_p001_q10"
+  }
+]

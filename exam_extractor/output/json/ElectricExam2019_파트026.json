@@ -1,0 +1,149 @@
+[
+  {
+    "question_no": 34,
+    "question_text": "병렬 운전 중인 동기 임피던스 $5[\\Omega]$인 2대의 3상 동기 발전기의 유도 기전력에 $200[V]$의 전압차가 발생했다면 무효 순환 전류$[A]$는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "5",
+      "2": "10",
+      "3": "20",
+      "4": "40"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "무효 순환 전류 $I_c = \\frac{\\text{유도 기전력의 차}}{2Z_s} = \\frac{200}{2 \\times 5} = 20[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트026",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트026/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트026_p001_q34"
+  },
+  {
+    "question_no": 35,
+    "question_text": "직류 발전기에서 정류자와 접촉하여 전기자 권선과 외부 회로를 연결하는 역할을 하는 일반적인 브러시는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "금속 브러시",
+      "2": "탄소 브러시",
+      "3": "전해 브러시",
+      "4": "저항 브러시"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "브러시: 정류자에서 변환된 직류 기전력을 외부로 인출하기 위한 장치로서, 일반적으로 양호한 정류를 얻기 위하여 접촉 저항이 큰 탄소 브러시를 사용한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트026",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트026/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트026_p001_q35"
+  },
+  {
+    "question_no": 36,
+    "question_text": "정격 전압 $220[V]$인 동기 발전기를 무부하로 운전하였더니 단자 전압이 $253[V]$가 되었다면 이 발전기의 전압 변동률은 몇 $[%]$인가?",
+    "has_question_image": true,
+    "choices": {
+      "1": "10",
+      "2": "20",
+      "3": "13",
+      "4": "15"
+    },
+    "has_choice_image": false,
+    "answer": 4,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트026",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트026/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트026_p001_q36",
+    "suggested_bbox": {
+      "x": 394,
+      "y": 746,
+      "w": 258,
+      "h": 69,
+      "source": "plus_logic"
+    }
+  },
+  {
+    "question_no": 37,
+    "question_text": "유도 전동기의 동기 속도가 $1,200[rpm]$ 이고, 회전수가 $1,176[rpm]$일 때 슬립은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "0.06",
+      "2": "0.04",
+      "3": "0.02",
+      "4": "0.01"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "해설 슬립 $s = \\frac{N_s - N}{N_s} = \\frac{1,200 - 1,176}{1,200} = 0.02$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트026",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트026/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트026_p001_q37"
+  },
+  {
+    "question_no": 38,
+    "question_text": "애자 사용 공사에 의한 저압 옥내 배선에서 일반적으로 전선 상호 간의 간격은 몇 $[cm]$ 이상이어야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "2.5",
+      "2": "6",
+      "3": "25",
+      "4": "60"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "해설 애자 사용 공사 시 전선 상호 간 이격거리\n*   저압 : $6[cm]$ 이상\n*   고압 : $8[cm]$ 이상",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트026",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트026/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트026_p001_q38"
+  },
+  {
+    "question_no": 39,
+    "question_text": "3상 유도 전동기의 1차 입력 $60[kW]$, 1차 손실 $1[kW]$, 슬립 $3[\\%]$일 때 기계적 출력 $[kW]$은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "75",
+      "2": "57",
+      "3": "95",
+      "4": "100"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "해설 기계적 출력 $P_0 = (1-s) \\cdot P_2$\n$= (1-s) \\cdot (1차 입력-1차 손실)$\n$= (1-0.03) \\times (60-1)$\n$\\fallingdotseq 57[kW]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트026",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트026/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트026_p001_q39"
+  },
+  {
+    "question_no": 40,
+    "question_text": "3단자 사이리스터가 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "SCS",
+      "2": "SCR",
+      "3": "TRIAC",
+      "4": "GTO"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트026",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트026/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트026_p001_q40"
+  }
+]

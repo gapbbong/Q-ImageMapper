@@ -1,0 +1,142 @@
+[
+  {
+    "question_no": 8,
+    "question_text": "두 평행 도선 사이의 거리가 $1[m]$인 왕복 도선 사이에 단위 길이당 작용하는 힘(흡인력 또는 반발력)의 세기가 $2\\times 10^{-7}[N]$일 경우 전류의 세기$[A]$는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "평행 도선 사이에 작용하는 힘의 세기 $F = \\frac{2I_1I_2}{r} \\times 10^{-7}[N/m]$로 $F = \\frac{2I^2}{1} \\times 10^{-7}[N/m]=2\\times 10^{-7}[N/m]$ \\therefore $I^2=1$이므로 $I=1[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트032",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트032/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트032_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "동기 발전기의 돌발 단락 전류를 주로 제한 하는 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "누설 리액턴스",
+      "2": "동기 임피던스",
+      "3": "권선 저항",
+      "4": "동기 리액턴스"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "동기 발전기의 돌발 단락 전류를 제한하는 것은 누설 리액턴스이다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트032",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트032/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트032_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "$1[\\mu F]$의 콘덴서에 $30[kV]$의 전압을 가하 여 $30[\\Omega]$의 저항을 통해 방전시키면 이때 발생하는 에너지$[J]$는 얼마인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "450",
+      "2": "900",
+      "3": "1,000",
+      "4": "1,200"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "콘덴서에 축적되는 에너지 $W = \\frac{1}{2}CV^2 = \\frac{1}{2}\\times 1\\times 10^{-6}\\times (30\\times 10^3)^2=450[J]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트032",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트032/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트032_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "3상 교류 회로의 선간 전압이 $13,200[V]$, 선전류가 $800[A]$, 역률 $80[\\%]$ 부하의 소비 전력은 약 몇 $[MW]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "4.88",
+      "2": "8.45",
+      "3": "14.63",
+      "4": "25.34"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "3상 교류 전력 $P = \\sqrt{3} VI\\cos\\theta[W]$ $V=13.2[kV]$, 전류 $I=0.8[kA]$를 대입시키면 단위 $[MW]$가 된다. $P = \\sqrt{3} \\times 13.2 \\times 0.8 \\times 0.8 = 14.63[MW]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트032",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트032/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트032_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "전지의 기전력이 $1.5[V]$, 5개를 부하 저항 $2.5[\\Omega]$인 전구에 접속하였을 때 전구에 흐르는 전류는 몇 $[A]$인가? (단, 전지의 내부 저항은 $0.5[\\Omega]$이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "1.5",
+      "2": "2",
+      "3": "3",
+      "4": "2.5"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "$I = \\frac{nE}{nr+R} = \\frac{5 \\times 1.5}{5 \\times 0.5 + 2.5} = 1.5[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트032",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트032/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트032_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "옥내 배선 공사 중 저압에 애자 사용 공사를 하는 경우 전선 상호 간의 간격은 얼마 이상으로 하여야 하는가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "2[cm]",
+      "2": "4[cm]",
+      "3": "6[cm]",
+      "4": "8[cm]"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "전선 상호 간 간격 : $6[cm]$ 이상",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트032",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트032/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트032_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "송전 방식에서 선간 전압, 선로 전류, 역률이 일정할 때 (단상 3선식/단상 2선식)의 전선 1선당의 전력비는 약 몇 $[%]$인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "87.5",
+      "2": "115",
+      "3": "133",
+      "4": "150"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "결선 방식 | 공급 전력 | 1선당 공급 전력 | 전력비\n---|---|---|---\n단상 2선식 | $P_1 = VI$ | $\\frac{1}{2}VI$ | 기준\n단상 3선식 | $P_2 = 2VI$ | $\\frac{2}{3}VI = 0.67VI$ | $\\frac{\\frac{2}{3}VI}{\\frac{1}{2}VI} = \\frac{4}{3} = 1.33$배",
+    "has_explanation_image": true,
+    "source": "ElectricExam2019_파트032",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트032/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트032_p001_q14"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 20,
+    "question_text": "디지털 계전기의 장점이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "진동의 영향을 받지 않는다.",
+      "2": "신뢰성이 높다.",
+      "3": "광범위한 계산에 활용할 수 있다.",
+      "4": "자동 감시 기능을 갖는다."
+    },
+    "answer": 2,
+    "explanation": "디지털 계전기 : 보호 기능이 우수하며 처리 속도가 빨라 광범위한 계산에 용이하지만 서지에 약하고 왜형파로 오동작 하기 쉬워서 신뢰도가 낮다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트142",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트142/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트142_p001_q20"
+  },
+  {
+    "question_no": 21,
+    "question_text": "변압기유가 구비해야 할 조건으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "절연 내력이 높을 것",
+      "2": "응고점이 높을 것",
+      "3": "고온에도 산화되지 않을 것",
+      "4": "냉각 효과가 클 것"
+    },
+    "answer": 2,
+    "explanation": "변압기 절연유의 구비 조건\\n• 절연 내력이 클 것\\n• 응고점이 낮을 것\\n• 인화점이 높을 것\\n• 고온에도 산화되지 않을 것",
+    "level": "하",
+    "source": "ElectricExam2019_파트142",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트142/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트142_p001_q21"
+  },
+  {
+    "question_no": 22,
+    "question_text": "동기 발전기의 병렬 운전에서 같지 않아도 되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "위상",
+      "2": "주파수",
+      "3": "용량",
+      "4": "전압"
+    },
+    "answer": 3,
+    "explanation": "동기 발전기의 병렬 운전 조건\\n• 기전력의 크기가 같을 것\\n• 기전력의 파형이 같을 것\\n• 기전력의 주파수가 같을 것\\n• 기전력의 위상이 같을 것\\n• 상회전 방향이 같을 것($3$상 동기 발전기)",
+    "level": "하",
+    "source": "ElectricExam2019_파트142",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트142/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트142_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "분상 기동형 단상 유도 전동기의 기동 권선은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "운전 권선보다 굵고 권선이 많다.",
+      "2": "운전 권선보다 가늘고 권선이 많다.",
+      "3": "운전 권선보다 굵고 권선이 적다.",
+      "4": "운전 권선보다 가늘고 권선이 적다."
+    },
+    "answer": 4,
+    "explanation": "분상 기동형 단상 유도 전동기의 권선\n• 운전 권선($L$만의 회로) : 굵은 권선으로 길게 하여 권선을 많이 감아서 $L$성분을 크게 한다.\n• 기동 권선($R$만의 회로) : 운전 권선보다 가늘고 권선을 적게 하여 저항값을 크게 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트142",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트142/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트142_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "유도 발전기의 장점이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 4,
+    "explanation": "유도 발전기는 유도 전동기를 동기 속도 이상으로 회전시켜서 전력을 얻어내는 발전기로서 동기 기기에 비해 조작이 쉽고 가격이 저렴하지만 효율과 역률이 낮다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트142",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트142/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트142_p001_q24"
+  },
+  {
+    "question_no": 25,
+    "question_text": "1차 권수 6,000, 2차 권수 200인 변압기의 전압비는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "30",
+      "2": "60",
+      "3": "90",
+      "4": "120"
+    },
+    "answer": 1,
+    "explanation": "변압기의 전압비(권수비) $a = \\frac{N_1}{N_2} = \\frac{6,000}{200} = 30$",
+    "level": "하",
+    "source": "ElectricExam2019_파트142",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트142/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트142_p001_q25"
+  },
+  {
+    "question_no": 26,
+    "question_text": "동기기의 전기자 권선법이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "이층권",
+      "2": "단절권",
+      "3": "중권",
+      "4": "전절권"
+    },
+    "answer": 4,
+    "explanation": "고조파 제거로 좋은 파형을 얻기 위해 단절권을 사용한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트142",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트142/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트142_p001_q26"
+  },
+  {
+    "question_no": 27,
+    "question_text": "3상 변압기의 병렬 운전 시 병렬 운전이 불가능한 결선 조합은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\Delta-\\Delta$와 $Y-Y$",
+      "2": "$\\Delta-\\Delta$와 $\\Delta-Y$",
+      "3": "$\\Delta-Y$와 $\\Delta-Y$",
+      "4": "$\\Delta-\\Delta$와 $\\Delta-\\Delta$"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트142",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트142/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트142_p001_q27"
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "question_no": 13,
+    "question_text": "",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": null,
+    "explanation": "코일이 서로 직교(직각)하면 두 코일에서 발생하는 자속과 다른 코일이 서로 나란하므로 쇄교가 되지 않으므로 상호 인덕턴스는 0이 된다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트141",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트141/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트141_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "자기 히스테리시스 곡선의 횡축과 종축은 어느 것을 나타내는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "자기장의 크기와 보자력",
+      "2": "투자율과 자속 밀도",
+      "3": "투자율과 잔류 자기",
+      "4": "자기장의 크기와 자속 밀도"
+    },
+    "answer": 4,
+    "explanation": "히스테리시스 곡선에서 횡축(가로축)은 자기장의 세기, 종축(세로축)은 자속 밀도를 나타내며 횡축과 만나는 점을 보자력, 종축과 만나는 점을 잔류 자기라 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트141",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트141/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트141_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "가공 인입선을 시설하는 경우 다음 내용 중 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "DV 전선을 사용하며 $2.6[mm]$ 이상의 전선을 사용하지 말 것",
+      "2": "인입구에서 분기하여 $100[m]$를 초과하지 말 것",
+      "3": "도로 $5[m]$를 횡단하지 말 것",
+      "4": "옥내를 관통하지 말 것"
+    },
+    "answer": 1,
+    "explanation": "가공 인입선의 사용 전선은 $2.6[mm]$ 이상 경동선이나 동등 이상의 세기를 가진 절연 전선(DV 전선 포함)을 사용한다(단, 경간 $15[m]$ 이하는 $2.0[mm]$ 이상도 가능).",
+    "level": "중",
+    "source": "ElectricExam2019_파트141",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트141/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트141_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "평형 3상 교류 회로의 Y회로로부터 $\\Delta$회로로 등가 변환하기 위해서는 어떻게 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "각 상의 임피던스를 3배로 한다.",
+      "2": "각 상의 임피던스를 $\\sqrt{3}$배로 한다.",
+      "3": "각 상의 임피던스를 $\\frac{1}{\\sqrt{3}}$로 한다.",
+      "4": "각 상의 임피던스를 $\\frac{1}{3}$로 한다."
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트141",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트141/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트141_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "공기 중에서 $5[cm]$ 간격을 유지하고 있는 2개의 평행 도선에 각각 $10[A]$의 전류가 동일한 방향으로 흐를 때 도선 $1[m]$당 발생하는 힘의 크기$[N]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 1,
+    "explanation": "평행 도체 사이에 작용하는 힘의 세기\n$F = \\frac{2 I_1 I_2}{r} \\times 10^{-7}$\n$= \\frac{2 \\times 10 \\times 10}{0.05} \\times 10^{-7}$\n$= 4 \\times 10^{-4} [N/m]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트141",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트141/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트141_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "일정한 주파수의 전원에서 운전하는 3상 유도 전동기의 전원 전압이 $80[\\%]$가 되었다면 토크는 약 몇 $[\\%]$가 되는가? (단, 회전수는 변하지 않는 상태로 한다.)",
+    "has_question_image": true,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 2,
+    "explanation": "3상 유도 전동기에서 토크는 공급 전압의 제곱에 비례하므로 전압의 $80[\\%]$로 운전하면 토크는\n$\\tau_{80} = 0.8^2 = 64[\\%]$가 된다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트141",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트141/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트141_p001_q18",
+    "suggested_bbox": {
+      "x": 710,
+      "y": 938,
+      "w": 62,
+      "h": 78
+    }
+  },
+  {
+    "question_no": 19,
+    "question_text": "전기기기의 철심 재료로 규소 강판을 성층해서 사용하는 이유로 가장 적당한 것은?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 4,
+    "explanation": "철손 감소 대책\n• 성층 사용 : 와류손 감소\n• 규소 강판 사용 : 히스테리시스손 감소",
+    "level": "하",
+    "source": "ElectricExam2019_파트141",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트141/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트141_p001_q19",
+    "suggested_bbox": {
+      "x": 710,
+      "y": 1400,
+      "w": 62,
+      "h": 78
+    }
+  }
+]

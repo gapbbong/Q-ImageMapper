@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 53,
+    "question_text": "박강 전선관의 호칭을 맞게 설명한 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "안지름에 가까운 홀수로 표시한다.",
+      "2": "바깥지름에 가까운 짝수로 표시한다.",
+      "3": "바깥지름에 가까운 홀수로 표시한다.",
+      "4": "안지름에 가까운 짝수로 표시한다."
+    },
+    "answer": 3,
+    "explanation": "박강 전선관은 $1.2[mm]$의 얇은 전선관으로 외경에 가까운 홀수로 호칭을 표기한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트127",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트127/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트127_p001_q53"
+  },
+  {
+    "question_no": 54,
+    "question_text": "고압 가공 전선로 철탑의 경간은 최대 몇 $[m]$로 제한하고 있는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "600",
+      "2": "400",
+      "3": "250",
+      "4": "100"
+    },
+    "answer": 1,
+    "explanation": "고압 가공 전선로의 철탑의 표준 경간 : $600[m]$ ",
+    "level": "하",
+    "source": "ElectricExam2019_파트127",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트127/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트127_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "두 평행 도선의 길이가 $1[m]$, 거리가 $1[m]$인 왕복 도선 사이에 단위 길이당 작용하는 힘의 세기가 $18 \\times 10^{-7}[N]$일 경우 전류의 세기$[A]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "4",
+      "2": "3",
+      "3": "1",
+      "4": "2"
+    },
+    "answer": 2,
+    "explanation": "평행 도선 사이에 작용하는 힘의 세기\n$F = \\frac{2I_1 I_2}{r} \\times 10^{-7}[N/m]$\n$F = \\frac{2I^2}{1} \\times 10^{-7}[N/m] = 18 \\times 10^{-7}[N/m]$\n$I^2 = 9$이므로 $I = 3[A]$ ",
+    "level": "중",
+    "source": "ElectricExam2019_파트127",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트127/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트127_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "주택의 옥내 저압 전로의 인입구에 감전 사고를 방지하기 위하여 반드시 시설해야 하는 장치는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "퓨즈",
+      "2": "커버 나이프 스위치",
+      "3": "배선용 차단기",
+      "4": "누전 차단기"
+    },
+    "answer": 4,
+    "explanation": "대지 전압 $150[V]$를 초과하고 $300[V]$ 이하인 주택의 옥내 저압 전로의 인입구에는 인체 감전 보호용 누전 차단기를 반드시 시설하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트127",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트127/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트127_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "직류를 교류로 변환하는 장치로서 초고속 전동기의 속도 제어용 전원이나 형광등의 고주파 점등에 이용되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "DC를 AC로 변환하는 장치는 인버터이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트127",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트127/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트127_p001_q57"
+  },
+  {
+    "question_no": 58,
+    "question_text": "동기 전동기의 특징으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "동기 전동기의 특징\n• 속도($N_s$)가 일정하다.\n• 역률을 조정할 수 있다.\n• 효율이 좋다.\n• 공극이 크고 기계적으로 튼튼하다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트127",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트127/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트127_p001_q58"
+  },
+  {
+    "question_no": 59,
+    "question_text": "정류자와 접촉하여 전기자 권선과 외부 회로를 연결하는 역할을 하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "브러시 : 교류 기전력을 직류로 변환시키는 정류자에 접촉하여 직류 기전력을 외부로 인출하는 역할",
+    "level": "하",
+    "source": "ElectricExam2019_파트127",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트127/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트127_p001_q59"
+  }
+]

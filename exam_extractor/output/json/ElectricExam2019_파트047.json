@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 43,
+    "question_text": "용량이 작은 변압기의 단락 보호용으로 주로 사용되는 계전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "차동 전류 계전 방식",
+      "2": "과전류 계전 방식",
+      "3": "비율 차동 계전 방식",
+      "4": "기계적 계전 방식"
+    },
+    "answer": 2,
+    "explanation": "용량이 작을 경우 단락 보호용으로 과전류 계전기를 사용하여 보호한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트047",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트047/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트047_p001_q43"
+  },
+  {
+    "question_no": 44,
+    "question_text": "SCR에서 Gate 단자의 반도체는 일반적으로 어떤 형을 사용하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "N형",
+      "2": "P형",
+      "3": "NP형",
+      "4": "PN형"
+    },
+    "answer": 2,
+    "explanation": "SCR(Silicon Controlled Rectifier)은 일반적인 타입이 P-Gate 사이리스터이며 제어 전극인 게이트(G)가 캐소드(K)에 가까운 쪽의 P형 반도체 층에 부착되어 있는 3단자 단일 방향성 소자이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트047",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트047/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트047_p001_q44"
+  },
+  {
+    "question_no": 45,
+    "question_text": "긴 직선 도선에 $i$의 전류가 흐를 때 이 도선으로부터 $r$만큼 떨어진 곳의 자장의 세기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류 $i$에 반비례하고 $r$에 비례한다.",
+      "2": "전류 $i$에 비례하고 $r$에 반비례한다.",
+      "3": "전류 $i$의 제곱에 반비례하고 $r$에 반비례한다.",
+      "4": "전류 $i$에 반비례하고 $r$의 제곱에 반비례한다."
+    },
+    "answer": 2,
+    "explanation": "직선 도선 주위의 자장의 세기 $H = \\frac{i}{2\\pi r}$ $[AT/m]$이므로, $H$는 전류 $i$에 비례하고 거리 $r$에 반비례한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트047",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트047/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트047_p001_q45"
+  },
+  {
+    "question_no": 46,
+    "question_text": "전주 외등을 전주에 부착하는 경우 전주 외등은 하단으로부터 몇 $[m]$ 이상 높이에 시설하여야 하는가? (단, 교통 지장이 없는 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$3.0$",
+      "2": "$3.5$",
+      "3": "$4.0$",
+      "4": "$4.5$"
+    },
+    "answer": 1,
+    "explanation": "전주 외등 : 대지 전압 $300[V]$ 이하 백열 전등이나 수은등을 배전 선로의 지지물 등에 시설하는 등\n* 기구 인출선 도체 단면적 : $0.75[mm^2]$ 이상\n* 중량 : 부속 금구류를 포함하여 $100[kg]$ 이하\n* 기구 부착 높이 : 하단에서 지표상 $4.5[m]$ 이상 (단, 교통에 지장이 없을 경우 $3.0[m]$ 이상)\n* 돌출 수평 거리 : $1.0[m]$ 이상",
+    "level": "중",
+    "source": "ElectricExam2019_파트047",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트047/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트047_p001_q46"
+  },
+  {
+    "question_no": 47,
+    "question_text": "다음 ( ) 안의 말을 찾으시오.\n두 자극 사이에 작용하는 자기력의 크기는 양 자극의 세기의 곱에 ( ㉠ )하며, 자극 간의 거리의 제곱에 ( ㉡ )한다.",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "㉠ 반비례, ㉡ 비례",
+      "2": "㉠ 비례, ㉡ 반비례",
+      "3": "㉠ 반비례, ㉡ 반비례",
+      "4": "㉠ 비례, ㉡ 비례"
+    },
+    "answer": 2,
+    "explanation": "쿨롱의 법칙 : 두 자극 사이에 작용하는 자력의 크기는 양 자극의 세기의 곱에 비례하며, 자극 간의 거리의 제곱에 반비례한다.\n쿨롱의 법칙 $F = \\frac{m_1 \\cdot m_2}{4\\pi\\mu_0 r^2} [N]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트047",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트047/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트047_p001_q47"
+  },
+  {
+    "question_no": 48,
+    "question_text": "다음 중 자기 소호 기능이 가장 좋은 소자는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "SCR",
+      "2": "GTO",
+      "3": "TRIAC",
+      "4": "LASCR"
+    },
+    "answer": 2,
+    "explanation": "GTO(Gate Turn-Off thyristor)는 게이트 신호로 ON-OFF가 자유로우며 개폐 동작이 빠르고 주로 직류의 개폐에 사용되며 자기 소호 기능이 가장 좋다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트047",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트047/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트047_p001_q48"
+  }
+]

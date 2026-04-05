@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 26,
+    "question_text": "보호를 요하는 회로의 전류가 어떤 일정한 값(정정값) 이상으로 흘렀을 때 동작하는 계전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "과전류 계전기",
+      "2": "과전압 계전기",
+      "3": "차동 계전기",
+      "4": "비율 차동 계전기"
+    },
+    "answer": 1,
+    "explanation": "과전류 계전기(OCR) : 회로의 전류가 어떤 일정한 값(정정값) 이상으로 흘렀을 때 동작하는 계전기",
+    "level": "하",
+    "source": "ElectricExam2019_파트104",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트104/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트104_p001_q26"
+  },
+  {
+    "question_no": 27,
+    "question_text": "지선의 중간에 넣는 애자의 종류는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "저압 핀 애자",
+      "2": "인류 애자",
+      "3": "구형 애자",
+      "4": "내장 애자"
+    },
+    "answer": 3,
+    "explanation": "지선의 중간에 사용하는 애자를 구형 애자, 지선 애자, 옥 애자, 구슬 애자라고 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트104",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트104/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트104_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "주파수 $60[\\text{Hz}]$, 실효값이 $20[\\text{A}]$, 위상 $0[^{\\circ}]$인 교류 전류의 순시값으로 맞는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$20\\sin(60\\pi t)$",
+      "2": "$10\\sqrt{2}\\sin(120\\pi t)$",
+      "3": "$20\\sqrt{2}\\sin(120\\pi t)$",
+      "4": "$20\\sqrt{2}\\sin(60\\pi t)$"
+    },
+    "answer": 3,
+    "explanation": "순시값 $i(t)=\\text{최대값}\\times \\sin(2\\pi ft)$\n$=20\\sqrt{2}\\sin(2\\pi \\times 60t)$\n$=20\\sqrt{2}\\sin(120\\pi t)[\\text{A}]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트104",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트104/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트104_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "정현파의 평균값이 $100[\\text{V}]$일 때 실효값은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "111",
+      "3": "63.7",
+      "4": "70.7"
+    },
+    "answer": 2,
+    "explanation": "평균값 $V_{av} = \\frac{2}{\\pi}V_m[\\text{V}]$이므로\n최대값 $V_m = V_{av} \\times \\frac{\\pi}{2} = 100 \\times \\frac{\\pi}{2}[\\text{V}]$\n실효값 $V_{rms} = \\frac{V_m}{\\sqrt{2}} = \\frac{100 \\times \\frac{\\pi}{2}}{\\sqrt{2}} = \\frac{100\\pi}{2\\sqrt{2}} \\approx 111.07[\\text{V}]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트104",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트104/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트104_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "전기기기의 철심 재료로 규소 강판을 성층하여 사용하는 이유로 가장 적당한 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "동손 감소",
+      "2": "철손 감소",
+      "3": "기계손 감소",
+      "4": "풍손 감소"
+    },
+    "answer": 2,
+    "explanation": "해설 규소 강판을 성층하여 사용하는 이유는 철손(맴돌이 전류손, 히스테리시스손)을 감소시키기 위한 대책이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트104",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트104/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트104_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "전압 $200[V]$이고 $C_1=10[\\mu F]$와 $C_2=5[\\mu F]$인 콘덴서를 병렬로 접속하면 $C_2$에 분배되는 전하량은 몇 $[\\mu C]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "100",
+      "2": "2,000",
+      "3": "500",
+      "4": "1,000"
+    },
+    "answer": 4,
+    "explanation": "해설 $C_2$에 축적되는 전하량 $Q_2 = C_2 V = 5 \\times 200 = 1,000[\\mu C]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트104",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트104/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트104_p001_q31"
+  },
+  {
+    "question_no": 32,
+    "question_text": "정격 전압 $200[V]$, $60[Hz]$인 전동기의 주파수를 $50[Hz]$로 사용하면 회전 속도는 어떻게 되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$0.833$배로 감소한다.",
+      "2": "$1.1$배로 증가한다.",
+      "3": "변화하지 않는다.",
+      "4": "$1.2$배로 증가한다."
+    },
+    "answer": 1,
+    "explanation": "해설 전동기의 회전수는 $N = \\frac{120f}{P}[rpm]$에서 주파수에 비례한다. 주파수가 $60[Hz]$에서 $50[Hz]$로 감소한 경우 감소 비율은 $\\frac{50}{60}=0.833$이므로 회전 속도도 $0.833$배로 감소한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트104",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트104/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트104_p001_q32"
+  }
+]

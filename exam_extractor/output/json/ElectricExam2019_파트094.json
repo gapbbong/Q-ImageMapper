@@ -1,0 +1,170 @@
+[
+  {
+    "question_no": 22,
+    "question_text": "변압기유가 구비해야 할 조건으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "절연 내력이 높을 것",
+      "2": "인화점이 높을 것",
+      "3": "고온에도 산화되지 않을 것",
+      "4": "응고점이 높을 것"
+    },
+    "answer": 4,
+    "explanation": "변압기 절연유의 구비 조건\n• 절연 내력이 클 것\n• 인화점이 높을 것\n• 응고점이 낮을 것\n• 고온에도 산화되지 않을 것",
+    "level": "하",
+    "source": "ElectricExam2019_파트094",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트094/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트094_p001_q22"
+  },
+  {
+    "question_no": 23,
+    "question_text": "변압기 중성점에 접지 공사를 하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류 변동의 방지",
+      "2": "고저압 혼촉 방지",
+      "3": "전력 변동의 방지",
+      "4": "전압 변동의 방지"
+    },
+    "answer": 2,
+    "explanation": "변압기는 고압, 특고압을 저압으로 변성시키는 기기로서 고\\cdot저압 혼촉 사고를 방지하기 위하여 반드시 2차측 중성점에 접지 공사를 하여야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트094",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트094/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트094_p001_q23"
+  },
+  {
+    "question_no": 24,
+    "question_text": "자극 가까이에 물체를 두었을 때 자화되지 않는 물체는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "상자성체",
+      "2": "반자성체",
+      "3": "강자성체",
+      "4": "비자성체"
+    },
+    "answer": 4,
+    "explanation": "비자성체 : 자성이 약해서 전혀 자성을 갖지 않는 물질로서 상자성체와 반자성체를 포함하며 자계에 힘을 받지 않는다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트094",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트094/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트094_p001_q24"
+  },
+  {
+    "question_no": 25,
+    "question_text": "자기 회로에서 자로의 길이 $31.4\\,\\text{[cm]}$, 자로의 단면적이 $0.25\\,\\text{[m}^2\\text{]}$, 자성체의 비투자율 $\\mu_s = 100$일 때 자성체의 자기 저항은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "5,000",
+      "2": "10,000",
+      "3": "4,000",
+      "4": "2,500"
+    },
+    "answer": 2,
+    "explanation": "자기 저항 $R = \\frac{l}{\\mu_0\\mu_s A}\\,\\text{[AT/Wb]}$\n$= \\frac{31.4 \\times 10^{-2}}{4\\pi \\times 10^{-7} \\times 100 \\times 0.25} = 10,000\\,\\text{[AT/Wb]}$",
+    "level": "중",
+    "source": "ElectricExam2019_파트094",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트094/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트094_p001_q25"
+  },
+  {
+    "question_no": 26,
+    "question_text": "$100$회 감은 코일에 전류 $0.5\\,\\text{[A]}$가 $0.1\\,\\text{[sec]}$ 동안 $0.3\\,\\text{[A]}$가 되었을 때 $2 \\times 10^{-4}\\,\\text{[V]}$의 기전력이 발생하였다면 코일의 자기 인덕턴스 $[\\mu\\text{H}]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "5",
+      "2": "10",
+      "3": "200",
+      "4": "100"
+    },
+    "answer": 4,
+    "explanation": "코일에 유도되는 기전력 $e = -L\\frac{\\Delta I}{\\Delta t}\\,\\text{[V]}$ 이므로\n$L = 2 \\times 10^{-4} \\times \\frac{0.1}{0.5-0.3} = 10^{-4}\\,\\text{[H]} = 100\\,\\text{[}\\mu\\text{H]}$",
+    "level": "중",
+    "source": "ElectricExam2019_파트094",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트094/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트094_p001_q26"
+  },
+  {
+    "answer": 4,
+    "choices": {
+      "1": "계자철",
+      "2": "계자 철심",
+      "3": "전기자",
+      "4": "공극"
+    },
+    "explanation": "자기 저항 $R = \\frac{l}{\\mu_0\\mu_s A}\\,\\text{[AT/Wb]}$로서 공극은 $\\mu_s = 1$이므로 자기 저항이 가장 크다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트094_p001_q27",
+    "image_path": "images/ElectricExam2019_파트094/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      651,
+      638,
+      773,
+      875
+    ],
+    "question_no": 27,
+    "question_text": "다음 그림은 $4$극 직류 전동기의 자기 회로이다. 자기 저항이 가장 큰 곳은 어디인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트094",
+    "suggested_bbox": {
+      "h": 246,
+      "w": 339,
+      "x": 914,
+      "y": 1317
+    },
+    "year": 2019
+  }
+]

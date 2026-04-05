@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 13,
+    "question_text": "부흐홀츠 계전기로 보호되는 기기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "변압기",
+      "2": "유도 전동기",
+      "3": "직류 발전기",
+      "4": "교류 발전기"
+    },
+    "answer": 1,
+    "explanation": "부흐홀츠 계전기 : 변압기의 절연유 열화 방지",
+    "level": "하",
+    "source": "ElectricExam2019_파트131",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트131/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트131_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "다음은 직권 전동기의 특징이다. 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "부하 전류가 증가할 때 속도가 크게 감소된다.",
+      "2": "전동기 기동 시 기동 토크가 작다.",
+      "3": "무부하 운전이나 벨트를 연결한 운전은 위험하다.",
+      "4": "계자 권선과 전기자 권선이 직렬로 접속되어 있다."
+    },
+    "answer": 2,
+    "explanation": "전동기는 기본적으로 토크와 속도는 반비례하고 전류와 토크는 비례한다. 전동기 기동 시 발생되는 전류는 유도 기전력이 발생되지 않아 정격 전류에 비해 큰 전류가 흐른다. 따라서 기동 토크가 크다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트131",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트131/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트131_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "매초 $1[A]$의 비율로 전류가 변하여 $10[V]$를 유도하는 코일의 인덕턴스는 몇 $[H]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$0.01[H]$",
+      "2": "$0.1[H]$",
+      "3": "$1.0[H]$",
+      "4": "$10[H]$"
+    },
+    "answer": 4,
+    "explanation": "$e = L \\\\frac{di}{dt}$\n$L = e \\\\frac{dt}{di} = 10 \\\\times \\\\frac{1}{1} = 10[H]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트131",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트131/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트131_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "변압기 중성점에 접지 공사를 하는 이유는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전류 변동의 방지",
+      "2": "고저압 혼촉 방지",
+      "3": "전력 변동의 방지",
+      "4": "전압 변동의 방지"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트131",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트131/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트131_p001_q16"
+  },
+  {
+    "question_no": 17,
+    "question_text": "$1[eV]$는 몇 $[J]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$1.602 \\times 10^{-19}$",
+      "2": "$1 \\times 10^{-10}$",
+      "3": "1",
+      "4": "$1.16 \\times 10^4$"
+    },
+    "answer": 1,
+    "explanation": "전자 1개의 전기량 $e = 1.602 \\times 10^{-19}[C]$이므로 $W = QV[J]$에서 $1[eV] = 1.602 \\times 10^{-19}[C] \\times 1[V] = 1.602 \\times 10^{-19}[J]$이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트131",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트131/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트131_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "정격 전압에서 $1[kW]$의 전력을 소비하는 저항에 정격의 $90[\\%]$ 전압을 가했을 때 전력은 몇 $[W]$가 되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$630[W]$",
+      "2": "$780[W]$",
+      "3": "$810[W]$",
+      "4": "$900[W]$"
+    },
+    "answer": 3,
+    "explanation": "$P = \\frac{V^2}{R} = 1,000[W]$라 하면 $P' = \\frac{(0.9V)^2}{R} = 0.81 \\frac{V^2}{R} = 0.81P = 0.81 \\times 1,000[W] = 810[W]$이다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트131",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트131/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트131_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "다음 중 전력량 $1[J]$과 같은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$1[kcal]$",
+      "2": "$1[W \\cdot sec]$",
+      "3": "$1[kg \\cdot m]$",
+      "4": "$1[kWh]$"
+    },
+    "answer": 2,
+    "explanation": "전력량 $W = Pt[J]$이므로 $1[J] = 1[W \\cdot sec]$이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트131",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트131/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트131_p001_q19"
+  },
+  {
+    "question_no": 20,
+    "question_text": "묽은 황산($H_2SO_4$) 용액에 구리($Cu$)와 아연($Zn$)판을 넣으면 전지가 된다. 이때 양극($+$)에 대한 설명으로 옳은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "구리판이며 수소 기체가 발생한다.",
+      "2": "구리판이며 산소 기체가 발생한다.",
+      "3": "아연판이며 수소 기체가 발생한다.",
+      "4": "아연판이며 산소 기체가 발생한다."
+    },
+    "answer": 1,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트131",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트131/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트131_p001_q20"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "question_no": 40,
+    "question_text": "전선 접속 시 S형 슬리브 사용에 대한 설명으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전선의 끝은 슬리브의 끝에서 나오지 않도록 한다.",
+      "2": "슬리브는 전선의 굵기에 적합한 것을 선정한다.",
+      "3": "열린 쪽 홈의 측면을 고르게 눌러서 밀착시킨다.",
+      "4": "S형 슬리브 접속은 연선, 단선 둘 다 가능하다."
+    },
+    "answer": 1,
+    "explanation": "전선의 끝은 슬리브의 끝에서 조금 나오는 것이 바람직하다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트135",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트135/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트135_p001_q40"
+  },
+  {
+    "question_no": 41,
+    "question_text": "동기 와트 $P_2$, 출력 $P_0$, 슬립 $s$, 동기 속도 $N_s$, 회전 속도 $N$, 2차 동손 $P_{2c}$일 때 2차 효율 표기로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$1 - s$",
+      "2": "$\\frac{P_{2c}}{P_2}$",
+      "3": "$\\frac{P_0}{P_2}$",
+      "4": "$\\frac{N}{N_s}$"
+    },
+    "answer": 2,
+    "explanation": "2차 효율 $\\eta_2 = \\frac{P_0}{P_2} = \\frac{(1-s)P_2}{P_2} = 1-s = \\frac{N}{N_s}$",
+    "level": "중",
+    "source": "ElectricExam2019_파트135",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트135/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트135_p001_q41"
+  },
+  {
+    "question_no": 42,
+    "question_text": "다음 중 유도 전동기의 속도 제어에 사용되는 인버터 장치의 약호는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "CVCF",
+      "2": "VVVF",
+      "3": "CVVF",
+      "4": "VVCF"
+    },
+    "answer": 2,
+    "explanation": "VVVF : 가변 전압 가변 주파수 변환 장치",
+    "level": "하",
+    "source": "ElectricExam2019_파트135",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트135/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트135_p001_q42"
+  },
+  {
+    "question_no": 43,
+    "question_text": "KEC(한국전기설비규정)에 의한 $400[V]$ 이하 가공 전선으로 절연 전선의 최소 굵기 $[mm]$는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1.6",
+      "2": "2.6",
+      "3": "3.2",
+      "4": "4.0"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트135",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트135/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트135_p001_q43"
+  },
+  {
+    "question_no": 44,
+    "question_text": "16[mm] 합성수지 전선관을 직각 구부리기를 할 경우 곡률 반지름은 몇 [mm]인가? (단, 16[mm] 합성수지관의 안지름은 18[mm], 바깥지름은 22[mm]이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 1,
+    "explanation": "합성수지 전선관을 직각 구부리기 : 전선관의 안지름 $d$, 바깥지름이 $D$일 경우 곡률 반지름 $r = 6d + \\frac{D}{2} = 6 \\times 18 + \\frac{22}{2} = 119[mm]$ ",
+    "level": "하",
+    "source": "ElectricExam2019_파트135",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트135/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트135_p001_q44"
+  },
+  {
+    "question_no": 45,
+    "question_text": "코일에 교류 전압 100[V], $f = 60[Hz]$를 가했더니 지상 전류가 4[A]였다. 여기에 15[$\\Omega$]의 용량성 리액턴스 $X_C[\\Omega]$를 직렬로 연결한 후 진상 전류가 4[A]였다면 유도성 리액턴스 $X_L[\\Omega]$은 얼마인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "5",
+      "2": "5.5",
+      "3": "7.5",
+      "4": "15"
+    },
+    "answer": 3,
+    "explanation": "$Z = \\frac{V}{I} = \\frac{100}{4} = 25 = \\sqrt{R^2 + X_L^2} [\\Omega]$\n$Z' = \\frac{V}{I'} = \\frac{100}{4} = 25 = \\sqrt{R^2 + (15 - X_L)^2} [\\Omega]$\n$R^2 + X_L^2 = R^2 + (15 - X_L)^2$\n$225 - 30X_L = 0, X_L = \\frac{225}{30} = 7.5 [\\Omega]$ ",
+    "level": "상",
+    "source": "ElectricExam2019_파트135",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트135/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트135_p001_q45"
+  },
+  {
+    "question_no": 46,
+    "question_text": "1[C]의 전하에 100[N]의 힘이 작용했다면 전기장의 세기[V/m]는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "10",
+      "2": "50",
+      "3": "100",
+      "4": "0.01"
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트135",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트135/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트135_p001_q46"
+  }
+]

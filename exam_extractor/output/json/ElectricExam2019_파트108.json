@@ -1,0 +1,137 @@
+[
+  {
+    "question_no": 56,
+    "question_text": "가공 인입선을 시설할 때 경동선의 최소 굵기는 몇 $[mm]$인가? (단, 경간이 $15[m]$를 초과한 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2.0",
+      "2": "2.6",
+      "3": "3.2",
+      "4": "1.5"
+    },
+    "answer": 2,
+    "explanation": "가공 인입선의 사용 전선 : $2.6[mm]$ 이상 경동선 또는 이와 동등 이상일 것(단, 경간 $15[m]$ 이하는 $2.0[mm]$ 이상도 가능)",
+    "level": "하",
+    "source": "ElectricExam2019_파트108",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트108/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트108_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "3상 유도 전동기의 원선도를 그리는 데 필요하지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "저항 측정",
+      "2": "무부하 시험",
+      "3": "슬립(slip) 측정",
+      "4": "구속 시험"
+    },
+    "answer": 3,
+    "explanation": "① 저항 측정 시험 : 1차 동손\\n② 무부하 시험 : 여자 전류, 철손\\n④ 구속 시험(단락 시험) : 2차 동손",
+    "level": "중",
+    "source": "ElectricExam2019_파트108",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트108/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트108_p001_q57"
+  },
+  {
+    "question_no": 58,
+    "question_text": "성냥, 석유류, 셀룰로이드 등 기타 가연성 위험 물질을 제조 또는 저장하는 장소의 배선으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "합성수지관(두께 $2[mm]$ 미만 콤바인 덕트관 제외) 배선",
+      "2": "플렉시블 배선",
+      "3": "케이블 배선",
+      "4": "금속관 배선"
+    },
+    "answer": 2,
+    "explanation": "가연성 분진, 위험물 장소의 배선 공사 : 금속관, 케이블, 합성수지관 공사",
+    "level": "중",
+    "source": "ElectricExam2019_파트108",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트108/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트108_p001_q58"
+  },
+  {
+    "question_no": 59,
+    "question_text": "교통 신호등 회로의 사용 전압이 몇 $[V]$를 초과하는 경우에는 지락 발생 시 자동적으로 전로를 차단하는 장치를 시설하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 3,
+    "explanation": "교통 신호등 회로의 사용 전압이 $150[V]$를 초과한 경우 전로에 지락이 발생했을 때 자동적으로 전로를 차단하는 누전 차단기를 시설하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트108",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트108/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트108_p001_q59"
+  },
+  {
+    "question_no": 60,
+    "question_text": "진열장 안에 $400[V]$ 이하인 저압 옥내 배선 시 외부에서 보기 쉬운 곳에 사용하는 전선은 단면적이 몇 $[mm^2]$ 이상의 코드 또는 캡타이어 케이블이어야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 1,
+    "explanation": "진열장 안에 시설하는 사용 전선은 $0.75[mm^2]$ 이상의 코드, 캡타이어 케이블을 조영재에 접촉하여 시설하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트108",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트108/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트108_p001_q60"
+  }
+]

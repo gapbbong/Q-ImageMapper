@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 5,
+    "question_text": "$100[kVA]$ 단상 변압기 2대를 V결선하여 3상 전력을 공급할 때의 출력은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$173.2[kVA]$",
+      "2": "$86.6[kVA]$",
+      "3": "$17.3[kVA]$",
+      "4": "$346.8[kVA]$"
+    },
+    "answer": 1,
+    "explanation": "$P_V = \\sqrt{3} P_1 = 100 \\sqrt{3} \\fallingdotseq 173.2[kVA]$ ",
+    "level": "중",
+    "source": "ElectricExam2019_파트130",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트130/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트130_p001_q05"
+  },
+  {
+    "question_no": 6,
+    "question_text": "동기기의 손실에서 고정손에 해당되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "계자 권선의 저항손",
+      "2": "전기자 권선의 저항손",
+      "3": "계자 철심의 철손",
+      "4": "브러시의 전기손"
+    },
+    "answer": 3,
+    "explanation": "고정손(무부하손) : 부하에 관계없이 항상 일정한 손실\n• 철손($P_i$) : 히스테리시스손, 와류손\n• 기계손($P_m$) : 마찰손, 풍손\n• 브러시의 전기손",
+    "level": "하",
+    "source": "ElectricExam2019_파트130",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트130/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트130_p001_q06"
+  },
+  {
+    "question_no": 7,
+    "question_text": "가공 인입선을 시설할 때 경동선의 최소 굵기는 몇 $[mm]$인가? (단, 경간이 $15[m]$를 초과한 경우이다.)",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2.0",
+      "2": "2.6",
+      "3": "3.2",
+      "4": "1.5"
+    },
+    "answer": 2,
+    "explanation": "가공 인입선의 사용 전선 : $2.6[mm]$ 이상 경동선 또는 이와 동등 이상일 것(단, 경간 $15[m]$ 이하는 $2.0[mm]$ 이상도 가능)",
+    "level": "하",
+    "source": "ElectricExam2019_파트130",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트130/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트130_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "전등 1개를 2개소에서 점멸하고자 할 때 필요한 3로 스위치는 최소 몇 개인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1개",
+      "2": "2개",
+      "3": "3개",
+      "4": "4개"
+    },
+    "answer": 2,
+    "explanation": "3로 스위치 : 1개의 등을 2개소에서 점멸하고자 할 경우 3로 스위치는 2개가 필요하다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트130",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트130/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트130_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "보호를 요하는 회로의 전류가 어떤 일정한 값(정정값) 이상으로 흘렀을 때 동작하는 계전기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "과전류 계전기",
+      "2": "과전압 계전기",
+      "3": "차동 계전기",
+      "4": "비율 차동 계전기"
+    },
+    "answer": 1,
+    "explanation": "과전류 계전기(OCR) : 회로의 전류가 어떤 일정한 값(정정값) 이상으로 흘렀을 때 동작하는 계전기",
+    "level": "하",
+    "source": "ElectricExam2019_파트130",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트130/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트130_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "동기 발전기의 병렬 운전 조건 중 같지 않아도 되는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "주파수",
+      "2": "위상",
+      "3": "전류",
+      "4": "전압"
+    },
+    "answer": 3,
+    "explanation": "동기 발전기 병렬 운전 시 일치할 조건 : 기전력(전압)의 크기, 위상, 주파수, 파형",
+    "level": "중",
+    "source": "ElectricExam2019_파트130",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트130/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트130_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "일반적으로 과전류 차단기를 설치하여야 할 곳으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "접지측 전선",
+      "2": "보호용, 인입선 등 분기선을 보호하는 곳",
+      "3": "송배전선의 보호용, 인입선 등 분기선을 보호하는 곳",
+      "4": "간선의 전원측 전선"
+    },
+    "answer": 1,
+    "explanation": "접지측 전선은 과전류 차단기를 설치하면 안 된다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트130",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트130/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트130_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "다음 중 반자성체에 해당하는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "안티몬",
+      "2": "알루미늄",
+      "3": "코발트",
+      "4": "니켈"
+    },
+    "answer": 1,
+    "explanation": "② 상자성체\n③ 강자성체\n④ 강자성체",
+    "level": "하",
+    "source": "ElectricExam2019_파트130",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트130/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트130_p001_q12"
+  }
+]

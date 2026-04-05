@@ -1,0 +1,218 @@
+[
+  {
+    "question_no": 51,
+    "question_text": "정격 전류가 60[A]인 주택의 전로에 정격 전류의 1.45배의 전류가 흐를 때 주택에 사용하는 배선용 차단기는 몇 분 내에 자동적으로 동작하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "10분 이내",
+      "2": "30분 이내",
+      "3": "60분 이내",
+      "4": "120분 이내"
+    },
+    "answer": 3,
+    "explanation": "과전류 차단기로 주택에 사용하는 63[A] 이하의 배선용 차단기는 정격 전류의 1.45배 전류가 흐를 때 60분 내에 자동으로 동작하여야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트078",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트078/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트078_p001_q51"
+  },
+  {
+    "question_no": 52,
+    "question_text": "다음 파형 중 비정현파가 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "펄스파",
+      "2": "사각파",
+      "3": "삼각파",
+      "4": "주기 사인파"
+    },
+    "answer": 4,
+    "explanation": "주기적인 사인파는 기본 정현파이므로 비정현파에 해당되지 않는다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트078",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트078/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트078_p001_q52"
+  },
+  {
+    "question_no": 53,
+    "question_text": "3상 전선 구분 시 전선의 색상은 L1, L2, L3 순서대로 어떻게 되는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "흑색, 적색, 청색",
+      "2": "흑색, 적색, 황색",
+      "3": "갈색, 흑색, 회색",
+      "4": "흑색, 청색, 녹색"
+    },
+    "answer": 3,
+    "explanation": "3상 전선 구분 시 전선의 색상은 L1, L2, L3 순서대로 갈색, 흑색, 회색으로 구분한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트078",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트078/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트078_p001_q53"
+  },
+  {
+    "question_no": 54,
+    "question_text": "도체의 길이가 $l[m]$, 고유 저항 $\\rho[\\Omega \\cdot m]$, 반지름이 $r[m]$인 도체의 전기 저항$[\\Omega]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$\\rho \\frac{l}{\\pi r}$",
+      "2": "$\\rho \\frac{rl}{\\pi}$",
+      "3": "$\\rho \\frac{l}{\\pi r^2}$",
+      "4": "$\\rho \\frac{\\pi l}{r}$"
+    },
+    "answer": 3,
+    "explanation": "전기 저항 $R = \\rho \\frac{l}{S} = \\rho \\frac{l}{\\pi r^2} [\\Omega]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트078",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트078/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트078_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "두 개의 콘덴서가 병렬로 접속된 경우 합성 정전 용량$[F]$은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$$\\frac{1}{C_1} + \\frac{1}{C_2}$$",
+      "2": "$$\\frac{C_1 C_2}{C_1 + C_2}$$",
+      "3": "$$C_1 + C_2$$",
+      "4": "$$\\frac{1}{C_1 + C_2}$$"
+    },
+    "answer": 3,
+    "explanation": "병렬 합성 정전 용량 $$C_0 = C_1 + C_2[F]$$",
+    "level": "하",
+    "source": "ElectricExam2019_파트078",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트078/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트078_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "저압 배선을 조명 설비로 배선하는 경우 인입구로부터 기기까지의 전압 강하는 몇 $[%]$ 이하로 해야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2",
+      "2": "3",
+      "3": "4",
+      "4": "6"
+    },
+    "answer": 2,
+    "explanation": "인입구로부터 기기까지의 전압 강하는 조명 설비의 경우 $3[\\%]$ 이하로 할 것(기타 설비의 경우 $5[\\%]$ 이하로 할 것)",
+    "level": "하",
+    "source": "ElectricExam2019_파트078",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트078/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트078_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "보호 도체의 전선 색상은 무슨 색인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "흑색",
+      "2": "적색",
+      "3": "녹황색",
+      "4": "녹색"
+    },
+    "answer": 3,
+    "explanation": "보호 도체의 전선 색상은 녹황색으로 구분한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트078",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트078/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트078_p001_q57"
+  },
+  {
+    "question_no": 58,
+    "question_text": "금속 전선관의 종류에서 후강 전선관 규격 $[mm]$이 아닌 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "16",
+      "2": "22",
+      "3": "28",
+      "4": "20"
+    },
+    "answer": 4,
+    "explanation": "후강 전선관의 종류 : 16, 22, 28, 36, 42, 54, 70, 82, 92, 104$[mm]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트078",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트078/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트078_p001_q58"
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "answer": 1,
+    "choices": {
+      "1": "N극",
+      "2": "S극",
+      "3": "+극",
+      "4": "아무런 변화가 없다."
+    },
+    "explanation": "그림에서 오른손을 솔레노이드 코일의 전류 방향에 따라 네 손가락을 감아쥐면 엄지 손가락이 N극 방향을 가리키므로 N극이 된다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트009_p001_q53",
+    "image_path": "images/ElectricExam2019_파트009/page_001_full.png",
+    "image_regions": [],
+    "level": "하",
+    "page": 1,
+    "question_image_bbox": [
+      133,
+      179,
+      221,
+      376
+    ],
+    "question_no": 53,
+    "question_text": "다음 그림에서 ( ) 안의 극성은?",
+    "round": null,
+    "source": "ElectricExam2019_파트009",
+    "suggested_bbox": {
+      "x": 256,
+      "y": 269,
+      "w": 283,
+      "h": 179,
+      "source": "plus_logic"
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 54,
+    "question_text": "케이블을 구부리는 경우는 피복이 손상되지 않도록 하고, 그 굴곡부의 곡률 반경은 원칙적으로 케이블이 단심인 경우 외경의 몇 배 이상이어야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "4",
+      "2": "6",
+      "3": "8",
+      "4": "10"
+    },
+    "answer": 3,
+    "explanation": "케이블의 곡률 반경은 케이블 바깥 지름의 6배 이상(단, 단심인 경우 8배 이상)",
+    "level": "하",
+    "source": "ElectricExam2019_파트009",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트009/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트009_p001_q54"
+  },
+  {
+    "question_no": 55,
+    "question_text": "교류 전압이 $v = \\sqrt{2} V\\sin\\left(\\omega t - \\frac{\\pi}{3}\\right)[V]$, 교류 전류가 $i = \\sqrt{2} I\\sin\\left(\\omega t - \\frac{\\pi}{6}\\right)[A]$인 경우 전압과 전류의 위상 관계는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전압이 전류보다 $60^{\\circ}$ 뒤진다.",
+      "2": "전류가 전압보다 $60^{\\circ}$ 앞선다.",
+      "3": "전압이 전류보다 $30^{\\circ}$ 뒤진다.",
+      "4": "전류가 전압보다 $30^{\\circ}$ 앞선다."
+    },
+    "answer": 4,
+    "explanation": "위상차 $\\theta = \\frac{\\pi}{3} - \\frac{\\pi}{6} = \\frac{\\pi}{6}[\\text{rad}] = 30^{\\circ}$이고 전류가 전압보다 $30^{\\circ}$ 앞선다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트009",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트009/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트009_p001_q55"
+  },
+  {
+    "question_no": 56,
+    "question_text": "도체계에서 임의의 도체를 일정 전위(일반적으로 영전위)의 도체로 완전 포위하면 내부와 외부의 전계를 완전히 차단할 수 있는데 이를 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "핀치 효과",
+      "2": "톰슨 효과",
+      "3": "정전 차폐",
+      "4": "자기 차폐"
+    },
+    "answer": 3,
+    "explanation": "정전 차폐: 도체가 정전 유도가 되지 않도록 도체 바깥을 포위하여 접지하는 것을 정전 차폐라 하며 완전 차폐가 가능하다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트009",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트009/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트009_p001_q56"
+  },
+  {
+    "question_no": 57,
+    "question_text": "변압기에서 퍼센트 저항 강하 $3[\\%]$, 리액턴스 강하 $4[\\%]$일 때, 역률 $0.8$(지상)에서의 전압 변동률은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$2.4[\\%]$",
+      "2": "$3.6[\\%]$",
+      "3": "$4.8[\\%]$",
+      "4": "$6[\\%]$"
+    },
+    "answer": 3,
+    "explanation": "변압기의 전압 변동률 $\\varepsilon = p\\cos\\theta + q\\sin\\theta = 3 \\times 0.8 + 4 \\times 0.6 = 4.8[\\%]$ \\$\\cos\\theta = 0.8 \\rightarrow \\sin\\theta = \\sqrt{1-0.8^2} = 0.6$",
+    "level": "중",
+    "source": "ElectricExam2019_파트009",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트009/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트009_p001_q57"
+  },
+  {
+    "question_no": 58,
+    "question_text": "$2$극, $60[Hz]$인 유도 전동기의 회전수는 몇 $[rpm]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$4,800$",
+      "2": "$3,600$",
+      "3": "$2,400$",
+      "4": "$1,800$"
+    },
+    "answer": 2,
+    "explanation": "회전수 $N = \\frac{120f}{P} = \\frac{120 \\times 60}{2} = 3,600[rpm]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트009",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트009/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트009_p001_q58"
+  },
+  {
+    "question_no": 59,
+    "question_text": "정격 전류가 $30[A]$인 저압 전로의 과전류 차단기를 산업용 배선용 차단기로 사용하는 경우 정격 전류의 $1.3$배의 전류가 통과하였을 때 몇 분 이내에 자동적으로 동작하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$1$분",
+      "2": "$60$분",
+      "3": "$2$분",
+      "4": "$120$분"
+    },
+    "answer": 2,
+    "explanation": "과전류 차단기로 저압 전로에 사용하는 $63[A]$ 이하의 산업용 배선용 차단기는 정격 전류의 $1.3$배의 전류가 흐를 때 $60$분 내에 자동으로 동작하여야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트009",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트009/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트009_p001_q59"
+  }
+]

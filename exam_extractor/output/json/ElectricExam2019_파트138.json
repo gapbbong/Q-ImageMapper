@@ -1,0 +1,29 @@
+[
+  {
+    "question_no": 0,
+    "question_text": "",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    },
+    "answer": 0,
+    "explanation": "COS용 완철 설치 규정\n• 설치 위치 : 최하단 전력선용 완철에서 $0.75[m]$ 하부에 설치한다.\n• 설치 방향 : 선로 방향(전력선 완철과 직각 방향)으로 설치하고 COS는 건조물측에 설치하는 것이 바람직하다(만약 설치하기 곤란한 장소 또는 도로 이외의 장소에서는 COS 조작 및 작업이 용이하도록 설치할 수 있음).",
+    "level": "하",
+    "source": "ElectricExam2019_파트138",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트138/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트138_p001_q00"
+  }
+]

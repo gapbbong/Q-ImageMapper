@@ -1,0 +1,29 @@
+[
+  {
+    "question_no": 60,
+    "question_text": "애자 사용 공사의 저압 옥내 배선에서 전선 상호 간의 간격은 몇 $[cm]$ 이상으로 하여야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2",
+      "2": "4",
+      "3": "6",
+      "4": "8"
+    },
+    "answer": 3,
+    "explanation": "저압 옥내 배선의 애자 사용 공사 시 전선 상호 간격은 $6[cm]$ 이상 이격하여야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트069",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트069/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트069_p001_q60"
+  }
+]

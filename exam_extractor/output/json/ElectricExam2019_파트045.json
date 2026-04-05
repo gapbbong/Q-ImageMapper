@@ -1,0 +1,164 @@
+[
+  {
+    "question_no": 29,
+    "question_text": "변압기 V결선의 특징으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "고장 시 응급 처치 방법으로 쓰인다.",
+      "2": "단상 변압기 2대로 3상 전력을 공급한다.",
+      "3": "부하 증가가 예상되는 지역에 시설한다.",
+      "4": "V결선 시 출력은 $\\Delta$결선 시 출력과 그 크기가 같다."
+    },
+    "answer": 4,
+    "explanation": "$\\Delta$결선 운전 중 1대 고장 시 V결선으로 운전 가능하며 2대를 이용하여 3상 부하에 전원을 공급해주는 방식이다. V결선 출력은 $\\Delta$결선 1대 용량의 $\\sqrt{3}$배로서 출력이 감소한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트045",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트045/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트045_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "보호 계전기 시험을 하기 위한 유의 사항으로 틀린 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "계전기 위치를 파악한다.",
+      "2": "임피던스 계전기는 미리 예열하지 않도록 주의한다.",
+      "3": "계전기 시험 회로 결선 시 교류, 직류를 파악한다.",
+      "4": "계전기 시험 장비의 허용 오차, 지시 범위를 확인한다."
+    },
+    "answer": 2,
+    "explanation": "보호 계전기 시험 유의 사항\n• 보호 계전기의 배치된 상태를 확인\n• 임피던스 계전기는 미리 예열이 필요한지 확인\n• 시험 회로 결선 시에 교류와 직류를 확인해야 하며 직류인 경우 극성을 확인\n• 시험용 전원의 용량 계전기가 요구하는 정격 전압이 유지될 수 있도록 확인\n• 계전기 시험 장비의 지시 범위의 적합성, 오차, 영점의 정확성 확인",
+    "level": "중",
+    "source": "ElectricExam2019_파트045",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트045/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트045_p001_q30"
+  },
+  {
+    "question_no": 31,
+    "question_text": "다음 중 유도 전동기에서 비례 추이를 할 수 있는 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "출력",
+      "2": "2차 동손",
+      "3": "효율",
+      "4": "역률"
+    },
+    "answer": 4,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트045",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트045/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트045_p001_q31"
+  },
+  {
+    "question_no": 32,
+    "question_text": "설계 하중 중 6.8[kN] 이하인 철근 콘크리트 전주의 길이가 7[m]인 지지물을 건주하는 경우 땅에 묻히는 깊이[m]로 가장 옳은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "1.2",
+      "2": "1.0",
+      "3": "0.8",
+      "4": "0.6"
+    },
+    "answer": 3,
+    "explanation": "전체 길이 16[m] 이하이고, 설계 하중 6.8[kN] 이하인 경우 매설 깊이\n전체 길이 $\\times \\frac{1}{6}$ 이상 $= 7 \\times \\frac{1}{6} \\fallingdotseq 1.2[m]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트045",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트045/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트045_p001_q32"
+  },
+  {
+    "question_no": 33,
+    "question_text": "자속 밀도 $1[Wb/m^2]$은 몇 $[gauss]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$4\\pi \\times 10^{-7}$",
+      "2": "$10^{-6}$",
+      "3": "$10^4$",
+      "4": "$\\frac{4\\pi}{10}$"
+    },
+    "answer": 3,
+    "explanation": "자속 밀도 환산\n$1[Wb/m^2] = \\frac{10^8[Max]}{10^4[cm^2]}$\n$= 10^4[max/cm^2 = gauss]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트045",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트045/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트045_p001_q33"
+  },
+  {
+    "question_no": 34,
+    "question_text": "자체 인덕턴스가 $40[mH]$인 코일에 $10[A]$의 전류가 흐를 때 저장되는 에너지는 몇 $[J]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "2",
+      "2": "3",
+      "3": "4",
+      "4": "8"
+    },
+    "answer": 1,
+    "explanation": "코일에 축적되는 전자 에너지\n$W = \\frac{1}{2}LI^2 = \\frac{1}{2} \\times 40 \\times 10^{-3} \\times 10^2 = 2[J]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트045",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트045/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트045_p001_q34"
+  }
+]

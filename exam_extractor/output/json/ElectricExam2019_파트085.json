@@ -1,0 +1,143 @@
+[
+  {
+    "answer": 2,
+    "choices": {
+      "1": "회로 (1)",
+      "2": "회로 (2)",
+      "3": "회로 (3)",
+      "4": "회로 (4)"
+    },
+    "explanation": "각 회로에 소비되는 전력 \\(P = \\frac{V^2}{R_{eq}}\\)이므로 합성 저항이 가장 작은 회로를 찾으면 된다.\n① 합성 저항 \\(R_0 = \\frac{R}{2} \\times 2 = R[\\Omega]\\)이므로 \\(P_1 = \\frac{V^2}{R}[W]\\)\n② 합성 저항 \\(R_0 = \\frac{R}{4} = 0.25R[\\Omega]\\)이므로 \\(P_2 = \\frac{V^2}{0.25R} = \\frac{4V^2}{R}[W]\\)\n③ 합성 저항 \\(R_0 = 2R + \\frac{R}{2} = 2.5R[\\Omega]\\)이므로 \\(P_3 = \\frac{V^2}{2.5R} = \\frac{0.4V^2}{R}[W]\\)\n④ 합성 저항이 \\(4R[\\Omega]\\)이므로 \\(P_4 = \\frac{V^2}{4R}[W]\\)\n* 소비 전력 \\(P = \\frac{V^2}{R}[W]\\)이므로 합성 저항이 가장 작은 회로를 찾으면 된다.",
+    "has_question_image": true,
+    "id": "ElectricExam2019_파트085_p001_q26",
+    "image_path": "images/ElectricExam2019_파트085/page_001_full.png",
+    "image_regions": [],
+    "level": "중",
+    "page": 1,
+    "question_image_bbox": [
+      165,
+      103,
+      395,
+      409
+    ],
+    "question_no": 26,
+    "question_text": "다음 그림 중 크기가 같은 저항 4개를 연결하여 a-b 간에 일정 전압을 가했을 때 소비 전력이 가장 큰 것은 어느 것인가?",
+    "round": null,
+    "source": "ElectricExam2019_파트085",
+    "suggested_bbox": {
+      "h": 465,
+      "w": 439,
+      "x": 148,
+      "y": 333
+    },
+    "year": 2019
+  },
+  {
+    "question_no": 27,
+    "question_text": "동일 굵기의 단선을 쥐꼬리 접속하는 경우 두 전선의 피복을 벗긴 후 심선을 교차시켜 펜치로 비틀면서 꼬아야 하는데 이때 심선의 교차각은 몇 도가 되도록 해야 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "30°",
+      "2": "90°",
+      "3": "120°",
+      "4": "180°"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트085",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트085/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트085_p001_q27"
+  },
+  {
+    "question_no": 28,
+    "question_text": "자동화 설비에서 기기의 위치 선정에 사용하는 전동기는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "전기 동력계",
+      "2": "스탠딩 모터",
+      "3": "스테핑 모터",
+      "4": "반동 전동기"
+    },
+    "answer": null,
+    "explanation": "스테핑 모터 : 출력을 이용하여 특수 기계의 속도, 거리, 방향 등의 위치를 정확하게 제어하는 기능이 있다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트085",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트085/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트085_p001_q28"
+  },
+  {
+    "question_no": 29,
+    "question_text": "옥내 배선 공사에서 절연 전선의 심선이 손상되지 않도록 피복을 벗길 때 사용하는 공구는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "와이어 스트리퍼",
+      "2": "플라이어",
+      "3": "압착 펜치",
+      "4": "프레셔 툴"
+    },
+    "answer": null,
+    "explanation": "와이어 스트리퍼 : 절연 전선의 피복 절연물을 직각으로 벗기기 위한 자동 공구로 도체의 손상을 방지하기 위하여 정확한 크기의 구멍을 선택하여 피복 절연물을 벗겨야 한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트085",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트085/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트085_p001_q29"
+  },
+  {
+    "question_no": 30,
+    "question_text": "$250[kVA]$의 단상 변압기 2대를 사용하여 $V-V$ 결선으로 하고 3상 전원을 얻고자 할 때 최대로 얻을 수 있는 3상 부하의 용량은 약 몇 $[kVA]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "500",
+      "2": "433",
+      "3": "200",
+      "4": "100"
+    },
+    "answer": 2,
+    "explanation": "",
+    "level": "중",
+    "source": "ElectricExam2019_파트085",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트085/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트085_p001_q30"
+  }
+]

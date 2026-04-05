@@ -1,0 +1,198 @@
+[
+  {
+    "question_no": 13,
+    "question_text": "콘덴서의 정전 용량을 크게 하는 방법으로 옳지 않은 것은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "극판의 간격을 작게 한다.",
+      "2": "극판 사이에 비유전율이 큰 유전체를 삽입한다.",
+      "3": "극판의 면적을 크게 한다.",
+      "4": "유전율을 작게 한다."
+    },
+    "answer": 4,
+    "explanation": "콘덴서의 정전 용량 $C = \\frac{\\varepsilon A}{d}$ $[F]$이므로 극판의 간격 $d[m]$에 반비례하며 면적 $A[m^2]$, 유전율 $\\varepsilon [F/m]$에 비례하므로 유전율을 크게 해야 한다.",
+    "level": "중",
+    "source": "ElectricExam2019_파트003",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트003/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트003_p001_q13"
+  },
+  {
+    "question_no": 14,
+    "question_text": "자속을 발생시키는 원천을 무엇이라 하는가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "기전력",
+      "2": "전자력",
+      "3": "정전력",
+      "4": "기자력"
+    },
+    "answer": 4,
+    "explanation": "기자력(起磁力, magneto motive force) : 자속 $\\phi$를 발생하게 하는 근원을 말하며 자기 회로에서 권수 $N$회인 코일에 전류 $I[A]$를 흘릴 때 발생하는 자속 $\\phi$는 $NI$에 비례하여 발생하므로 다음과 같이 나타낼 수 있다. $F = NI = R_m\\phi [AT]$",
+    "level": "하",
+    "source": "ElectricExam2019_파트003",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트003/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트003_p001_q14"
+  },
+  {
+    "question_no": 15,
+    "question_text": "6극 직렬권(파권) 발전기의 전기자 도체수 300, 매극 자속수 0.02[Wb], 회전수 900[rpm]일 때 유도 기전력은 몇 $[V]$인가?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "300",
+      "2": "400",
+      "3": "270",
+      "4": "120"
+    },
+    "answer": 3,
+    "explanation": "$e = \\frac{PZ\\phi N}{60a} [V]$, 파권이므로 $a=2$ $e = \\frac{6 \\times 300 \\times 0.02 \\times 900}{60 \\times 2} = 270[V]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트003",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트003/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트003_p001_q15"
+  },
+  {
+    "question_no": 16,
+    "question_text": "다음의 심벌 명칭은 무엇인가?",
+    "has_question_image": true,
+    "question_image_bbox": [
+      836,
+      781,
+      908,
+      935
+    ],
+    "choices": {
+      "1": "파워 퓨즈",
+      "2": "단로기",
+      "3": "피뢰기",
+      "4": "고압 컷아웃 스위치"
+    },
+    "answer": 3,
+    "explanation": "",
+    "level": "하",
+    "source": "ElectricExam2019_파트003",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트003/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트003_p001_q16",
+    "suggested_bbox": {
+      "x": 530,
+      "y": 1655,
+      "w": 144,
+      "h": 180,
+      "source": "plus_logic"
+    }
+  },
+  {
+    "question_no": 17,
+    "question_text": "정전 용량 $C[\\mu F]$의 콘덴서에 충전된 전하가 $q=\\sqrt{2}Q\\sin\\omega t[C]$과 같이 변화하였다면, 이때 콘덴서에 흘러들어가는 전류의 값은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "$i=\\sqrt{2}\\omega Q\\sin\\omega t$",
+      "2": "$i=\\sqrt{2}\\omega Q\\cos\\omega t$",
+      "3": "$i=\\sqrt{2}\\omega Q\\sin(\\omega t-60^{\\circ})$",
+      "4": "$i=\\sqrt{2}\\omega Q\\cos(\\omega t-60^{\\circ})$"
+    },
+    "answer": 2,
+    "explanation": "콘덴서에 흐르는 전류 $i_C = \\frac{dq}{dt} = \\frac{d}{dt}\\sqrt{2}Q\\sin\\omega t = \\sqrt{2}\\omega Q\\cos\\omega t[A] = \\sqrt{2}\\omega Q\\sin(\\omega t+90^{\\circ})[A]$",
+    "level": "중",
+    "source": "ElectricExam2019_파트003",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트003/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트003_p001_q17"
+  },
+  {
+    "question_no": 18,
+    "question_text": "변압기 2차 저압 과전류 보호용으로 사용되는 배선용 차단기의 약호는?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "ELB",
+      "2": "PF",
+      "3": "OCB",
+      "4": "MCCB"
+    },
+    "answer": 4,
+    "explanation": "배선용 차단기(MCCB : Molded Case Circuit Breaker) : 정격 전류에서는 동작하지 않고 과부하나 단락 사고 시 과전류가 흘렀을 때 동작하는 차단기이다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트003",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트003/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트003_p001_q18"
+  },
+  {
+    "question_no": 19,
+    "question_text": "부흐홀츠 계전기의 설치 위치로 가장 적당한 곳은?",
+    "has_question_image": false,
+    "question_image_bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "choices": {
+      "1": "변압기 주탱크 내부",
+      "2": "콘서베이터 내부",
+      "3": "변압기 고압측 부싱",
+      "4": "변압기 주탱크와 콘서베이터 사이"
+    },
+    "answer": 4,
+    "explanation": "변압기 내부 고장으로 인한 온도 상승 시 유증기를 검출하여 동작하는 계전기로서 변압기와 콘서베이터를 연결하는 파이프 도중에 설치한다.",
+    "level": "하",
+    "source": "ElectricExam2019_파트003",
+    "year": 2019,
+    "round": null,
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트003/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트003_p001_q19"
+  }
+]

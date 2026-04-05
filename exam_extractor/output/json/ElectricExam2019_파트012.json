@@ -1,0 +1,142 @@
+[
+  {
+    "question_no": 7,
+    "question_text": "3상 100[kVA], 13,200/200[V] 부하의 저압측 유효분 전류는? (단, 역률은 0.8이다.)",
+    "has_question_image": false,
+    "choices": {
+      "1": "130",
+      "2": "230",
+      "3": "260",
+      "4": "288"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "피상 전력 $P_a = \\sqrt{3} VI[VA]$ 전류 $I = \\frac{P_a}{\\sqrt{3} V} = \\frac{100 \\times 10^3}{\\sqrt{3} \\times 200} \\fallingdotseq 288[A]$ 복소수 전류 $\\dot{I} = I\\cos\\theta + jI\\sin\\theta$ $= 288 \\times 0.8 + j288 \\times 0.6$ $= 230 + j173[A]$ $\\therefore$ 유효분 전류$=230[A]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트012",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트012/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트012_p001_q07"
+  },
+  {
+    "question_no": 8,
+    "question_text": "두 개의 코일의 자기 인덕턴스가 80[mH], 50[mH]이고 상호 인덕턴스가 60[mH]일 때 누설이 없이 가동으로 접속한 경우 합성 인덕턴스[mH]는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "13",
+      "2": "250",
+      "3": "240",
+      "4": "230"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "가동 접속인 경우 상호 인덕턴스 $L_T = L_1 + L_2 + 2M$ $= 80 + 50 + 2 \\times 60 = 250[mH]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트012",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트012/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트012_p001_q08"
+  },
+  {
+    "question_no": 9,
+    "question_text": "변압기의 권수비가 60이고 2차 저항이 0.1[\\Omega]일 때 1차로 환산한 저항값[\\Omega]은 얼마인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "30",
+      "2": "360",
+      "3": "300",
+      "4": "250"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "권수비 $a = \\sqrt{\\frac{R_1}{R_2}}$ 이므로 1차 저항 $R_1 = a^2 R_2 = 60^2 \\times 0.1 = 360[\\Omega]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트012",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트012/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트012_p001_q09"
+  },
+  {
+    "question_no": 10,
+    "question_text": "최대 사용 전압이 70[kV]인 중성점 직접 접지식 전로의 절연 내력 시험 전압은 몇 [V]인가?",
+    "has_question_image": false,
+    "choices": {
+      "1": "35,000",
+      "2": "50,400",
+      "3": "44,800",
+      "4": "42,000"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "절연 내력 시험 : 최대 사용 전압이 $60[kV]$ 이상인 중성점 직접 접지식 전로의 절연 내력 시험은 최대 사용 전압의 $0.72$배의 전압을 연속으로 $10$분간 가할 때 견디는 것으로 하여야 한다. 시험 전압$=70,000 \\times 0.72=50,400[V]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트012",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트012/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트012_p001_q10"
+  },
+  {
+    "question_no": 11,
+    "question_text": "가연성 분진에 전기 설비가 발화원이 되어 폭발의 우려가 있는 곳에 시설하는 저압 옥내 배선 공사 방법이 아닌 것은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "애자 사용 공사",
+      "2": "케이블 공사",
+      "3": "두께 $2[mm]$ 이상 합성 수지관 공사",
+      "4": "금속관 공사"
+    },
+    "has_choice_image": false,
+    "answer": 1,
+    "explanation": "가연성 분진(소맥분, 전분, 유황 기타 가연성 먼지 등)으로 인하여 폭발할 우려가 있는 저압 옥내 배선 설비 공사는 금속관 공사, 케이블 공사, 두께 $2[mm]$ 이상의 합성 수지관 공사 등에 의하여 시설한다.",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트012",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트012/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트012_p001_q11"
+  },
+  {
+    "question_no": 12,
+    "question_text": "자기 회로의 자기 저항이 $5,000[AT/Wb]$, 기자력이 $50,000[AT]$이라면 자속$[Wb]$은?",
+    "has_question_image": false,
+    "choices": {
+      "1": "5",
+      "2": "10",
+      "3": "15",
+      "4": "20"
+    },
+    "has_choice_image": false,
+    "answer": 2,
+    "explanation": "자속 $\\phi = \\frac{F}{R_m} = \\frac{50,000}{5,000} = 10[Wb]$",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트012",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트012/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트012_p001_q12"
+  },
+  {
+    "question_no": 13,
+    "question_text": "전기자와 계자 권선이 병렬로만 접속되어 있는 발전기는?",
+    "has_question_image": false,
+    "choices": {
+      "1": "직권 발전기",
+      "2": "타여자 발전기",
+      "3": "분권 발전기",
+      "4": "차동 복권 발전기"
+    },
+    "has_choice_image": false,
+    "answer": 3,
+    "explanation": "분권 발전기: 계자 권선과 전기자 회로가 병렬로 접속되어 있는 직류기",
+    "has_explanation_image": false,
+    "source": "ElectricExam2019_파트012",
+    "page": 1,
+    "image_path": "images/ElectricExam2019_파트012/page_001_full.png",
+    "image_regions": [],
+    "id": "ElectricExam2019_파트012_p001_q13"
+  }
+]
